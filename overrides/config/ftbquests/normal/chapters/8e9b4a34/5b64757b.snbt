@@ -1,0 +1,66 @@
+{
+	title: "进入游戏",
+	icon: "littletiles:ltcoloredblock 1 12",
+	x: 0.0d,
+	y: 0.0d,
+	description: "炎热的世界",
+	text: [
+		"欢迎来到这个美丽而又危险的世界"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "afa87ad3",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "7a55fb5a",
+		type: "item",
+		item: "minecraft:leather_helmet"
+	},
+	{
+		uid: "f35a0ccb",
+		type: "item",
+		item: "minecraft:leather_chestplate"
+	},
+	{
+		uid: "5da3fd32",
+		type: "item",
+		item: "minecraft:leather_leggings"
+	},
+	{
+		uid: "c8bf34f5",
+		type: "item",
+		item: "minecraft:leather_boots"
+	},
+	{
+		uid: "2aab495d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "0bed2926",
+		type: "item",
+		item: "minecraft:bread",
+		count: 10
+	},
+	{
+		uid: "df401f6a",
+		type: "item",
+		item: {
+			id: "natura:nether_sapling",
+			Damage: 2s,
+			tag: {
+				display: {
+					Name: "如果你没有找到树木 与其拿来做木棍 我建议你还是种下的好"
+				}
+			}
+		}
+	},
+	{
+		uid: "6f7c47e4",
+		type: "command",
+		auto: "enabled",
+		command: "/difficulty 0"
+	}]
+}

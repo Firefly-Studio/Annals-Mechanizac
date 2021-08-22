@@ -1,0 +1,45 @@
+{
+	title: "副产利用",
+	icon: "mekanism:ingot 1 1",
+	x: 3.0d,
+	y: -4.0d,
+	description: "充分利用",
+	text: [
+		"在以后的科技线中",
+		"你多少可能会遇到",
+		"有一些物品的材料无法获得",
+		"那是因为你还没有做出相应的机器",
+		"甚至你可能没有使用JEI看合成的习惯"
+	],
+	dependencies: [
+		"c7e19629",
+		"a99bbf0f",
+		"7b1499bf"
+	],
+	tasks: [{
+		uid: "a61c637e",
+		type: "item",
+		items: [{
+			item: "mekanism:ingot 1 1"
+		}]
+	},
+	{
+		uid: "95cb144d",
+		type: "item",
+		items: [{
+			item: "mekanism:enrichediron"
+		}]
+	},
+	{
+		uid: "fb9b331b",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit"
+		}]
+	}],
+	rewards: [{
+		uid: "7f955b42",
+		type: "ftbmoney:money",
+		ftb_money: 1200L
+	}]
+}

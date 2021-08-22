@@ -1,0 +1,38 @@
+{
+	title: "热量利用",
+	x: -2.0d,
+	y: -1.0d,
+	description: "地狱可是个免费的热量世界",
+	text: [
+		"我相信你已经砍伐了些树木",
+		"并且做出了一些工具",
+		"下一步就是做熔炉了对吧",
+		"可是这地狱里哪里有石头呢",
+		"用满地的地狱岩啊",
+		"本来就含有足够的热量，而且保温效果也很棒",
+		"石熔炉这东西不要也罢"
+	],
+	dependencies: [
+		"c2e893ac",
+		"e1d19bf0",
+		"5b64757b"
+	],
+	tasks: [{
+		uid: "436bcb83",
+		type: "item",
+		items: [{
+			item: "betternether:netherrack_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "1aa9b79c",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "549aa847",
+		type: "item",
+		item: "minecraft:coal",
+		count: 12
+	}]
+}

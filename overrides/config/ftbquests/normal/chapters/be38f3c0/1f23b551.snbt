@@ -1,0 +1,41 @@
+{
+	title: "矿物初级冶炼",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "liquidiron",
+			Amount: 1000
+		}
+	},
+	x: 0.0d,
+	y: 0.0d,
+	description: "初步炼铁",
+	text: [
+		"将铁矿扔进熔岩即可获得熔铁",
+		"tip:如果没反应就多扔几次"
+	],
+	dependencies: [
+		"a21d3e2e"
+	],
+	tasks: [{
+		uid: "0ead750e",
+		type: "fluid",
+		fluid: "liquidiron"
+	}],
+	rewards: [{
+		uid: "afa97c3f",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "8d85a5b4",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquidiron",
+				Amount: 1000
+			}
+		}
+	}]
+}

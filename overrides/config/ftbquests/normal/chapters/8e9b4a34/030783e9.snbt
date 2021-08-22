@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: -3.5d,
+	description: "吃完饭才有力气干活",
+	text: [
+		"随便整点地狱仙人掌和石笋",
+		"就可以做口味有点特别的二菜烩了",
+		"其实你也可以种点石笋和仙人掌",
+		"为了生存的需要嘛"
+	],
+	dependencies: [
+		"e1d19bf0",
+		"b8c4e577"
+	],
+	tasks: [{
+		uid: "b6013fc6",
+		type: "item",
+		title: "人总得吃饭",
+		items: [{
+			item: "contenttweaker:netherstew"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "79484d21",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

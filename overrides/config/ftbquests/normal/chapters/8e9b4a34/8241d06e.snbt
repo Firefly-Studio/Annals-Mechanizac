@@ -1,0 +1,38 @@
+{
+	title: "进一步发展",
+	icon: "betternether:cincinnasite",
+	x: 0.0d,
+	y: 1.5d,
+	description: "常规流程属于是",
+	text: [
+		"有了这么棒棒的炉子",
+		"那为什么不找找辛西纳矿呢",
+		"毕竟有装备了是吧",
+		"整点辛西纳石好像也没什么难的",
+		"下界芦苇一般在岩浆旁生成",
+		"也建议整点来种"
+	],
+	dependencies: [
+		"e1d19bf0",
+		"030783e9",
+		"b8c4e577"
+	],
+	tasks: [{
+		uid: "bbe5764d",
+		type: "item",
+		items: [{
+			item: "betternether:cincinnasite_pickaxe"
+		}]
+	}],
+	rewards: [{
+		uid: "12901010",
+		type: "item",
+		item: "minecraft:coal",
+		count: 24
+	},
+	{
+		uid: "87c88473",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}
