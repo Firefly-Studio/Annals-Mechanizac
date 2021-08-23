@@ -41,7 +41,7 @@ global bdustOres as IOreDictEntry[int] = {
     5:<ore:dustTin>,
     6:<ore:dustTitanium>,
     7:<ore:dustIridium>,
-    8:<ore:glowstone>
+    8:<ore:blockGlowstone>
 };
 global bingotOres as IOreDictEntry[int] = {
     1:<ore:ingotGold>,
