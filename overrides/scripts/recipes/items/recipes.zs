@@ -13,6 +13,7 @@ import crafttweaker.item.IItemCondition;
 <ore:mortar>.add(<ctmortar:mortar_diamond>);
 <ore:enrichedIron>.add(<mekanism:enrichediron>);
 <ore:blockBone>.add(<betternether:bone_block>);
+<ore:blockGlowstone>.add(<minecraft:glowstone>);
 
 //变量
 val iIron = <ore:ingotIron>;
