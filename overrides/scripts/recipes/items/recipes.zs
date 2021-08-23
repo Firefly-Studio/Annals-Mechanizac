@@ -14,7 +14,8 @@ import crafttweaker.item.IItemCondition;
 <ore:enrichedIron>.add(<mekanism:enrichediron>);
 <ore:blockBone>.add(<betternether:bone_block>);
 <ore:blockGlowstone>.add(<minecraft:glowstone>);
-
+<ore:colder>.addAll(<ore:sugarcane>);
+<ore:colder>.add(<betternether:egg_plant>);
 //变量
 val iIron = <ore:ingotIron>;
 val imm = <modularmachinery:itemmodularium>;
