@@ -98,3 +98,18 @@ recipes.addShapedMirrored(<mekanism:controlcircuit>,[
     [<ore:ingotSteel>,<ore:ingotSilicon>,<ore:ingotSteel>],
     [<ore:dustRedstone>,<ore:ingotSteel>,<ore:dustRedstone>]
     ]);
+
+//肠子
+recipes.addShapeless(<mod_lavacow:intestine>,[<minecraft:rotten_flesh>*3]);
+
+//刷怪蛋
+recipes.addShapedMirrored(<minecraft:spawn_egg>.withTag({EntityTag: {id: "mod_lavacow:skeletonking"}}),[
+    [<ore:bone>,<ore:itemBlazeRod>,<ore:blockDiamond>*2],
+    [<ore:itemBlazeRod>,<ore:pearlEnderEye>,<ore:itemBlazeRod>],
+    [<ore:blockDiamond>*2,<ore:itemBlazeRod>,<ore:bone>]
+    ]);
+recipes.addShapedMirrored(<minecraft:spawn_egg>.withTag({EntityTag: {id: "mutantbeasts:mutant_skeleton"}}),[
+    [<ore:bone>,<ore:itemBlazeRod>,<ore:blockDiamond>*2],
+    [<minecraft:rotten_flesh>*32,<ore:pearlEnderEye>,<minecraft:rotten_flesh>*32],
+    [<ore:blockDiamond>*2,<ore:itemBlazeRod>,<ore:bone>]
+    ]);

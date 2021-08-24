@@ -8,6 +8,7 @@ val fragmentsStone as Item = VanillaFactory.createItem("fragmentsstone");
 fragmentsStone.creativeTab = <creativetab:misc>;
 fragmentsStone.maxStackSize = 64;
 fragmentsStone.register();
+
 val hatChet as Item = VanillaFactory.createItem("hatchet");
 hatChet.creativeTab = <creativetab:tools>;
 hatChet.maxStackSize = 1;
@@ -15,6 +16,7 @@ hatChet.maxDamage = 120;
 hatChet.toolClass = "axe";
 hatChet.toolLevel = 2;
 hatChet.register();
+
 val meatStew as ItemFood = VanillaFactory.createItemFood("meatstew",3);
 meatStew.onItemFoodEaten = function(stack, world, player) {
     if (!world.remote) {
@@ -25,6 +27,7 @@ meatStew.onItemFoodEaten = function(stack, world, player) {
 };
 meatStew.creativeTab = <creativetab:food>;
 meatStew.register();
+
 val netherStew as ItemFood = VanillaFactory.createItemFood("netherstew",6);
 netherStew.onItemFoodEaten = function(stack, world, player) {
     if (!world.remote) {
@@ -42,3 +45,8 @@ liquidIron.stillLocation="base:fluids/molten";
 liquidIron.flowingLocation="base:fluids/molten_flowing";
 liquidIron.material=<blockmaterial:lava>;
 liquidIron.register();
+
+val key as Item = VanillaFactory.createItem("key");
+key.creativeTab = <creativetab:misc>;
+key.maxStackSize = 1;
+key.register();

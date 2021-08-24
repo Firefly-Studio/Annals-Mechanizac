@@ -30,14 +30,3 @@ for key,dore in bdustOres{
         }
     }
 }
-mods.modularmachinery.RecipeBuilder.newBuilder("balst_furnace_steel", "blastFurnace", 1200)
-    .addFluidInput(<liquid:lava>*200)
-    .addItemInput(<ore:ingotIron>)
-    .addItemInput(<ore:itemCoal>)
-    .addItemOutput(<ore:ingotSteel>)
-    .build();
-mods.modularmachinery.RecipeBuilder.newBuilder("balst_furnace_silicon", "blastFurnace", 1000)
-    .addEnergyPerTickInput(100)
-    .addItemInput(<ore:sand>)
-    .addItemOutput(<ore:ingotSilicon>)
-    .build();
