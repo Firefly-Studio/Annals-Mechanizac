@@ -1,0 +1,32 @@
+{
+	title: "电力储存",
+	icon: {
+		id: "mekanism:energycube",
+		tag: {
+			tier: 0
+		}
+	},
+	x: -1.0d,
+	y: -3.5d,
+	description: "储存电力",
+	text: [
+		"一桶岩浆倒进发电机后你发现",
+		"这么多能量根本没办法保存",
+		"那么你可能需要做个能量池了"
+	],
+	dependencies: [
+		"2660e465",
+		"dbf81fb5",
+		"7b1499bf"
+	],
+	tasks: [{
+		uid: "c6469fcf",
+		type: "forge_energy",
+		value: 1000L
+	}],
+	rewards: [{
+		uid: "8377a5db",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

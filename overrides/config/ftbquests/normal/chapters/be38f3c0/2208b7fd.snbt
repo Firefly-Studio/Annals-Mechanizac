@@ -1,0 +1,48 @@
+{
+	title: "逃离地狱",
+	icon: "minecraft:skull",
+	x: -1.0d,
+	y: -5.5d,
+	description: "是时候该离开了",
+	dependencies: [
+		"353fa007",
+		"c7e19629"
+	],
+	tasks: [{
+		uid: "d9f271a8",
+		type: "forge_energy",
+		title: "折跃所需能量",
+		value: 25000000L
+	},
+	{
+		uid: "ecab48b8",
+		type: "kill",
+		icon: "minecraft:skull",
+		entity: "mod_lavacow:skeletonking",
+		value: 2L
+	},
+	{
+		uid: "d876ba99",
+		type: "kill",
+		icon: "quark:biome_cobblestone 1 1",
+		entity: "specialmobs:joltblaze",
+		value: 2L
+	},
+	{
+		uid: "e11cc7e0",
+		type: "kill",
+		icon: "minecraft:skull 1 1",
+		entity: "minecraft:wither",
+		value: 4L
+	}],
+	rewards: [{
+		uid: "bc4446d6",
+		type: "item",
+		item: "contenttweaker:key"
+	},
+	{
+		uid: "585b8527",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

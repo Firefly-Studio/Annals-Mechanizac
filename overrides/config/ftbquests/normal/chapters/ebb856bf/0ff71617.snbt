@@ -1,0 +1,24 @@
+{
+	title: "热武器",
+	x: -1.0d,
+	y: 0.0d,
+	description: "天天和怪物脸对脸实在难受",
+	tasks: [{
+		uid: "cce31061",
+		type: "item",
+		items: [{
+			item: "cgm:workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "53c4983b",
+		type: "item",
+		item: "cgm:basic_ammo",
+		count: 64
+	},
+	{
+		uid: "4e9acd0e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

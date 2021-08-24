@@ -1,0 +1,41 @@
+{
+	title: "永不空军",
+	x: 0.0d,
+	y: 0.0d,
+	description: "地狱不空 誓不成佛",
+	text: [
+		"建议在钓鱼前先点上三柱香",
+		"可以增加爆仓几率",
+		"钓到大鱼请准备抄网 (雾"
+	],
+	tasks: [{
+		uid: "b8099505",
+		type: "item",
+		items: [{
+			item: "combustfish:golden_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "07bd4e99",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	},
+	{
+		uid: "a340c29f",
+		type: "item",
+		item: "combustfish:cooled_cod",
+		count: 11
+	},
+	{
+		uid: "7ef411df",
+		type: "item",
+		item: "combustfish:searing_swordfish"
+	},
+	{
+		uid: "77e33e67",
+		type: "item",
+		item: "mod_lavacow:undyingheart"
+	}]
+}

@@ -1,0 +1,49 @@
+{
+	title: "基础物流",
+	icon: "buildcrafttransport:pipe_wood_item",
+	x: 2.0d,
+	y: -2.0d,
+	description: "我全都要",
+	text: [
+		"随着生存的进度推进",
+		"物品越来越多了",
+		"顺便恭喜达成成就-黄粱管梦"
+	],
+	dependencies: [
+		"dbf81fb5",
+		"ded79464"
+	],
+	tasks: [{
+		uid: "030df891",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}],
+		count: 8L
+	},
+	{
+		uid: "4380a937",
+		type: "item",
+		items: [{
+			item: "buildcrafttransport:pipe_wood_item"
+		}]
+	},
+	{
+		uid: "1f18ba93",
+		type: "item",
+		items: [{
+			item: "buildcrafttransport:pipe_cobble_item"
+		}]
+	}],
+	rewards: [{
+		uid: "f128fe3f",
+		type: "item",
+		item: "betternether:cincinnasite_forged",
+		count: 24
+	},
+	{
+		uid: "345eb154",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

@@ -1,0 +1,53 @@
+{
+	title: "材料收集必修课",
+	icon: "minecraft:book",
+	x: 0.0d,
+	y: -2.0d,
+	description: "在地狱生存开始前您要学会相关技能",
+	text: [
+		"1.整合安装有史诗战斗模组，你可以在键位设置中设置键位切换状态。",
+		"2.地狱中的一些植物非常危险。",
+		"3.请不要空手砍伐树木/破坏原木。",
+		"4.游戏的怪物强度会随着时间增加。",
+		"5.不要浪费时间尝试在相关任务完成前打开地狱门。",
+		"6.勤看JEI查询合成表。",
+		"7.地狱有树木生成，木棍可以用树苗合成。",
+		"8.辛西纳矿石在发展科技时非常重要，如果有条件，请多挖一些。",
+		"9.你可以使用/sethome设置家。",
+		"10.默认情况下你可以按下“N”来打开笔记。",
+		"11.地狱也有地牢。"
+	],
+	dependencies: [
+		"5b64757b"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "9fad19f1",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}]
+	}],
+	rewards: [{
+		uid: "65e3ba64",
+		type: "item",
+		item: "minecraft:bowl"
+	},
+	{
+		uid: "adfb3dde",
+		type: "item",
+		item: {
+			id: "cgm:handgun",
+			tag: {
+				AmmoCount: 15
+			}
+		}
+	},
+	{
+		uid: "0202852b",
+		type: "item",
+		item: "cgm:basic_ammo",
+		count: 64
+	}]
+}

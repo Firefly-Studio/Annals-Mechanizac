@@ -1,0 +1,23 @@
+{
+	title: "战利品袋",
+	x: 0.0d,
+	y: 1.0d,
+	description: "快掏掏里面有什么",
+	tasks: [{
+		uid: "00d215f5",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:intestine"
+		}]
+	}],
+	rewards: [{
+		uid: "64995d5d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "cd9122fd",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

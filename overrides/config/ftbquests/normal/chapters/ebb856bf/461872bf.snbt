@@ -1,0 +1,19 @@
+{
+	title: "你是Lv几",
+	x: 1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "086f1859",
+		type: "item",
+		items: [{
+			item: "improvableskills:skills_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5cb68273",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

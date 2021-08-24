@@ -1,0 +1,34 @@
+{
+	title: "能量抽取",
+	icon: "buildcraftfactory:pump",
+	x: 3.5d,
+	y: 0.5d,
+	dependencies: [
+		"2f292de8",
+		"ded79464"
+	],
+	tasks: [{
+		uid: "33a1f4c9",
+		type: "item",
+		items: [{
+			item: "buildcraftfactory:pump"
+		}]
+	},
+	{
+		uid: "6e169055",
+		type: "item",
+		items: [{
+			item: "buildcrafttransport:pipe_wood_fluid"
+		}]
+	}],
+	rewards: [{
+		uid: "85e678c4",
+		type: "xp_levels",
+		xp_levels: 9
+	},
+	{
+		uid: "89bbf2d9",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

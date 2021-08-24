@@ -1,0 +1,27 @@
+{
+	title: "给熔铁降降温",
+	x: -1.5d,
+	y: -1.0d,
+	description: "你看这个熔铁它中暑了",
+	text: [
+		"甘蔗/芦苇有良好的降属功效",
+		"对物品也是",
+		"tip:将甘蔗/芦苇投入到熔铁中",
+		"如果没反应就多扔几次"
+	],
+	dependencies: [
+		"1f23b551"
+	],
+	tasks: [{
+		uid: "212f8ec2",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "24b5a9a0",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

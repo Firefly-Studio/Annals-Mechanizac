@@ -1,0 +1,32 @@
+{
+	title: "免费OR收费",
+	x: 0.0d,
+	y: -2.0d,
+	description: "免费！",
+	text: [
+		"来自远古的强劲动力"
+	],
+	dependencies: [
+		"de4e4e2e",
+		"2660e465",
+		"1f23b551"
+	],
+	tasks: [{
+		uid: "64fc63cd",
+		type: "item",
+		items: [{
+			item: "buildcraftcore:engine"
+		}]
+	}],
+	rewards: [{
+		uid: "f5bfbb3f",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "d4e70ee8",
+		type: "item",
+		item: "cgm:basic_ammo",
+		count: 64
+	}]
+}

@@ -1,0 +1,73 @@
+{
+	title: "热能利用",
+	icon: "minecraft:furnace",
+	x: 3.5d,
+	y: -1.0d,
+	description: "制作一台火力发电机",
+	text: [
+		"制作Thermal Generator"
+	],
+	dependencies: [
+		"a99bbf0f",
+		"de4e4e2e",
+		"ded79464"
+	],
+	tasks: [{
+		uid: "35452ebf",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 1"
+		}],
+		count: 5L
+	},
+	{
+		uid: "8f798350",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "ed992cda",
+		type: "item",
+		items: [{
+			item: "betternether:cincinnasite_forged"
+		}],
+		count: 51L
+	},
+	{
+		uid: "d04db7a8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyoutputhatch"
+		}]
+	},
+	{
+		uid: "950474d0",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "bdd7fb55",
+		type: "item",
+		items: [{
+			item: "minecraft:lava_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9854f631",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch"
+		}]
+	}],
+	rewards: [{
+		uid: "f949fa40",
+		type: "ftbmoney:money",
+		ftb_money: 900L
+	}]
+}
