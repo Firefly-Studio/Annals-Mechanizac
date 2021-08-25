@@ -11,19 +11,9 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "NetherWorld",
-  "version": "D1A1R2F0",
+  "version": "D1A2R2F0",
   "author": "Eicy",
   "files": [
-    {
-      "projectID": 286098,
-      "fileID": 2524514,
-      "required": true
-    },
-    {
-      "projectID": 405076,
-      "fileID": 3389720,
-      "required": true
-    },
     {
       "projectID": 225928,
       "fileID": 2445809,
@@ -150,6 +140,11 @@
       "required": true
     },
     {
+      "projectID": 402834,
+      "fileID": 3081338,
+      "required": true
+    },
+    {
       "projectID": 315391,
       "fileID": 2678285,
       "required": true
@@ -205,13 +200,13 @@
       "required": true
     },
     {
-      "projectID": 297057,
-      "fileID": 2668704,
+      "projectID": 326017,
+      "fileID": 2997899,
       "required": true
     },
     {
-      "projectID": 226321,
-      "fileID": 2537917,
+      "projectID": 297057,
+      "fileID": 2668704,
       "required": true
     },
     {
@@ -245,11 +240,6 @@
       "required": true
     },
     {
-      "projectID": 265894,
-      "fileID": 3151431,
-      "required": true
-    },
-    {
       "projectID": 312683,
       "fileID": 2984104,
       "required": true
@@ -277,11 +267,6 @@
     {
       "projectID": 265917,
       "fileID": 2951731,
-      "required": true
-    },
-    {
-      "projectID": 318283,
-      "fileID": 3183149,
       "required": true
     },
     {
@@ -342,6 +327,16 @@
     {
       "projectID": 250363,
       "fileID": 2746011,
+      "required": true
+    },
+    {
+      "projectID": 306626,
+      "fileID": 2882138,
+      "required": true
+    },
+    {
+      "projectID": 321117,
+      "fileID": 3150850,
       "required": true
     },
     {
@@ -655,11 +650,6 @@
       "required": true
     },
     {
-      "projectID": 485654,
-      "fileID": 3428721,
-      "required": true
-    },
-    {
       "projectID": 296289,
       "fileID": 2919737,
       "required": true
@@ -672,11 +662,6 @@
     {
       "projectID": 297404,
       "fileID": 3043459,
-      "required": true
-    },
-    {
-      "projectID": 32274,
-      "fileID": 2916002,
       "required": true
     },
     {

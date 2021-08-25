@@ -1,0 +1,6 @@
+fragmentsstone - survivalist:rocks
+hatchet - survivalist:hatchet
+meatstew - The Heartwork
+netherstew - chaoswither:chaos_powder
+impurityironingot - gases:ironIngotRusted
+key - calculator:obsidiankey

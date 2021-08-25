@@ -85,7 +85,8 @@ global mblockOres as IOreDictEntry[int] = {
     23:<ore:obsidian>,
     24:<ore:blockBone>,
     25:<ore:gemDiamond>,
-    26:<ore:oreQuartz>
+    26:<ore:oreQuartz>,
+    27:<ore:netherrack>
 };
 global mdustOres as IOreDictEntry[int] = {
     1:<ore:dustGold>,
@@ -113,7 +114,8 @@ global mdustOres as IOreDictEntry[int] = {
     23:<ore:dustObsidian>,
     24:<ore:dyeWhite>,
     25:<ore:dustDiamond>,
-    26:<ore:dustQuartz>
+    26:<ore:dustQuartz>,
+    27:<ore:dustSulfur>
 };
 
 //分离机

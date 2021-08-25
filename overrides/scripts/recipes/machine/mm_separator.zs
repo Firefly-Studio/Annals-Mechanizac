@@ -7,7 +7,7 @@ for key,dore in sblockOres{
         for keyyy,aore in sdustOres{
             if ((key == keyy)&&(key == keyyy)) {
                 mods.modularmachinery.RecipeBuilder.newBuilder("separator_"+i, "separator", 1500)
-                .addEnergyPerTickInput(80)
+                .addEnergyPerTickInput(25)
                 .addItemInput(dore,16)
                 .addItemOutput(iore,10)
                 .addItemOutput(aore,3)
@@ -19,7 +19,7 @@ for key,dore in sblockOres{
     }
 }
 mods.modularmachinery.RecipeBuilder.newBuilder("separator_obs", "separator", 600)
-    .addEnergyPerTickInput(120)
+    .addEnergyPerTickInput(30)
     .addItemInput(<ore:obsidian>,2)
     .addItemOutput(<ore:ingotRefinedObsidian>)
     .build();

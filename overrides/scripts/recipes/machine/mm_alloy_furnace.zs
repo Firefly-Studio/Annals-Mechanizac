@@ -7,7 +7,7 @@ for key,dore in aingotOre{
         for keyyy,aore in alloyOres{
             if ((key == keyy)&&(key == keyyy)) {
                 mods.modularmachinery.RecipeBuilder.newBuilder("alloy_furnace_"+i, "alloy_furnace", 500)
-                .addEnergyPerTickInput(80)
+                .addEnergyPerTickInput(30)
                 .addItemInput(dore,2)
                 .addItemInput(iore,2)
                 .addItemOutput(aore,4)

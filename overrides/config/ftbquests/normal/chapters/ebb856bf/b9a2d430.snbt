@@ -1,0 +1,29 @@
+{
+	title: "传送路径",
+	x: -1.0d,
+	y: -1.0d,
+	description: "你感受到了来自远古的神秘力量",
+	tasks: [{
+		uid: "c53a7339",
+		type: "item",
+		items: [{
+			item: "waystones:waystone"
+		}]
+	}],
+	rewards: [{
+		uid: "a8117eba",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 10
+	},
+	{
+		uid: "2847e5a5",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "d41a280f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

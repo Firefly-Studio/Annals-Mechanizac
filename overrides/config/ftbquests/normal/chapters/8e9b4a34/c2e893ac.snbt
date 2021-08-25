@@ -49,5 +49,11 @@
 		type: "item",
 		item: "cgm:basic_ammo",
 		count: 64
+	},
+	{
+		uid: "12bdb2e0",
+		type: "command",
+		auto: "enabled",
+		command: "/csg_kit give book @p"
 	}]
 }

@@ -20,7 +20,7 @@ for key,dore in bdustOres{
     for keyy,iore in bingotOres{
         if (key == keyy) {
             mods.modularmachinery.RecipeBuilder.newBuilder("balst_furnace_"+i, "blastFurnace", 400, 1)
-            .addEnergyPerTickInput(90)
+            .addEnergyPerTickInput(35)
             .addFluidInput(<liquid:lava>*50)
             .addItemInput(dore)
             .addItemOutput(iore,2)
