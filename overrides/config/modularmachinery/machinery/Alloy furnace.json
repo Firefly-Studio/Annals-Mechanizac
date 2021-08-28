@@ -7,7 +7,8 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "betternether:cincinnasite_forged@0"
+                "betternether:cincinnasite_forged@0",
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -47,7 +48,8 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "betternether:cincinnasite_forged@0"
+                "betternether:cincinnasite_forged@0",
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -55,7 +57,8 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "betternether:cincinnasite_forged@0"
+                "betternether:cincinnasite_forged@0",
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -63,7 +66,8 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "betternether:cincinnasite_forged@0"
+                "betternether:cincinnasite_forged@0",
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -79,7 +83,8 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "betternether:cincinnasite_forged@0"
+                "betternether:cincinnasite_forged@0",
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -87,7 +92,8 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "betternether:cincinnasite_forged@0"
+                "betternether:cincinnasite_forged@0",
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -103,7 +109,8 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "betternether:cincinnasite_forged@0"
+                "betternether:cincinnasite_forged@0",
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -119,7 +126,8 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "betternether:cincinnasite_forged@0"
+                "betternether:cincinnasite_forged@0",
+                "modularmachinery:blockcasing@0"
             ]
         },
         {

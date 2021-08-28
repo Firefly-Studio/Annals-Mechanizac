@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "NetherWorld",
-  "version": "D1A2R2F0",
+  "version": "D1A3R1F0",
   "author": "Eicy",
   "files": [
     {
@@ -265,6 +265,11 @@
       "required": true
     },
     {
+      "projectID": 285968,
+      "fileID": 2700901,
+      "required": true
+    },
+    {
       "projectID": 265917,
       "fileID": 2951731,
       "required": true
@@ -410,6 +415,11 @@
       "required": true
     },
     {
+      "projectID": 244844,
+      "fileID": 3137504,
+      "required": true
+    },
+    {
       "projectID": 289412,
       "fileID": 3156637,
       "required": true
@@ -516,7 +526,7 @@
     },
     {
       "projectID": 289479,
-      "fileID": 2776707,
+      "fileID": 2854400,
       "required": true
     },
     {
@@ -616,7 +626,7 @@
     },
     {
       "projectID": 257814,
-      "fileID": 3419979,
+      "fileID": 3437866,
       "required": true
     },
     {

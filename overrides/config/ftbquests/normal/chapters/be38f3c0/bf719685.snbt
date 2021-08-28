@@ -1,0 +1,33 @@
+{
+	title: "能量汇聚",
+	x: -0.5d,
+	y: -4.0d,
+	text: [
+		"血肉之地群系中的血水和主世界的水具有一样的性质",
+		"但是在地狱生成的血水不会被蒸发",
+		"你知道吗:有的人非到一辈子都找不到血水",
+		"Tip:血肉之地地下隧道多有血水生成"
+	],
+	dependencies: [
+		"353fa007",
+		"dbf81fb5"
+	],
+	tasks: [{
+		uid: "e037b333",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 7"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "af783254",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "33a82e7e",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

@@ -16,7 +16,6 @@ hatChet.maxDamage = 120;
 hatChet.toolClass = "axe";
 hatChet.toolLevel = 2;
 hatChet.register();
-
 val meatStew as ItemFood = VanillaFactory.createItemFood("meatstew",3);
 meatStew.onItemFoodEaten = function(stack, world, player) {
     if (!world.remote) {

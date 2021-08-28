@@ -62,12 +62,5 @@
 		type: "command",
 		auto: "enabled",
 		command: "/difficulty 0"
-	},
-	{
-		uid: "69ca0609",
-		type: "command",
-		auto: "enabled",
-		command: "/fill 133.5 58 114 138 70 119 glass",
-		player_command: true
 	}]
 }

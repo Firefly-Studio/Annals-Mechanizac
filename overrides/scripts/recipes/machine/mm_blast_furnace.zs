@@ -9,7 +9,7 @@ for key,dore in bdustOres{
             .addFluidInput(<liquid:lava>*100)
             .addItemInput(dore)
             .addItemInput(<ore:itemCoal>)
-            .addItemOutput(iore,2)
+            .addItemOutput(iore)
             .build();
             i+="1";
             break;
@@ -23,7 +23,36 @@ for key,dore in bdustOres{
             .addEnergyPerTickInput(35)
             .addFluidInput(<liquid:lava>*50)
             .addItemInput(dore)
-            .addItemOutput(iore,2)
+            .addItemOutput(iore)
+            .build();
+            i+="1";
+            break;
+        }
+    }
+}
+
+for key,dore in bdustOres{
+    for keyy,iore in bingotOres{
+        if (key == keyy) {
+            mods.modularmachinery.RecipeBuilder.newBuilder("balst_furnace_plus_"+i, "blastFurnacePlus", 200, 0)
+            .addFluidInput(<liquid:lava>*120)
+            .addItemInput(dore)
+            .addItemInput(<ore:itemCoal>)
+            .addItemOutput(iore)
+            .build();
+            i+="1";
+            break;
+        }
+    }
+}
+for key,dore in bdustOres{
+    for keyy,iore in bingotOres{
+        if (key == keyy) {
+            mods.modularmachinery.RecipeBuilder.newBuilder("balst_furnace_plus_"+i, "blastFurnacePlus", 120, 1)
+            .addEnergyPerTickInput(90)
+            .addFluidInput(<liquid:lava>*25)
+            .addItemInput(dore)
+            .addItemOutput(iore)
             .build();
             i+="1";
             break;

@@ -8,7 +8,7 @@ for key,bore in mblockOres{
             mods.modularmachinery.RecipeBuilder.newBuilder("e_mineral_"+i, "e_mineral_crusher", 60)
             .addEnergyPerTickInput(15)
             .addItemInput(bore)
-            .addItemOutput(dore)
+            .addItemOutput(dore,2)
             .build();
             i+="1";
             break;

@@ -1,0 +1,53 @@
+{
+	title: "能量注入",
+	icon: "appliedenergistics2:material 1 1",
+	x: -2.5d,
+	y: -2.5d,
+	description: "把赛特斯石英用能量塞满",
+	text: [
+		""
+	],
+	dependencies: [
+		"c7e19629",
+		"2660e465"
+	],
+	tasks: [{
+		uid: "0fcc024a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:charger"
+		}]
+	},
+	{
+		uid: "f58480dd",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 1"
+		}]
+	},
+	{
+		uid: "a5a48b26",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:energy_acceptor"
+		}]
+	},
+	{
+		uid: "fffa90fe",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:energy_cell",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "91000735",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "f42fce7d",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

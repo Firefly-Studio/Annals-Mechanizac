@@ -1,0 +1,34 @@
+{
+	title: "能量汇聚",
+	x: 0.0d,
+	y: 0.0d,
+	description: "制作一块水晶",
+	text: [
+		"血肉之地群系中的血水和主世界的水具有一样的性质",
+		"但是生成的血水却不会蒸发",
+		"你知道吗:有的人非到一辈子也找不到血水",
+		"Tip:血肉之地的底层矿道多有血水生成"
+	],
+	dependencies: [
+		"353fa007",
+		"c7e19629"
+	],
+	tasks: [{
+		uid: "1dcb88f5",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 7"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "fbaf15fb",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "f45b8201",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

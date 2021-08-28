@@ -43,7 +43,21 @@ global bdustOres as IOreDictEntry[int] = {
     7:<ore:dustIridium>,
     8:<ore:blockGlowstone>,
     9:<ore:ingotIron>,
-    10:<ore:sand>
+    10:<ore:sand>,
+
+    11:<ore:oreGold>,
+    12:<ore:oreIron>,
+    13:<ore:oreAluminum>,
+    14:<ore:oreCopper>,
+    15:<ore:oreTin>,
+    16:<ore:oreSilver>,
+    17:<ore:oreLead>,
+    18:<ore:oreNickel>,
+    19:<ore:orePlatinum>,
+    20:<ore:oreUranium>,
+    21:<ore:oreZinc>,
+    22:<ore:oreYellorium>,
+    23:<ore:oreOsmium>
 };
 global bingotOres as IOreDictEntry[int] = {
     1:<ore:ingotGold>,
@@ -55,7 +69,21 @@ global bingotOres as IOreDictEntry[int] = {
     7:<ore:ingotIridium>,
     8:<ore:ingotRefinedGlowstone>,
     9:<ore:ingotSteel>,
-    10:<ore:ingotSilicon>
+    10:<ore:ingotSilicon>,
+
+    11:<ore:ingotGold>,
+    12:<ore:ingotIron>,
+    13:<ore:ingotAluminum>,
+    14:<ore:ingotCopper>,
+    15:<ore:ingotTin>,
+    16:<ore:ingotSilver>,
+    17:<ore:ingotLead>,
+    18:<ore:ingotNickel>,
+    19:<ore:ingotPlatinum>,
+    20:<ore:ingotYellorium>,
+    21:<ore:ingotZinc>,
+    22:<ore:ingotYellorium>,
+    23:<ore:ingotOsmium>
 };
 
 //粉碎机*
@@ -66,7 +94,7 @@ global mblockOres as IOreDictEntry[int] = {
     4:<ore:oreLapis>,
     5:<ore:oreDiamond>,
     6:<ore:oreRedstone>,
-    7:<ore:oreQuartz>,
+    7:<ore:gemQuartz>,
     8:<ore:oreEmerald>,
     9:<ore:oreAmethyst>,
     10:<ore:oreRuby>,
@@ -86,7 +114,9 @@ global mblockOres as IOreDictEntry[int] = {
     24:<ore:blockBone>,
     25:<ore:gemDiamond>,
     26:<ore:oreQuartz>,
-    27:<ore:netherrack>
+    27:<ore:netherrack>,
+    28:<ore:crystalCertusQuartz>,
+    29:<ore:crystalFluix>
 };
 global mdustOres as IOreDictEntry[int] = {
     1:<ore:dustGold>,
@@ -115,7 +145,9 @@ global mdustOres as IOreDictEntry[int] = {
     24:<ore:dyeWhite>,
     25:<ore:dustDiamond>,
     26:<ore:dustQuartz>,
-    27:<ore:dustSulfur>
+    27:<ore:dustSulfur>,
+    28:<ore:dustCertusQuartz>,
+    29:<ore:dustFluix>
 };
 
 //分离机

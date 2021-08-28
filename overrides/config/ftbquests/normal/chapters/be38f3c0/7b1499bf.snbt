@@ -31,6 +31,15 @@
 			}
 		}],
 		count: 12L
+	},
+	{
+		uid: "f9c65032",
+		type: "item",
+		items: [{
+			item: "betterpipes:wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "485e315e",

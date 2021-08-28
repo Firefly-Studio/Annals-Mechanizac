@@ -33,3 +33,8 @@ furnace.remove(<ore:ingotTitaniumAluminide>);
 furnace.remove(<ore:ingotTitaniumIridium>);
 furnace.remove(<ore:ingotAluminum>);
 furnace.remove(<ore:ingotIridium>);
+furnace.remove(<ore:ingotSilver>);
+furnace.remove(<ore:ingotLead>);
+furnace.remove(<ore:ingotNickel>);
+furnace.remove(<ore:ingotPlatinum>);
+furnace.remove(<ore:ingotZinc>);

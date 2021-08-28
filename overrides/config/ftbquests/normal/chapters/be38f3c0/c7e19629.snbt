@@ -6,8 +6,8 @@
 			tier: 0
 		}
 	},
-	x: -1.0d,
-	y: -3.5d,
+	x: -2.5d,
+	y: -5.0d,
 	description: "储存电力",
 	text: [
 		"一桶岩浆倒进发电机后你发现",
@@ -20,9 +20,15 @@
 		"7b1499bf"
 	],
 	tasks: [{
-		uid: "c6469fcf",
-		type: "forge_energy",
-		value: 1000L
+		uid: "3938ee81",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 0
+			}
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "8377a5db",

@@ -18,5 +18,10 @@
 		uid: "43d5a900",
 		type: "fluid",
 		fluid: "lava"
+	}],
+	rewards: [{
+		uid: "1789f300",
+		type: "ftbmoney:money",
+		ftb_money: 200L
 	}]
 }

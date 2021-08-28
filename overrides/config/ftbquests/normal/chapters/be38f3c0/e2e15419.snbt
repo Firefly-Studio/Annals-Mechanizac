@@ -1,0 +1,56 @@
+{
+	title: "自动化基础套餐",
+	icon: "appliedenergistics2:controller",
+	x: -6.0d,
+	y: -1.5d,
+	dependencies: [
+		"8607118f",
+		"cf67a8cf"
+	],
+	tasks: [{
+		uid: "c53bbaf4",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:interface"
+		}]
+	},
+	{
+		uid: "5a81cf1a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 260"
+		}]
+	},
+	{
+		uid: "ba76935d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 240"
+		}]
+	},
+	{
+		uid: "16c10164",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	},
+	{
+		uid: "9ec12377",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 76"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "79359499",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	},
+	{
+		uid: "28fb9b22",
+		type: "item",
+		item: "openmodularturrets:rail_gun_turret"
+	}]
+}

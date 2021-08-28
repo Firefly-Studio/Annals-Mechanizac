@@ -58,7 +58,139 @@ recipes.addShapedMirrored(<modularmachinery:blockcasing:1>,[
     [imm,<trapcraft:fan>,imm],
     [null,imm,null]
 ]);
+val inputbus as IItemStack[int] ={
+    1:<modularmachinery:blockinputbus:1>,
+    2:<modularmachinery:blockinputbus:2>,
+    3:<modularmachinery:blockinputbus:3>,
+    4:<modularmachinery:blockinputbus:4>,
+    5:<modularmachinery:blockinputbus:5>,
+    6:<modularmachinery:blockinputbus:6>
+};
+var inum as int= 2;
+for key,input in inputbus{
+    for keyy,inputt in inputbus{
+        if(key == keyy+1){
+            recipes.addShapedMirrored(input,[
+                [null,<ore:hopper>,null],
+                [imm*inum,inputt,imm*inum],
+                [<ore:chest>,imm*inum,<ore:chest>]
+            ]);
+            inum+=8;
+        }
+    }
+}
+val outputbus as IItemStack[int] ={
+    1:<modularmachinery:blockoutputbus:1>,
+    2:<modularmachinery:blockoutputbus:2>,
+    3:<modularmachinery:blockoutputbus:3>,
+    4:<modularmachinery:blockoutputbus:4>,
+    5:<modularmachinery:blockoutputbus:5>,
+    6:<modularmachinery:blockoutputbus:6>
+};
+var onum as int= 2;
+for key,output in outputbus{
+    for keyy,outputt in outputbus{
+        if(key == keyy+1){
+            recipes.addShapedMirrored(output,[
+                [<ore:chest>,imm*onum,<ore:chest>],
+                [imm*onum,outputt,imm*onum],
+                [null,<ore:hopper>,null]
+            ]);
+            onum+=8;
+        }
+    }
+}
 
+val liquidinputbus as IItemStack[int] ={
+    1:<modularmachinery:blockfluidinputhatch:1>,
+    2:<modularmachinery:blockfluidinputhatch:2>,
+    3:<modularmachinery:blockfluidinputhatch:3>,
+    4:<modularmachinery:blockfluidinputhatch:4>,
+    5:<modularmachinery:blockfluidinputhatch:5>,
+    6:<modularmachinery:blockfluidinputhatch:6>,
+    7:<modularmachinery:blockfluidinputhatch:7>
+};
+var linum as int= 2;
+for key,input in liquidinputbus{
+    for keyy,inputt in liquidinputbus{
+        if(key == keyy+1){
+            recipes.addShapedMirrored(input,[
+                [null,<ore:hopper>,null],
+                [imm*linum,inputt,imm*linum],
+                [<minecraft:bucket>,imm*linum,<minecraft:bucket>]
+            ]);
+            linum+=8;
+        }
+    }
+}
+val liquidoutputbus as IItemStack[int] ={
+    1:<modularmachinery:blockfluidoutputhatch:1>,
+    2:<modularmachinery:blockfluidoutputhatch:2>,
+    3:<modularmachinery:blockfluidoutputhatch:3>,
+    4:<modularmachinery:blockfluidoutputhatch:4>,
+    5:<modularmachinery:blockfluidoutputhatch:5>,
+    6:<modularmachinery:blockfluidoutputhatch:6>,
+    7:<modularmachinery:blockfluidoutputhatch:7>
+};
+var lonum as int= 2;
+for key,output in liquidoutputbus{
+    for keyy,outputt in liquidoutputbus{
+        if(key == keyy+1){
+            recipes.addShapedMirrored(output,[
+                [null,imm*lonum,null],
+                [imm*lonum,outputt,imm*lonum],
+                [<minecraft:bucket>,<ore:hopper>,<minecraft:bucket>]
+            ]);
+            lonum+=8;
+        }
+    }
+}
+
+val energyinputbus as IItemStack[int] ={
+    1:<modularmachinery:blockenergyinputhatch:1>,
+    2:<modularmachinery:blockenergyinputhatch:2>,
+    3:<modularmachinery:blockenergyinputhatch:3>,
+    4:<modularmachinery:blockenergyinputhatch:4>,
+    5:<modularmachinery:blockenergyinputhatch:5>,
+    6:<modularmachinery:blockenergyinputhatch:6>,
+    7:<modularmachinery:blockenergyinputhatch:7>
+};
+var einum as int= 2;
+for key,inputbus in energyinputbus{
+    for keyy,inputbust in energyinputbus{
+        if(key == keyy+1){
+            recipes.addShapedMirrored(inputbus,[
+                [<ore:dustRedstone>*einum,<minecraft:repeater>,<ore:dustRedstone>*einum],
+                [imm*einum,inputbust,imm*einum],
+                [<ore:dustRedstone>*einum,imm*einum,<ore:dustRedstone>*einum]
+            ]);
+            einum+=8;
+        }
+    }
+}
+
+val energyoutputbus as IItemStack[int] ={
+    1:<modularmachinery:blockenergyoutputhatch:1>,
+    2:<modularmachinery:blockenergyoutputhatch:2>,
+    3:<modularmachinery:blockenergyoutputhatch:3>,
+    4:<modularmachinery:blockenergyoutputhatch:4>,
+    5:<modularmachinery:blockenergyoutputhatch:5>,
+    6:<modularmachinery:blockenergyoutputhatch:6>,
+    7:<modularmachinery:blockenergyoutputhatch:7>
+};
+var eonum as int= 2;
+for key,outputbus in energyoutputbus{
+    for keyy,outputbust in energyoutputbus{
+        if(key == keyy+1){
+            recipes.addShapedMirrored(outputbus,[
+                [<ore:dustRedstone>*eonum,imm*eonum,<ore:dustRedstone>*eonum],
+                [imm*eonum,outputbust,imm*eonum],
+                [<ore:dustRedstone>*eonum,<minecraft:repeater>,<ore:dustRedstone>*eonum]
+            ]);
+            eonum+=8;
+        }
+    }
+}
 //玻璃
 furnace.addRecipe(<minecraft:glass>,<natura:nether_tainted_soil:*>,0.1);
 furnace.addRecipe(<minecraft:glass>,<minecraft:soul_sand>,0.1);

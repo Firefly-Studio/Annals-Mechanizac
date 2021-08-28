@@ -1,0 +1,41 @@
+{
+	title: "压印时间",
+	icon: "appliedenergistics2:inscriber",
+	x: -3.5d,
+	y: -4.5d,
+	dependencies: [
+		"c7e19629",
+		"c392e529",
+		"f7736de6",
+		"2660e465"
+	],
+	tasks: [{
+		uid: "8e086ed1",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:nether_quartz_wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ad9db534",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}]
+	},
+	{
+		uid: "3d91f4c5",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 16"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "be4d7a0a",
+		type: "xp_levels",
+		xp_levels: 4
+	}]
+}
