@@ -1,0 +1,45 @@
+{
+    "registryname": "ioMachine",
+    "localizedname": "Baka组装机",
+    "parts": [
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:stone_slab@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:stone_slab@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:stone_slab@6"
+            ]
+        }
+    ]}

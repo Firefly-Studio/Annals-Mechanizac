@@ -1,0 +1,15 @@
+{
+	title: "热门话题",
+	x: 1.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "2d3bf64a",
+		type: "item",
+		items: [{
+			id: "minecraft:iron_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

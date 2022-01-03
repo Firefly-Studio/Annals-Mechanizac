@@ -1,0 +1,15 @@
+{
+	title: "泵入",
+	x: 2.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "ff208d16",
+		type: "item",
+		items: [{
+			id: "buildcraftfactory:pump",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

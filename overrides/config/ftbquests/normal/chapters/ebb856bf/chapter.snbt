@@ -1,6 +1,12 @@
 {
 	title: "杂项",
-	icon: "minecraft:tallgrass 1 1",
+	icon: {
+		id: "minecraft:tallgrass",
+		Damage: 1s,
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

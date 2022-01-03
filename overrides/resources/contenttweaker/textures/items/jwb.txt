@@ -1,4 +1,0 @@
-fragmentsstone - survivalist:rocks
-hatchet - survivalist:hatchet
-meatstew - The Heartwork
-impurityironingot - gases:ironIngotRusted

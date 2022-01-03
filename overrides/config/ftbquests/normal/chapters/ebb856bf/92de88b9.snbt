@@ -1,0 +1,17 @@
+{
+	title: "可以回家...了？",
+	x: -1.0d,
+	y: -2.0d,
+	description: "春秋大梦",
+	tasks: [{
+		uid: "04670b83",
+		type: "item",
+		items: [{
+			id: "minecraft:obsidian",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		count: 10L
+	}]
+}

@@ -47,7 +47,7 @@ minecraft:lapis_block, 青金石块
 minecraft:dispenser, 发射器
 minecraft:sandstone:0, 砂岩
 minecraft:sandstone:1, 錾制砂岩
-minecraft:sandstone:2, 平滑砂岩
+minecraft:sandstone:2, 切制砂岩
 minecraft:noteblock, 音符盒
 minecraft:golden_rail, 充能铁轨
 minecraft:detector_rail, 探测铁轨
@@ -283,7 +283,7 @@ minecraft:double_plant:4, 玫瑰丛
 minecraft:double_plant:5, 牡丹
 minecraft:red_sandstone:0, 红砂岩
 minecraft:red_sandstone:1, 錾制红砂岩
-minecraft:red_sandstone:2, 平滑红砂岩
+minecraft:red_sandstone:2, 切制红砂岩
 minecraft:red_sandstone_stairs, 红砂岩楼梯
 minecraft:stone_slab2:0, 红砂岩台阶
 minecraft:spruce_fence_gate, 云杉木栅栏门
@@ -470,7 +470,7 @@ minecraft:chest_minecart, 运输矿车
 minecraft:furnace_minecart, 动力矿车
 minecraft:egg, 蛋
 minecraft:compass, 指南针
-minecraft:fishing_rod, 钓鱼竿
+minecraft:fishing_rod, 木鱼竿
 minecraft:clock, 钟
 minecraft:glowstone_dust, 荧石粉
 minecraft:fish:0, 生鱼
@@ -744,7 +744,7 @@ betternether:cincinnasite_bars, 辛西纳石杆
 betternether:quartz_glass_pane, 石英玻璃窗
 betternether:quartz_glass_framed_pane, 镶框石英玻璃窗
 betternether:cincinnasite_forge, 辛西纳石锻造炉
-betternether:netherrack_furnace, 下界熔炉
+betternether:netherrack_furnace, 地狱岩熔炉
 betternether:bone_reed_door, 芦苇骨门
 betternether:bone_cincinnasite_door, 辛西纳石骨门
 betternether:quartz_stained_glass_framed:0, 镶框白色石英玻璃
@@ -1140,17 +1140,6 @@ biomesoplenty:black_dye, 黑色染料
 biomesoplenty:earth, BOP图标
 carryon:tile_item, item.tile_item.name
 carryon:entity_item, item.entity_item.name
-hammercore:iron_bordered_cobblestone, 铁边框圆石
-hammercore:gold_bordered_cobblestone, 金边框圆石
-hammercore:diamond_bordered_cobblestone, 钻石边框圆石
-hammercore:emerald_bordered_cobblestone, 绿宝石边框圆石
-hammercore:quartz_bordered_cobblestone, 石英边框圆石
-hammercore:manual, 锤子核心手册
-improvableskills:skills_book, 技能书
-improvableskills:scroll_normal, 技能页
-improvableskills:scroll_ability, 能力书页
-improvableskills:scroll_creative, 创造技能页
-improvableskills:parchment_fragment, 羊皮纸残页
 naturesaura:ancient_log, 荒古原木
 naturesaura:ancient_bark, 荒古树皮
 naturesaura:ancient_planks, 荒古木板
@@ -1224,7 +1213,7 @@ naturesaura:aura_cache, 灵气缓存
 naturesaura:aura_trove, 灵气宝藏
 naturesaura:shockwave_creator, 愤怒护身符
 naturesaura:multiblock_maker, 多方块建造器
-naturesaura:bottle_two_the_rebottling, 瓶子木塞
+naturesaura:bottle_two_the_rebottling, 瓶与塞
 naturesaura:aura_bottle, item.naturesaura.aura_bottle.name
 naturesaura:farming_stencil, 农业模板
 naturesaura:sky_ingot, 天空之锭
@@ -1244,157 +1233,17 @@ naturesaura:token_rage, 狂怒徽章
 naturesaura:token_grief, 悲伤徽章
 naturesaura:ender_access, 末影目镜
 naturesaura:cave_finder, 阴影之杖
-opencomputers:adapter:0, 适配器
-opencomputers:assembler:0, 装配器
-opencomputers:cable:11250603, 线缆
-opencomputers:capacitor:0, 电容
-opencomputers:case1:0, 基础机箱
-opencomputers:case3:0, 超级机箱
-opencomputers:case2:0, 高级机箱
-opencomputers:chameliumblock:0, 变色块
-opencomputers:charger:0, 充电器
-opencomputers:disassembler:0, 分解器
-opencomputers:diskdrive:0, 软盘驱动器
-opencomputers:geolyzer:0, 地质分析仪
-opencomputers:hologram1:0, 基础全息地图投影仪
-opencomputers:hologram2:0, 高级全息地图投影仪
-opencomputers:keyboard:0, 键盘
-opencomputers:motionsensor:0, 运动传感器
-opencomputers:powerconverter:0, 能量转换器
-opencomputers:powerdistributor:0, 能量分配器
-opencomputers:printer:0, 3D打印机
-opencomputers:raid:0, Raid硬盘阵列
-opencomputers:redstone:0, 红石I/O端口
-opencomputers:relay:0, 中继器
-opencomputers:screen1:0, 基础显示屏
-opencomputers:screen3:0, 超级显示屏
-opencomputers:screen2:0, 高级显示屏
-opencomputers:rack:0, 机架
-opencomputers:waypoint:0, 路径点
-opencomputers:casecreative:0, 创造模式机箱
-opencomputers:microcontroller:0, 微控制器
-opencomputers:print:0, 3D打印
-opencomputers:robotafterimage:0, 机器人余像
-opencomputers:robot:0, robot.name
-opencomputers:endstone:0, 末地石
-opencomputers:netsplitter:0, 网络分配器
-opencomputers:transposer:0, 转换器
-opencomputers:carpetedcapacitor:0, 地毯式电容
-opencomputers:material:1, 蚀刻药水
-opencomputers:material:10, 算逻运算单元(ALU)
-opencomputers:material:15, 方向键
-opencomputers:material:14, 按钮组
-opencomputers:material:5, 基板
-opencomputers:material:28, 变色材料
-opencomputers:material:3, 电路板
-opencomputers:material:11, 控制单元(CU)
-opencomputers:material:0, 切割线
-opencomputers:material:29, 钻石芯片
-opencomputers:material:12, 磁碟
-opencomputers:material:23, 基础无人机外壳
-opencomputers:material:24, 高级无人机外壳
-opencomputers:material:25, 创造无人机外壳
-opencomputers:material:27, 墨盒
-opencomputers:material:26, 墨盒(空)
-opencomputers:material:13, 因特网
-opencomputers:material:7, 简易微芯片
-opencomputers:material:8, 高级微芯片
-opencomputers:material:9, 超级微芯片
-opencomputers:material:20, 基础微控制器外壳
-opencomputers:material:21, 高级微控制器外壳
-opencomputers:material:22, 创造微控制器外壳
-opencomputers:material:16, 数字键盘
-opencomputers:material:4, 印刷电路板(PCB)
-opencomputers:material:2, 未加工电路板
-opencomputers:material:17, 平板电脑保护套T1
-opencomputers:material:18, 平板电脑保护套T2
-opencomputers:material:19, 平板电脑保护套T3
-opencomputers:material:6, 晶体管
-opencomputers:tool:0, 分析器
-opencomputers:tool:1, 网络调试器
-opencomputers:tool:4, 开放式电脑使用手册
-opencomputers:tool:5, 纳米机器
-opencomputers:tool:2, 远程终端
-opencomputers:tool:3, 材质选择器
-opencomputers:wrench, 螺丝刀扳手
-opencomputers:hoverboots, 悬浮靴
-opencomputers:component:16, 基础加速运算单元(APU)
-opencomputers:component:17, 高级加速运算单元(APU)
-opencomputers:component:18, 创造加速运算单元(APU)
-opencomputers:component:3, 基础组件总线
-opencomputers:component:4, 高级组件总线
-opencomputers:component:5, 超级组件总线
-opencomputers:component:0, 基础中央处理器(CPU)
-opencomputers:component:1, 高级中央处理器(CPU)
-opencomputers:component:2, 超级中央处理器(CPU)
-opencomputers:component:20, 软盘驱动器
-opencomputers:component:6, 存储器-T1
-opencomputers:component:7, 存储器-T1.5
-opencomputers:component:8, 存储器-T2
-opencomputers:component:9, 存储器-T2.5
-opencomputers:component:10, 存储器-T3
-opencomputers:component:11, 存储器-T3.5
-opencomputers:component:13, 基础服务器
-opencomputers:component:14, 高级服务器
-opencomputers:component:15, 超级服务器
-opencomputers:component:12, 创造模式服务器
-opencomputers:component:19, 终端服务器
-opencomputers:card:10, 基础数据卡
-opencomputers:card:11, 高级数据卡
-opencomputers:card:12, 超级数据卡
-opencomputers:card:0, 调试卡
-opencomputers:card:1, 基础显卡
-opencomputers:card:2, 高级显卡
-opencomputers:card:3, 超级显卡
-opencomputers:card:8, 因特网卡
-opencomputers:card:9, 连接卡
-opencomputers:card:6, 网卡
-opencomputers:card:4, 基础红石卡
-opencomputers:card:7, 无线网卡
-opencomputers:upgrade:32, 组件总线（创造模式）
-opencomputers:upgrade:0, 天使方块升级
-opencomputers:upgrade:1, 基础电池升级
-opencomputers:upgrade:2, 高级电池升级
-opencomputers:upgrade:3, 超级电池升级
-opencomputers:upgrade:4, 区块载入升级
-opencomputers:upgrade:5, 基础卡槽
-opencomputers:upgrade:6, 高级卡槽
-opencomputers:upgrade:7, 超级卡槽
-opencomputers:upgrade:8, 基础升级组件容器
-opencomputers:upgrade:9, 高级升级组件容器
-opencomputers:upgrade:10, 超级升级组件容器
-opencomputers:upgrade:11, 合成升级
-opencomputers:upgrade:12, 基础数据库升级
-opencomputers:upgrade:13, 高级数据库升级
-opencomputers:upgrade:14, 超级数据库升级
-opencomputers:upgrade:15, 经验升级
-opencomputers:upgrade:16, 发电机升级
-opencomputers:upgrade:27, 基础悬浮升级
-opencomputers:upgrade:28, 高级悬浮升级
-opencomputers:upgrade:17, 物品栏升级
-opencomputers:upgrade:18, 物品栏控制器升级
-opencomputers:upgrade:26, 缰绳升级
-opencomputers:upgrade:30, MFU
-opencomputers:upgrade:19, 导航升级
-opencomputers:upgrade:20, 活塞升级
-opencomputers:upgrade:21, 告示牌读写升级
-opencomputers:upgrade:22, 太阳能发电机升级
-opencomputers:upgrade:23, 储罐升级
-opencomputers:upgrade:24, 储罐控制器升级
-opencomputers:upgrade:25, 牵引光束升级
-opencomputers:upgrade:29, 交易升级
-opencomputers:upgrade:31, 无线网卡
-opencomputers:storage:0, EEPROM
-opencomputers:storage:1, 软盘
-opencomputers:storage:2, 基础硬盘驱动器 (1MB)
-opencomputers:storage:3, 高级硬盘驱动器 (2MB)
-opencomputers:storage:4, 超级硬盘驱动器 (4MB)
-opencomputers:misc:1, Crecopter
-opencomputers:misc:0, 微控制器
-opencomputers:misc:0, Creatix
-opencomputers:misc:0, 平板电脑
-opencomputers:misc:0, 悬浮靴
-opencomputers:misc:0, EEPROM (Lua BIOS)
+hammercore:iron_bordered_cobblestone, 铁边框圆石
+hammercore:gold_bordered_cobblestone, 金边框圆石
+hammercore:diamond_bordered_cobblestone, 钻石边框圆石
+hammercore:emerald_bordered_cobblestone, 绿宝石边框圆石
+hammercore:quartz_bordered_cobblestone, 石英边框圆石
+hammercore:manual, 锤子核心手册
+improvableskills:skills_book, 技能书
+improvableskills:scroll_normal, 技能页
+improvableskills:scroll_ability, 能力书页
+improvableskills:scroll_creative, 创造技能页
+improvableskills:parchment_fragment, 羊皮纸残页
 openblocks:ladder, 梯子活板门
 openblocks:guide, 建筑指导仪
 openblocks:builder_guide, 强化建筑指导仪
@@ -1611,268 +1460,6 @@ openblocks:glyph:119, "w" 雕文
 openblocks:glyph:120, "x" 雕文
 openblocks:glyph:121, "y" 雕文
 openblocks:glyph:122, "z" 雕文
-libvulpes:blockphantom, tile.blockPhantom.name
-libvulpes:hatch:0, 输入口
-libvulpes:hatch:1, 输出口
-libvulpes:hatch:2, 液体输入口
-libvulpes:hatch:3, 液体输出口
-libvulpes:placeholder, 机器
-libvulpes:structuremachine, 机器结构方块
-libvulpes:advstructuremachine, 高级机器结构方块
-libvulpes:creativepowerbattery, 创造模式能量输入口
-libvulpes:forgepowerinput, 能量输入口
-libvulpes:forgepoweroutput, 能量输出口
-libvulpes:coalgenerator, 燃煤发电机
-libvulpes:motor, 马达
-libvulpes:advancedmotor, 高级马达
-libvulpes:enhancedmotor, 强化马达
-libvulpes:elitemotor, 精英马达
-libvulpes:productdust:0, 双锂 粉
-libvulpes:productdust:1, 铁 粉
-libvulpes:productdust:2, 金 粉
-libvulpes:productdust:3, 硅 粉
-libvulpes:productdust:4, 铜 粉
-libvulpes:productdust:5, 锡 粉
-libvulpes:productdust:6, 钢 粉
-libvulpes:productdust:7, 钛 粉
-libvulpes:productdust:9, 铝 粉
-libvulpes:productdust:10, 铱 粉
-libvulpes:productingot:3, 硅 锭
-libvulpes:productingot:4, 铜 锭
-libvulpes:productingot:5, 锡 锭
-libvulpes:productingot:6, 钢 锭
-libvulpes:productingot:7, 钛 锭
-libvulpes:productingot:9, 铝 锭
-libvulpes:productingot:10, 铱 锭
-libvulpes:productgem:0, 双锂 水晶
-libvulpes:productboule:3, 硅 球
-libvulpes:productnugget:3, 硅 粒
-libvulpes:productnugget:4, 铜 粒
-libvulpes:productnugget:5, 锡 粒
-libvulpes:productnugget:6, 钢 粒
-libvulpes:productnugget:7, 钛 粒
-libvulpes:productnugget:9, 铝 粒
-libvulpes:productnugget:10, 铱 粒
-libvulpes:productplate:1, 铁 板
-libvulpes:productplate:2, 金 板
-libvulpes:productplate:3, 硅 板
-libvulpes:productplate:4, 铜 板
-libvulpes:productplate:5, 锡 板
-libvulpes:productplate:6, 钢 板
-libvulpes:productplate:7, 钛 板
-libvulpes:productplate:9, 铝 板
-libvulpes:productplate:10, 铱 板
-libvulpes:productrod:1, 铁 棒
-libvulpes:productrod:4, 铜 棒
-libvulpes:productrod:6, 钢 棒
-libvulpes:productrod:7, 钛 棒
-libvulpes:productrod:10, 铱 棒
-libvulpes:productfan:6, 钢 扇叶
-libvulpes:productsheet:1, 铁 片
-libvulpes:productsheet:4, 铜 片
-libvulpes:productsheet:6, 钢 片
-libvulpes:productsheet:7, 钛 片
-libvulpes:productsheet:9, 铝 片
-libvulpes:productgear:6, 钢 齿轮
-libvulpes:productgear:7, 钛 齿轮
-libvulpes:ore0:0, 双锂 矿石
-libvulpes:ore0:4, 铜 矿石
-libvulpes:ore0:5, 锡 矿石
-libvulpes:ore0:8, 金红石 矿石
-libvulpes:ore0:9, 铝 矿石
-libvulpes:ore0:10, 铱 矿石
-libvulpes:metal0:4, 铜 块
-libvulpes:metal0:5, 锡 块
-libvulpes:metal0:6, 钢 块
-libvulpes:metal0:7, 钛 块
-libvulpes:metal0:9, 铝 块
-libvulpes:metal0:10, 铱 块
-libvulpes:coil0:2, 金 线圈
-libvulpes:coil0:4, 铜 线圈
-libvulpes:coil0:7, 钛 线圈
-libvulpes:coil0:9, 铝 线圈
-libvulpes:coil0:10, 铱 线圈
-advancedrocketry:launchpad, 发射台
-advancedrocketry:rocketbuilder, 火箭组装机
-advancedrocketry:structuretower, 结构塔
-advancedrocketry:seat, 座位
-advancedrocketry:rocketmotor, 单推进火箭发动机
-advancedrocketry:advrocketmotor, 高级火箭发动机
-advancedrocketry:fueltank, 单推进燃料箱
-advancedrocketry:fuelingstation, 燃油站
-advancedrocketry:monitoringstation, 火箭监测站
-advancedrocketry:satellitebuilder, 卫星建造机
-advancedrocketry:moonturf, 月面土
-advancedrocketry:moonturf_dark, 暗月草皮
-advancedrocketry:hotturf, 氧化铁砂
-advancedrocketry:loader:0, 数据总线
-advancedrocketry:loader:1, 卫星仓
-advancedrocketry:loader:2, 火箭卸载器
-advancedrocketry:loader:3, 火箭装载器
-advancedrocketry:loader:4, 火箭液体卸载器
-advancedrocketry:loader:5, 火箭液体装载器
-advancedrocketry:loader:6, 导航电脑访问舱口
-advancedrocketry:precisionassemblingmachine, 精确组装机
-advancedrocketry:blastbrick, 隔热砖
-advancedrocketry:quartzcrucible, 石英坩埚
-advancedrocketry:crystallizer, 结晶器
-advancedrocketry:cuttingmachine, 切割机
-advancedrocketry:alienwood, 木头
-advancedrocketry:alienleaves, 轻木树叶
-advancedrocketry:aliensapling, 轻木树苗
-advancedrocketry:observatory, 瞭望台
-advancedrocketry:blackholegenerator, 黑洞发电机
-advancedrocketry:concrete, 混凝土
-advancedrocketry:planetselector, 星球选择器
-advancedrocketry:satellitecontrolcenter, 卫星终端
-advancedrocketry:planetanalyser, 天体数据处理器
-advancedrocketry:guidancecomputer, 导航电脑
-advancedrocketry:arcfurnace, 电弧高炉
-advancedrocketry:sawblade, 电锯
-advancedrocketry:lathe, 车床
-advancedrocketry:rollingmachine, 卷板机
-advancedrocketry:platepress, 小型压板器
-advancedrocketry:stationbuilder, 太空站组装机
-advancedrocketry:electrolyser, 电解器
-advancedrocketry:chemicalreactor, 化学反应器
-advancedrocketry:oxygenscrubber, 二氧化碳净化器
-advancedrocketry:oxygenvent, 氧气排放口
-advancedrocketry:oxygencharger, 气体装填台
-advancedrocketry:airlock_door, tile.smallAirlockDoor.name
-advancedrocketry:landingpad, 停靠台
-advancedrocketry:warpcore, 跃迁核心
-advancedrocketry:warpmonitor, 跃迁控制器
-advancedrocketry:oxygendetection, 大气检测机
-advancedrocketry:unlittorch, 熄灭的火把
-advancedrocketry:geode, 晶簇方块
-advancedrocketry:oxygenfluid, 氧气
-advancedrocketry:hydrogenfluid, 氢气
-advancedrocketry:rocketfuel, 火箭燃料
-advancedrocketry:nitrogenfluid, 氮气
-advancedrocketry:enrichedlavafluid, 浓缩岩浆块
-advancedrocketry:vitrifiedsand, 玻璃化沙子
-advancedrocketry:charcoallog, 碳化树
-advancedrocketry:electricmushroom, 电蘑菇
-advancedrocketry:crystal:0, 紫水晶方块
-advancedrocketry:crystal:1, 蓝水晶方块
-advancedrocketry:crystal:2, 绿水晶方块
-advancedrocketry:crystal:3, 红水晶方块
-advancedrocketry:crystal:4, 黄水晶方块
-advancedrocketry:crystal:5, 橙水晶方块
-advancedrocketry:orientationcontroller, 方向控制器
-advancedrocketry:gravitycontroller, 空间站重力控制器
-advancedrocketry:drill, 钻头
-advancedrocketry:microwavereciever, 微波接收器
-advancedrocketry:lightsource, tile.lightSource.name
-advancedrocketry:solarpanel, 太阳能板
-advancedrocketry:suitworkstation, 太空服调节台
-advancedrocketry:biomescanner, 生物群系扫描仪
-advancedrocketry:terraformer, 大气修改器
-advancedrocketry:deployablerocketbuilder, 无人飞船组装器
-advancedrocketry:liquidtank, 压力槽
-advancedrocketry:intake, 气体收集器
-advancedrocketry:circlelight, 空间站光源
-advancedrocketry:solargenerator, 太阳能发电机
-advancedrocketry:stationmarker, 空间站停靠点
-advancedrocketry:altitudecontroller, 海拔控制器
-advancedrocketry:railgun, 方块大炮
-advancedrocketry:astrobed, tile.astroBed.name
-advancedrocketry:planetholoselector, 全息行星选择器
-advancedrocketry:blocklens, 透镜
-advancedrocketry:forcefield, 力场方块
-advancedrocketry:forcefieldprojector, 力场投射器
-advancedrocketry:pipesealer, 密封管
-advancedrocketry:spaceelevatorcontroller, 太空电梯
-advancedrocketry:beacon, 信标
-advancedrocketry:planks, 轻木木板
-advancedrocketry:thermitetorch, 热剂火把
-advancedrocketry:wirelesstransciever, 无线收发器
-advancedrocketry:blockpump, 机械流体泵管道
-advancedrocketry:centrifuge, 源质离心机
-advancedrocketry:basalt, 玄武岩
-advancedrocketry:landingfloat, 降落浮筒
-advancedrocketry:gravitymachine, 区域重力控制器
-advancedrocketry:spacelaser, 轨道激光钻
-advancedrocketry:productdust:0, 钛铝合金 粉
-advancedrocketry:productdust:1, 钛铱合金 粉
-advancedrocketry:productingot:0, 钛铝合金 锭
-advancedrocketry:productingot:1, 钛铱合金 锭
-advancedrocketry:productnugget:0, 钛铝合金 粒
-advancedrocketry:productnugget:1, 钛铱合金 粒
-advancedrocketry:productplate:0, 钛铝合金 板
-advancedrocketry:productplate:1, 钛铱合金 板
-advancedrocketry:productrod:0, 钛铝合金 棒
-advancedrocketry:productrod:1, 钛铱合金 棒
-advancedrocketry:productsheet:0, 钛铝合金 片
-advancedrocketry:productsheet:1, 钛铱合金 片
-advancedrocketry:productgear:0, 钛铝合金 齿轮
-advancedrocketry:productgear:1, 钛铱合金 齿轮
-advancedrocketry:metal0:0, 钛铝合金 块
-advancedrocketry:metal0:1, 钛铱合金 块
-libvulpes:linker, 连接器
-libvulpes:battery:0, 小号电池
-libvulpes:battery:1, 2x小号电池
-libvulpes:holoprojector, 全息投影器
-advancedrocketry:iquartzcrucible, 石英坩埚
-advancedrocketry:orescanner, 矿物扫描仪
-advancedrocketry:satellitepowersource:0, 基础太阳能板
-advancedrocketry:satellitepowersource:1, 大型太阳能板
-advancedrocketry:satelliteprimaryfunction:0, 光学传感器
-advancedrocketry:satelliteprimaryfunction:1, 成分传感器
-advancedrocketry:satelliteprimaryfunction:2, 质量检测器
-advancedrocketry:satelliteprimaryfunction:3, 微波传输器
-advancedrocketry:satelliteprimaryfunction:4, 矿物扫描仪
-advancedrocketry:satelliteprimaryfunction:5, 生物群落修改器
-advancedrocketry:itemcircuitplate:0, 基础电路板
-advancedrocketry:itemcircuitplate:1, 高级电路板
-advancedrocketry:ic:0, 基础芯片
-advancedrocketry:ic:1, 跟踪芯片
-advancedrocketry:ic:2, 高级芯片
-advancedrocketry:ic:3, 控制芯片板
-advancedrocketry:ic:4, 物品IO芯片板
-advancedrocketry:ic:5, 液体IO芯片板
-advancedrocketry:wafer:0, 硅晶圆
-advancedrocketry:dataunit:0, 数据存储单元
-advancedrocketry:satellite, 卫星
-advancedrocketry:satelliteidchip, 卫星ID芯片
-advancedrocketry:planetidchip, 星球ID芯片
-advancedrocketry:misc:0, 用户界面
-advancedrocketry:misc:1, 碳砖
-advancedrocketry:sawbladeiron:0, 铁锯片
-advancedrocketry:spacestationchip:0, 空间站ID芯片
-advancedrocketry:spacestation:0, 空间站容器
-advancedrocketry:spacehelmet, 太空头盔
-advancedrocketry:spaceboots, 太空鞋
-advancedrocketry:spacechestplate, 太空胸甲
-advancedrocketry:spaceleggings, 太空裤子
-advancedrocketry:bucketrocketfuel, 火箭燃料罐
-advancedrocketry:bucketnitrogen, 氮气罐
-advancedrocketry:buckethydrogen, 氢气罐
-advancedrocketry:bucketoxygen, 氧气罐
-advancedrocketry:bucketenrichedlava, 浓缩岩浆罐
-advancedrocketry:smallairlockdoor, 小气密门
-advancedrocketry:carbonscrubbercartridge, 碳收集器
-advancedrocketry:sealdetector, 气密检测器
-advancedrocketry:jackhammer, 气锤
-advancedrocketry:asteroidchip, 小行星ID芯片
-advancedrocketry:elevatorchip, 太空电梯芯片
-advancedrocketry:lens:0, 基础透镜
-advancedrocketry:jetpack, 飞行背包
-advancedrocketry:pressuretank:0, 低压槽
-advancedrocketry:pressuretank:1, 压力槽
-advancedrocketry:pressuretank:2, 高压槽
-advancedrocketry:pressuretank:3, 超高压槽
-advancedrocketry:itemupgrade:0, 悬停升级
-advancedrocketry:itemupgrade:1, 飞行速度控制升级
-advancedrocketry:itemupgrade:2, 仿生腿升级
-advancedrocketry:itemupgrade:3, 降落缓冲鞋
-advancedrocketry:itemupgrade:4, 雾镜
-advancedrocketry:atmanalyser, 大气分析器
-advancedrocketry:basiclasergun, 基础激光枪
-advancedrocketry:beaconfinder, 信标定位器
-advancedrocketry:thermite, 热剂
-advancedrocketry:hovercraft, 气垫飞行器
-advancedrocketry:biomechanger, 生物群系改变器遥控终端
 forge:bucketfilled, %s桶
 securitycraft:laser_block, 激光方块
 securitycraft:keypad, 键盘
@@ -2112,6 +1699,8 @@ securitycraft:reinforced_wooden_pressure_plate, Reinforced Wooden Pressure Plate
 securitycraft:reinforced_bookshelf, Reinforced Bookshelf
 securitycraft:reinforced_walls:0, Reinforced Cobblestone Wall
 securitycraft:reinforced_walls:1, Reinforced Mossy Cobblestone Wall
+securitycraft:reinforced_sticky_piston, Reinforced Sticky Piston
+securitycraft:reinforced_piston, Reinforced Piston
 securitycraft:reinforced_observer, Reinforced Observer
 securitycraft:reinforced_redstone_lamp, Reinforced Redstone Lamp
 securitycraft:reinforced_cobweb, Reinforced Cobweb
@@ -2129,6 +1718,7 @@ securitycraft:reinforced_lever, Reinforced Lever
 securitycraft:reinforced_hopper, Reinforced Hopper
 securitycraft:projector, Projector
 securitycraft:reinforced_cauldron, Reinforced Cauldron
+securitycraft:sonic_security_system, Sonic Security System
 securitycraft:stone_mine, 石头地雷
 securitycraft:dirt_mine, 泥土地雷
 securitycraft:cobblestone_mine, 圆石地雷
@@ -2144,7 +1734,7 @@ securitycraft:emerald_mine, Emerald Ore Mine
 securitycraft:quartz_mine, Nether Quartz Ore Mine
 securitycraft:furnace_mine, 熔炉地雷
 securitycraft:codebreaker, 编码破坏器
-securitycraft:door_indestructible_iron_item, 强化铁门
+securitycraft:door_indestructible_iron_item, 强化门
 securitycraft:scanner_door_item, 安全门
 securitycraft:universal_block_remover, 通用方块移除器
 securitycraft:keycard_lv1, 一级身份卡
@@ -2168,7 +1758,7 @@ securitycraft:disguise_module, 伪装模块
 securitycraft:speed_module, Speed Module
 securitycraft:wire_cutters, 剪线钳
 securitycraft:admin_tool, 管理员工具
-securitycraft:keypad_item, 键盘（物品）
+securitycraft:keypad_item, Key Panel
 securitycraft:camera_monitor, 摄像头监视器
 securitycraft:taser, 泰瑟枪
 securitycraft:sc_manual, SecurityCraft 指南
@@ -2183,6 +1773,7 @@ securitycraft:secret_sign_item, 安全告示牌
 securitycraft:sentry, 战斗哨石
 securitycraft:crystal_quartz_item, Crystal Quartz
 securitycraft:keypad_door_item, Keypad Door
+securitycraft:portable_tune_player, Portable Tune Player
 appliedenergistics2:quartz_ore, 赛特斯石英矿石
 appliedenergistics2:charged_quartz_ore, 充能赛特斯石英矿石
 appliedenergistics2:matrix_frame, 矩阵框架
@@ -2328,7 +1919,7 @@ appliedenergistics2:facade:0, 线缆伪装板 - 青金石矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 青金石块
 appliedenergistics2:facade:0, 线缆伪装板 - 砂岩
 appliedenergistics2:facade:0, 线缆伪装板 - 錾制砂岩
-appliedenergistics2:facade:0, 线缆伪装板 - 平滑砂岩
+appliedenergistics2:facade:0, 线缆伪装板 - 切制砂岩
 appliedenergistics2:facade:0, 线缆伪装板 - 白色羊毛
 appliedenergistics2:facade:0, 线缆伪装板 - 橙色羊毛
 appliedenergistics2:facade:0, 线缆伪装板 - 品红色羊毛
@@ -2435,7 +2026,7 @@ appliedenergistics2:facade:0, 线缆伪装板 - 煤炭块
 appliedenergistics2:facade:0, 线缆伪装板 - 浮冰
 appliedenergistics2:facade:0, 线缆伪装板 - 红砂岩
 appliedenergistics2:facade:0, 线缆伪装板 - 錾制红砂岩
-appliedenergistics2:facade:0, 线缆伪装板 - 平滑红砂岩
+appliedenergistics2:facade:0, 线缆伪装板 - 切制红砂岩
 appliedenergistics2:facade:0, 线缆伪装板 - 紫珀块
 appliedenergistics2:facade:0, 线缆伪装板 - 竖纹紫珀块
 appliedenergistics2:facade:0, 线缆伪装板 - 末地石砖
@@ -2531,11 +2122,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - 蜂蜜块
 appliedenergistics2:facade:0, 线缆伪装板 - 竹块
 appliedenergistics2:facade:0, 线缆伪装板 - 泥砖
 appliedenergistics2:facade:0, 线缆伪装板 - 神圣橡木木板
-appliedenergistics2:facade:0, 线缆伪装板 - 铁边框圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 金边框圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 钻石边框圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 绿宝石边框圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 石英边框圆石
 appliedenergistics2:facade:0, 线缆伪装板 - 荒古原木
 appliedenergistics2:facade:0, 线缆伪装板 - 荒古树皮
 appliedenergistics2:facade:0, 线缆伪装板 - 荒古木板
@@ -2550,65 +2136,14 @@ appliedenergistics2:facade:0, 线缆伪装板 - 嬗变催化器
 appliedenergistics2:facade:0, 线缆伪装板 - 粉碎催化器
 appliedenergistics2:facade:0, 线缆伪装板 - 灌注铁块
 appliedenergistics2:facade:0, 线缆伪装板 - 金色石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变色块
-appliedenergistics2:facade:0, 线缆伪装板 - 末地石
+appliedenergistics2:facade:0, 线缆伪装板 - 铁边框圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 金边框圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 钻石边框圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 绿宝石边框圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 石英边框圆石
 appliedenergistics2:facade:0, 线缆伪装板 - 电梯
 appliedenergistics2:facade:0, 线缆伪装板 - 海绵
 appliedenergistics2:facade:0, 线缆伪装板 - 脚手架
-appliedenergistics2:facade:0, 线缆伪装板 - 机器结构方块
-appliedenergistics2:facade:0, 线缆伪装板 - 高级机器结构方块
-appliedenergistics2:facade:0, 线缆伪装板 - 马达
-appliedenergistics2:facade:0, 线缆伪装板 - 高级马达
-appliedenergistics2:facade:0, 线缆伪装板 - 强化马达
-appliedenergistics2:facade:0, 线缆伪装板 - 精英马达
-appliedenergistics2:facade:0, 线缆伪装板 - 双锂 矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 铜 矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 锡 矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 金红石 矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 铝 矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 铱 矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 铜 块
-appliedenergistics2:facade:0, 线缆伪装板 - 锡 块
-appliedenergistics2:facade:0, 线缆伪装板 - 钢 块
-appliedenergistics2:facade:0, 线缆伪装板 - 钛 块
-appliedenergistics2:facade:0, 线缆伪装板 - 铝 块
-appliedenergistics2:facade:0, 线缆伪装板 - 铱 块
-appliedenergistics2:facade:0, 线缆伪装板 - 金 线圈
-appliedenergistics2:facade:0, 线缆伪装板 - 铜 线圈
-appliedenergistics2:facade:0, 线缆伪装板 - 钛 线圈
-appliedenergistics2:facade:0, 线缆伪装板 - 铝 线圈
-appliedenergistics2:facade:0, 线缆伪装板 - 铱 线圈
-appliedenergistics2:facade:0, 线缆伪装板 - 发射台
-appliedenergistics2:facade:0, 线缆伪装板 - 结构塔
-appliedenergistics2:facade:0, 线缆伪装板 - 单推进火箭发动机
-appliedenergistics2:facade:0, 线缆伪装板 - 高级火箭发动机
-appliedenergistics2:facade:0, 线缆伪装板 - 单推进燃料箱
-appliedenergistics2:facade:0, 线缆伪装板 - 月面土
-appliedenergistics2:facade:0, 线缆伪装板 - 暗月草皮
-appliedenergistics2:facade:0, 线缆伪装板 - 氧化铁砂
-appliedenergistics2:facade:0, 线缆伪装板 - 隔热砖
-appliedenergistics2:facade:0, 线缆伪装板 - 木头
-appliedenergistics2:facade:0, 线缆伪装板 - 轻木树叶
-appliedenergistics2:facade:0, 线缆伪装板 - 混凝土
-appliedenergistics2:facade:0, 线缆伪装板 - 电锯
-appliedenergistics2:facade:0, 线缆伪装板 - 晶簇方块
-appliedenergistics2:facade:0, 线缆伪装板 - 玻璃化沙子
-appliedenergistics2:facade:0, 线缆伪装板 - 碳化树
-appliedenergistics2:facade:0, 线缆伪装板 - 紫水晶方块
-appliedenergistics2:facade:0, 线缆伪装板 - 蓝水晶方块
-appliedenergistics2:facade:0, 线缆伪装板 - 绿水晶方块
-appliedenergistics2:facade:0, 线缆伪装板 - 红水晶方块
-appliedenergistics2:facade:0, 线缆伪装板 - 黄水晶方块
-appliedenergistics2:facade:0, 线缆伪装板 - 橙水晶方块
-appliedenergistics2:facade:0, 线缆伪装板 - 钻头
-appliedenergistics2:facade:0, 线缆伪装板 - 太阳能板
-appliedenergistics2:facade:0, 线缆伪装板 - 气体收集器
-appliedenergistics2:facade:0, 线缆伪装板 - 空间站光源
-appliedenergistics2:facade:0, 线缆伪装板 - 轻木木板
-appliedenergistics2:facade:0, 线缆伪装板 - 玄武岩
-appliedenergistics2:facade:0, 线缆伪装板 - 降落浮筒
-appliedenergistics2:facade:0, 线缆伪装板 - 钛铝合金 块
-appliedenergistics2:facade:0, 线缆伪装板 - 钛铱合金 块
 appliedenergistics2:facade:0, 线缆伪装板 - 水晶石英块
 appliedenergistics2:facade:0, 线缆伪装板 - 錾制水晶石英块
 appliedenergistics2:facade:0, 线缆伪装板 - Pillar Crystal Quartz Block
@@ -2624,26 +2159,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - 陨石
 appliedenergistics2:facade:0, 线缆伪装板 - 陨石块
 appliedenergistics2:facade:0, 线缆伪装板 - 陨石石砖
 appliedenergistics2:facade:0, 线缆伪装板 - 陨石砖块
-appliedenergistics2:facade:0, 线缆伪装板 - 沼泽木树叶
-appliedenergistics2:facade:0, 线缆伪装板 - 白色洞穴水晶
-appliedenergistics2:facade:0, 线缆伪装板 - 末影云母矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 云母块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制云母块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹云母块
-appliedenergistics2:facade:0, 线缆伪装板 - 玄武岩
-appliedenergistics2:facade:0, 线缆伪装板 - 大理石
-appliedenergistics2:facade:0, 线缆伪装板 - 石灰石
-appliedenergistics2:facade:0, 线缆伪装板 - 黄石
-appliedenergistics2:facade:0, 线缆伪装板 - 青石
-appliedenergistics2:facade:0, 线缆伪装板 - 硫黄石
-appliedenergistics2:facade:0, 线缆伪装板 - 硫黄石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 老化海晶石
-appliedenergistics2:facade:0, 线缆伪装板 - 老化海晶灯
-appliedenergistics2:facade:0, 线缆伪装板 - 荧光菌丝
-appliedenergistics2:facade:0, 线缆伪装板 - 荧光菇
-appliedenergistics2:facade:0, 线缆伪装板 - 云杉木书架
-appliedenergistics2:facade:0, 线缆伪装板 - 点亮的红石灯
-appliedenergistics2:facade:0, 线缆伪装板 - 烈焰灯
 appliedenergistics2:facade:0, 线缆伪装板 - 磨制砂岩
 appliedenergistics2:facade:0, 线缆伪装板 - 磨制石头
 appliedenergistics2:facade:0, 线缆伪装板 - 白色染色木板
@@ -2675,6 +2190,26 @@ appliedenergistics2:facade:0, 线缆伪装板 - 白色缝边羊毛
 appliedenergistics2:facade:0, 线缆伪装板 - 糖方块
 appliedenergistics2:facade:0, 线缆伪装板 - 红色粘液块
 appliedenergistics2:facade:0, 线缆伪装板 - 末影沙
+appliedenergistics2:facade:0, 线缆伪装板 - 沼泽木树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 白色洞穴水晶
+appliedenergistics2:facade:0, 线缆伪装板 - 末影云母矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 云母块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制云母块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹云母块
+appliedenergistics2:facade:0, 线缆伪装板 - 玄武岩
+appliedenergistics2:facade:0, 线缆伪装板 - 大理石
+appliedenergistics2:facade:0, 线缆伪装板 - 石灰石
+appliedenergistics2:facade:0, 线缆伪装板 - 黄石
+appliedenergistics2:facade:0, 线缆伪装板 - 青石
+appliedenergistics2:facade:0, 线缆伪装板 - 硫黄石
+appliedenergistics2:facade:0, 线缆伪装板 - 硫黄石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 老化海晶石
+appliedenergistics2:facade:0, 线缆伪装板 - 老化海晶灯
+appliedenergistics2:facade:0, 线缆伪装板 - 荧光菌丝
+appliedenergistics2:facade:0, 线缆伪装板 - 荧光菇
+appliedenergistics2:facade:0, 线缆伪装板 - 云杉木书架
+appliedenergistics2:facade:0, 线缆伪装板 - 点亮的红石灯
+appliedenergistics2:facade:0, 线缆伪装板 - 烈焰灯
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Emerald Ore
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Diamond Ore
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Redstone Ore
@@ -2862,13 +2397,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - 腐沙
 appliedenergistics2:facade:0, 线缆伪装板 - 腐沙
 appliedenergistics2:facade:0, 线缆伪装板 - 腐沙
 appliedenergistics2:facade:0, 线缆伪装板 - 重生方尖碑（未激活）
-appliedenergistics2:facade:0, 线缆伪装板 - 橡木桥接方块
-appliedenergistics2:facade:0, 线缆伪装板 - 云杉木桥接方块
-appliedenergistics2:facade:0, 线缆伪装板 - 白桦木桥接方块
-appliedenergistics2:facade:0, 线缆伪装板 - 丛林木桥接方块
-appliedenergistics2:facade:0, 线缆伪装板 - 金合欢木桥接方块
-appliedenergistics2:facade:0, 线缆伪装板 - 深色橡木桥接方块
-appliedenergistics2:facade:0, 线缆伪装板 - 龙卷风传感器
 appliedenergistics2:facade:0, 线缆伪装板 - 水泉
 appliedenergistics2:facade:0, 线缆伪装板 - 油泉
 appliedenergistics2:facade:0, 线缆伪装板 - tile.decorated.destroy.name
@@ -3097,261 +2625,6 @@ appliedenergistics2:part:220, ME存储总线
 appliedenergistics2:part:400, ME存储监控器
 appliedenergistics2:part:380, ME终端
 appliedenergistics2:part:80, ME触发总线
-quark:roots, tile.roots.name
-quark:root, item.root.name
-quark:roots_blue_flower, tile.roots_blue_flower.name
-quark:roots_black_flower, tile.roots_black_flower.name
-quark:roots_white_flower, tile.roots_white_flower.name
-quark:root_flower:0, 蓝色洞穴块根
-quark:root_flower:1, 黑色洞穴块根
-quark:root_flower:2, 白色洞穴块根
-quark:root_dye:0, 蓝色染料
-quark:root_dye:1, 黑色染料
-quark:root_dye:2, 白色染料
-quark:diamond_heart, item.diamond_heart.name
-quark:archaeologist_hat, item.archaeologist_hat.name
-quark:variant_leaves:0, 沼泽木树叶
-quark:variant_leaves:1, 樱花树叶
-quark:variant_sapling:0, 沼泽木树苗
-quark:variant_sapling:1, 樱花树树苗
-quark:crystal:0, 白色洞穴水晶
-quark:crystal:1, 红色洞穴水晶
-quark:crystal:2, 橙色洞穴水晶
-quark:crystal:3, 黄色洞穴水晶
-quark:crystal:4, 绿色洞穴水晶
-quark:crystal:5, 青色洞穴水晶
-quark:crystal:6, 蓝色洞穴水晶
-quark:crystal:7, 紫色洞穴水晶
-quark:crystal:8, 黑色洞穴水晶
-quark:crystal_pane:0, 白色洞穴水晶薄板
-quark:crystal_pane:1, 红色洞穴水晶薄板
-quark:crystal_pane:2, 橙色洞穴水晶薄板
-quark:crystal_pane:3, 黄色洞穴水晶薄板
-quark:crystal_pane:4, 绿色洞穴水晶薄板
-quark:crystal_pane:5, 青色洞穴水晶薄板
-quark:crystal_pane:6, 蓝色洞穴水晶薄板
-quark:crystal_pane:7, 紫色洞穴水晶薄板
-quark:crystal_pane:8, 黑色洞穴水晶薄板
-quark:stone_speleothem, tile.stone_speleothem.name
-quark:granite_speleothem, tile.granite_speleothem.name
-quark:diorite_speleothem, tile.diorite_speleothem.name
-quark:andesite_speleothem, tile.andesite_speleothem.name
-quark:netherrack_speleothem, tile.netherrack_speleothem.name
-quark:basalt_speleothem, tile.basalt_speleothem.name
-quark:marble_speleothem, tile.marble_speleothem.name
-quark:limestone_speleothem, tile.limestone_speleothem.name
-quark:jasper_speleothem, tile.jasper_speleothem.name
-quark:slate_speleothem, tile.slate_speleothem.name
-quark:biotite_ore, tile.biotite_ore.name
-quark:biotite_block:0, 云母块
-quark:biotite_block:1, 錾制云母块
-quark:biotite_block:2, 竖纹云母块
-quark:biotite, item.biotite.name
-quark:biotite_slab:0, 云母台阶
-quark:biotite_stairs, tile.biotite_stairs.name
-quark:biotite_wall, tile.biotite_wall.name
-quark:monster_box, 陷阱刷怪箱
-quark:basalt:0, 玄武岩
-quark:basalt:1, 磨制玄武岩
-quark:stone_basalt_slab:0, 玄武岩台阶
-quark:stone_basalt_stairs, tile.stone_basalt_stairs.name
-quark:basalt_wall, tile.basalt_wall.name
-quark:frog_leg, 蟾蜍腿
-quark:cooked_frog_leg, 煮熟的蟾蜍腿
-quark:golden_frog_leg, item.golden_frog_leg.name
-quark:pirate_hat, 海盗帽
-quark:crab_leg, item.crab_leg.name
-quark:cooked_crab_leg, item.cooked_crab_leg.name
-quark:crab_shell, item.crab_shell.name
-quark:marble:0, 大理石
-quark:marble:1, 磨制大理石
-quark:stone_marble_slab:0, 大理石台阶
-quark:stone_marble_stairs, tile.stone_marble_stairs.name
-quark:marble_wall, tile.marble_wall.name
-quark:limestone:0, 石灰石
-quark:limestone:1, 磨制石灰石
-quark:stone_limestone_slab:0, 石灰石台阶
-quark:stone_limestone_stairs, tile.stone_limestone_stairs.name
-quark:limestone_wall, tile.limestone_wall.name
-quark:jasper:0, 黄石
-quark:jasper:1, 磨制黄石
-quark:stone_jasper_slab:0, 黄石台阶
-quark:stone_jasper_stairs, tile.stone_jasper_stairs.name
-quark:jasper_wall, tile.jasper_wall.name
-quark:slate:0, 青石
-quark:slate:1, 磨制青石
-quark:stone_slate_slab:0, 青石台阶
-quark:stone_slate_stairs, tile.stone_slate_stairs.name
-quark:slate_wall, tile.slate_wall.name
-quark:biome_cobblestone:0, 硫黄石
-quark:biome_cobblestone:1, 永冻石
-quark:biome_cobblestone:2, 鹅卵石
-quark:biome_brick:0, 硫黄石砖
-quark:biome_brick:1, 永冻石砖
-quark:elder_prismarine:0, 老化海晶石
-quark:elder_prismarine:1, 老化海晶石砖
-quark:elder_prismarine:2, 黑暗老化海晶石
-quark:elder_sea_lantern, tile.elder_sea_lantern.name
-quark:fire_stone_slab:0, 硫黄石台阶
-quark:fire_stone_stairs, tile.fire_stone_stairs.name
-quark:fire_stone_brick_slab:0, 硫黄石砖台阶
-quark:fire_stone_brick_stairs, tile.fire_stone_brick_stairs.name
-quark:icy_stone_slab:0, 永冻石台阶
-quark:icy_stone_stairs, tile.icy_stone_stairs.name
-quark:icy_stone_brick_slab:0, 永冻石砖台阶
-quark:icy_stone_brick_stairs, tile.icy_stone_brick_stairs.name
-quark:cobbed_stone_slab:0, 鹅卵石台阶
-quark:cobbed_stone_stairs, tile.cobbed_stone_stairs.name
-quark:elder_prismarine_slab:0, 老化海晶石台阶
-quark:elder_prismarine_stairs, tile.elder_prismarine_stairs.name
-quark:elder_prismarine_bricks_slab:0, 老化海晶石转台阶
-quark:elder_prismarine_bricks_stairs, tile.elder_prismarine_bricks_stairs.name
-quark:elder_prismarine_dark_slab:0, 黑暗老化海晶石台阶
-quark:elder_prismarine_dark_stairs, tile.elder_prismarine_dark_stairs.name
-quark:fire_stone_wall, tile.fire_stone_wall.name
-quark:icy_stone_wall, tile.icy_stone_wall.name
-quark:cobbed_stone_wall, tile.cobbed_stone_wall.name
-quark:fire_stone_brick_wall, tile.fire_stone_brick_wall.name
-quark:icy_stone_brick_wall, tile.icy_stone_brick_wall.name
-quark:elder_prismarine_wall, tile.elder_prismarine_wall.name
-quark:elder_prismarine_bricks_wall, tile.elder_prismarine_bricks_wall.name
-quark:elder_prismarine_dark_wall, tile.elder_prismarine_dark_wall.name
-quark:glowcelium, 荧光菌丝
-quark:glowshroom, tile.glowshroom.name
-quark:glowshroom_block, tile.glowshroom_block.name
-quark:soul_bead, item.soul_bead.name
-quark:smoker, 烟口
-quark:spruce_trapdoor, tile.spruce_trapdoor.name
-quark:birch_trapdoor, tile.birch_trapdoor.name
-quark:jungle_trapdoor, tile.jungle_trapdoor.name
-quark:acacia_trapdoor, tile.acacia_trapdoor.name
-quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
-quark:paper_wall, 纸框墙
-quark:paper_wall_big, tile.paper_wall_big.name
-quark:paper_wall_sakura, tile.paper_wall_sakura.name
-quark:iron_ladder, tile.iron_ladder.name
-quark:paper_lantern:0, 纸灯笼
-quark:paper_lantern:1, 装饰过的纸灯笼
-quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
-quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
-quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
-quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
-quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
-quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
-quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
-quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
-quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
-quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
-quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
-quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
-quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
-quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
-quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
-quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
-quark:custom_bookshelf:0, 云杉木书架
-quark:custom_bookshelf:1, 白桦木书架
-quark:custom_bookshelf:2, 丛林木书架
-quark:custom_bookshelf:3, 金合欢木书架
-quark:custom_bookshelf:4, 深色橡木书架
-quark:colored_item_frame:0, 白色物品展示框
-quark:colored_item_frame:1, 橙色物品展示框
-quark:colored_item_frame:2, 品红色物品展示框
-quark:colored_item_frame:3, 淡蓝色物品展示框
-quark:colored_item_frame:4, 黄色物品展示框
-quark:colored_item_frame:5, 黄绿色物品展示框
-quark:colored_item_frame:6, 粉红色物品展示框
-quark:colored_item_frame:7, 灰色物品展示框
-quark:colored_item_frame:8, 淡灰色物品展示框
-quark:colored_item_frame:9, 青色物品展示框
-quark:colored_item_frame:10, 紫色物品展示框
-quark:colored_item_frame:11, 蓝色物品展示框
-quark:colored_item_frame:12, 棕色物品展示框
-quark:colored_item_frame:13, 绿色物品展示框
-quark:colored_item_frame:14, 红色物品展示框
-quark:colored_item_frame:15, 黑色物品展示框
-quark:lit_lamp, tile.lit_lamp.name
-quark:custom_chest:0, 云杉木箱子
-quark:custom_chest:1, 白桦木箱子
-quark:custom_chest:2, 丛林木箱子
-quark:custom_chest:3, 金合欢木箱子
-quark:custom_chest:4, 深色橡木箱子
-quark:custom_chest_trap:0, 云杉木陷阱箱
-quark:custom_chest_trap:1, 白桦木陷阱箱
-quark:custom_chest_trap:2, 丛林木陷阱箱
-quark:custom_chest_trap:3, 金合欢木陷阱箱
-quark:custom_chest_trap:4, 深色橡木陷阱箱
-quark:candle:0, 白色蜡烛
-quark:candle:1, 橙色蜡烛
-quark:candle:2, 品红色蜡烛
-quark:candle:3, 淡蓝色蜡烛
-quark:candle:4, 黄色蜡烛
-quark:candle:5, 黄绿色蜡烛
-quark:candle:6, 粉红色蜡烛
-quark:candle:7, 灰色蜡烛
-quark:candle:8, 淡灰色蜡烛
-quark:candle:9, 青色蜡烛
-quark:candle:10, 紫色蜡烛
-quark:candle:11, 蓝色蜡烛
-quark:candle:12, 棕色蜡烛
-quark:candle:13, 绿色蜡烛
-quark:candle:14, 红色蜡烛
-quark:candle:15, 黑色蜡烛
-quark:tallow, 魔力油脂
-quark:rope, tile.rope.name
-quark:blaze_lantern, tile.blaze_lantern.name
-quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
-quark:leaf_carpet:0, 橡树树叶地毯
-quark:leaf_carpet:1, 云杉树叶地毯
-quark:leaf_carpet:2, 白桦树叶地毯
-quark:leaf_carpet:3, 丛林树叶地毯
-quark:leaf_carpet:4, 金合欢树叶地毯
-quark:leaf_carpet:5, 深色橡树树叶地毯
-quark:leaf_carpet:6, 沼泽木树叶地毯
-quark:leaf_carpet:7, 樱花树叶地毯
-quark:spruce_pressure_plate, tile.spruce_pressure_plate.name
-quark:birch_pressure_plate, tile.birch_pressure_plate.name
-quark:jungle_pressure_plate, tile.jungle_pressure_plate.name
-quark:acacia_pressure_plate, tile.acacia_pressure_plate.name
-quark:dark_oak_pressure_plate, tile.dark_oak_pressure_plate.name
-quark:spruce_button, tile.spruce_button.name
-quark:birch_button, tile.birch_button.name
-quark:jungle_button, tile.jungle_button.name
-quark:acacia_button, tile.acacia_button.name
-quark:dark_oak_button, tile.dark_oak_button.name
-quark:grate, tile.grate.name
-quark:glass_item_frame, item.glass_item_frame.name
-quark:pickarang, item.pickarang.name
-quark:arrow_ender, item.arrow_ender.name
-quark:arrow_explosive, item.arrow_explosive.name
-quark:arrow_torch, item.arrow_torch.name
-quark:slime_bucket:0, 桶装史莱姆
-quark:rune:0, 白色符文
-quark:rune:1, 橙色符文
-quark:rune:2, 品红色符文
-quark:rune:3, 淡蓝色符文
-quark:rune:4, 黄色符文
-quark:rune:5, 黄绿色符文
-quark:rune:6, 粉红色符文
-quark:rune:7, 灰色符文
-quark:rune:8, 淡灰色符文
-quark:rune:9, 青色符文
-quark:rune:10, 紫色符文
-quark:rune:11, 蓝色符文
-quark:rune:12, 棕色符文
-quark:rune:13, 绿色符文
-quark:rune:14, 红色符文
-quark:rune:15, 黑色符文
-quark:rune:16, 七彩符文
-quark:black_ash, tile.black_ash.name
-quark:ancient_tome, item.ancient_tome.name
-quark:horse_whistle, item.horse_whistle.name
-quark:soul_powder, item.soul_powder.name
-quark:parrot_egg:0, 红色鹦鹉蛋
-quark:parrot_egg:1, 蓝色鹦鹉蛋
-quark:parrot_egg:2, 绿色鹦鹉蛋
-quark:parrot_egg:3, 青色鹦鹉蛋
-quark:parrot_egg:4, 灰色鹦鹉蛋
-quark:enderdragon_scale, item.enderdragon_scale.name
 quark:sandstone_new:0, 磨制砂岩
 quark:sandstone_new:1, 砂岩砖
 quark:sandstone_new:2, 磨制红砂岩
@@ -3672,6 +2945,179 @@ quark:quilted_wool:12, 棕色缝边羊毛
 quark:quilted_wool:13, 绿色缝边羊毛
 quark:quilted_wool:14, 红色缝边羊毛
 quark:quilted_wool:15, 黑色缝边羊毛
+quark:pickarang, item.pickarang.name
+quark:arrow_ender, item.arrow_ender.name
+quark:arrow_explosive, item.arrow_explosive.name
+quark:arrow_torch, item.arrow_torch.name
+quark:slime_bucket:0, 桶装史莱姆
+quark:rune:0, 白色符文
+quark:rune:1, 橙色符文
+quark:rune:2, 品红色符文
+quark:rune:3, 淡蓝色符文
+quark:rune:4, 黄色符文
+quark:rune:5, 黄绿色符文
+quark:rune:6, 粉红色符文
+quark:rune:7, 灰色符文
+quark:rune:8, 淡灰色符文
+quark:rune:9, 青色符文
+quark:rune:10, 紫色符文
+quark:rune:11, 蓝色符文
+quark:rune:12, 棕色符文
+quark:rune:13, 绿色符文
+quark:rune:14, 红色符文
+quark:rune:15, 黑色符文
+quark:rune:16, 七彩符文
+quark:black_ash, tile.black_ash.name
+quark:ancient_tome, item.ancient_tome.name
+quark:horse_whistle, item.horse_whistle.name
+quark:soul_powder, item.soul_powder.name
+quark:parrot_egg:0, 红色鹦鹉蛋
+quark:parrot_egg:1, 蓝色鹦鹉蛋
+quark:parrot_egg:2, 绿色鹦鹉蛋
+quark:parrot_egg:3, 青色鹦鹉蛋
+quark:parrot_egg:4, 灰色鹦鹉蛋
+quark:enderdragon_scale, item.enderdragon_scale.name
+quark:chute, 滑槽漏斗
+quark:sugar_block, tile.sugar_block.name
+quark:redstone_randomizer, tile.redstone_randomizer.name
+quark:iron_button, tile.iron_button.name
+quark:gold_button, tile.gold_button.name
+quark:ender_watcher, tile.ender_watcher.name
+quark:iron_rod, tile.iron_rod.name
+quark:color_slime:0, 红色粘液块
+quark:color_slime:1, 蓝色粘液块
+quark:color_slime:2, 青色粘液块
+quark:color_slime:3, 品红色粘液块
+quark:color_slime:4, 黄色粘液块
+quark:gravisand, tile.gravisand.name
+quark:redstone_inductor, tile.redstone_inductor.name
+quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
+quark:rain_detector, tile.rain_detector.name
+quark:chain, item.chain.name
+quark:roots, tile.roots.name
+quark:root, item.root.name
+quark:roots_blue_flower, tile.roots_blue_flower.name
+quark:roots_black_flower, tile.roots_black_flower.name
+quark:roots_white_flower, tile.roots_white_flower.name
+quark:root_flower:0, 蓝色洞穴块根
+quark:root_flower:1, 黑色洞穴块根
+quark:root_flower:2, 白色洞穴块根
+quark:root_dye:0, 蓝色染料
+quark:root_dye:1, 黑色染料
+quark:root_dye:2, 白色染料
+quark:diamond_heart, item.diamond_heart.name
+quark:archaeologist_hat, item.archaeologist_hat.name
+quark:variant_leaves:0, 沼泽木树叶
+quark:variant_leaves:1, 樱花树叶
+quark:variant_sapling:0, 沼泽木树苗
+quark:variant_sapling:1, 樱花树树苗
+quark:crystal:0, 白色洞穴水晶
+quark:crystal:1, 红色洞穴水晶
+quark:crystal:2, 橙色洞穴水晶
+quark:crystal:3, 黄色洞穴水晶
+quark:crystal:4, 绿色洞穴水晶
+quark:crystal:5, 青色洞穴水晶
+quark:crystal:6, 蓝色洞穴水晶
+quark:crystal:7, 紫色洞穴水晶
+quark:crystal:8, 黑色洞穴水晶
+quark:crystal_pane:0, 白色洞穴水晶薄板
+quark:crystal_pane:1, 红色洞穴水晶薄板
+quark:crystal_pane:2, 橙色洞穴水晶薄板
+quark:crystal_pane:3, 黄色洞穴水晶薄板
+quark:crystal_pane:4, 绿色洞穴水晶薄板
+quark:crystal_pane:5, 青色洞穴水晶薄板
+quark:crystal_pane:6, 蓝色洞穴水晶薄板
+quark:crystal_pane:7, 紫色洞穴水晶薄板
+quark:crystal_pane:8, 黑色洞穴水晶薄板
+quark:stone_speleothem, tile.stone_speleothem.name
+quark:granite_speleothem, tile.granite_speleothem.name
+quark:diorite_speleothem, tile.diorite_speleothem.name
+quark:andesite_speleothem, tile.andesite_speleothem.name
+quark:netherrack_speleothem, tile.netherrack_speleothem.name
+quark:basalt_speleothem, tile.basalt_speleothem.name
+quark:marble_speleothem, tile.marble_speleothem.name
+quark:limestone_speleothem, tile.limestone_speleothem.name
+quark:jasper_speleothem, tile.jasper_speleothem.name
+quark:slate_speleothem, tile.slate_speleothem.name
+quark:biotite_ore, tile.biotite_ore.name
+quark:biotite_block:0, 云母块
+quark:biotite_block:1, 錾制云母块
+quark:biotite_block:2, 竖纹云母块
+quark:biotite, item.biotite.name
+quark:biotite_slab:0, 云母台阶
+quark:biotite_stairs, tile.biotite_stairs.name
+quark:biotite_wall, tile.biotite_wall.name
+quark:monster_box, 陷阱刷怪箱
+quark:basalt:0, 玄武岩
+quark:basalt:1, 磨制玄武岩
+quark:stone_basalt_slab:0, 玄武岩台阶
+quark:stone_basalt_stairs, tile.stone_basalt_stairs.name
+quark:basalt_wall, tile.basalt_wall.name
+quark:frog_leg, 蟾蜍腿
+quark:cooked_frog_leg, 煮熟的蟾蜍腿
+quark:golden_frog_leg, item.golden_frog_leg.name
+quark:pirate_hat, 海盗帽
+quark:crab_leg, item.crab_leg.name
+quark:cooked_crab_leg, item.cooked_crab_leg.name
+quark:crab_shell, item.crab_shell.name
+quark:marble:0, 大理石
+quark:marble:1, 磨制大理石
+quark:stone_marble_slab:0, 大理石台阶
+quark:stone_marble_stairs, tile.stone_marble_stairs.name
+quark:marble_wall, tile.marble_wall.name
+quark:limestone:0, 石灰石
+quark:limestone:1, 磨制石灰石
+quark:stone_limestone_slab:0, 石灰石台阶
+quark:stone_limestone_stairs, tile.stone_limestone_stairs.name
+quark:limestone_wall, tile.limestone_wall.name
+quark:jasper:0, 黄石
+quark:jasper:1, 磨制黄石
+quark:stone_jasper_slab:0, 黄石台阶
+quark:stone_jasper_stairs, tile.stone_jasper_stairs.name
+quark:jasper_wall, tile.jasper_wall.name
+quark:slate:0, 青石
+quark:slate:1, 磨制青石
+quark:stone_slate_slab:0, 青石台阶
+quark:stone_slate_stairs, tile.stone_slate_stairs.name
+quark:slate_wall, tile.slate_wall.name
+quark:biome_cobblestone:0, 硫黄石
+quark:biome_cobblestone:1, 永冻石
+quark:biome_cobblestone:2, 鹅卵石
+quark:biome_brick:0, 硫黄石砖
+quark:biome_brick:1, 永冻石砖
+quark:elder_prismarine:0, 老化海晶石
+quark:elder_prismarine:1, 老化海晶石砖
+quark:elder_prismarine:2, 黑暗老化海晶石
+quark:elder_sea_lantern, tile.elder_sea_lantern.name
+quark:fire_stone_slab:0, 硫黄石台阶
+quark:fire_stone_stairs, tile.fire_stone_stairs.name
+quark:fire_stone_brick_slab:0, 硫黄石砖台阶
+quark:fire_stone_brick_stairs, tile.fire_stone_brick_stairs.name
+quark:icy_stone_slab:0, 永冻石台阶
+quark:icy_stone_stairs, tile.icy_stone_stairs.name
+quark:icy_stone_brick_slab:0, 永冻石砖台阶
+quark:icy_stone_brick_stairs, tile.icy_stone_brick_stairs.name
+quark:cobbed_stone_slab:0, 鹅卵石台阶
+quark:cobbed_stone_stairs, tile.cobbed_stone_stairs.name
+quark:elder_prismarine_slab:0, 老化海晶石台阶
+quark:elder_prismarine_stairs, tile.elder_prismarine_stairs.name
+quark:elder_prismarine_bricks_slab:0, 老化海晶石转台阶
+quark:elder_prismarine_bricks_stairs, tile.elder_prismarine_bricks_stairs.name
+quark:elder_prismarine_dark_slab:0, 黑暗老化海晶石台阶
+quark:elder_prismarine_dark_stairs, tile.elder_prismarine_dark_stairs.name
+quark:fire_stone_wall, tile.fire_stone_wall.name
+quark:icy_stone_wall, tile.icy_stone_wall.name
+quark:cobbed_stone_wall, tile.cobbed_stone_wall.name
+quark:fire_stone_brick_wall, tile.fire_stone_brick_wall.name
+quark:icy_stone_brick_wall, tile.icy_stone_brick_wall.name
+quark:elder_prismarine_wall, tile.elder_prismarine_wall.name
+quark:elder_prismarine_bricks_wall, tile.elder_prismarine_bricks_wall.name
+quark:elder_prismarine_dark_wall, tile.elder_prismarine_dark_wall.name
+quark:glowcelium, 荧光菌丝
+quark:glowshroom, tile.glowshroom.name
+quark:glowshroom_block, tile.glowshroom_block.name
+quark:soul_bead, item.soul_bead.name
+quark:smoker, 烟口
 quark:witch_hat, item.witch_hat.name
 quark:glass_shards:0, 玻璃碎片
 quark:glass_shards:1, 白色玻璃碎片
@@ -3690,27 +3136,105 @@ quark:glass_shards:13, 棕色玻璃碎片
 quark:glass_shards:14, 绿色玻璃碎片
 quark:glass_shards:15, 红色玻璃碎片
 quark:glass_shards:16, 黑色玻璃碎片
-quark:chute, 滑槽漏斗
-quark:sugar_block, tile.sugar_block.name
-quark:redstone_randomizer, tile.redstone_randomizer.name
-quark:iron_button, tile.iron_button.name
-quark:gold_button, tile.gold_button.name
-quark:ender_watcher, tile.ender_watcher.name
-quark:iron_rod, tile.iron_rod.name
-quark:color_slime:0, 红色粘液块
-quark:color_slime:1, 蓝色粘液块
-quark:color_slime:2, 青色粘液块
-quark:color_slime:3, 品红色粘液块
-quark:color_slime:4, 黄色粘液块
-quark:gravisand, tile.gravisand.name
-quark:redstone_inductor, tile.redstone_inductor.name
-quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
-quark:rain_detector, tile.rain_detector.name
-quark:chain, item.chain.name
-bno:ingot_copper, Copper Ingot
-bno:ingot_tin, Tin Ingot
-bno:nugget_copper, Copper Nugget
-bno:nugget_tin, Tin Nugget
+quark:spruce_trapdoor, tile.spruce_trapdoor.name
+quark:birch_trapdoor, tile.birch_trapdoor.name
+quark:jungle_trapdoor, tile.jungle_trapdoor.name
+quark:acacia_trapdoor, tile.acacia_trapdoor.name
+quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
+quark:paper_wall, 纸框墙
+quark:paper_wall_big, tile.paper_wall_big.name
+quark:paper_wall_sakura, tile.paper_wall_sakura.name
+quark:iron_ladder, tile.iron_ladder.name
+quark:paper_lantern:0, 纸灯笼
+quark:paper_lantern:1, 装饰过的纸灯笼
+quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
+quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
+quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
+quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
+quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
+quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
+quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
+quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
+quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
+quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
+quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
+quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
+quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
+quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
+quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
+quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
+quark:custom_bookshelf:0, 云杉木书架
+quark:custom_bookshelf:1, 白桦木书架
+quark:custom_bookshelf:2, 丛林木书架
+quark:custom_bookshelf:3, 金合欢木书架
+quark:custom_bookshelf:4, 深色橡木书架
+quark:colored_item_frame:0, 白色物品展示框
+quark:colored_item_frame:1, 橙色物品展示框
+quark:colored_item_frame:2, 品红色物品展示框
+quark:colored_item_frame:3, 淡蓝色物品展示框
+quark:colored_item_frame:4, 黄色物品展示框
+quark:colored_item_frame:5, 黄绿色物品展示框
+quark:colored_item_frame:6, 粉红色物品展示框
+quark:colored_item_frame:7, 灰色物品展示框
+quark:colored_item_frame:8, 淡灰色物品展示框
+quark:colored_item_frame:9, 青色物品展示框
+quark:colored_item_frame:10, 紫色物品展示框
+quark:colored_item_frame:11, 蓝色物品展示框
+quark:colored_item_frame:12, 棕色物品展示框
+quark:colored_item_frame:13, 绿色物品展示框
+quark:colored_item_frame:14, 红色物品展示框
+quark:colored_item_frame:15, 黑色物品展示框
+quark:lit_lamp, tile.lit_lamp.name
+quark:custom_chest:0, 云杉木箱子
+quark:custom_chest:1, 白桦木箱子
+quark:custom_chest:2, 丛林木箱子
+quark:custom_chest:3, 金合欢木箱子
+quark:custom_chest:4, 深色橡木箱子
+quark:custom_chest_trap:0, 云杉木陷阱箱
+quark:custom_chest_trap:1, 白桦木陷阱箱
+quark:custom_chest_trap:2, 丛林木陷阱箱
+quark:custom_chest_trap:3, 金合欢木陷阱箱
+quark:custom_chest_trap:4, 深色橡木陷阱箱
+quark:candle:0, 白色蜡烛
+quark:candle:1, 橙色蜡烛
+quark:candle:2, 品红色蜡烛
+quark:candle:3, 淡蓝色蜡烛
+quark:candle:4, 黄色蜡烛
+quark:candle:5, 黄绿色蜡烛
+quark:candle:6, 粉红色蜡烛
+quark:candle:7, 灰色蜡烛
+quark:candle:8, 淡灰色蜡烛
+quark:candle:9, 青色蜡烛
+quark:candle:10, 紫色蜡烛
+quark:candle:11, 蓝色蜡烛
+quark:candle:12, 棕色蜡烛
+quark:candle:13, 绿色蜡烛
+quark:candle:14, 红色蜡烛
+quark:candle:15, 黑色蜡烛
+quark:tallow, 魔力油脂
+quark:rope, tile.rope.name
+quark:blaze_lantern, tile.blaze_lantern.name
+quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
+quark:leaf_carpet:0, 橡树树叶地毯
+quark:leaf_carpet:1, 云杉树叶地毯
+quark:leaf_carpet:2, 白桦树叶地毯
+quark:leaf_carpet:3, 丛林树叶地毯
+quark:leaf_carpet:4, 金合欢树叶地毯
+quark:leaf_carpet:5, 深色橡树树叶地毯
+quark:leaf_carpet:6, 沼泽木树叶地毯
+quark:leaf_carpet:7, 樱花树叶地毯
+quark:spruce_pressure_plate, tile.spruce_pressure_plate.name
+quark:birch_pressure_plate, tile.birch_pressure_plate.name
+quark:jungle_pressure_plate, tile.jungle_pressure_plate.name
+quark:acacia_pressure_plate, tile.acacia_pressure_plate.name
+quark:dark_oak_pressure_plate, tile.dark_oak_pressure_plate.name
+quark:spruce_button, tile.spruce_button.name
+quark:birch_button, tile.birch_button.name
+quark:jungle_button, tile.jungle_button.name
+quark:acacia_button, tile.acacia_button.name
+quark:dark_oak_button, tile.dark_oak_button.name
+quark:grate, tile.grate.name
+quark:glass_item_frame, item.glass_item_frame.name
 bno:ore_netheremerald, Nether Emerald Ore
 bno:ore_netherdiamond, Nether Diamond Ore
 bno:ore_netherredstone, Nether Redstone Ore
@@ -3722,11 +3246,15 @@ bno:ore_nethercopper, Nether Copper Ore
 bno:ore_nethertin, Nether Tin Ore
 bno:block_copper, 铜块
 bno:block_tin, 锡块
+bno:ingot_copper, Copper Ingot
+bno:ingot_tin, Tin Ingot
+bno:nugget_copper, Copper Nugget
+bno:nugget_tin, Tin Nugget
 bathappymod:dummy, [null]
 buildcraftlib:guide, BuildCraft 指南书
 buildcraftlib:guide_note, BuildCraft 指南注释
 buildcraftlib:debugger, 作弊工具
-betterpipes:wrench, Wrench
+betterpipes:wrench, 扳手
 betterpipes:aepart, Dummy AE2 Part
 bibliocraft:bookcase:0, 橡木书架
 bibliocraft:bookcase:1, 云杉木书架
@@ -4058,8 +3586,6 @@ combustfish:magma_string, 岩浆线
 combustfish:searing_swordfish, 炽热剑鱼
 combustfish:tempered_swordfish, 降温的剑鱼
 combustfish:bone_fish, 骨鱼
-coroutil:repairing_block, 修复方块
-coroutil:item_repairing_gel, 修复凝胶
 ctmortar:mortar_wood, 研钵与研杵（木质）
 ctmortar:mortar_stone, 研钵与研杵（石质）
 ctmortar:mortar_iron, 研钵与研杵（铁质）
@@ -4191,6 +3717,66 @@ ftbquests:reward_collector, Reward Collector
 ftbquests:book, 任务书
 ftbquests:lootcrate, 奖励箱
 ftbquests:custom_icon, 自定义图标
+modularmachinery:itemblueprint, 机械蓝图
+modularmachinery:itemmodularium, 模块化合金锭
+modularmachinery:itemconstructtool, 建造选择工具
+modularmachinery:blockcontroller, 机械控制器
+modularmachinery:blockcasing:0, 机械外壳
+modularmachinery:blockcasing:1, 机械通风口
+modularmachinery:blockcasing:2, 燃烧室外壳
+modularmachinery:blockcasing:3, 机械齿轮箱
+modularmachinery:blockcasing:4, 强化机械外壳
+modularmachinery:blockcasing:5, 机械电路板
+modularmachinery:blockinputbus:0, 微型物品输入仓
+modularmachinery:blockinputbus:1, 小型物品输入仓
+modularmachinery:blockinputbus:2, 中型物品输入仓
+modularmachinery:blockinputbus:3, 强化物品输入仓
+modularmachinery:blockinputbus:4, 大型物品输入仓
+modularmachinery:blockinputbus:5, 巨型物品输入仓
+modularmachinery:blockinputbus:6, 超级物品输入仓
+modularmachinery:blockoutputbus:0, 微型物品输出仓
+modularmachinery:blockoutputbus:1, 小型物品输出仓
+modularmachinery:blockoutputbus:2, 中型物品输出仓
+modularmachinery:blockoutputbus:3, 强化物品输出仓
+modularmachinery:blockoutputbus:4, 大型物品输出仓
+modularmachinery:blockoutputbus:5, 巨型物品输出仓
+modularmachinery:blockoutputbus:6, 超级物品输出仓
+modularmachinery:blockfluidinputhatch:0, 微型流体输入仓
+modularmachinery:blockfluidinputhatch:1, 小型流体输入仓
+modularmachinery:blockfluidinputhatch:2, 中型流体输入仓
+modularmachinery:blockfluidinputhatch:3, 强化流体输入仓
+modularmachinery:blockfluidinputhatch:4, 大型流体输入仓
+modularmachinery:blockfluidinputhatch:5, 巨型流体输入仓
+modularmachinery:blockfluidinputhatch:6, 超级流体输入仓
+modularmachinery:blockfluidinputhatch:7, 真空流体输入仓
+modularmachinery:blockfluidoutputhatch:0, 微型流体输出仓
+modularmachinery:blockfluidoutputhatch:1, 小型流体输出仓
+modularmachinery:blockfluidoutputhatch:2, 中型流体输出仓
+modularmachinery:blockfluidoutputhatch:3, 强化流体输出仓
+modularmachinery:blockfluidoutputhatch:4, 大型流体输出仓
+modularmachinery:blockfluidoutputhatch:5, 巨型流体输出仓
+modularmachinery:blockfluidoutputhatch:6, 超级流体输出仓
+modularmachinery:blockfluidoutputhatch:7, 真空流体输出仓
+modularmachinery:blockenergyinputhatch:0, 微型能源输入仓
+modularmachinery:blockenergyinputhatch:1, 小型能源输入仓
+modularmachinery:blockenergyinputhatch:2, 中型能源输入仓
+modularmachinery:blockenergyinputhatch:3, 强化能源输入仓
+modularmachinery:blockenergyinputhatch:4, 大型能源输入仓
+modularmachinery:blockenergyinputhatch:5, 巨型能源输入仓
+modularmachinery:blockenergyinputhatch:6, 超级能源输入仓
+modularmachinery:blockenergyinputhatch:7, 终极能源输入仓
+modularmachinery:blockenergyoutputhatch:0, 微型能源输出仓
+modularmachinery:blockenergyoutputhatch:1, 小型能源输出仓
+modularmachinery:blockenergyoutputhatch:2, 中型能源输出仓
+modularmachinery:blockenergyoutputhatch:3, 强化能源输出仓
+modularmachinery:blockenergyoutputhatch:4, 大型能源输出仓
+modularmachinery:blockenergyoutputhatch:5, 巨型能源输出仓
+modularmachinery:blockenergyoutputhatch:6, 超级能源输出仓
+modularmachinery:blockenergyoutputhatch:7, 终极能源输出仓
+gugu-utils:environmenthatch, 环境传感器
+gugu-utils:energyoutputport, 能源输出端口
+gugu-utils:constructionranged, 范围建造选择工具
+gugu-utils:aurainputhatch, 灵气输入仓
 cgm:workbench, 枪械工作台
 cgm:handgun, 手枪
 cgm:shotgun, 霰弹枪
@@ -4225,17 +3811,17 @@ littletiles:premade:0, 工作台
 littletiles:premade:0, 输入台
 littletiles:premade:0, 输出台
 littletiles:premade:0, 粒子发射器
-littletiles:premade:0, O形电气化工具（空白）
-littletiles:premade:0, 单芯电缆 (1-bit)
-littletiles:premade:0, 单芯电缆 (4-bit)
-littletiles:premade:0, 单芯电缆 (16-bit)
-littletiles:premade:0, 单向输出 (1-bit)
-littletiles:premade:0, 单向输出 (4-bit)
-littletiles:premade:0, 单向输出 (16-bit)
-littletiles:premade:0, 单向输入 (1-bit)
-littletiles:premade:0, 单向输入 (4-bit)
-littletiles:premade:0, 单向输入 (16-bit)
-littletiles:premade:0, 信号显示器 (16 bit)
+littletiles:premade:0, O形电气化工具(空白)
+littletiles:premade:0, 单芯电缆(1-bit)
+littletiles:premade:0, 单芯电缆(4-bit)
+littletiles:premade:0, 单芯电缆(16-bit)
+littletiles:premade:0, 单向输出(1-bit)
+littletiles:premade:0, 单向输出(4-bit)
+littletiles:premade:0, 单向输出(16-bit)
+littletiles:premade:0, 单向输入(1-bit)
+littletiles:premade:0, 单向输入(4-bit)
+littletiles:premade:0, 单向输入(16-bit)
+littletiles:premade:0, 信号显示器(16-bit)
 littletiles:premade:0, 结构生成器
 littletiles:ltstorageblocktile, 储存方块
 littletiles:ltcoloredblock:0, 染色方块（清澈）
@@ -4659,62 +4245,16 @@ mekanism:plasticfence:13, §d品红色 塑料栅栏
 mekanism:plasticfence:14, §6橙色 塑料栅栏
 mekanism:plasticfence:15, §f白色 塑料栅栏
 mekanism:saltblock, 盐块
-modularmachinery:itemblueprint, 机械蓝图
-modularmachinery:itemmodularium, 模块化合金锭
-modularmachinery:itemconstructtool, 建造选择工具
-modularmachinery:blockcontroller, 机械控制器
-modularmachinery:blockcasing:0, 机械外壳
-modularmachinery:blockcasing:1, 机械通风口
-modularmachinery:blockcasing:2, 燃烧室外壳
-modularmachinery:blockcasing:3, 机械齿轮箱
-modularmachinery:blockcasing:4, 强化机械外壳
-modularmachinery:blockcasing:5, 机械电路板
-modularmachinery:blockinputbus:0, 微型物品输入仓
-modularmachinery:blockinputbus:1, 小型物品输入仓
-modularmachinery:blockinputbus:2, 中型物品输入仓
-modularmachinery:blockinputbus:3, 强化物品输入仓
-modularmachinery:blockinputbus:4, 大型物品输入仓
-modularmachinery:blockinputbus:5, 巨型物品输入仓
-modularmachinery:blockinputbus:6, 超级物品输入仓
-modularmachinery:blockoutputbus:0, 微型物品输出仓
-modularmachinery:blockoutputbus:1, 小型物品输出仓
-modularmachinery:blockoutputbus:2, 中型物品输出仓
-modularmachinery:blockoutputbus:3, 强化物品输出仓
-modularmachinery:blockoutputbus:4, 大型物品输出仓
-modularmachinery:blockoutputbus:5, 巨型物品输出仓
-modularmachinery:blockoutputbus:6, 超级物品输出仓
-modularmachinery:blockfluidinputhatch:0, 微型流体输入仓
-modularmachinery:blockfluidinputhatch:1, 小型流体输入仓
-modularmachinery:blockfluidinputhatch:2, 中型流体输入仓
-modularmachinery:blockfluidinputhatch:3, 强化流体输入仓
-modularmachinery:blockfluidinputhatch:4, 大型流体输入仓
-modularmachinery:blockfluidinputhatch:5, 巨型流体输入仓
-modularmachinery:blockfluidinputhatch:6, 超级流体输入仓
-modularmachinery:blockfluidinputhatch:7, 真空流体输入仓
-modularmachinery:blockfluidoutputhatch:0, 微型流体输出仓
-modularmachinery:blockfluidoutputhatch:1, 小型流体输出仓
-modularmachinery:blockfluidoutputhatch:2, 中型流体输出仓
-modularmachinery:blockfluidoutputhatch:3, 强化流体输出仓
-modularmachinery:blockfluidoutputhatch:4, 大型流体输出仓
-modularmachinery:blockfluidoutputhatch:5, 巨型流体输出仓
-modularmachinery:blockfluidoutputhatch:6, 超级流体输出仓
-modularmachinery:blockfluidoutputhatch:7, 真空流体输出仓
-modularmachinery:blockenergyinputhatch:0, 微型能源输入仓
-modularmachinery:blockenergyinputhatch:1, 小型能源输入仓
-modularmachinery:blockenergyinputhatch:2, 中型能源输入仓
-modularmachinery:blockenergyinputhatch:3, 强化能源输入仓
-modularmachinery:blockenergyinputhatch:4, 大型能源输入仓
-modularmachinery:blockenergyinputhatch:5, 巨型能源输入仓
-modularmachinery:blockenergyinputhatch:6, 超级能源输入仓
-modularmachinery:blockenergyinputhatch:7, 终极能源输入仓
-modularmachinery:blockenergyoutputhatch:0, 微型能源输出仓
-modularmachinery:blockenergyoutputhatch:1, 小型能源输出仓
-modularmachinery:blockenergyoutputhatch:2, 中型能源输出仓
-modularmachinery:blockenergyoutputhatch:3, 强化能源输出仓
-modularmachinery:blockenergyoutputhatch:4, 大型能源输出仓
-modularmachinery:blockenergyoutputhatch:5, 巨型能源输出仓
-modularmachinery:blockenergyoutputhatch:6, 超级能源输出仓
-modularmachinery:blockenergyoutputhatch:7, 终极能源输出仓
+modularcontroller:alloy_furnace_controller, 流体中子
+modularcontroller:blastfurnaceplus_controller, 流体中子
+modularcontroller:blastfurnace_controller, 流体中子
+modularcontroller:e_mineral_crusher_controller, 流体中子
+modularcontroller:iomachine_controller, 流体中子
+modularcontroller:j_mineral_crusher_controller, 流体中子
+modularcontroller:j_power_machine_controller, 流体中子
+modularcontroller:separator_controller, 流体中子
+modularcontroller:s_power_machine_controller, 流体中子
+modularcontroller:machine_projector, 机器结构投影仪
 mutantbeasts:chemical_x, 化学物 X
 mutantbeasts:creeper_minion_tracker, 苦力怕仆从统计装置
 mutantbeasts:creeper_shard, 苦力怕碎片
@@ -5071,122 +4611,6 @@ natura:netherquartz_shovel, 石英锹
 natura:netherquartz_axe, 石英手斧
 natura:netherquartz_kama, 石英镰刀
 natura:flint_and_blaze, 烈焰打火石
-snowvariants:snow_oak_stairs, 积雪的橡木楼梯
-snowvariants:snow_cobblestone_stairs, 积雪的圆石楼梯
-snowvariants:snow_brick_stairs, 积雪的砖块楼梯
-snowvariants:snow_stone_brick_stairs, 积雪的石砖楼梯
-snowvariants:snow_nether_brick_stairs, 积雪的地狱砖楼梯
-snowvariants:snow_sandstone_stairs, 积雪的沙石楼梯
-snowvariants:snow_spruce_stairs, 积雪的云杉楼梯
-snowvariants:snow_birch_stairs, 积雪的桦木楼梯
-snowvariants:snow_jungle_stairs, 积雪的丛林木楼梯
-snowvariants:snow_quartz_stairs, 积雪的石英楼梯
-snowvariants:snow_acacia_stairs, 积雪的金合欢楼梯
-snowvariants:snow_dark_oak_stairs, 积雪的深色橡木楼梯
-snowvariants:snow_red_sandstone_stairs, 积雪的红砂岩楼梯
-snowvariants:snow_purpur_stairs, 积雪的紫珀楼梯
-snowvariants:appliedenergistics2_sky_stone_stairs, tile.snowvariants.appliedenergistics2_sky_stone_stairs.name
-snowvariants:appliedenergistics2_smooth_sky_stone_stairs, tile.snowvariants.appliedenergistics2_smooth_sky_stone_stairs.name
-snowvariants:appliedenergistics2_sky_stone_brick_stairs, tile.snowvariants.appliedenergistics2_sky_stone_brick_stairs.name
-snowvariants:appliedenergistics2_sky_stone_small_brick_stairs, tile.snowvariants.appliedenergistics2_sky_stone_small_brick_stairs.name
-snowvariants:appliedenergistics2_fluix_stairs, tile.snowvariants.appliedenergistics2_fluix_stairs.name
-snowvariants:appliedenergistics2_quartz_stairs, tile.snowvariants.appliedenergistics2_quartz_stairs.name
-snowvariants:appliedenergistics2_chiseled_quartz_stairs, tile.snowvariants.appliedenergistics2_chiseled_quartz_stairs.name
-snowvariants:appliedenergistics2_quartz_pillar_stairs, tile.snowvariants.appliedenergistics2_quartz_pillar_stairs.name
-snowvariants:snow_smooth_stone_slab, 积雪的石台阶
-snowvariants:snow_sandstone_slab, 积雪的砂岩台阶
-snowvariants:snow_cobblestone_slab, 积雪的圆石台阶
-snowvariants:snow_brick_slab, 积雪的砖块台阶
-snowvariants:snow_stone_brick_slab, 积雪的石砖台阶
-snowvariants:snow_nether_brick_slab, 积雪的地狱砖台阶
-snowvariants:snow_quartz_slab, 积雪的石英台阶
-snowvariants:snow_oak_slab, 积雪的橡木台阶
-snowvariants:snow_spruce_slab, 积雪的云杉台阶
-snowvariants:snow_birch_slab, 积雪的桦木台阶
-snowvariants:snow_jungle_slab, 积雪的从林木台阶
-snowvariants:snow_acacia_slab, 积雪的金合欢台阶
-snowvariants:snow_dark_oak_slab, 积雪的深色橡木台阶
-snowvariants:snow_red_sandstone_slab, 积雪的红砂岩台阶
-snowvariants:snow_purpur_slab, 积雪的紫珀台阶
-snowvariants:appliedenergistics2_sky_stone_slab, tile.snowvariants.appliedenergistics2_sky_stone_slab.name
-snowvariants:appliedenergistics2_smooth_sky_stone_slab, tile.snowvariants.appliedenergistics2_smooth_sky_stone_slab.name
-snowvariants:appliedenergistics2_sky_stone_brick_slab, tile.snowvariants.appliedenergistics2_sky_stone_brick_slab.name
-snowvariants:appliedenergistics2_sky_stone_small_brick_slab, tile.snowvariants.appliedenergistics2_sky_stone_small_brick_slab.name
-snowvariants:appliedenergistics2_fluix_slab, tile.snowvariants.appliedenergistics2_fluix_slab.name
-snowvariants:appliedenergistics2_quartz_slab, tile.snowvariants.appliedenergistics2_quartz_slab.name
-snowvariants:appliedenergistics2_chiseled_quartz_slab, tile.snowvariants.appliedenergistics2_chiseled_quartz_slab.name
-snowvariants:appliedenergistics2_quartz_pillar_slab, tile.snowvariants.appliedenergistics2_quartz_pillar_slab.name
-storagedrawers:upgrade_template, 升级模板
-storagedrawers:upgrade_storage:0, 抽屉容量升级（I）
-storagedrawers:upgrade_storage:1, 抽屉容量升级（II）
-storagedrawers:upgrade_storage:2, 抽屉容量升级（III）
-storagedrawers:upgrade_storage:3, 抽屉容量升级（IV）
-storagedrawers:upgrade_storage:4, 抽屉容量升级（V）
-storagedrawers:upgrade_one_stack, 存储降级
-storagedrawers:upgrade_status:0, 状态显示升级（I）
-storagedrawers:upgrade_status:1, 状态显示升级（II）
-storagedrawers:upgrade_void, 清空升级
-storagedrawers:upgrade_conversion, 转换升级
-storagedrawers:upgrade_creative:0, 创造模式容量升级
-storagedrawers:upgrade_creative:1, 创造模式取出升级
-storagedrawers:upgrade_redstone:0, 红石升级
-storagedrawers:upgrade_redstone:1, 红石升级（最大）
-storagedrawers:upgrade_redstone:2, 红石升级（最小）
-storagedrawers:drawer_key, 抽屉钥匙
-storagedrawers:shroud_key, 屏蔽钥匙
-storagedrawers:personal_key, 私人钥匙
-storagedrawers:quantify_key, 量化钥匙
-storagedrawers:tape, 打包带
-storagedrawers:basicdrawers:0, 基础抽屉
-storagedrawers:basicdrawers:0, 基础抽屉
-storagedrawers:basicdrawers:0, 基础抽屉
-storagedrawers:basicdrawers:0, 基础抽屉
-storagedrawers:basicdrawers:0, 基础抽屉
-storagedrawers:basicdrawers:0, 基础抽屉
-storagedrawers:basicdrawers:1, 1x2 基础抽屉
-storagedrawers:basicdrawers:1, 1x2 基础抽屉
-storagedrawers:basicdrawers:1, 1x2 基础抽屉
-storagedrawers:basicdrawers:1, 1x2 基础抽屉
-storagedrawers:basicdrawers:1, 1x2 基础抽屉
-storagedrawers:basicdrawers:1, 1x2 基础抽屉
-storagedrawers:basicdrawers:2, 2x2 基础抽屉
-storagedrawers:basicdrawers:2, 2x2 基础抽屉
-storagedrawers:basicdrawers:2, 2x2 基础抽屉
-storagedrawers:basicdrawers:2, 2x2 基础抽屉
-storagedrawers:basicdrawers:2, 2x2 基础抽屉
-storagedrawers:basicdrawers:2, 2x2 基础抽屉
-storagedrawers:basicdrawers:3, 1x2 小型基础抽屉
-storagedrawers:basicdrawers:3, 1x2 小型基础抽屉
-storagedrawers:basicdrawers:3, 1x2 小型基础抽屉
-storagedrawers:basicdrawers:3, 1x2 小型基础抽屉
-storagedrawers:basicdrawers:3, 1x2 小型基础抽屉
-storagedrawers:basicdrawers:3, 1x2 小型基础抽屉
-storagedrawers:basicdrawers:4, 2x2 小型基础抽屉
-storagedrawers:basicdrawers:4, 2x2 小型基础抽屉
-storagedrawers:basicdrawers:4, 2x2 小型基础抽屉
-storagedrawers:basicdrawers:4, 2x2 小型基础抽屉
-storagedrawers:basicdrawers:4, 2x2 小型基础抽屉
-storagedrawers:basicdrawers:4, 2x2 小型基础抽屉
-storagedrawers:keybutton:0, 抽屉钥匙按钮
-storagedrawers:keybutton:1, 屏蔽钥匙按钮
-storagedrawers:keybutton:2, 私人钥匙按钮
-storagedrawers:keybutton:3, 量化钥匙按钮
-storagedrawers:compdrawers, 压缩抽屉
-storagedrawers:controller, 抽屉管理器
-storagedrawers:controllerslave, 管理器传动方块
-storagedrawers:trim:0, 橡木桥接方块
-storagedrawers:trim:1, 云杉木桥接方块
-storagedrawers:trim:2, 白桦木桥接方块
-storagedrawers:trim:3, 丛林木桥接方块
-storagedrawers:trim:4, 金合欢木桥接方块
-storagedrawers:trim:5, 深色橡木桥接方块
-storagedrawers:framingtable, 成型台
-storagedrawers:customdrawers:0, 镶框抽屉
-storagedrawers:customdrawers:1, 1x2 镶框抽屉
-storagedrawers:customdrawers:2, 2x2 镶框抽屉
-storagedrawers:customdrawers:3, 1x2 小型镶框抽屉
-storagedrawers:customdrawers:4, 2x2 小型镶框抽屉
-storagedrawers:customtrim, 镶框
 tenshilib:ignore, Structure Ignore
 tenshilib:structure_piece, Structure Piece
 tenshilib:breakable_barrier, tile.tenshilib:breakable_barrier.name
@@ -5283,17 +4707,6 @@ waystones:return_scroll, 回程卷轴
 waystones:bound_scroll, 绑定卷轴
 waystones:warp_scroll, 传送卷轴
 waystones:warp_stone, 传送石
-weather2:sand_layer_placeable, 可放置的沙子框架
-weather2:weather_item, 天气物品
-weather2:pocket_sand, 便携式沙子！
-weather2:tornado_sensor, 龙卷风传感器
-weather2:tornado_siren, 天气警报器
-weather2:tornado_siren_manual, 手动红石警报器
-weather2:wind_vane, 风向标
-weather2:weather_forecast, 天气雷达
-weather2:weather_machine, 天气机器（右击循环）
-weather2:weather_deflector, 天气偏转器
-weather2:anemometer, 风速计
 base:wrench, 扳手
 buildcraftcore:spring:0, 水泉
 buildcraftcore:spring:1, 油泉
@@ -5462,12 +4875,44 @@ buildcraftfactory:heat_exchange, 热交换器
 buildcraftfactory:water_gel_spawn, 水胶化剂
 buildcraftfactory:gel, 胶凝水
 buildcraftrobotics:zone_planner, 区域规划
-contenttweaker:key, 维度钥匙
 contenttweaker:hatchet, 燧石斧
-contenttweaker:fragmentsstone, 小石块
-contenttweaker:netherstew, 二菜烩
 contenttweaker:meatstew, 肉粥
+contenttweaker:netherstew, 黑暗料理
+contenttweaker:key, 维度通行证
+contenttweaker:workpb, 原子重构机图纸
+contenttweaker:hunl2, 混乱
+contenttweaker:youyihj, 友谊
+contenttweaker:pearl_red, 奥法珍珠·红
+contenttweaker:pearl_blue, 奥法珍珠·蓝
+contenttweaker:pearl_yellow, 奥法珍珠·黄
+contenttweaker:pearl_green, 奥法珍珠·绿
+contenttweaker:pearl_orange, 奥法珍珠·橙
+contenttweaker:pearl_purple, 奥法珍珠·紫
+customnpcs:npcwand, Npc魔杖
+customnpcs:npcmobcloner, Mob复制魔杖
+customnpcs:npcscripter, 脚本魔杖
+customnpcs:npcmovingpath, Npc路径魔杖
+customnpcs:npcmounter, 骑乘魔杖
+customnpcs:npcteleporter, 传送魔杖
+customnpcs:npcscripteddoortool, 脚本之门
+customnpcs:npcsoulstoneempty, 灵魂石（空）
+customnpcs:npcsoulstonefilled, 灵魂石（有）
+customnpcs:scripted_item:0, 脚本物品
+customnpcs:nbt_book, NBT编辑书
+customnpcs:npcredstoneblock, 红石块
+customnpcs:npccarpentybench, 木工台
+customnpcs:npcmailbox:0, 信箱
+customnpcs:npcmailbox:1, 信箱
+customnpcs:npcmailbox:2, 信箱
+customnpcs:npcwaypoint, 地点任务方块
+customnpcs:npcborder, 边界方块
+customnpcs:npcscripted, 脚本方块
+customnpcs:npcscripteddoor, tile.npcscripteddoor.name
+customnpcs:npcbuilderblock, 建造者方块
+customnpcs:npccopyblock, 复制方块
+mcjtylib_ng:multipart, tile.mcjtylib_ng.multipart.name
 patchouli:guide_book, 指南书
+inventoryneko:neko, Neko
 omlib:debug_tool, 调试工具
 omlib:fake_sword, item.fake_sword.name
 omlib:multi_tool, 多功能工具
@@ -5536,8 +4981,8 @@ openmodularturrets:teleporter_turret, 传送炮塔
 openmodularturrets:laser_turret, 激光炮塔
 openmodularturrets:rail_gun_turret, 磁轨炮炮塔
 openmodularturrets:lever_block, 炮塔基座曲柄
-stellarapi:defaulttelescope, Default Telescope
-stellarapi:defaultfilteredtelescope, Default Filtered Telescope
+stellarapi:defaulttelescope, 默认望远镜
+stellarapi:defaultfilteredtelescope, 默认夜视望远镜
 photoptics:photopticsbasicbinoculars, Basic Binoculars
 photoptics:binoculars_gold, Golden Binoculars
 photoptics:binoculars_diamondgreen, Diamond Binoculars(Green)

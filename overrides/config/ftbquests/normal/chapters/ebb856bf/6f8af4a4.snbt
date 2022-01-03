@@ -12,30 +12,12 @@
 		uid: "b8099505",
 		type: "item",
 		items: [{
-			item: "combustfish:golden_rod"
+			id: "combustfish:golden_rod",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "07bd4e99",
-		type: "ftbmoney:money",
-		ftb_money: 400L
-	},
-	{
-		uid: "a340c29f",
-		type: "item",
-		item: "combustfish:cooled_cod",
-		count: 11
-	},
-	{
-		uid: "7ef411df",
-		type: "item",
-		item: "combustfish:searing_swordfish"
-	},
-	{
-		uid: "77e33e67",
-		type: "item",
-		item: "mod_lavacow:undyingheart"
 	}]
 }

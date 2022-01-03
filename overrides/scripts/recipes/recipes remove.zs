@@ -1,6 +1,31 @@
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
-//recipes.removeAll();
+import crafttweaker.item.IItemCondition;
+import crafttweaker.item.IIngredient;
+
+val furdeletes as IIngredient[]=[
+    <ore:ingotGold>,
+    <ore:ingotIron>,
+    <ore:ingotOsmium>,
+    <ore:ingotCopper>,
+    <ore:ingotTin>,
+    <ore:itemSilicon>,
+    <ore:ingotTitanium>,
+    <ore:ingotTitaniumAluminide>,
+    <ore:ingotTitaniumIridium>,
+    <ore:ingotAluminum>,
+    <ore:ingotIridium>,
+    <ore:ingotSilver>,
+    <ore:ingotLead>,
+    <ore:ingotNickel>,
+    <ore:ingotPlatinum>,
+    <ore:ingotZinc>,
+    <ore:ingotSteel>
+];
+
+for item in furdeletes{
+    furnace.remove(item);
+}
 mods.mekanism.chemical.crystallizer.removeAllRecipes();
 mods.mekanism.chemical.dissolution.removeAllRecipes();
 mods.mekanism.chemical.infuser.removeAllRecipes();
@@ -20,21 +45,8 @@ mods.mekanism.reaction.removeAllRecipes();
 mods.mekanism.purification.removeAllRecipes();
 mods.mekanism.solarneutronactivator.removeAllRecipes();
 mods.mekanism.thermalevaporation.removeAllRecipes();
-furnace.remove(<ore:ingotGold>);
-furnace.remove(<ore:ingotIron>);
-furnace.remove(<ore:ingotOsmium>);
-furnace.remove(<ore:ingotSteel>);
-furnace.remove(<ore:ingotOsmium>);
-furnace.remove(<ore:ingotCopper>);
-furnace.remove(<ore:ingotTin>);
-furnace.remove(<ore:itemSilicon>);
-furnace.remove(<ore:ingotTitanium>);
-furnace.remove(<ore:ingotTitaniumAluminide>);
-furnace.remove(<ore:ingotTitaniumIridium>);
-furnace.remove(<ore:ingotAluminum>);
-furnace.remove(<ore:ingotIridium>);
-furnace.remove(<ore:ingotSilver>);
-furnace.remove(<ore:ingotLead>);
-furnace.remove(<ore:ingotNickel>);
-furnace.remove(<ore:ingotPlatinum>);
-furnace.remove(<ore:ingotZinc>);
+
+recipes.remove(<natura:overworld_workbenches:*>);
+recipes.remove(<natura:nether_workbenches:*>);
+recipes.remove(<betternether:cincinnasite_block>);
+recipes.remove(<minecraft:crafting_table>);

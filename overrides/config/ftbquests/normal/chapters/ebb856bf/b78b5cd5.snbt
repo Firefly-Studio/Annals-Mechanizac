@@ -7,17 +7,10 @@
 		uid: "00d215f5",
 		type: "item",
 		items: [{
-			item: "mod_lavacow:intestine"
+			id: "mod_lavacow:intestine",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
-	}],
-	rewards: [{
-		uid: "64995d5d",
-		type: "ftbmoney:money",
-		ftb_money: 100L
-	},
-	{
-		uid: "cd9122fd",
-		type: "xp_levels",
-		xp_levels: 10
 	}]
 }

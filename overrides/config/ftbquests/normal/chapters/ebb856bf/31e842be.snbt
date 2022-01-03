@@ -1,0 +1,28 @@
+{
+	title: "Fatal Error",
+	x: 2.0d,
+	y: -2.0d,
+	description: "点击查看全文",
+	text: [
+		"这种矿物是在2096年在环中子星行星J64783+6541 B上发现的，这种矿物原初形成于恒星还是巨星形态时，由纯净的富锰镁橄榄石构成，但是在坍缩成中子星的过程中被急速加热后冷却成为不规则玻璃体，后来在中子星的脉冲束冲击下形成了现在所见到的暗区，这暗区实际上是色心处锰核受脉冲星γ射线辐照后变成激发态核，后者衰变而产生铁核加深染色形成的，而不均匀的分布正是其上不均匀的其他种类矿物的投影，因此以天然的γ成像仪而著称。"
+	],
+	tasks: [{
+		uid: "f64a8c25",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreGold"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreGold"
+				},
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

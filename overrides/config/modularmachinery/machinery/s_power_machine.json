@@ -1,7 +1,7 @@
 
 {
     "registryname": "s_power_machine",
-    "localizedname": "Thermal Generator Plus",
+    "localizedname": "物质到能量转化机",
     "parts": [
         {
             "x": -1,

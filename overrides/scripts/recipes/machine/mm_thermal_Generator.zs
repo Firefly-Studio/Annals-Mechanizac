@@ -1,4 +1,10 @@
 //项目刚创建时啥也不会，这脚本正好是在刚创建时写的（
+
+var grass = mods.modularmachinery.RecipeBuilder.newBuilder("j_powermachine__grass", "j_power_machine", 3276777);
+grass.addEnergyPerTickOutput(100000);
+grass.addItemInput(<contenttweaker:youyihj>);
+grass.build();
+
 var vlava_bucket = mods.modularmachinery.RecipeBuilder.newBuilder("j_powermachine_lava_bucket", "j_power_machine", 10000);
 vlava_bucket.addEnergyPerTickOutput(100);
 vlava_bucket.addItemInput(<minecraft:lava_bucket>);

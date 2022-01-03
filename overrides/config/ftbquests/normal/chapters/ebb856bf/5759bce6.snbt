@@ -1,0 +1,17 @@
+{
+	title: "吾王万岁",
+	x: -1.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "5dd96ebd",
+		type: "kill",
+		icon: {
+			id: "minecraft:skull",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		entity: "mod_lavacow:skeletonking",
+		value: 1L
+	}]
+}

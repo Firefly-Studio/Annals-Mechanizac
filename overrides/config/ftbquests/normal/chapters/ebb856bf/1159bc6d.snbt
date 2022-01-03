@@ -1,0 +1,29 @@
+{
+	title: "树新风",
+	x: 0.0d,
+	y: -3.0d,
+	description: "TrueNewBee",
+	text: [
+		"看着说了很多",
+		"实际狗屁不通",
+		"一边乱扯专业术语",
+		"一边用不严谨的语言",
+		"就像上面穿西装下面裸奔",
+		"              ——栗子."
+	],
+	dependencies: [
+		"31e842be"
+	],
+	tasks: [{
+		uid: "a119e95d",
+		type: "kill",
+		icon: {
+			id: "biomesoplenty:filled_honeycomb",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		entity: "mod_lavacow:vespa",
+		value: 1L
+	}]
+}

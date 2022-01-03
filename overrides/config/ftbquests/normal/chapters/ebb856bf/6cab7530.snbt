@@ -1,0 +1,16 @@
+{
+	title: "进食",
+	x: 0.0d,
+	y: -2.0d,
+	description: "可能不是活的",
+	tasks: [{
+		uid: "2f7bc318",
+		type: "item",
+		items: [{
+			id: "modularcontroller:j_power_machine_controller",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

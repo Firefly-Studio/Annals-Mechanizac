@@ -1,0 +1,35 @@
+{
+	title: "初访世界",
+	icon: {
+		id: "minecraft:netherrack",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	x: -1.0d,
+	y: 1.0d,
+	description: "炎热阴森",
+	tasks: [{
+		uid: "ec110634",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "22f5fe2e",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "natura:nether_sapling",
+			Damage: 2s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "5ba2a359",
+		type: "command",
+		auto: "invisible",
+		command: "/gamerule keepInventory true"
+	}]
+}

@@ -1,6 +1,7 @@
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemCondition;
+import crafttweaker.item.IIngredient;
 //矿辞
 <ore:blockGlass>.add(<natura:nether_glass:*>);
 <ore:sand>.add(<natura:nether_tainted_soil:*>);
@@ -16,48 +17,124 @@ import crafttweaker.item.IItemCondition;
 <ore:blockGlowstone>.add(<minecraft:glowstone>);
 <ore:colder>.addAll(<ore:sugarcane>);
 <ore:colder>.add(<betternether:egg_plant>);
+
 //变量
 val iIron = <ore:ingotIron>;
 val imm = <modularmachinery:itemmodularium>;
 val ccn = <betternether:cincinnasite_forged>;
 
-//树苗-木棍
-recipes.addShapeless(<minecraft:stick>,
- [<ore:treeSapling>]);
+//配方
+val shapedMirroredRecipes as IIngredient[][][IItemStack] = {
+    <contenttweaker:meatstew>:
+    [
+        [<biomesoplenty:fleshchunk>*2,<ore:bowlWood>]
+    ],
+    <contenttweaker:hatchet>:
+    [
+        [<ore:itemFlint>,<ore:itemFlint>],
+        [<ore:stickWood>]
+    ],
+    <minecraft:bucket>:
+        [[ccn,null,ccn],
+        [null,ccn,null]
+    ],
+    <modularmachinery:blockcasing:3>:
+    [
+        [null,imm,null],
+        [imm,<ore:gearIron>,imm],
+        [null,imm,null]
+    ],
+    <modularmachinery:blockcasing:1>:
+    [
+        [null,imm,null],
+        [imm,<trapcraft:fan>,imm],
+        [null,imm,null]
+    ],
+    <buildcraftcore:engine>:
+    [
+        [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
+        [null,<ore:blockGlass>,null],
+        [<ore:gearWood>,<ore:craftingPiston>,<ore:gearWood>]
+    ],
+    <buildcraftcore:engine:1>:
+    [
+        [<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>],
+        [null,<ore:blockGlass>,null],
+        [<ore:gearStone>,<ore:craftingPiston>,<ore:gearStone>]
+    ],
+    <buildcraftcore:engine:2>:
+    [
+        [iIron,iIron,iIron],
+        [null,<ore:blockGlass>,null],
+        [<ore:gearIron>,<ore:craftingPiston>,<ore:gearIron>]
+    ],
+    <mekanism:controlcircuit>:
+    [
+        [<ore:dustRedstone>,<ore:ingotSteel>,<ore:dustRedstone>],
+        [<ore:ingotSteel>,<ore:ingotSilicon>,<ore:ingotSteel>],
+        [<ore:dustRedstone>,<ore:ingotSteel>,<ore:dustRedstone>]
+    ],
+    <minecraft:crafting_table>:
+    [
+        [<ore:ingotSteel>,<ore:logWood>,<ore:ingotSteel>],
+        [<ore:logWood>,<contenttweaker:workpb>,<ore:logWood>],
+        [<ore:ingotSteel>,<ore:logWood>,<ore:ingotSteel>]
+    ],
+    <naturesaura:gold_fiber>:
+    [
+        [<ore:treeLeaves>,<ore:nuggetGold>,<ore:treeLeaves>],
+        [<ore:nuggetGold>,<betternether:nether_grass>,<ore:nuggetGold>],
+        [<ore:treeLeaves>,<ore:nuggetGold>,<ore:treeLeaves>]
+    ],
+    <cgm:workbench>:
+    [
+        [<ore:blockQuartz>,<ore:blockQuartz>,<ore:blockQuartz>],
+        [<ore:ingotIron>,null,<ore:ingotIron>],
+        [<ore:ingotIron>,null,<ore:ingotIron>]
+    ]
+};
+val shapedLessRecipes as IIngredient[][][IItemStack] = {
+    <contenttweaker:meatstew>:[
+        [<biomesoplenty:fleshchunk>*2,<ore:bowlWood>]
+    ],
+    <minecraft:stick>:[
+        [<ore:treeSapling>]
+    ],
+    <contenttweaker:netherstew>:
+    [
+        [<ore:blockCactus>,<betternether:stalagnate_stem>]
+    ],
+    <minecraft:gunpowder>*2:
+    [
+        [<ctmortar:mortar_iron>.anyDamage().noReturn(),<ore:itemBlazeRod>]
+    ],
+    <cgm:basic_ammo>*4:
+    [
+        [<ore:ingotIron>,<minecraft:gunpowder>]
+    ],
+    <betternether:cincinnasite_block>:
+    [
+        [<betternether:cincinnasite>,<betternether:cincinnasite>]
+    ],
+    <mod_lavacow:intestine>:[
+        [<minecraft:rotten_flesh>*3]
+    ],
+    <mekanism:dust>*2:[
+        [<ctmortar:mortar_stone>.anyDamage().noReturn(),<ore:oreIron>]
+    ]
+};
 
-//肉粥
-recipes.addShapeless(<contenttweaker:meatstew>,
- [<biomesoplenty:fleshchunk>*2,<ore:bowlWood>]);
-
-//燧石斧
-recipes.addShapedMirrored(<contenttweaker:hatchet>,[
-    [<ore:itemFlint>,<ore:itemFlint>],
-    [<ore:stickWood>]
-]);
-
+for item, ingredients in shapedMirroredRecipes{
+    recipes.addShaped(item,ingredients);
+}
+for item, ingredients in shapedLessRecipes{
+    recipes.addShaped(item,ingredients);
+}
 //仙人掌
 furnace.addRecipe(<minecraft:dye:2>, <ore:blockCactus>,0.1);
-recipes.addShapeless(<contenttweaker:netherstew>,
- [<ore:blockCactus>,<betternether:stalagnate_stem>]);
-
-//桶
-recipes.addShapedMirrored(<minecraft:bucket>,
- [[ccn,null,ccn],
- [null,ccn,null]
- ]);
 
 //模块化机械
-recipes.addShapedMirrored(<modularmachinery:blockcasing:3>,
- [[null,imm,null],
-  [imm,<ore:gearIron>,imm],
-  [null,imm,null]
- ]
-);
-recipes.addShapedMirrored(<modularmachinery:blockcasing:1>,[
-    [null,imm,null],
-    [imm,<trapcraft:fan>,imm],
-    [null,imm,null]
-]);
+//有些人遇到了Func的Bug后↓ 不改了 摆烂了
 val inputbus as IItemStack[int] ={
     1:<modularmachinery:blockinputbus:1>,
     2:<modularmachinery:blockinputbus:2>,
@@ -71,7 +148,7 @@ for key,input in inputbus{
     for keyy,inputt in inputbus{
         if(key == keyy+1){
             recipes.addShapedMirrored(input,[
-                [null,<ore:hopper>,null],
+                [null,<ore:blockHopper>,null],
                 [imm*inum,inputt,imm*inum],
                 [<ore:chest>,imm*inum,<ore:chest>]
             ]);
@@ -94,7 +171,7 @@ for key,output in outputbus{
             recipes.addShapedMirrored(output,[
                 [<ore:chest>,imm*onum,<ore:chest>],
                 [imm*onum,outputt,imm*onum],
-                [null,<ore:hopper>,null]
+                [null,<ore:blockHopper>,null]
             ]);
             onum+=8;
         }
@@ -115,7 +192,7 @@ for key,input in liquidinputbus{
     for keyy,inputt in liquidinputbus{
         if(key == keyy+1){
             recipes.addShapedMirrored(input,[
-                [null,<ore:hopper>,null],
+                [null,<ore:blockHopper>,null],
                 [imm*linum,inputt,imm*linum],
                 [<minecraft:bucket>,imm*linum,<minecraft:bucket>]
             ]);
@@ -139,7 +216,7 @@ for key,output in liquidoutputbus{
             recipes.addShapedMirrored(output,[
                 [null,imm*lonum,null],
                 [imm*lonum,outputt,imm*lonum],
-                [<minecraft:bucket>,<ore:hopper>,<minecraft:bucket>]
+                [<minecraft:bucket>,<ore:blockHopper>,<minecraft:bucket>]
             ]);
             lonum+=8;
         }
@@ -194,54 +271,4 @@ for key,outputbus in energyoutputbus{
 //玻璃
 furnace.addRecipe(<minecraft:glass>,<natura:nether_tainted_soil:*>,0.1);
 furnace.addRecipe(<minecraft:glass>,<minecraft:soul_sand>,0.1);
-
-//引擎
-recipes.addShapedMirrored(<buildcraftcore:engine>,[
-    [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
-    [null,<ore:blockGlass>,null],
-    [<ore:gearWood>,<ore:craftingPiston>,<ore:gearWood>]
-]);
-recipes.addShapedMirrored(<buildcraftcore:engine:1>,[
-    [<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>],
-    [null,<ore:blockGlass>,null],
-    [<ore:gearStone>,<ore:craftingPiston>,<ore:gearStone>]
-]);
-recipes.addShapedMirrored(<buildcraftcore:engine:2>,[
-    [iIron,iIron,iIron],
-    [null,<ore:blockGlass>,null],
-    [<ore:gearIron>,<ore:craftingPiston>,<ore:gearIron>]
-]);
-
-//工作台
-recipes.remove(<natura:overworld_workbenches:*>);
-recipes.remove(<natura:nether_workbenches:*>);
-
-//子弹
-recipes.addShapeless(<minecraft:gunpowder>*2,[<ctmortar:mortar_iron>.anyDamage().noReturn(),<ore:itemBlazeRod>]);
-recipes.addShapeless(<cgm:basic_ammo>*4,[<ore:ingotIron>,<minecraft:gunpowder>]);
-
-//辛西纳
-recipes.remove(<betternether:cincinnasite_block>);
-recipes.addShapeless(<betternether:cincinnasite_block>,[<betternether:cincinnasite>,<betternether:cincinnasite>]);
-
-//电路板
-recipes.addShapedMirrored(<mekanism:controlcircuit>,[
-    [<ore:dustRedstone>,<ore:ingotSteel>,<ore:dustRedstone>],
-    [<ore:ingotSteel>,<ore:ingotSilicon>,<ore:ingotSteel>],
-    [<ore:dustRedstone>,<ore:ingotSteel>,<ore:dustRedstone>]
-    ]);
-
-//肠子
-recipes.addShapeless(<mod_lavacow:intestine>,[<minecraft:rotten_flesh>*3]);
-
-//刷怪蛋
-recipes.addShapedMirrored(<minecraft:spawn_egg>.withTag({EntityTag: {id: "mod_lavacow:skeletonking"}}),[
-    [<ore:bone>,<ore:itemBlazeRod>,<ore:blockDiamond>*2],
-    [<ore:itemBlazeRod>,<ore:pearlEnderEye>,<ore:itemBlazeRod>],
-    [<ore:blockDiamond>*2,<ore:itemBlazeRod>,<ore:bone>]
-    ]);
-recipes.addShapedMirrored(<minecraft:spawn_egg>.withTag({EntityTag: {id: "mutantbeasts:mutant_skeleton"}}),[
-    [<ore:bone>,<ore:itemBlazeRod>,<ore:blockDiamond>*2],
-    [<minecraft:rotten_flesh>*32,<ore:pearlEnderEye>,<minecraft:rotten_flesh>*32],
-    [<ore:blockDiamond>*2,<ore:itemBlazeRod>,<ore:bone>]
-    ]);
+furnace.addRecipe(<minecraft:glass>,<natura:nether_heat_sand>,0.1);

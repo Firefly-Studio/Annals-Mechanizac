@@ -6,14 +6,12 @@
 		uid: "086f1859",
 		type: "item",
 		items: [{
-			item: "improvableskills:skills_book"
+			id: "improvableskills:skills_book",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "5cb68273",
-		type: "xp_levels",
-		xp_levels: 10
 	}]
 }

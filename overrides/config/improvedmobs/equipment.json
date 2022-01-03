@@ -7,12 +7,6 @@
     "betternether:cincinnasite_axe": 600,
     "betternether:cincinnasite_axe_diamond": 600,
     "combustfish:searing_swordfish": 879,
-    "epicfight:diamond_spear": 831,
-    "epicfight:golden_spear": 900,
-    "epicfight:greatsword": 775,
-    "epicfight:iron_spear": 856,
-    "epicfight:katana": 856,
-    "epicfight:stone_spear": 879,
     "minecraft:bow": 850,
     "minecraft:diamond_axe": 600,
     "minecraft:diamond_sword": 831,
@@ -90,7 +84,6 @@
   },
   "LEGS": {
     "advancedrocketry:spaceleggings": 914,
-    "epicfight:stray_pants": 613,
     "minecraft:chainmail_leggings": 844,
     "minecraft:diamond_leggings": 683,
     "minecraft:golden_leggings": 900,
@@ -104,7 +97,6 @@
   },
   "CHEST": {
     "advancedrocketry:spacechestplate": 914,
-    "epicfight:stray_robe": 613,
     "mekanism:armoredjetpack": 1000,
     "mekanism:jetpack": 1000,
     "mekanism:scubatank": 1000,
@@ -124,7 +116,6 @@
   "HEAD": {
     "advancedrocketry:spacehelmet": 914,
     "bibliocraft:biblioglasses": 912,
-    "epicfight:stray_hat": 613,
     "mekanism:gasmask": 1000,
     "minecraft:chainmail_helmet": 844,
     "minecraft:diamond_helmet": 683,

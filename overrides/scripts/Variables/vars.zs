@@ -1,36 +1,8 @@
 #priority 10
-import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
-//合金炉
-global aingotOre as IOreDictEntry[int] = {
-    1:<ore:ingotCopper>,
-    2:<ore:ingotTitanium>,
-    3:<ore:ingotIridium>,
-    4:<ore:dustRedstone>,
-    5:<ore:alloyAdvanced>,
-    6:<ore:alloyElite>,
-    7:<ore:itemCoal>
-
-};
-global aingotOres as IOreDictEntry[int] = {
-    1:<ore:ingotTin>,
-    2:<ore:ingotAluminum>,
-    3:<ore:ingotTitanium>,
-    4:<ore:ingotIron>,
-    5:<ore:gemDiamond>,
-    6:<ore:obsidian>,
-    7:<ore:ingotIron>
-
-};
-global alloyOres as IOreDictEntry[int] = {
-    1:<ore:ingotBronze>,
-    2:<ore:ingotTitaniumAluminide>,
-    3:<ore:ingotTitaniumIridium>,
-    4:<ore:alloyAdvanced>,
-    5:<ore:alloyElite>,
-    6:<ore:alloyUltimate>,
-    7:<ore:enrichedIron>
-};
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IItemCondition;
+import crafttweaker.item.IIngredient;
 
 //高炉
 global bdustOres as IOreDictEntry[int] = {
@@ -168,4 +140,151 @@ global sdustOres as IOreDictEntry[int] = {
     2:<ore:dustAluminum>,
     3:<ore:oreCertusQuartz>,
     4:<ore:dustLithium>
+};
+
+//常规配方
+global shapedMirroredRecipes as IIngredient[][][IItemStack] = {
+    <contenttweaker:meatstew>:
+    [
+        [<biomesoplenty:fleshchunk>*2,<ore:bowlWood>]
+    ],
+    <contenttweaker:hatchet>:
+    [
+        [<ore:itemFlint>,<ore:itemFlint>],
+        [<ore:stickWood>]
+    ],
+    <minecraft:bucket>:
+        [[<betternether:cincinnasite_block>,null,<betternether:cincinnasite_block>],
+        [null,<betternether:cincinnasite_block>,null]
+    ],
+    <modularmachinery:blockcasing:3>:
+    [
+        [null,<modularmachinery:itemmodularium>,null],
+        [<modularmachinery:itemmodularium>,<ore:gearIron>,<modularmachinery:itemmodularium>],
+        [null,<modularmachinery:itemmodularium>,null]
+    ],
+    <modularmachinery:blockcasing:1>:
+    [
+        [null,<modularmachinery:itemmodularium>,null],
+        [<modularmachinery:itemmodularium>,<trapcraft:fan>,<modularmachinery:itemmodularium>],
+        [null,<modularmachinery:itemmodularium>,null]
+    ],
+    <buildcraftcore:engine>:
+    [
+        [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
+        [null,<ore:blockGlass>,null],
+        [<ore:gearWood>,<ore:craftingPiston>,<ore:gearWood>]
+    ],
+    <buildcraftcore:engine:1>:
+    [
+        [<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>],
+        [null,<ore:blockGlass>,null],
+        [<ore:gearStone>,<ore:craftingPiston>,<ore:gearStone>]
+    ],
+    <buildcraftcore:engine:2>:
+    [
+        [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],
+        [null,<ore:blockGlass>,null],
+        [<ore:gearIron>,<ore:craftingPiston>,<ore:gearIron>]
+    ],
+    <mekanism:controlcircuit>:
+    [
+        [<ore:dustRedstone>,<ore:ingotSteel>,<ore:dustRedstone>],
+        [<ore:ingotSteel>,<ore:ingotSilicon>,<ore:ingotSteel>],
+        [<ore:dustRedstone>,<ore:ingotSteel>,<ore:dustRedstone>]
+    ],
+    <minecraft:crafting_table>:
+    [
+        [<ore:ingotSteel>,<ore:logWood>,<ore:ingotSteel>],
+        [<ore:logWood>,<contenttweaker:workpb>,<ore:logWood>],
+        [<ore:ingotSteel>,<ore:logWood>,<ore:ingotSteel>]
+    ],
+    <naturesaura:gold_fiber>:
+    [
+        [<ore:treeLeaves>,<ore:nuggetGold>,<ore:treeLeaves>],
+        [<ore:nuggetGold>,<betternether:nether_grass>,<ore:nuggetGold>],
+        [<ore:treeLeaves>,<ore:nuggetGold>,<ore:treeLeaves>]
+    ],
+    <cgm:workbench>:
+    [
+        [<ore:blockQuartz>,<ore:blockQuartz>,<ore:blockQuartz>],
+        [<ore:ingotIron>,null,<ore:ingotIron>],
+        [<ore:ingotIron>,null,<ore:ingotIron>]
+    ]
+};
+global shapedLessRecipes as IIngredient[][][IItemStack] = {
+    <contenttweaker:meatstew>:[
+        [<biomesoplenty:fleshchunk>*2,<ore:bowlWood>]
+    ],
+    <minecraft:stick>:[
+        [<ore:treeSapling>]
+    ],
+    <contenttweaker:netherstew>:
+    [
+        [<ore:blockCactus>,<betternether:stalagnate_stem>]
+    ],
+    <minecraft:gunpowder>*2:
+    [
+        [<ctmortar:mortar_iron>.anyDamage().noReturn(),<ore:itemBlazeRod>]
+    ],
+    <cgm:basic_ammo>*4:
+    [
+        [<ore:ingotIron>,<minecraft:gunpowder>]
+    ],
+    <betternether:cincinnasite_block>:
+    [
+        [<betternether:cincinnasite>,<betternether:cincinnasite>]
+    ],
+    <mod_lavacow:intestine>:[
+        [<minecraft:rotten_flesh>*3]
+    ],
+    <mekanism:dust>*2:[
+        [<ctmortar:mortar_stone>.anyDamage().noReturn(),<ore:oreIron>]
+    ]
+};
+//模块化机械
+
+global outputbus as IItemStack[IItemStack] ={
+    <modularmachinery:blockoutputbus:0>:<modularmachinery:blockoutputbus:1>,
+    <modularmachinery:blockoutputbus:1>:<modularmachinery:blockoutputbus:2>,
+    <modularmachinery:blockoutputbus:2>:<modularmachinery:blockoutputbus:3>,
+    <modularmachinery:blockoutputbus:3>:<modularmachinery:blockoutputbus:4>,
+    <modularmachinery:blockoutputbus:4>:<modularmachinery:blockoutputbus:5>,
+    <modularmachinery:blockoutputbus:5>:<modularmachinery:blockoutputbus:6>
+};
+global liquidinputbus as IItemStack[IItemStack] ={
+    <modularmachinery:blockfluidinputhatch:0>:<modularmachinery:blockfluidinputhatch:1>,
+    <modularmachinery:blockfluidinputhatch:1>:<modularmachinery:blockfluidinputhatch:2>,
+    <modularmachinery:blockfluidinputhatch:2>:<modularmachinery:blockfluidinputhatch:3>,
+    <modularmachinery:blockfluidinputhatch:3>:<modularmachinery:blockfluidinputhatch:4>,
+    <modularmachinery:blockfluidinputhatch:4>:<modularmachinery:blockfluidinputhatch:5>,
+    <modularmachinery:blockfluidinputhatch:5>:<modularmachinery:blockfluidinputhatch:6>,
+    <modularmachinery:blockfluidinputhatch:6>:<modularmachinery:blockfluidinputhatch:7>
+};
+global liquidoutputbus as IItemStack[IItemStack] ={
+    <modularmachinery:blockfluidoutputhatch:0>:<modularmachinery:blockfluidoutputhatch:1>,
+    <modularmachinery:blockfluidoutputhatch:1>:<modularmachinery:blockfluidoutputhatch:2>,
+    <modularmachinery:blockfluidoutputhatch:2>:<modularmachinery:blockfluidoutputhatch:3>,
+    <modularmachinery:blockfluidoutputhatch:3>:<modularmachinery:blockfluidoutputhatch:4>,
+    <modularmachinery:blockfluidoutputhatch:4>:<modularmachinery:blockfluidoutputhatch:5>,
+    <modularmachinery:blockfluidoutputhatch:5>:<modularmachinery:blockfluidoutputhatch:6>,
+    <modularmachinery:blockfluidoutputhatch:6>:<modularmachinery:blockfluidoutputhatch:7>
+};
+global energyinputbus as IItemStack[IItemStack] ={
+    <modularmachinery:blockenergyinputhatch:0>:<modularmachinery:blockenergyinputhatch:1>,
+    <modularmachinery:blockenergyinputhatch:1>:<modularmachinery:blockenergyinputhatch:2>,
+    <modularmachinery:blockenergyinputhatch:2>:<modularmachinery:blockenergyinputhatch:3>,
+    <modularmachinery:blockenergyinputhatch:3>:<modularmachinery:blockenergyinputhatch:4>,
+    <modularmachinery:blockenergyinputhatch:4>:<modularmachinery:blockenergyinputhatch:5>,
+    <modularmachinery:blockenergyinputhatch:5>:<modularmachinery:blockenergyinputhatch:6>,
+    <modularmachinery:blockenergyinputhatch:6>:<modularmachinery:blockenergyinputhatch:7>
+};
+global energyoutputbus as IItemStack[IItemStack] ={
+    <modularmachinery:blockenergyoutputhatch:0>:<modularmachinery:blockenergyoutputhatch:1>,
+    <modularmachinery:blockenergyoutputhatch:1>:<modularmachinery:blockenergyoutputhatch:2>,
+    <modularmachinery:blockenergyoutputhatch:2>:<modularmachinery:blockenergyoutputhatch:3>,
+    <modularmachinery:blockenergyoutputhatch:3>:<modularmachinery:blockenergyoutputhatch:4>,
+    <modularmachinery:blockenergyoutputhatch:4>:<modularmachinery:blockenergyoutputhatch:5>,
+    <modularmachinery:blockenergyoutputhatch:5>:<modularmachinery:blockenergyoutputhatch:6>,
+    <modularmachinery:blockenergyoutputhatch:6>:<modularmachinery:blockenergyoutputhatch:7>
 };

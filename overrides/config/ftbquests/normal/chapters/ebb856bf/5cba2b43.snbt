@@ -1,0 +1,18 @@
+{
+	title: "鱼钩打窝",
+	x: 2.0d,
+	y: 0.0d,
+	description: "姜太公钓鱼",
+	tasks: [{
+		uid: "b6b00064",
+		type: "item",
+		items: [{
+			id: "minecraft:fishing_rod",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

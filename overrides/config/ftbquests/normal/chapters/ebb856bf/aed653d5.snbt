@@ -1,0 +1,15 @@
+{
+	title: "又不是不能用",
+	x: 2.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "2830a278",
+		type: "item",
+		items: [{
+			id: "betternether:pig_statue_01",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

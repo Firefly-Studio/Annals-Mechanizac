@@ -1,0 +1,11 @@
+{
+	title: "唯物主义修仙者",
+	x: 1.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "22939b27",
+		type: "xp",
+		value: 90L,
+		points: false
+	}]
+}

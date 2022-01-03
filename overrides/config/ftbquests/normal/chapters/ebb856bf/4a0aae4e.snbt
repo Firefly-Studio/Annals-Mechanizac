@@ -1,0 +1,16 @@
+{
+	title: "防卫工程",
+	x: 1.0d,
+	y: 1.0d,
+	description: "现代科技",
+	tasks: [{
+		uid: "5b74c543",
+		type: "item",
+		items: [{
+			id: "openmodularturrets:turret_base",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

@@ -1,24 +1,16 @@
 {
-	title: "热武器",
+	title: "大人，时代变了",
 	x: -1.0d,
 	y: 0.0d,
-	description: "天天和怪物脸对脸实在难受",
+	description: "十步之内枪又快又准",
 	tasks: [{
 		uid: "cce31061",
 		type: "item",
 		items: [{
-			item: "cgm:workbench"
+			id: "cgm:workbench",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
-	}],
-	rewards: [{
-		uid: "53c4983b",
-		type: "item",
-		item: "cgm:basic_ammo",
-		count: 64
-	},
-	{
-		uid: "4e9acd0e",
-		type: "ftbmoney:money",
-		ftb_money: 100L
 	}]
 }

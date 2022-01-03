@@ -1,0 +1,16 @@
+{
+	title: "什么懒狗",
+	x: 2.0d,
+	y: 1.0d,
+	description: "果断丢弃baka",
+	tasks: [{
+		uid: "450b2493",
+		type: "item",
+		items: [{
+			id: "minecraft:crafting_table",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

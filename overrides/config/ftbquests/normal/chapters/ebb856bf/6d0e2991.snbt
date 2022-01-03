@@ -10,25 +10,11 @@
 		uid: "1967a4f9",
 		type: "item",
 		items: [{
-			item: "minecraft:blaze_rod"
+			id: "minecraft:blaze_rod",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		count: 10L
-	}],
-	rewards: [{
-		uid: "6cc75508",
-		type: "command",
-		auto: "enabled",
-		command: "/tellraw @p {\"text\":\"手持十把锟斤拷，口中疾呼烫烫烫!\",\"color\":\"yellow\"}"
-	},
-	{
-		uid: "91b2490d",
-		type: "ftbmoney:money",
-		ftb_money: 1000L
-	},
-	{
-		uid: "c2f50c1a",
-		type: "item",
-		item: "mod_lavacow:scythe_claw",
-		count: 4
 	}]
 }

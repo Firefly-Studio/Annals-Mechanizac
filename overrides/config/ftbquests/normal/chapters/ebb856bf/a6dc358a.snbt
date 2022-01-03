@@ -1,0 +1,16 @@
+{
+	title: "哦吼",
+	x: -2.0d,
+	y: -1.0d,
+	description: "有的人没事",
+	tasks: [{
+		uid: "6b979659",
+		type: "item",
+		items: [{
+			id: "securitycraft:mine",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}
