@@ -1,0 +1,56 @@
+{
+    "name": "花",
+    "icon": "minecraft:red_flower",
+    "category": "recipe_category",
+    "pages": [
+        {
+            "type":"text",
+            "text":"玩自然灵气没有花死路一条。"
+        },
+        {
+            "type": "red",
+            "recipe": "nullhere",
+            "text": ""
+        },
+        {
+            "type": "red1",
+            "recipe": "nullhere",
+            "text": ""
+        },
+        {
+            "type": "red2",
+            "recipe": "nullhere",
+            "text": ""
+        },
+        {
+            "type": "red3",
+            "recipe": "nullhere",
+            "text": ""
+        },
+        {
+            "type": "red4",
+            "recipe": "nullhere",
+            "text": ""
+        },
+        {
+            "type": "red5",
+            "recipe": "nullhere",
+            "text": ""
+        },
+        {
+            "type": "red6",
+            "recipe": "nullhere",
+            "text": ""
+        },
+        {
+            "type": "red7",
+            "recipe": "nullhere",
+            "text": ""
+        },
+        {
+            "type": "red8",
+            "recipe": "nullhere",
+            "text": ""
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.item.IItemStack;
+mods.advancedmortars.Mortar.addRecipe(["stone", "iron", "diamond","emerald"], <mekanism:dust> * 2, 16, [<ore:oreIron>]);
+mods.advancedmortars.Mortar.addRecipe(["stone", "iron", "diamond","emerald"], <appliedenergistics2:material:3> * 2, 8, [<ore:gemQuartz>]);
+mods.advancedmortars.Mortar.addRecipe(["stone", "iron", "diamond","emerald"], <mekanism:dust:1> * 2, 14, [<ore:oreGold>]);
+mods.advancedmortars.Mortar.addRecipe(["stone", "iron", "diamond","emerald"], <appliedenergistics2:material:2> * 2, 7, [<ore:crystalCertusQuartz>]);
+mods.advancedmortars.Mortar.addRecipe(["stone", "iron", "diamond","emerald"], <appliedenergistics2:material:8> * 2, 8, [<ore:crystalFluix>]);
+mods.advancedmortars.Mortar.addRecipe(["stone", "iron", "diamond","emerald"], <mekanism:dust:3> * 2, 10, [<ore:oreCopper>]);
+mods.advancedmortars.Mortar.addRecipe(["stone", "iron", "diamond","emerald"], <appliedenergistics2:material:46>, 4, [<ore:enderpearl>]);
+mods.advancedmortars.Mortar.addRecipe(["stone", "iron", "diamond","emerald"], <naturesaura:gold_powder>, 4, [<naturesaura:gold_leaf>]);

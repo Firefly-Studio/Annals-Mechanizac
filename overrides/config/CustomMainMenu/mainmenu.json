@@ -111,7 +111,7 @@
         },
         "newver":
         {
-            "text" : "web:https://crashed.work/Nether_Ver.txt",
+            "text" : "web:https://crash.work/Ver.txt",
             "posX" : -45,
             "posY" : -20,
             "color" : -1,
@@ -119,7 +119,7 @@
         },
         "nowver":
         {
-            "text" : "NowVer:D1A4R1F0 LastestVer:",
+            "text" : "NowVer:D0A4R2F0 LastestVer:",
             "posX" : -150,
             "posY" : -20,
             "color" : -1,

@@ -763,7 +763,7 @@ betternether:quartz_stained_glass_framed:12, 镶框棕色石英玻璃
 betternether:quartz_stained_glass_framed:13, 镶框绿色石英玻璃
 betternether:quartz_stained_glass_framed:14, 镶框红色石英玻璃
 betternether:quartz_stained_glass_framed:15, 镶框黑色石英玻璃
-betternether:chest_of_drawers, tile.chest_of_drawers.name
+betternether:chest_of_drawers, 画者之箱
 betternether:black_apple, 黑苹果
 betternether:cincinnasite, 辛西纳石
 betternether:cincinnasite_pickaxe, 辛西纳石镐
@@ -1244,6 +1244,835 @@ improvableskills:scroll_normal, 技能页
 improvableskills:scroll_ability, 能力书页
 improvableskills:scroll_creative, 创造技能页
 improvableskills:parchment_fragment, 羊皮纸残页
+mw:tactical_push_backpack, 战术鞍袋
+mw:desert_tactical_push_backpack, 战术鞍袋 | 荒漠涂装
+mw:combat_sustainment_backpack, 战斗保障背包
+mw:forest_combat_sustainment_backpack, 战斗保障背包 | 丛林涂装
+mw:blackhawk_stealth_backpack, 黑鹰隐蔽式背包
+mw:urban_blackhawk_stealth_backpack, 黑鹰隐蔽式背包 | 城市涂装
+mw:forest_blackhawk_stealth_backpack, 黑鹰隐蔽式背包 | 丛林涂装
+mw:assault_backpack, 突击背包
+mw:urban_assault_backpack, 突击背包 | 城市涂装
+mw:forest_assault_backpack, 突击背包 | 丛林涂装
+mw:tru_spec_cordura_backpack, TRU-SPEC®考杜拉背包
+mw:desert_tru_spec_cordura_backpack, TRU-SPEC®考杜拉背包 | 荒漠涂装
+mw:black_tru_spec_cordura_backpack, TRU-SPEC®考杜拉背包 | 黑色涂装
+mw:mil_spec_alice_backpack, 军用制式ALICE背包
+mw:desert_mil_spec_alice_backpack, 军用制式ALICE背包 | 荒漠涂装
+mw:urban_mil_spec_alice_backpack, 军用制式ALICE背包 | 城市涂装
+mw:duffle_bag, 帆布包
+mw:tri_zip_backpack, Tri-Zip背包
+mw:pilgrim_backpack, Pilgrim背包
+mw:f4m_terminator_backpack, F4M“终结者”背包
+mw:urban_f4m_terminator_backpack, F4M“终结者”背包 | 城市涂装
+mw:forest_f4m_terminator_backpack, F4M“终结者”背包 | 丛林涂装
+mw:bergen_backpack, Bergen背包
+mw:forest_bergen_backpack, Bergen背包 | 丛林涂装
+mw:urban_bergen_backpack, Bergen背包 | 城市涂装
+mw:sso_attack_2, SSO Attack-2背包
+mw:forest_sso_attack_2, SSO Attack-2背包 | 丛林涂装
+mw:g2_gunslinger2_backpack, G2 Gunslinger II背包
+mw:flyye_field_compact_plate_carrier, 翔野®战地CPC背心
+mw:forest_flyye_field_compact_plate_carrier, 翔野®战地CPC背心 | 丛林涂装
+mw:black_flyye_field_compact_plate_carrier, 翔野®战地CPC背心 | 黑色涂装
+mw:flyye_molle_rrv, 翔野®MOLLE系统RRV战术背心
+mw:black_flyye_molle_rrv, 翔野®MOLLE系统RRV战术背心 | 黑色涂装
+mw:urban_flyye_molle_rrv, 翔野®MOLLE系统RRV战术背心 | 城市涂装
+mw:force_recon_vest, 军直侦察连背心
+mw:forest_force_recon_vest, 军直侦察连背心 | 丛林涂装
+mw:urban_force_recon_vest, 军直侦察连背心 | 城市涂装
+mw:black_force_recon_vest, 军直侦察连背心 | 黑色涂装
+mw:umbrella_corp_vest, 保护伞公司战术背心
+mw:hammer_down_vest, 锤击战术背心
+mw:hecu_vest, 危险环境战斗部队战术背心
+mw:juggernaut_body_armor, 无畏战士胸甲
+mw:marine_vest, 美国海军陆战队战术背心
+mw:swat_vest, 特警队战术背心
+mw:fort_armor, 6B43 6A防弹衣
+mw:viper_sf, Viper SF战术背心 | 黑色涂装
+mw:viper_sf_green, Viper SF战术背心 | 丛林涂装
+mw:viper_sf_desert, Viper SF战术背心 | 荒漠涂装
+mw:blackhawk_ballistic_vest, 黑鹰防弹背心
+mw:scar_vest, item.mw_scar_vest.name
+mw:leadore, 铅矿石
+mw:leadingot, 铅锭
+mw:copperore, 铜矿石
+mw:copperingot, 铜锭
+mw:graphiteore, 石墨矿石
+mw:graphitechunk, 石墨碎块
+mw:tinore, 锡矿石
+mw:tiningot, 锡锭
+mw:sulfurore, 硫矿石
+mw:sulfurdust, 硫粉
+mw:steeldust, 钢粉
+mw:steelingot, 钢锭
+mw:gunmetalingot, 炮铜锭
+mw:gunmetalplate, 炮铜板材
+mw:gunmetalcomposite, 炮铜合金粗胚
+mw:carboncomposite, 碳复合材料
+mw:carbonfiber, 碳纤维
+mw:syntheticpolymercomposite, 合成高分子复合材料
+mw:syntheticplastic, 合成塑料
+mw:plasticplate, 塑料板材
+mw:santa_helmet, 圣诞帽
+mw:santa_chest, 圣诞大衣
+mw:santa_boots, 圣诞靴
+mw:nazisanta_helmet, 第三帝国圣诞帽
+mw:nazisanta_chest, 第三帝国圣诞服
+mw:nazisanta_boots, 第三帝国圣诞靴
+mw:spec_ops_helmet, 特种作战头盔
+mw:spec_ops_chest, 特种作战服
+mw:spec_ops_boots, 特种作战靴
+mw:hecu_helmet, 危险环境战斗部队头盔
+mw:hecu_chest, 危险环境战斗部队作战服
+mw:hecu_boots, 危险环境战斗部队作战靴
+mw:juggernaut_helmet, 无畏战士头盔
+mw:juggernaut_chest, 无畏战士装甲
+mw:juggernaut_boots, 无畏战士装甲靴
+mw:merc_helmet, 黑鹰雇佣兵头盔
+mw:merc_chest, 黑鹰雇佣兵作战服
+mw:merc_boots, 黑鹰雇佣兵作战靴
+mw:stars_chest, 特战营救小组作战服
+mw:stars_boots, 特战营救小组作战靴
+mw:marine_helmet, 美国海军陆战队头盔
+mw:marine_chest, 美国海军陆战队作战服
+mw:marine_boots, 美国海军陆战队作战靴
+mw:ncr_helmet, 新加州共和国军头盔
+mw:ncr_chest, 新加州共和国军作战服
+mw:ncr_boots, 新加州共和国军作战靴
+mw:t60_helmet, T-60动力头盔
+mw:t60_chest, T-60动力头盔 
+mw:t60_boots, T-60动力胸甲
+mw:doom_helmet, item.doom_helmet.name
+mw:doom_chest, item.doom_chest.name
+mw:doom_boots, item.doom_boots.name
+mw:spetznaz_helmet, 俄罗斯特种部队头盔
+mw:spetznaz_chest, 俄罗斯特种部队作战服
+mw:spetznaz_boots, 俄罗斯特种部队作战靴
+mw:swat_helmet, 特警队头盔
+mw:swat_chest, 特警队作战服
+mw:swat_boots, 特警队作战靴
+mw:tactical_helmet, 战术夜视镜
+mw:m40gasmask_helmet, M40防毒面具
+mw:umbrella_helmet, 保护伞公司头盔
+mw:umbrella_chest, 保护伞公司作战服
+mw:umbrella_boots, 保护伞公司作战靴
+mw:astronaut_helmet, item.Astronaut_helmet.name
+mw:astronaut_chest, item.Astronaut_chest.name
+mw:astronaut_boots, item.Astronaut_boots.name
+mw:scar_helmet, 空间站军直侦查连EVA头盔
+mw:scar_chest, 空间站军直侦查连EVA作战服
+mw:scar_boots, 空间站军直侦查连EVA作战靴
+mw:kcpd_chest, 堪萨斯城警察局作战服
+mw:kcpd_boots, 堪萨斯城警察局作战靴
+mw:mkvi_main_helmet, 斯巴达六型头盔 | 绿色涂装
+mw:mkvi_main_chest, 斯巴达六型胸甲 | 绿色涂装
+mw:mkvi_main_boots, 斯巴达六型装甲靴 | 绿色涂装
+mw:mkvidefault_helmet, 斯巴达六型头盔
+mw:mkvidefault_chest, 斯巴达六型胸甲
+mw:mkvidefault_boots, 斯巴达六型装甲靴
+mw:mkviblue_helmet, 斯巴达六型头盔 | 蓝色涂装
+mw:mkviblue_chest, 斯巴达六型胸甲 | 蓝色涂装
+mw:mkviblue_boots, 斯巴达六型装甲靴 | 蓝色涂装
+mw:mkvired_helmet, 斯巴达六型头盔 | 红色涂装
+mw:mkvired_chest, 斯巴达六型胸甲 | 红色涂装
+mw:mkvired_boots, 斯巴达六型装甲靴 | 红色涂装
+mw:mkv_default_helmet, 斯巴达五型头盔
+mw:mkv_default_chest, 斯巴达五型胸甲
+mw:mkv_default_boots, 斯巴达五型装甲靴
+mw:mkv_green_helmet, 斯巴达五型头盔 | 绿色涂装
+mw:mkv_green_chest, 斯巴达五型胸甲 | 绿色涂装
+mw:mkv_green_boots, 斯巴达五型装甲靴 | 绿色涂装
+mw:mkv_blue_helmet, 斯巴达五型头盔 | 蓝色涂装
+mw:mkv_blue_chest, 斯巴达五型胸甲 | 蓝色涂装
+mw:mkv_blue_boots, 斯巴达五型装甲靴 | 蓝色涂装
+mw:mkv_red_helmet, 斯巴达五型头盔 | 红色涂装
+mw:mkv_red_chest, 斯巴达五型胸甲 | 红色涂装
+mw:mkv_red_boots, 斯巴达五型装甲靴 | 红色涂装
+mw:mkv_default_odst_helmet, 地狱伞兵部队五型头盔
+mw:mkv_default_odst_chest, 地狱伞兵部队五型胸甲
+mw:mkv_default_odst_boots, 地狱伞兵部队五型作战靴
+mw:mkv_green_odst_helmet, 地狱伞兵部队五型头盔 | 绿色涂装
+mw:mkv_green_odst_chest, 地狱伞兵部队五型胸甲 | 绿色涂装
+mw:mkv_green_odst_boots, 地狱伞兵部队五型作战靴 | 绿色涂装
+mw:mkv_blue_odst_helmet, 地狱伞兵部队五型头盔 | 蓝色涂装
+mw:mkv_blue_odst_chest, 地狱伞兵部队五型胸甲 | 蓝色涂装
+mw:mkv_blue_odst_boots, 地狱伞兵部队五型作战靴 | 蓝色涂装
+mw:mkv_red_odst_helmet, 地狱伞兵部队五型头盔 | 红色涂装
+mw:mkv_red_odst_chest, 地狱伞兵部队五型胸甲 | 红色涂装
+mw:mkv_red_odst_boots, 地狱伞兵部队五型作战靴 | 红色涂装
+mw:fabdefensemount, FAB Defense Mount
+mw:p90swordfish, P90 “剑鱼”套件
+mw:p90defaultkit, P90 默认套件
+mw:p90terminator, P90 “终结者”转换套件
+mw:scarhandguard, Scar Handguard
+mw:krissvectorhandguard, Kriss Vector .45 ACP 枪身
+mw:krissvectorswordfish, Kriss Vector “剑鱼”套件
+mw:krissvector556handguard, Kriss Vector 5.56x45mm 北约制式 枪身
+mw:acrhandguard, ACR Handguard
+mw:m60handguard, M60 Handguard
+mw:m60e4guard, M60E4 Handguard
+mw:m249handguard, M249 Handguard
+mw:stonerhandguard, Stoner A1 Handguard
+mw:auga1, AUG A1 转换套件
+mw:auga2handguard, AUG A2 Handguard
+mw:auga3handguard, AUG A3 Handguard
+mw:ef88handguard, EF-88 Handguard
+mw:augdefaultkit, AUG 默认套件
+mw:augparaconversion, AUG 帕拉贝鲁姆转换套件
+mw:auga3extguard, AUG A3 Extended Guard
+mw:scarstock, Scar Stock
+mw:scarhstock, Scar H Stock
+mw:vectorstock, Kriss Vector 枪托
+mw:acrstock, ACR Stock
+mw:m1014stock, M1014 Stock
+mw:m4benellistock, M4Benelli Stock
+mw:spas12stock, Spas12 Stock
+mw:m249stock, M249 Stock
+mw:utgtrirailhandguard, UTG Tri Rail Handguard
+mw:mimp5mhandguard, MI MP5 Handguard
+mw:mimp5trrail, MI MP5 TR Rail
+mw:mimp5mrail, MI MP5 M Rail
+mw:shotgunrail, Shotgun Rail
+mw:kar98krail, Kar98K Rail
+mw:m60rail, M60 Rail
+mw:railriser, item.mw_RailRiser.name
+mw:m1911slide, Colt M1911 套筒
+mw:m1911body, Colt M1911 套筒座
+mw:m191144magslide, Colt M1911 .44 Magnum 套筒
+mw:m191144magbody, Colt M1911 .44 Magnum 套筒座
+mw:m9a1slide, item.mw_M9A1Slide.name
+mw:m9a1body, item.mw_M9A1Body.name
+mw:samuraiedgeslide, item.mw_SamuraiEdgeSlide.name
+mw:samuraiedgebody, item.mw_SamuraiEdgeBody.name
+mw:samuraiedgeawbody, item.mw_SamuraiEdgeAWBody.name
+mw:samuraiedgealbertext, item.mw_SamuraiEdgeAlbertExt.name
+mw:deserteagleslide, item.mw_DesertEagleSlide.name
+mw:deserteaglebody, item.mw_DesertEagleBody.name
+mw:deserteaglelongbody, item.mw_DesertEagleLongBody.name
+mw:mp5a5handguard, MP5A5 Handguard
+mw:mp5sdhandguard, MP5SD Handguard
+mw:mp5hoguegrip, MP5 Hogue Grip
+mw:glockhoguegrip, Glock Hogue Grip
+mw:glockhoguegriptan, Glock Hogue Grip (Tan)
+mw:mp5a3stock, MP5A3 Stock
+mw:mp5a4stock, MP5A4 Stock
+mw:lvoavhandguard, LVOAV Handguard
+mw:m38handguard, M38 Handguard
+mw:mk18handguard, Mk18 Handguard
+mw:m4magpulhandguard, M4 Magpul Handguard
+mw:m4magpulhandguardtan, M4 Magpul Handguard (Tan)
+mw:m4receiver, M4 Receiver
+mw:vltorreceiver, VLTOR Receiver
+mw:ar57receiver, AR-57 机匣
+mw:placeholder, item.mw_Placeholder.name
+mw:p90placeholder, item.mw_P90Placeholder.name
+mw:pistolplaceholder, item.mw_PistolPlaceholder.name
+mw:gripplaceholder, item.mw_GripPlaceholder.name
+mw:laserplaceholder, item.mw_LaserPlaceholder.name
+mw:m4handguard, M4 Handguard
+mw:ar57handguard, AR-57 护木
+mw:ntw20guard, NTW-20 Handguard
+mw:m16handguard, M16 Handguard
+mw:m4carbinehandguard, M4 Carbine Handguard
+mw:heraarmsgrip, Hera Arms Grip
+mw:m4grip, M4 Grip
+mw:m4griptan, M4 Grip (Tan)
+mw:m4gripgray, M4 Grip (Gray)
+mw:ak47grip, AK-47 Grip
+mw:ak101grip, AK-101 Grip
+mw:akergogrip, AK Ergo Grip
+mw:ak47stock, AK-47 Stock
+mw:rpkstock, RPK Stock
+mw:ak101stock, AK-101 Stock
+mw:collapsablemoestock, Collapsable MOE Stock
+mw:magpulctrstock, Magpul CTR Stock
+mw:magpulctrstocktan, Magpul CTR Stock (Tan)
+mw:milspecstock, Mil-Spec Stock
+mw:milspecstocktan, Mil-Spec Stock (Tan)
+mw:heraarmsstock, Hera Arms Stock
+mw:hk416stock, HK416 Stock
+mw:m16stock, M16 Stock
+mw:hk416stocktan, HK416 Stock (Tan)
+mw:m16stocktan, M16 Stock (Tan)
+mw:ak47handleguard, AK-47 Handguard
+mw:ak101handguard, AK-101 Handguard
+mw:akmagpulhandleguard, AK Magpul Handguard
+mw:akmagpulhandleguardtan, AK Magpul Handguard (Tan)
+mw:mlokhandguard, MLOK Handguard
+mw:mlokextendedhandguard, MLOK Extended Handguard
+mw:ak15handleguard, AK-15 Handguard
+mw:rpk16handguard, RPK-16 Handguard
+mw:ak47dustcover, AK-47 Dust Cover
+mw:ak101dustcover, AK-101 Dust Cover
+mw:rpkdustcover, RPK-16 Dust Cover
+mw:veprdustcover, Vepr Dust Cover
+mw:ak15dustcover, AK-15 Dust Cover
+mw:m4frontsight, 突击步枪机械准星
+mw:m60frontsight, M60E4 机械准星
+mw:m38frontsight, M38 Front Sight
+mw:pso1, PSO-1 瞄准镜
+mw:okp7, OKP-7 瞄准镜
+mw:reflex, 15 MOA 反射式红点瞄准镜
+mw:bijiareflex, 毕佳反射式瞄准镜
+mw:acog, 先进战斗光学瞄准镜
+mw:specter, Elcan Specter SFOV4-A1 瞄准镜
+mw:holographic2, EOTech EXPS3-0 全息瞄准镜 | 棕黄色涂装
+mw:holographicalt, EOTech 512 A65 全息瞄准镜 | 黑色涂装
+mw:eotechhybrid2, EOTech 混合式瞄准镜
+mw:vortex_sight, Vortex UH-1 全息瞄具
+mw:microt1, Micro-T1 瞄准镜
+mw:aimpointcompm5, Aimpoint Comp M5 红点瞄准镜
+mw:rmrsight, RMR 瞄准镜
+mw:kobra, 8-18 Kobra 瞄准镜
+mw:hpscope, JPU HP 3-9x40 瞄准镜
+mw:nightraiderscope, “夜袭者”瞄准镜
+mw:m2a1_sight, M2A1 瞄准镜
+mw:f2000scope, FNPM 1.6倍瞄准镜
+mw:m202scope, item.mw_M202scope.name
+mw:augscope, AUG Scope
+mw:ma5dcover, MA5D ICWS 防尘罩
+mw:br55scope, BR-DEMROS 瞄准镜
+mw:dmrscope, M392-DHO-4M 瞄准镜
+mw:srs99scope, item.mw_SRS99Scope.name
+mw:silencer556x45, 5.56x45mm 北约制式 消音器
+mw:silencer545x39, 5.45x39mm 消音器
+mw:silencer762x39, 7.62x39mm 消音器
+mw:m32barrel, M32 Extended Barrel
+mw:rpkbarrel, RPK Barrel
+mw:akiron, AK Front Sight
+mw:silencer9mm, 9(x18/19)mm 消音器
+mw:silencermp5, MP5 消音器
+mw:silencer9x39mm, 9x39mm 消音器
+mw:silencer45acp, .45 ACP 消音器
+mw:silencer_eabh, EABH 消音器
+mw:silencer762x54, 7.62x54mm 消音器
+mw:silencer762x51, 7.62x51mm 北约制式 消音器
+mw:silencer50bmg, .50 BMG 消音器
+mw:silencer556x39, 5.56x39mm 消音器
+mw:akmiron, 标准金属瞄具
+mw:kar98ksight, Karabiner-98 Kurz 机械瞄具
+mw:ak15ironsight, AK-15 机械照门
+mw:silencermp7, 4.6x30mm 消音器
+mw:silencer357, .357 消音器
+mw:silencer57x38, 5.7x28mm 消音器
+mw:silencer12gauge, 12 Gauge 消音器
+mw:silencer300aacblackout, .300 AAC Blackout 消音器
+mw:silencer65x39, 6.5x39mm 北约制式 消音器
+mw:laser, UTG 战术激光
+mw:laser2, LD19206-IR 战术激光
+mw:danwessonlaser, D&W 激光
+mw:m1928grip, M1928 Grip
+mw:m1a1grip, M1A1 Grip
+mw:grip2, 直握把
+mw:junogrip, 折叠握把
+mw:glock18cstock, G18C DRS-HS
+mw:vp70stock, item.mw_VP70Stock.name
+mw:angledgrip, 直角握把
+mw:stubbygrip, 短握把
+mw:vgrip, 前握把
+mw:bipod, 两脚架
+mw:auggrip, AUG Grip
+mw:fatmangrip, item.mw_FatmanGrip.name
+mw:fatmanrack, item.mw_FatmanRack.name
+mw:mininukeattachment, item.mw_MiniNukeAttachment.name
+mw:chainb, item.mw_ChainB.name
+mw:chaina, item.mw_ChainA.name
+mw:chain, item.mw_Chain.name
+mw:g11action, item.mw_G11Action.name
+mw:augaction, item.mw_AUGAction.name
+mw:m32main1b, item.mw_M32Main1B.name
+mw:m134barrels, item.mw_M134Barrels.name
+mw:browningauto5action, item.mw_BrowningAuto5Action.name
+mw:m1garandaction, item.mw_M1GarandAction.name
+mw:m1garandmag, item.mw_M1GarandMag.name
+mw:m1897pump, item.mw_M1897pump.name
+mw:super90pump, item.mw_Super90Pump.name
+mw:p226slide, item.mw_P226Slide.name
+mw:pythonchamber, item.mw_PythonChamber.name
+mw:magnumchamber, item.mw_MagnumChamber.name
+mw:rhinochamber, item.mw_RhinoChamber.name
+mw:acraction, item.mw_ACRAction.name
+mw:m1014action, item.mw_M1014Action.name
+mw:supernovaaction, item.mw_SupernovaAction.name
+mw:supernovapump, item.mw_SupernovaPump.name
+mw:acrrails, item.mw_ACRRails.name
+mw:rpg7rocket, item.mw_RPG7rocket.name
+mw:m202rockets, item.mw_m202rockets.name
+mw:ssg42barrels, item.mw_SSG42Barrels.name
+mw:chiappatriplecrownbarrels, item.mw_ChiappaTripleCrownBarrels.name
+mw:quadbarrelshotgunbarrels, item.mw_QuadBarrelShotgunBarrels.name
+mw:glgrenade, item.mw_GLgrenade.name
+mw:m79grenade, item.mw_M79grenade.name
+mw:gl06cartridge, item.mw_GL06Cartridge.name
+mw:m79cartridge, item.mw_M79Cartridge.name
+mw:m32cartridge, item.mw_M32Cartridge.name
+mw:m56mag, item.mw_M56Mag.name
+mw:har27mag, item.mw_HAR27Mag.name
+mw:har27belt, item.mw_HAR27Belt.name
+mw:har27action, item.mw_HAR27Action.name
+mw:m41amag, item.mw_M41AMag.name
+mw:type51mag, item.mw_Type51Mag.name
+mw:mp43edoublebarrel, item.mw_MP43Edoublebarrel.name
+mw:hs12barrels, item.mw_HS12Barrels.name
+mw:m1873action, item.mw_M1873action.name
+mw:type51action, item.mw_Type51Action.name
+mw:f2000action, item.mw_F2000Action.name
+mw:ma37action, item.mw_MA37Action.name
+mw:m20action, item.mw_M20Action.name
+mw:m392action, item.mw_M392Action.name
+mw:srs99action, item.mw_SRS99Action.name
+mw:ma5daction, item.mw_MA5DAction.name
+mw:br55action, item.mw_BR55Action.name
+mw:g36caction, item.mw_G36CAction.name
+mw:sl8action, item.mw_SL8Action.name
+mw:m1a1thompsonaction, item.mw_M1A1ThompsonAction.name
+mw:kedraction, item.mw_KedrAction.name
+mw:m1928thompsonaction, item.mw_M1928ThompsonAction.name
+mw:m1a1thompsonsight, item.mw_M1A1ThompsonSight.name
+mw:m1928sight, item.mw_M1928Sight.name
+mw:csa16pump, item.mw_CSA16pump.name
+mw:m45pump, item.mw_M45pump.name
+mw:r870part, item.mw_R870part.name
+mw:m82action, item.mw_m82action.name
+mw:mp40action, item.mw_MP40action.name
+mw:mp5a5action, item.mw_MP5A5action.name
+mw:mg42belt, item.mw_mg42belt.name
+mw:mg42latch, item.mw_mg42latch.name
+mw:mg34latch, item.mw_mg34latch.name
+mw:m60belt, item.mw_M60Belt.name
+mw:stonerhatch, item.mw_StonerHATCH.name
+mw:stonerbelt, item.mw_StonerBELT.name
+mw:johnsonlmgaction, item.mw_JohnsonLMGACTION.name
+mw:johnsonrifleaction, item.mw_JohnsonRifleAction.name
+mw:johnsonriflesight, item.mw_JohnsonRifleSight.name
+mw:stripperclip, item.mw_StripperClip.name
+mw:stripperclipbullets, item.mw_StripperClipBullets.name
+mw:ntw20barrel, item.mw_NTW20Barrel.name
+mw:ntw20action, item.mw_NTW20Action.name
+mw:m60hatch, item.mw_M60Hatch.name
+mw:m249belt, item.mw_M249Belt.name
+mw:m249hatch, item.mw_M249Hatch.name
+mw:m249action, item.mw_M249Action.name
+mw:mg42action, item.mw_mg42action.name
+mw:scaraction, item.mw_ScarAction.name
+mw:mk14ebraction, item.mw_Mk14EBRaction.name
+mw:mk14ebrsight, item.mw_Mk14EBRsight.name
+mw:stg44action, item.mw_STG44action.name
+mw:g43gewehraction, item.mw_G43GewehrAction.name
+mw:springfieldrearsight, item.mw_SpringfieldRearSight.name
+mw:springfieldaction, item.mw_SpringfieldAction.name
+mw:kar98kaction, item.mw_Kar98Kaction.name
+mw:glock18cslide, item.mw_Glock18Cslide.name
+mw:esa23slide, item.mw_ESA23Slide.name
+mw:vp70slide, item.mw_VP70slide.name
+mw:frommerstopaction, item.mw_FrommerStopAction.name
+mw:frommersight, item.mw_FrommerSight.name
+mw:apsslide, item.mw_APSslide.name
+mw:glock19slide, item.mw_Glock19slide.name
+mw:m712action, item.mw_M712action.name
+mw:m45a1slide, item.mw_M45A1slide.name
+mw:browninghipowerslide, item.mw_BrowningHiPowerSlide.name
+mw:mp443slide, item.mw_MP443Slide.name
+mw:vssvintorezaction, item.mw_VSSVintorezAction.name
+mw:akaction, item.mw_AKaction.name
+mw:ak12action, item.mw_AK12action.name
+mw:volkaction, item.mw_Volkaction.name
+mw:type2mag, item.mw_Type2Mag.name
+mw:saiga12action, item.mw_Saiga12action.name
+mw:saiga12sights, item.mw_Saiga12sights.name
+mw:as50action, item.mw_AS50Action.name
+mw:sccycpx2slide, item.mw_SCCYCPX2Slide.name
+mw:m6cslide, item.mw_M6Cslide.name
+mw:m6csocomsight, item.mw_M6CSOCOMsight.name
+mw:m6csocomslide, item.mw_M6CSOCOMSlide.name
+mw:albert01r_slide, item.mw_albert01R_slide.name
+mw:uziaction, item.mw_UziAction.name
+mw:uzirelease, item.mw_UziRelease.name
+mw:uziironsight, item.mw_UziIronSight.name
+mw:p10slide, item.mw_P10Slide.name
+mw:p10frontsight, item.mw_P10frontsight.name
+mw:m40a6boltaction, item.mw_M40A6BoltAction.name
+mw:sv98boltaction, item.mw_SV98BoltAction.name
+mw:l96action, item.mw_L96Action.name
+mw:lp115bolt2, item.mw_LP115Bolt2.name
+mw:l115mag, item.mw_L115Mag.name
+mw:sv98barrelpiece, item.mw_SV98barrelpiece.name
+mw:m500a2pump, item.mw_M500A2pump.name
+mw:r870pump, item.mw_r870pump.name
+mw:hescspump, item.mw_HESCSpump.name
+mw:ks23pump, item.mw_KS23pump.name
+mw:kragaction1, item.mw_KragAction1.name
+mw:kragaction2, item.mw_KragAction2.name
+mw:kragchamber, item.mw_KragChamber.name
+mw:shotgunshell, 12 Gauge 霰弹
+mw:shotgun4gauge, item.mw_Shotgun4Gauge.name
+mw:bullet, item.mw_Bullet.name
+mw:laserprojectile, item.mw_LaserProjectile.name
+mw:ma37mag, item.mw_MA37Mag.name
+mw:m20mag, item.mw_M20Mag.name
+mw:m392mag, item.mw_M392Mag.name
+mw:srs99mag, item.mw_SRS99Mag.name
+mw:ma5dmag, item.mw_MA5DMag.name
+mw:br55mag, item.mw_BR55Mag.name
+mw:m8a7mag, item.mw_M8A7Mag.name
+mw:g36cmag, item.mw_G36CMag.name
+mw:nv4mag, item.mw_NV4Mag.name
+mw:m6cmag, item.mw_M6CMag.name
+mw:m6csocommag, item.mw_M6CSOCOMMag.name
+mw:p10mag, item.mw_P10Mag.name
+mw:volkmag, item.mw_VolkMag.name
+mw:ar15action, item.mw_AR15Action.name
+mw:nv4action, item.mw_NV4Action.name
+mw:brenaction, item.mw_BrenAction.name
+mw:type2part, item.mw_Type2Part.name
+mw:type2sight, item.mw_Type2Sight.name
+mw:m110action, item.mw_M110Action.name
+mw:ar15iron, AR 提把
+mw:extra, item.mw_Extra.name
+mw:m4rail, item.mw_M4Rail.name
+mw:magnumrail, item.mw_MagnumRail.name
+mw:g36crail, item.mw_G36CRail.name
+mw:railalt, item.mw_RailAlt.name
+mw:aacrail, item.mw_AACRail.name
+mw:m110rail, item.mw_M110Rail.name
+mw:akpart, item.mw_AKpart.name
+mw:akmuzzle, item.mw_AKmuzzle.name
+mw:crimsonblood, item.mw_CrimsonBlood.name
+mw:chrome, item.mw_Chrome.name
+mw:godwillsit, item.mw_GodWillsIt.name
+mw:murasaki, item.mw_Murasaki.name
+mw:evangelion, item.mw_Evangelion.name
+mw:grenade40mm, 40mm 枪榴弹
+mw:mininuke, 小型核弹
+mw:m202rocket, M202 火箭弹
+mw:rpg7_rocket, RPG-7 火箭弹
+mw:energycase, EC 3rd.D Casing
+mw:plasmacapsule, 2型等离子容器
+mw:bfgammo, 银等离子容器
+mw:bullet3006springfield, .30-06 “春田”子弹
+mw:bullet8x58, 8x58mm 子弹
+mw:bullet792x33kurz, 7.92x33mm Kurz 子弹
+mw:bullet50bmg, .50 BMG 子弹
+mw:bullet20x82mm, 20x82mm 子弹
+mw:bullet308winchester, .308 Winchester 子弹
+mw:bullet792x57, 7.92x57mm 子弹
+mw:bullet762x54, 7.62x54mm 子弹
+mw:bullet762x51, 7.62x51mm 子弹
+mw:shotgun12gauge, 12 Gauge 霰弹
+mw:shotgun4g, 4 Gauge 霰弹
+mw:bullet762x35, 7.62x35mm 子弹
+mw:bullet765x21, 7.65x21mm 子弹
+mw:bullet762x39, 7.62x39mm 子弹
+mw:bullet556x45, 5.56x45mm 北约制式子弹
+mw:bullet545x39, item.mw_Bullet545x39.name
+mw:bullet4440, 44-40 Winchester 子弹
+mw:bullet45acp, .45 ACP 子弹
+mw:bullet357, .357 子弹
+mw:bullet44, .44 Magnum 子弹
+mw:bullet40sw, item.mw_Bullet40SW.name
+mw:bullet50ae, .50 AE 子弹
+mw:bullet500, .500 Magnum 子弹
+mw:bullet380acp, .380 ACP 子弹
+mw:bullet763x25, 7.63x25mm 子弹
+mw:bullet9x39mm, 9x39mm 子弹
+mw:bullet9x19mm, 9x19mm 子弹
+mw:bullet46x30mm, item.mw_Bullet46x30mm.name
+mw:bullet10mm, 10mm 子弹
+mw:bullet473x33mm, item.mw_Bullet473x33mm.name
+mw:fuelcell, 电锯用燃油仓
+mw:brenmag, 7.62x51mm 30发Bren弹匣
+mw:johnsonmag, .30-06 20发春田弹匣
+mw:vectormag, .45 ACP 25发弹匣 | Kriss Vector用
+mw:m4a1mag_2, 5.56x45mm 30发北约制式STANAG弹匣
+mw:aug9mmmag, 9x19mm 30发帕拉贝鲁姆弹匣
+mw:m134mag, 7.62x51mm 1000发弹链箱
+mw:m60mag, 7.62x51mm 100发弹链箱
+mw:m249mag, 5.56x45mm 100发北约制式弹链箱
+mw:stonermag, 5.56x45mm 100发弹匣 | Stoner A1用
+mw:honeybadgermag_2, .300 AAC Blackout 30发弹匣 | AAC “蜜獾”用
+mw:m38mag_2, 5.56x45mm 30发北约制式PMAG弹匣
+mw:stanag50, 5.56x45mm 50发STANAG弹鼓
+mw:stanag60, 5.56x45mm 60发STANAG弹鼓
+mw:stanag100, 5.56x45mm 100发STANAG弹鼓
+mw:g36cmag_2, 5.56x45mm 30发北约制式HK弹匣
+mw:ak101mag_2, 5.56x45mm 30发弹匣
+mw:ak60mag, 5.56x45mm 60发弹匣
+mw:ak15mag_2, 7.62x39mm 30发PMAG弹匣
+mw:ak12mag, 5.45x39mm 31发弹匣
+mw:ak47pmagtan, 7.62x39mm 30发PMAG弹匣 | 棕黄色涂装
+mw:ak47mag, 7.62x39mm 30发弹匣
+mw:ak50mag, 7.62x39mm 50发弹鼓
+mw:ak75mag, 7.62x39mm 75发弹鼓
+mw:ak100mag, 7.62x39mm 100发弹鼓
+mw:saigamag_2, 12 Gauge 5发弹匣
+mw:m9mag_2, 9x19mm 15发弹匣
+mw:samuraiedgemag, .40 15发弹匣 | S&W “武士之刃”用
+mw:sccy_cpx_2_mag, item.mw_sccy_cpx_2_mag.name
+mw:deserteaglemag, .50 AE 7发弹匣
+mw:m9mag30, 9x19mm 30发弹匣
+mw:m9drummag, 9x19mm 65发弹鼓
+mw:mp443mag_2, 9x19mm 18发弹匣 | MP443用
+mw:m45a1mag_2, .45 ACP 7发弹匣
+mw:m1911_44mag, .44 7发弹匣 | Colt M1911用
+mw:m45a1mag14, .45 ACP 14发弹匣
+mw:hipowermag, 9x19mm 13发弹匣
+mw:frommerstopmag, .380 ACP 8发弹匣
+mw:apsmag_2, 9x19mm 20发弹匣 | APS用
+mw:glockmag13, 9x19mm 13发弹匣 | Glock用
+mw:glock18cmag_2, 9x19mm 20发弹匣
+mw:glockmag50, 9x19mm 50发弹鼓
+mw:as50mag_2, .50 BMG 10发弹匣 | AS50用
+mw:m82mag_2, .50 BMG 10发北约制式弹匣
+mw:ntw20mag, 20x82mm 3发弹匣
+mw:kbp9a91mag_2, 9x39mm 20发KBP弹匣
+mw:kedrmag_2, 9x19mm 20发弹匣 | PP-91 Kedr用
+mw:l96a1mag_2, 7.62x54mm 10发LAPUA弹匣
+mw:m40a6mag_2, .308 Winchester 7发弹匣
+mw:m110mag_2, 7.62x51mm 10发北约制式弹匣
+mw:m1928mag, .45 ACP 50发弹匣 | M1928用
+mw:m1a1mag, .45 ACP 30发弹匣 | M1A1用
+mw:m712mag_2, 7.63x25mm 20发毛瑟弹匣
+mw:mg42mag_2, 7.92x57mm 50发机枪弹链盒
+mw:dp28mag, 7.62x54mm 47发弹盘
+mw:mk14ebrmag_2, 7.62x51mm 20发北约制式弹匣 | Mk14 EBR用
+mw:m14drum50, 7.62x51mm 50发北约制式弹鼓 | Mk14 EBR用
+mw:mp40mag_2, 9x19mm 32发弹匣 | MP40用
+mw:mp5a5mag, 9x19mm 30发HK弹匣
+mw:hk50drum, 9x19mm 50发HK弹鼓
+mw:mp7mag, 4.6x30mm 40发弹匣
+mw:p90mag, 5.7x28mm 50发弹匣
+mw:p90terminatormag, 5.7x28mm 65发“终结者”弹匣
+mw:g11mag, 4.73x33mm 50发弹匣
+mw:scarhmag_2, 7.62x51mm 20发北约制式CQC弹匣
+mw:scar40mag, 7.62x51mm 40发北约制式CQC弹匣
+mw:scar60mag, 7.62x51mm 60发北约制式CQC弹鼓
+mw:vssvintorezmag_2, 9x39mm 20发弹匣
+mw:stg44mag_2, 7.92x33mm 30发弹匣
+mw:g43_gewehr_mag, 7.92x57mm 10发弹匣 | Gewehr 43用
+mw:sv98mag_2, 7.62x54mm 10发Izhmash弹匣
+mw:uzimag_2, 9x19mm 32发弹匣
+mw:vp70mag_2, 9x19mm 18发弹匣
+mw:m249, M249班用自动武器
+mw:m40a6, M40A6
+mw:m110_sass, M110 SASS
+mw:m1014, M1014 半自动霰弹枪
+mw:super90, Benelli Super-90
+mw:supernova, Benelli Supernova
+mw:m500a2, M500A2
+mw:m38_dmr, M27 IAR
+mw:m16a4, M16A4突击步枪
+mw:m4a1, M4A1卡宾枪
+mw:colt_m45a1, Colt M45A1
+mw:p226, SIG P226
+mw:m9a1, M9A1 Beretta
+mw:mp_443, MP-443 “乌鸦”
+mw:ak15, AK-15
+mw:kbp_9a91, KBP 9A-91
+mw:sr3_vikhr, SR-3 “旋风”
+mw:pp91_kedr, PP-91 Kedr
+mw:vss_vintorez, VSS “螺纹剪裁机”
+mw:ks23, KS-23
+mw:sv98, Izhmash SV-98
+mw:mp5a5, HK MP5A5
+mw:mp7, MP7单兵自卫武器
+mw:p90, P90冲锋枪
+mw:scar_l, Mk16 SCAR-L
+mw:scar_h_cqc, Mk17 CQC SCAR-H
+mw:vp70, VP-70
+mw:glock_19, Glock-19
+mw:sccy_cpx_2, CPX-2
+mw:browning_hi_power, Browning Hi-Power
+mw:m1911, .45口径M1911柯尔特手枪
+mw:python, Colt Python
+mw:taurus_raging_hunter, Taurus Raging Hunter .44 Magnum
+mw:chiappa_rhino, Chiappa “犀牛”
+mw:sw_500_magnum, S&W .500 Magnum
+mw:desert_eagle, IMI “沙漠之鹰”
+mw:mp40, MP40 冲锋枪
+mw:m1928_thompson, M1928 汤普森
+mw:kriss_vector, Kriss Vector
+mw:ak101, AK-101
+mw:ak103_bullpup, AK-103 Bullpup
+mw:ak47, AK47 突击步枪
+mw:izhmash_ak12, Izhmash AK-12
+mw:acr, ACR突击步枪
+mw:cz805_bren, CZ-805 Bren
+mw:f2000, FN F2000
+mw:g36c, HK G36C
+mw:steyr_aug_a1, Steyr AUG A1
+mw:sl8, HK SL8
+mw:g11, HK G11
+mw:stg44, StG-44
+mw:m1873, M1873
+mw:mares_leg, “玛丽的腿”
+mw:nv4, NV4
+mw:type2, Type-2
+mw:volk, Volk
+mw:m8a7, M8A7
+mw:remington870, Remington 870
+mw:browning_auto_5, Browning Auto-5
+mw:m1_garand, M1 加兰德
+mw:g43_gewehr, Gewehr 43
+mw:springfield, M1903 “春田”
+mw:kar98k, Karabiner-98 Kurz
+mw:krag_jorgensen, Krag-Jorgensen
+mw:frommer_stop, Frommer Stop
+mw:p10, P10
+mw:glock_18c, Glock-18C
+mw:aps, APS
+mw:m712, M712
+mw:uzi, 乌兹冲锋枪
+mw:aac_honey_badger, AAC “蜜獾”
+mw:he_standard_combat_shotgun, HE-SCS
+mw:saiga12, SAIGA-12半自动霰弹枪
+mw:spas_12, 弗兰基 SPAS-12 霰弹枪
+mw:mp43e, MP-43E
+mw:hs12, HS-12
+mw:chiappa_triple_crown, Chiappa “三重冠”
+mw:quad_barrel_shotgun, 四管猎枪
+mw:m1897, M1897
+mw:mk14_ebr, M14 DMR
+mw:bren_mkii, Bren MkII
+mw:m1941_johnson, M1941 约翰逊 | 轻机枪型
+mw:m1941_johnson_rifle, M1941 约翰逊 | 步枪型
+mw:dp28, DP28轻机枪
+mw:mg34, MG-34
+mw:mg42, MG42 通用机枪
+mw:m60e4, M60E4
+mw:stonera1, Stoner A1
+mw:l96a1, L96A1
+mw:as50, AS50
+mw:m82_barrett, M82 Barrett
+mw:ntw_20, NTW-20
+mw:gl06, GL-06
+mw:m79, M79 GL
+mw:m32_mgl, M32 MGL
+mw:rpg7, RPG-7
+mw:m202, M202 “闪光”
+mw:m134, M134
+mw:csa16, CSA-16
+mw:ssg42, SSG-42 MkII-DS
+mw:har_27, HAR-27
+mw:gpca1, GPC-A1
+mw:m6c, M6C Magnum
+mw:m6c_socom, M6C SOCOM
+mw:m20, M20超级巴祖卡
+mw:ma37_icws, MA37 ICWS
+mw:ma5d, MA5D ICWS
+mw:br55, BR-55
+mw:m392, M392 DMR
+mw:m45, M45
+mw:srs99, SRS-99 AMSR
+mw:type51, Type-51
+mw:m41a, M41A 
+mw:m56, M56 ESG
+mw:esa23, ESA-23
+mw:fatman, “胖子”
+mw:bfg_9000, BFG 9000
+mw:chainsaw, 电锯
+mw:tablet, 战术平板电脑
+mw:wcam, 战术摄像头
+mw:gas-detector, 毒气检测仪
+mw:grenadesafetypin, item.mw_GrenadeSafetyPin.name
+mw:m67frag, M67 破片手雷
+mw:impactgrenade, 冲击手雷
+mw:m18white, M18 白色烟雾弹
+mw:gasgrenade, 毒气弹
+mw:tactical_tomahawk, 战术斧
+mw:baseball_bat, 棒球棍
+mw:baseball_bat_nails, 狼牙棒
+mw:night_stick, 警棍
+mw:gas_can, Gas Can (PROP)
+mw:weapons_case, 武器箱
+mw:weapons_case_small, 小型武器箱
+mw:russian_weapons_case, 俄系武器箱
+mw:ammo_box, 弹药箱
+mw:weapons_locker, 武器贮藏柜
+mw:fridge_open, 打开的冰箱
+mw:fridge_closed, 冰箱
+mw:artillery_prop, 火炮
+mw:supply_drop, 补给空投
+mw:medical_crate, 医疗箱
+mw:locker, 贮藏柜
+mw:scp_locker, SCP收容柜
+mw:barrel, 桶
+mw:explosive_barrel, 易爆物桶
+mw:pc, tile.mw_pc.name
+mw:laptop, 笔记本电脑
+mw:monitor, 显示器
+mw:filingcabinet, 文件柜
+mw:filingcabinet_opened, 打开的文件柜
+mw:shelf_right, 右侧货架
+mw:shelf_left, 货架左部
+mw:shelf_top, 货架右部
+mw:tv, 电视
+mw:ceiling_tv, 吸顶式电视
+mw:ceiling_tv_rotated, 吸顶式电视（旋转）
+mw:office_chair, 扶手办公椅
+mw:office_chair_2, 办公椅
+mw:desk_corner, 桌角
+mw:desk_corner_alt1, 桌角与废纸篓
+mw:desk_left, 桌子左部
+mw:desk_left_alt1, 桌子左部与废纸篓
+mw:desk_middle, 桌子中部
+mw:desk_middle_alt1, 桌子中部与电脑主机
+mw:desk_right, 桌子右部
+mw:desk_right_alt1, 桌子右部（带抽屉）
+mw:desk_shelf, 书桌架
+mw:desk_shelf_alt1, 放有抽纸盒的书桌架
+mw:desk_shelf_alt2, 空书桌架
+mw:desk_shelf_alt3, 放有镜子和抽纸盒的书桌架
+mw:barrier, 障碍物
+mw:barrier_rotated, 障碍物（旋转）
+mw:body_bag, 尸体袋
+mw:hanging_body, 缢死的尸体
+mw:impaled_body, 被刺穿的尸体
+mw:blank, 空白方块
+mw:dumpster, 垃圾箱
+mw:wooden_crate, 木箱
+mw:wooden_crate_opened, 打开的木箱
+mw:operating_table, 手术台
+mw:operating_table_alt, 略微架起的手术台
+mw:forklift, 叉车
+mw:forklift_alt, 载物叉车
+mw:trusses, 桁架
+mw:ceiling_lamp, 吊灯
+mw:ceiling_lamp_alt, 顶灯
+mw:vent, 通风管
+mw:vent_rotated, 通风管（旋转）
+mw:vent_corner, 通风管角
+mw:vent_corner_rotated, 通风管角（旋转 A）
+mw:vent_corner_rotated_alt, 通风管角（旋转 B）
+mw:vent_intersection, 通风管交叉部
+mw:vent_end, 通风管末端
+mw:white_desk_left, 白色桌子左
+mw:white_desk_middle, 白色桌子中
+mw:white_desk_right, 白色桌子右
+mw:trash_bin, 废物箱
+mw:caution_sign, 警告标
+mw:electric_box, 配电箱
+mw:electric_box_opened, 开启的配电箱
+mw:home_chair, 家用椅
+mw:outdoor_chair, 户外椅
+mw:home_chair_rotated, 家用椅（旋转）
+mw:outdoor_chair_rotated, 户外椅（旋转）
+mw:vending_machine, 自动售货机
+mw:serverrackleft, 服务器机架左侧
+mw:serverrackemptyleft, 空的服务器机架左侧
+mw:serverrackleftalt, 服务器机架左侧（备选）
+mw:serverrackleftalt2, 服务器机架左侧（备选2）
+mw:serverrackleftalt3, 服务器机架左侧（备选3）
+mw:serverrackemptyright, 空的服务器机架右侧
+mw:serverrackright, 服务器机架右侧
+mw:serverrackrightalt, 服务器机架右侧（备选）
+mw:serverracktopleft, 服务器机架左上角
+mw:serverracktopright, 服务器机架右上角
+mw:duelfloodlight, 高泛光灯
+mw:floodlight, 泛光灯
+mw:radio_rotated, 电台（旋转）
+mw:radio, 电台
+mw:camera_rotated, 旋转的摄像头
 openblocks:ladder, 梯子活板门
 openblocks:guide, 建筑指导仪
 openblocks:builder_guide, 强化建筑指导仪
@@ -1774,6 +2603,13 @@ securitycraft:sentry, 战斗哨石
 securitycraft:crystal_quartz_item, Crystal Quartz
 securitycraft:keypad_door_item, Keypad Door
 securitycraft:portable_tune_player, Portable Tune Player
+advancedmortars:mortar:0, 木研钵
+advancedmortars:mortar:1, 石研钵
+advancedmortars:mortar:2, 铁研钵
+advancedmortars:mortar:3, 钻石研钵
+advancedmortars:mortar:4, 金研钵
+advancedmortars:mortar:5, 黑曜石研钵
+advancedmortars:mortar:6, 绿宝石研钵
 appliedenergistics2:quartz_ore, 赛特斯石英矿石
 appliedenergistics2:charged_quartz_ore, 充能赛特斯石英矿石
 appliedenergistics2:matrix_frame, 矩阵框架
@@ -2141,6 +2977,11 @@ appliedenergistics2:facade:0, 线缆伪装板 - 金边框圆石
 appliedenergistics2:facade:0, 线缆伪装板 - 钻石边框圆石
 appliedenergistics2:facade:0, 线缆伪装板 - 绿宝石边框圆石
 appliedenergistics2:facade:0, 线缆伪装板 - 石英边框圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 铅矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 铜矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 石墨矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 锡矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 硫矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 电梯
 appliedenergistics2:facade:0, 线缆伪装板 - 海绵
 appliedenergistics2:facade:0, 线缆伪装板 - 脚手架
@@ -2159,6 +3000,23 @@ appliedenergistics2:facade:0, 线缆伪装板 - 陨石
 appliedenergistics2:facade:0, 线缆伪装板 - 陨石块
 appliedenergistics2:facade:0, 线缆伪装板 - 陨石石砖
 appliedenergistics2:facade:0, 线缆伪装板 - 陨石砖块
+appliedenergistics2:facade:0, 线缆伪装板 - 沼泽木树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 白色洞穴水晶
+appliedenergistics2:facade:0, 线缆伪装板 - 末影云母矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 云母块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制云母块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹云母块
+appliedenergistics2:facade:0, 线缆伪装板 - 玄武岩
+appliedenergistics2:facade:0, 线缆伪装板 - 大理石
+appliedenergistics2:facade:0, 线缆伪装板 - 石灰石
+appliedenergistics2:facade:0, 线缆伪装板 - 黄石
+appliedenergistics2:facade:0, 线缆伪装板 - 青石
+appliedenergistics2:facade:0, 线缆伪装板 - 硫黄石
+appliedenergistics2:facade:0, 线缆伪装板 - 硫黄石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 老化海晶石
+appliedenergistics2:facade:0, 线缆伪装板 - 老化海晶灯
+appliedenergistics2:facade:0, 线缆伪装板 - 荧光菌丝
+appliedenergistics2:facade:0, 线缆伪装板 - 荧光菇
 appliedenergistics2:facade:0, 线缆伪装板 - 磨制砂岩
 appliedenergistics2:facade:0, 线缆伪装板 - 磨制石头
 appliedenergistics2:facade:0, 线缆伪装板 - 白色染色木板
@@ -2187,29 +3045,14 @@ appliedenergistics2:facade:0, 线缆伪装板 - 灵魂砂岩
 appliedenergistics2:facade:0, 线缆伪装板 - 草垛块
 appliedenergistics2:facade:0, 线缆伪装板 - 熔铸石
 appliedenergistics2:facade:0, 线缆伪装板 - 白色缝边羊毛
-appliedenergistics2:facade:0, 线缆伪装板 - 糖方块
-appliedenergistics2:facade:0, 线缆伪装板 - 红色粘液块
-appliedenergistics2:facade:0, 线缆伪装板 - 末影沙
-appliedenergistics2:facade:0, 线缆伪装板 - 沼泽木树叶
-appliedenergistics2:facade:0, 线缆伪装板 - 白色洞穴水晶
-appliedenergistics2:facade:0, 线缆伪装板 - 末影云母矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 云母块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制云母块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹云母块
-appliedenergistics2:facade:0, 线缆伪装板 - 玄武岩
-appliedenergistics2:facade:0, 线缆伪装板 - 大理石
-appliedenergistics2:facade:0, 线缆伪装板 - 石灰石
-appliedenergistics2:facade:0, 线缆伪装板 - 黄石
-appliedenergistics2:facade:0, 线缆伪装板 - 青石
-appliedenergistics2:facade:0, 线缆伪装板 - 硫黄石
-appliedenergistics2:facade:0, 线缆伪装板 - 硫黄石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 老化海晶石
-appliedenergistics2:facade:0, 线缆伪装板 - 老化海晶灯
-appliedenergistics2:facade:0, 线缆伪装板 - 荧光菌丝
-appliedenergistics2:facade:0, 线缆伪装板 - 荧光菇
 appliedenergistics2:facade:0, 线缆伪装板 - 云杉木书架
 appliedenergistics2:facade:0, 线缆伪装板 - 点亮的红石灯
 appliedenergistics2:facade:0, 线缆伪装板 - 烈焰灯
+appliedenergistics2:facade:0, 线缆伪装板 - 糖方块
+appliedenergistics2:facade:0, 线缆伪装板 - 红色粘液块
+appliedenergistics2:facade:0, 线缆伪装板 - 末影沙
+appliedenergistics2:facade:0, 线缆伪装板 - 铜块
+appliedenergistics2:facade:0, 线缆伪装板 - 锡块
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Emerald Ore
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Diamond Ore
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Redstone Ore
@@ -2219,32 +3062,8 @@ appliedenergistics2:facade:0, 线缆伪装板 - Nether Gold Ore
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Iron Ore
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Copper Ore
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Tin Ore
-appliedenergistics2:facade:0, 线缆伪装板 - 铜块
-appliedenergistics2:facade:0, 线缆伪装板 - 锡块
 appliedenergistics2:facade:0, 线缆伪装板 - 萤光蕈柄
 appliedenergistics2:facade:0, 线缆伪装板 - 萤光蕈伞
-appliedenergistics2:facade:0, 线缆伪装板 - 染色方块（清澈）
-appliedenergistics2:facade:0, 线缆伪装板 - 染色方块（基底）
-appliedenergistics2:facade:0, 线缆伪装板 - 染色方块（大纹理）
-appliedenergistics2:facade:0, 线缆伪装板 - 染色方块（正常纹理）
-appliedenergistics2:facade:0, 线缆伪装板 - 染色方块（低纹理）
-appliedenergistics2:facade:0, 线缆伪装板 - 染色方块（砖块）
-appliedenergistics2:facade:0, 线缆伪装板 - 染色方块（邻接）
-appliedenergistics2:facade:0, 线缆伪装板 - 染色方块（大石砖）
-appliedenergistics2:facade:0, 线缆伪装板 - Dyeable Chiseled
-appliedenergistics2:facade:0, 线缆伪装板 - 染色方块（大裂石砖）
-appliedenergistics2:facade:0, 线缆伪装板 - 染色方块（黏土）
-appliedenergistics2:facade:0, 线缆伪装板 - 岩浆方块
-appliedenergistics2:facade:0, 线缆伪装板 - Dyeable Strips
-appliedenergistics2:facade:0, 线缆伪装板 - 岩浆方块（白色）
-appliedenergistics2:facade:0, 线缆伪装板 - 染色方块（砂砾）
-appliedenergistics2:facade:0, 线缆伪装板 - 染色方块（沙子）
-appliedenergistics2:facade:0, 线缆伪装板 - 染色方块（石头）
-appliedenergistics2:facade:0, 线缆伪装板 - Dyeable Cork
-appliedenergistics2:facade:0, 线缆伪装板 - 白色不透明的水
-appliedenergistics2:facade:0, 线缆伪装板 - 水方块
-appliedenergistics2:facade:0, 线缆伪装板 - 水方块（白色）
-appliedenergistics2:facade:0, 线缆伪装板 - 储存方块
 appliedenergistics2:facade:0, 线缆伪装板 - 锇方块
 appliedenergistics2:facade:0, 线缆伪装板 - 青铜方块
 appliedenergistics2:facade:0, 线缆伪装板 - 强化黑曜石
@@ -2625,6 +3444,147 @@ appliedenergistics2:part:220, ME存储总线
 appliedenergistics2:part:400, ME存储监控器
 appliedenergistics2:part:380, ME终端
 appliedenergistics2:part:80, ME触发总线
+quark:roots, tile.roots.name
+quark:root, item.root.name
+quark:roots_blue_flower, tile.roots_blue_flower.name
+quark:roots_black_flower, tile.roots_black_flower.name
+quark:roots_white_flower, tile.roots_white_flower.name
+quark:root_flower:0, 蓝色洞穴块根
+quark:root_flower:1, 黑色洞穴块根
+quark:root_flower:2, 白色洞穴块根
+quark:root_dye:0, 蓝色染料
+quark:root_dye:1, 黑色染料
+quark:root_dye:2, 白色染料
+quark:diamond_heart, item.diamond_heart.name
+quark:archaeologist_hat, item.archaeologist_hat.name
+quark:variant_leaves:0, 沼泽木树叶
+quark:variant_leaves:1, 樱花树叶
+quark:variant_sapling:0, 沼泽木树苗
+quark:variant_sapling:1, 樱花树树苗
+quark:crystal:0, 白色洞穴水晶
+quark:crystal:1, 红色洞穴水晶
+quark:crystal:2, 橙色洞穴水晶
+quark:crystal:3, 黄色洞穴水晶
+quark:crystal:4, 绿色洞穴水晶
+quark:crystal:5, 青色洞穴水晶
+quark:crystal:6, 蓝色洞穴水晶
+quark:crystal:7, 紫色洞穴水晶
+quark:crystal:8, 黑色洞穴水晶
+quark:crystal_pane:0, 白色洞穴水晶薄板
+quark:crystal_pane:1, 红色洞穴水晶薄板
+quark:crystal_pane:2, 橙色洞穴水晶薄板
+quark:crystal_pane:3, 黄色洞穴水晶薄板
+quark:crystal_pane:4, 绿色洞穴水晶薄板
+quark:crystal_pane:5, 青色洞穴水晶薄板
+quark:crystal_pane:6, 蓝色洞穴水晶薄板
+quark:crystal_pane:7, 紫色洞穴水晶薄板
+quark:crystal_pane:8, 黑色洞穴水晶薄板
+quark:stone_speleothem, tile.stone_speleothem.name
+quark:granite_speleothem, tile.granite_speleothem.name
+quark:diorite_speleothem, tile.diorite_speleothem.name
+quark:andesite_speleothem, tile.andesite_speleothem.name
+quark:netherrack_speleothem, tile.netherrack_speleothem.name
+quark:basalt_speleothem, tile.basalt_speleothem.name
+quark:marble_speleothem, tile.marble_speleothem.name
+quark:limestone_speleothem, tile.limestone_speleothem.name
+quark:jasper_speleothem, tile.jasper_speleothem.name
+quark:slate_speleothem, tile.slate_speleothem.name
+quark:biotite_ore, tile.biotite_ore.name
+quark:biotite_block:0, 云母块
+quark:biotite_block:1, 錾制云母块
+quark:biotite_block:2, 竖纹云母块
+quark:biotite, item.biotite.name
+quark:biotite_slab:0, 云母台阶
+quark:biotite_stairs, tile.biotite_stairs.name
+quark:biotite_wall, tile.biotite_wall.name
+quark:monster_box, 陷阱刷怪箱
+quark:basalt:0, 玄武岩
+quark:basalt:1, 磨制玄武岩
+quark:stone_basalt_slab:0, 玄武岩台阶
+quark:stone_basalt_stairs, tile.stone_basalt_stairs.name
+quark:basalt_wall, tile.basalt_wall.name
+quark:frog_leg, 蟾蜍腿
+quark:cooked_frog_leg, 煮熟的蟾蜍腿
+quark:golden_frog_leg, item.golden_frog_leg.name
+quark:pirate_hat, 海盗帽
+quark:crab_leg, item.crab_leg.name
+quark:cooked_crab_leg, item.cooked_crab_leg.name
+quark:crab_shell, item.crab_shell.name
+quark:marble:0, 大理石
+quark:marble:1, 磨制大理石
+quark:stone_marble_slab:0, 大理石台阶
+quark:stone_marble_stairs, tile.stone_marble_stairs.name
+quark:marble_wall, tile.marble_wall.name
+quark:limestone:0, 石灰石
+quark:limestone:1, 磨制石灰石
+quark:stone_limestone_slab:0, 石灰石台阶
+quark:stone_limestone_stairs, tile.stone_limestone_stairs.name
+quark:limestone_wall, tile.limestone_wall.name
+quark:jasper:0, 黄石
+quark:jasper:1, 磨制黄石
+quark:stone_jasper_slab:0, 黄石台阶
+quark:stone_jasper_stairs, tile.stone_jasper_stairs.name
+quark:jasper_wall, tile.jasper_wall.name
+quark:slate:0, 青石
+quark:slate:1, 磨制青石
+quark:stone_slate_slab:0, 青石台阶
+quark:stone_slate_stairs, tile.stone_slate_stairs.name
+quark:slate_wall, tile.slate_wall.name
+quark:biome_cobblestone:0, 硫黄石
+quark:biome_cobblestone:1, 永冻石
+quark:biome_cobblestone:2, 鹅卵石
+quark:biome_brick:0, 硫黄石砖
+quark:biome_brick:1, 永冻石砖
+quark:elder_prismarine:0, 老化海晶石
+quark:elder_prismarine:1, 老化海晶石砖
+quark:elder_prismarine:2, 黑暗老化海晶石
+quark:elder_sea_lantern, tile.elder_sea_lantern.name
+quark:fire_stone_slab:0, 硫黄石台阶
+quark:fire_stone_stairs, tile.fire_stone_stairs.name
+quark:fire_stone_brick_slab:0, 硫黄石砖台阶
+quark:fire_stone_brick_stairs, tile.fire_stone_brick_stairs.name
+quark:icy_stone_slab:0, 永冻石台阶
+quark:icy_stone_stairs, tile.icy_stone_stairs.name
+quark:icy_stone_brick_slab:0, 永冻石砖台阶
+quark:icy_stone_brick_stairs, tile.icy_stone_brick_stairs.name
+quark:cobbed_stone_slab:0, 鹅卵石台阶
+quark:cobbed_stone_stairs, tile.cobbed_stone_stairs.name
+quark:elder_prismarine_slab:0, 老化海晶石台阶
+quark:elder_prismarine_stairs, tile.elder_prismarine_stairs.name
+quark:elder_prismarine_bricks_slab:0, 老化海晶石转台阶
+quark:elder_prismarine_bricks_stairs, tile.elder_prismarine_bricks_stairs.name
+quark:elder_prismarine_dark_slab:0, 黑暗老化海晶石台阶
+quark:elder_prismarine_dark_stairs, tile.elder_prismarine_dark_stairs.name
+quark:fire_stone_wall, tile.fire_stone_wall.name
+quark:icy_stone_wall, tile.icy_stone_wall.name
+quark:cobbed_stone_wall, tile.cobbed_stone_wall.name
+quark:fire_stone_brick_wall, tile.fire_stone_brick_wall.name
+quark:icy_stone_brick_wall, tile.icy_stone_brick_wall.name
+quark:elder_prismarine_wall, tile.elder_prismarine_wall.name
+quark:elder_prismarine_bricks_wall, tile.elder_prismarine_bricks_wall.name
+quark:elder_prismarine_dark_wall, tile.elder_prismarine_dark_wall.name
+quark:glowcelium, 荧光菌丝
+quark:glowshroom, tile.glowshroom.name
+quark:glowshroom_block, tile.glowshroom_block.name
+quark:soul_bead, item.soul_bead.name
+quark:smoker, 烟口
+quark:glass_shards:0, 玻璃碎片
+quark:glass_shards:1, 白色玻璃碎片
+quark:glass_shards:2, 橙色玻璃碎片
+quark:glass_shards:3, 品红色玻璃碎片
+quark:glass_shards:4, 淡蓝色玻璃碎片
+quark:glass_shards:5, 黄色玻璃碎片
+quark:glass_shards:6, 黄绿色玻璃碎片
+quark:glass_shards:7, 粉红色玻璃碎片
+quark:glass_shards:8, 灰色玻璃碎片
+quark:glass_shards:9, 淡灰色玻璃碎片
+quark:glass_shards:10, 青色玻璃碎片
+quark:glass_shards:11, 紫色玻璃碎片
+quark:glass_shards:12, 蓝色玻璃碎片
+quark:glass_shards:13, 棕色玻璃碎片
+quark:glass_shards:14, 绿色玻璃碎片
+quark:glass_shards:15, 红色玻璃碎片
+quark:glass_shards:16, 黑色玻璃碎片
 quark:sandstone_new:0, 磨制砂岩
 quark:sandstone_new:1, 砂岩砖
 quark:sandstone_new:2, 磨制红砂岩
@@ -2945,197 +3905,6 @@ quark:quilted_wool:12, 棕色缝边羊毛
 quark:quilted_wool:13, 绿色缝边羊毛
 quark:quilted_wool:14, 红色缝边羊毛
 quark:quilted_wool:15, 黑色缝边羊毛
-quark:pickarang, item.pickarang.name
-quark:arrow_ender, item.arrow_ender.name
-quark:arrow_explosive, item.arrow_explosive.name
-quark:arrow_torch, item.arrow_torch.name
-quark:slime_bucket:0, 桶装史莱姆
-quark:rune:0, 白色符文
-quark:rune:1, 橙色符文
-quark:rune:2, 品红色符文
-quark:rune:3, 淡蓝色符文
-quark:rune:4, 黄色符文
-quark:rune:5, 黄绿色符文
-quark:rune:6, 粉红色符文
-quark:rune:7, 灰色符文
-quark:rune:8, 淡灰色符文
-quark:rune:9, 青色符文
-quark:rune:10, 紫色符文
-quark:rune:11, 蓝色符文
-quark:rune:12, 棕色符文
-quark:rune:13, 绿色符文
-quark:rune:14, 红色符文
-quark:rune:15, 黑色符文
-quark:rune:16, 七彩符文
-quark:black_ash, tile.black_ash.name
-quark:ancient_tome, item.ancient_tome.name
-quark:horse_whistle, item.horse_whistle.name
-quark:soul_powder, item.soul_powder.name
-quark:parrot_egg:0, 红色鹦鹉蛋
-quark:parrot_egg:1, 蓝色鹦鹉蛋
-quark:parrot_egg:2, 绿色鹦鹉蛋
-quark:parrot_egg:3, 青色鹦鹉蛋
-quark:parrot_egg:4, 灰色鹦鹉蛋
-quark:enderdragon_scale, item.enderdragon_scale.name
-quark:chute, 滑槽漏斗
-quark:sugar_block, tile.sugar_block.name
-quark:redstone_randomizer, tile.redstone_randomizer.name
-quark:iron_button, tile.iron_button.name
-quark:gold_button, tile.gold_button.name
-quark:ender_watcher, tile.ender_watcher.name
-quark:iron_rod, tile.iron_rod.name
-quark:color_slime:0, 红色粘液块
-quark:color_slime:1, 蓝色粘液块
-quark:color_slime:2, 青色粘液块
-quark:color_slime:3, 品红色粘液块
-quark:color_slime:4, 黄色粘液块
-quark:gravisand, tile.gravisand.name
-quark:redstone_inductor, tile.redstone_inductor.name
-quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
-quark:rain_detector, tile.rain_detector.name
-quark:chain, item.chain.name
-quark:roots, tile.roots.name
-quark:root, item.root.name
-quark:roots_blue_flower, tile.roots_blue_flower.name
-quark:roots_black_flower, tile.roots_black_flower.name
-quark:roots_white_flower, tile.roots_white_flower.name
-quark:root_flower:0, 蓝色洞穴块根
-quark:root_flower:1, 黑色洞穴块根
-quark:root_flower:2, 白色洞穴块根
-quark:root_dye:0, 蓝色染料
-quark:root_dye:1, 黑色染料
-quark:root_dye:2, 白色染料
-quark:diamond_heart, item.diamond_heart.name
-quark:archaeologist_hat, item.archaeologist_hat.name
-quark:variant_leaves:0, 沼泽木树叶
-quark:variant_leaves:1, 樱花树叶
-quark:variant_sapling:0, 沼泽木树苗
-quark:variant_sapling:1, 樱花树树苗
-quark:crystal:0, 白色洞穴水晶
-quark:crystal:1, 红色洞穴水晶
-quark:crystal:2, 橙色洞穴水晶
-quark:crystal:3, 黄色洞穴水晶
-quark:crystal:4, 绿色洞穴水晶
-quark:crystal:5, 青色洞穴水晶
-quark:crystal:6, 蓝色洞穴水晶
-quark:crystal:7, 紫色洞穴水晶
-quark:crystal:8, 黑色洞穴水晶
-quark:crystal_pane:0, 白色洞穴水晶薄板
-quark:crystal_pane:1, 红色洞穴水晶薄板
-quark:crystal_pane:2, 橙色洞穴水晶薄板
-quark:crystal_pane:3, 黄色洞穴水晶薄板
-quark:crystal_pane:4, 绿色洞穴水晶薄板
-quark:crystal_pane:5, 青色洞穴水晶薄板
-quark:crystal_pane:6, 蓝色洞穴水晶薄板
-quark:crystal_pane:7, 紫色洞穴水晶薄板
-quark:crystal_pane:8, 黑色洞穴水晶薄板
-quark:stone_speleothem, tile.stone_speleothem.name
-quark:granite_speleothem, tile.granite_speleothem.name
-quark:diorite_speleothem, tile.diorite_speleothem.name
-quark:andesite_speleothem, tile.andesite_speleothem.name
-quark:netherrack_speleothem, tile.netherrack_speleothem.name
-quark:basalt_speleothem, tile.basalt_speleothem.name
-quark:marble_speleothem, tile.marble_speleothem.name
-quark:limestone_speleothem, tile.limestone_speleothem.name
-quark:jasper_speleothem, tile.jasper_speleothem.name
-quark:slate_speleothem, tile.slate_speleothem.name
-quark:biotite_ore, tile.biotite_ore.name
-quark:biotite_block:0, 云母块
-quark:biotite_block:1, 錾制云母块
-quark:biotite_block:2, 竖纹云母块
-quark:biotite, item.biotite.name
-quark:biotite_slab:0, 云母台阶
-quark:biotite_stairs, tile.biotite_stairs.name
-quark:biotite_wall, tile.biotite_wall.name
-quark:monster_box, 陷阱刷怪箱
-quark:basalt:0, 玄武岩
-quark:basalt:1, 磨制玄武岩
-quark:stone_basalt_slab:0, 玄武岩台阶
-quark:stone_basalt_stairs, tile.stone_basalt_stairs.name
-quark:basalt_wall, tile.basalt_wall.name
-quark:frog_leg, 蟾蜍腿
-quark:cooked_frog_leg, 煮熟的蟾蜍腿
-quark:golden_frog_leg, item.golden_frog_leg.name
-quark:pirate_hat, 海盗帽
-quark:crab_leg, item.crab_leg.name
-quark:cooked_crab_leg, item.cooked_crab_leg.name
-quark:crab_shell, item.crab_shell.name
-quark:marble:0, 大理石
-quark:marble:1, 磨制大理石
-quark:stone_marble_slab:0, 大理石台阶
-quark:stone_marble_stairs, tile.stone_marble_stairs.name
-quark:marble_wall, tile.marble_wall.name
-quark:limestone:0, 石灰石
-quark:limestone:1, 磨制石灰石
-quark:stone_limestone_slab:0, 石灰石台阶
-quark:stone_limestone_stairs, tile.stone_limestone_stairs.name
-quark:limestone_wall, tile.limestone_wall.name
-quark:jasper:0, 黄石
-quark:jasper:1, 磨制黄石
-quark:stone_jasper_slab:0, 黄石台阶
-quark:stone_jasper_stairs, tile.stone_jasper_stairs.name
-quark:jasper_wall, tile.jasper_wall.name
-quark:slate:0, 青石
-quark:slate:1, 磨制青石
-quark:stone_slate_slab:0, 青石台阶
-quark:stone_slate_stairs, tile.stone_slate_stairs.name
-quark:slate_wall, tile.slate_wall.name
-quark:biome_cobblestone:0, 硫黄石
-quark:biome_cobblestone:1, 永冻石
-quark:biome_cobblestone:2, 鹅卵石
-quark:biome_brick:0, 硫黄石砖
-quark:biome_brick:1, 永冻石砖
-quark:elder_prismarine:0, 老化海晶石
-quark:elder_prismarine:1, 老化海晶石砖
-quark:elder_prismarine:2, 黑暗老化海晶石
-quark:elder_sea_lantern, tile.elder_sea_lantern.name
-quark:fire_stone_slab:0, 硫黄石台阶
-quark:fire_stone_stairs, tile.fire_stone_stairs.name
-quark:fire_stone_brick_slab:0, 硫黄石砖台阶
-quark:fire_stone_brick_stairs, tile.fire_stone_brick_stairs.name
-quark:icy_stone_slab:0, 永冻石台阶
-quark:icy_stone_stairs, tile.icy_stone_stairs.name
-quark:icy_stone_brick_slab:0, 永冻石砖台阶
-quark:icy_stone_brick_stairs, tile.icy_stone_brick_stairs.name
-quark:cobbed_stone_slab:0, 鹅卵石台阶
-quark:cobbed_stone_stairs, tile.cobbed_stone_stairs.name
-quark:elder_prismarine_slab:0, 老化海晶石台阶
-quark:elder_prismarine_stairs, tile.elder_prismarine_stairs.name
-quark:elder_prismarine_bricks_slab:0, 老化海晶石转台阶
-quark:elder_prismarine_bricks_stairs, tile.elder_prismarine_bricks_stairs.name
-quark:elder_prismarine_dark_slab:0, 黑暗老化海晶石台阶
-quark:elder_prismarine_dark_stairs, tile.elder_prismarine_dark_stairs.name
-quark:fire_stone_wall, tile.fire_stone_wall.name
-quark:icy_stone_wall, tile.icy_stone_wall.name
-quark:cobbed_stone_wall, tile.cobbed_stone_wall.name
-quark:fire_stone_brick_wall, tile.fire_stone_brick_wall.name
-quark:icy_stone_brick_wall, tile.icy_stone_brick_wall.name
-quark:elder_prismarine_wall, tile.elder_prismarine_wall.name
-quark:elder_prismarine_bricks_wall, tile.elder_prismarine_bricks_wall.name
-quark:elder_prismarine_dark_wall, tile.elder_prismarine_dark_wall.name
-quark:glowcelium, 荧光菌丝
-quark:glowshroom, tile.glowshroom.name
-quark:glowshroom_block, tile.glowshroom_block.name
-quark:soul_bead, item.soul_bead.name
-quark:smoker, 烟口
-quark:witch_hat, item.witch_hat.name
-quark:glass_shards:0, 玻璃碎片
-quark:glass_shards:1, 白色玻璃碎片
-quark:glass_shards:2, 橙色玻璃碎片
-quark:glass_shards:3, 品红色玻璃碎片
-quark:glass_shards:4, 淡蓝色玻璃碎片
-quark:glass_shards:5, 黄色玻璃碎片
-quark:glass_shards:6, 黄绿色玻璃碎片
-quark:glass_shards:7, 粉红色玻璃碎片
-quark:glass_shards:8, 灰色玻璃碎片
-quark:glass_shards:9, 淡灰色玻璃碎片
-quark:glass_shards:10, 青色玻璃碎片
-quark:glass_shards:11, 紫色玻璃碎片
-quark:glass_shards:12, 蓝色玻璃碎片
-quark:glass_shards:13, 棕色玻璃碎片
-quark:glass_shards:14, 绿色玻璃碎片
-quark:glass_shards:15, 红色玻璃碎片
-quark:glass_shards:16, 黑色玻璃碎片
 quark:spruce_trapdoor, tile.spruce_trapdoor.name
 quark:birch_trapdoor, tile.birch_trapdoor.name
 quark:jungle_trapdoor, tile.jungle_trapdoor.name
@@ -3235,6 +4004,56 @@ quark:acacia_button, tile.acacia_button.name
 quark:dark_oak_button, tile.dark_oak_button.name
 quark:grate, tile.grate.name
 quark:glass_item_frame, item.glass_item_frame.name
+quark:chute, 滑槽漏斗
+quark:sugar_block, tile.sugar_block.name
+quark:redstone_randomizer, tile.redstone_randomizer.name
+quark:iron_button, tile.iron_button.name
+quark:gold_button, tile.gold_button.name
+quark:ender_watcher, tile.ender_watcher.name
+quark:iron_rod, tile.iron_rod.name
+quark:color_slime:0, 红色粘液块
+quark:color_slime:1, 蓝色粘液块
+quark:color_slime:2, 青色粘液块
+quark:color_slime:3, 品红色粘液块
+quark:color_slime:4, 黄色粘液块
+quark:gravisand, tile.gravisand.name
+quark:redstone_inductor, tile.redstone_inductor.name
+quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
+quark:rain_detector, tile.rain_detector.name
+quark:chain, item.chain.name
+quark:pickarang, item.pickarang.name
+quark:arrow_ender, item.arrow_ender.name
+quark:arrow_explosive, item.arrow_explosive.name
+quark:arrow_torch, item.arrow_torch.name
+quark:slime_bucket:0, 桶装史莱姆
+quark:rune:0, 白色符文
+quark:rune:1, 橙色符文
+quark:rune:2, 品红色符文
+quark:rune:3, 淡蓝色符文
+quark:rune:4, 黄色符文
+quark:rune:5, 黄绿色符文
+quark:rune:6, 粉红色符文
+quark:rune:7, 灰色符文
+quark:rune:8, 淡灰色符文
+quark:rune:9, 青色符文
+quark:rune:10, 紫色符文
+quark:rune:11, 蓝色符文
+quark:rune:12, 棕色符文
+quark:rune:13, 绿色符文
+quark:rune:14, 红色符文
+quark:rune:15, 黑色符文
+quark:rune:16, 七彩符文
+quark:black_ash, tile.black_ash.name
+quark:ancient_tome, item.ancient_tome.name
+quark:horse_whistle, item.horse_whistle.name
+quark:soul_powder, item.soul_powder.name
+quark:parrot_egg:0, 红色鹦鹉蛋
+quark:parrot_egg:1, 蓝色鹦鹉蛋
+quark:parrot_egg:2, 绿色鹦鹉蛋
+quark:parrot_egg:3, 青色鹦鹉蛋
+quark:parrot_egg:4, 灰色鹦鹉蛋
+quark:enderdragon_scale, item.enderdragon_scale.name
+quark:witch_hat, item.witch_hat.name
 bno:ore_netheremerald, Nether Emerald Ore
 bno:ore_netherdiamond, Nether Diamond Ore
 bno:ore_netherredstone, Nether Redstone Ore
@@ -3256,328 +4075,6 @@ buildcraftlib:guide_note, BuildCraft 指南注释
 buildcraftlib:debugger, 作弊工具
 betterpipes:wrench, 扳手
 betterpipes:aepart, Dummy AE2 Part
-bibliocraft:bookcase:0, 橡木书架
-bibliocraft:bookcase:1, 云杉木书架
-bibliocraft:bookcase:2, 白桦木书架
-bibliocraft:bookcase:3, 丛林木书架
-bibliocraft:bookcase:4, 金合欢木书架
-bibliocraft:bookcase:5, 深色橡木书架
-bibliocraft:bookcase:6, 镶框书架
-bibliocraft:bookcasecreative:0, 橡木书架(创造)
-bibliocraft:bookcasecreative:1, 云杉木书架(创造)
-bibliocraft:bookcasecreative:2, 白桦木书架(创造)
-bibliocraft:bookcasecreative:3, 丛林木书架(创造)
-bibliocraft:bookcasecreative:4, 金合欢木书架(创造)
-bibliocraft:bookcasecreative:5, 深色橡木书架(创造)
-bibliocraft:bookcasecreative:6, 镶框书架(创造)
-bibliocraft:shelf:0, 橡木架子
-bibliocraft:shelf:1, 云杉木架子
-bibliocraft:shelf:2, 白桦木架子
-bibliocraft:shelf:3, 丛林木架子
-bibliocraft:shelf:4, 金合欢木架子
-bibliocraft:shelf:5, 深色橡木架子
-bibliocraft:shelf:6, 镶框架子
-bibliocraft:markerpole, tile.BiblioCraft:MarkerPole.name
-bibliocraft:clipboard, tile.BiblioCraft:Clipboard.name
-bibliocraft:lanterngold:0, 精致灯笼
-bibliocraft:lanterngold:1, 精致灯笼
-bibliocraft:lanterngold:2, 精致灯笼
-bibliocraft:lanterngold:3, 精致灯笼
-bibliocraft:lanterngold:4, 精致灯笼
-bibliocraft:lanterngold:5, 精致灯笼
-bibliocraft:lanterngold:6, 精致灯笼
-bibliocraft:lanterngold:7, 精致灯笼
-bibliocraft:lanterngold:8, 精致灯笼
-bibliocraft:lanterngold:9, 精致灯笼
-bibliocraft:lanterngold:10, 精致灯笼
-bibliocraft:lanterngold:11, 精致灯笼
-bibliocraft:lanterngold:12, 精致灯笼
-bibliocraft:lanterngold:13, 精致灯笼
-bibliocraft:lanterngold:14, 精致灯笼
-bibliocraft:lanterngold:15, 精致灯笼
-bibliocraft:lanterniron:0, 精致灯笼
-bibliocraft:lanterniron:1, 精致灯笼
-bibliocraft:lanterniron:2, 精致灯笼
-bibliocraft:lanterniron:3, 精致灯笼
-bibliocraft:lanterniron:4, 精致灯笼
-bibliocraft:lanterniron:5, 精致灯笼
-bibliocraft:lanterniron:6, 精致灯笼
-bibliocraft:lanterniron:7, 精致灯笼
-bibliocraft:lanterniron:8, 精致灯笼
-bibliocraft:lanterniron:9, 精致灯笼
-bibliocraft:lanterniron:10, 精致灯笼
-bibliocraft:lanterniron:11, 精致灯笼
-bibliocraft:lanterniron:12, 精致灯笼
-bibliocraft:lanterniron:13, 精致灯笼
-bibliocraft:lanterniron:14, 精致灯笼
-bibliocraft:lanterniron:15, 精致灯笼
-bibliocraft:lampgold:0, 精致灯具
-bibliocraft:lampgold:1, 精致灯具
-bibliocraft:lampgold:2, 精致灯具
-bibliocraft:lampgold:3, 精致灯具
-bibliocraft:lampgold:4, 精致灯具
-bibliocraft:lampgold:5, 精致灯具
-bibliocraft:lampgold:6, 精致灯具
-bibliocraft:lampgold:7, 精致灯具
-bibliocraft:lampgold:8, 精致灯具
-bibliocraft:lampgold:9, 精致灯具
-bibliocraft:lampgold:10, 精致灯具
-bibliocraft:lampgold:11, 精致灯具
-bibliocraft:lampgold:12, 精致灯具
-bibliocraft:lampgold:13, 精致灯具
-bibliocraft:lampgold:14, 精致灯具
-bibliocraft:lampgold:15, 精致灯具
-bibliocraft:lampiron:0, 精致灯具
-bibliocraft:lampiron:1, 精致灯具
-bibliocraft:lampiron:2, 精致灯具
-bibliocraft:lampiron:3, 精致灯具
-bibliocraft:lampiron:4, 精致灯具
-bibliocraft:lampiron:5, 精致灯具
-bibliocraft:lampiron:6, 精致灯具
-bibliocraft:lampiron:7, 精致灯具
-bibliocraft:lampiron:8, 精致灯具
-bibliocraft:lampiron:9, 精致灯具
-bibliocraft:lampiron:10, 精致灯具
-bibliocraft:lampiron:11, 精致灯具
-bibliocraft:lampiron:12, 精致灯具
-bibliocraft:lampiron:13, 精致灯具
-bibliocraft:lampiron:14, 精致灯具
-bibliocraft:lampiron:15, 精致灯具
-bibliocraft:furniturepaneler:0, 橡木家具板材机
-bibliocraft:furniturepaneler:1, 云杉木家具板材机
-bibliocraft:furniturepaneler:2, 白桦木家具板材机
-bibliocraft:furniturepaneler:3, 丛林木家具板材机
-bibliocraft:furniturepaneler:4, 金合欢木家具板材机
-bibliocraft:furniturepaneler:5, 深色橡木家具板材机
-bibliocraft:furniturepaneler:6, 镶框家具板材机
-bibliocraft:framedchest:0, 橡木镶框箱子
-bibliocraft:framedchest:1, 云杉木镶框箱子
-bibliocraft:framedchest:2, 白桦木镶框箱子
-bibliocraft:framedchest:3, 丛林木镶框箱子
-bibliocraft:framedchest:4, 金合欢木镶框箱子
-bibliocraft:framedchest:5, 深色橡木镶框箱子
-bibliocraft:framedchest:6, 镶框箱子
-bibliocraft:fancysign:0, 橡木精致木牌
-bibliocraft:fancysign:1, 云杉木精致木牌
-bibliocraft:fancysign:2, 白桦木精致木牌
-bibliocraft:fancysign:3, 丛林木精致木牌
-bibliocraft:fancysign:4, 金合欢木精致木牌
-bibliocraft:fancysign:5, 深色橡木精致木牌
-bibliocraft:fancysign:6, 镶框精致木牌
-bibliocraft:fancyworkbench:0, 橡木精致工作台
-bibliocraft:fancyworkbench:1, 云杉木精致工作台
-bibliocraft:fancyworkbench:2, 白桦木精致工作台
-bibliocraft:fancyworkbench:3, 丛林木精致工作台
-bibliocraft:fancyworkbench:4, 金合欢木精致工作台
-bibliocraft:fancyworkbench:5, 深色橡木精致工作台
-bibliocraft:fancyworkbench:6, 镶框精致工作台
-bibliocraft:potionshelf:0, 橡木药水架
-bibliocraft:potionshelf:1, 云杉木药水架
-bibliocraft:potionshelf:2, 白桦木药水架
-bibliocraft:potionshelf:3, 丛林木药水架
-bibliocraft:potionshelf:4, 金合欢木药水架
-bibliocraft:potionshelf:5, 深色橡木药水架
-bibliocraft:potionshelf:6, 镶框药水架
-bibliocraft:toolrack:0, 橡木工具架
-bibliocraft:toolrack:1, 云杉木工具架
-bibliocraft:toolrack:2, 白桦木工具架
-bibliocraft:toolrack:3, 丛林木工具架
-bibliocraft:toolrack:4, 金合欢木工具架
-bibliocraft:toolrack:5, 深色橡木工具架
-bibliocraft:toolrack:6, 镶框工具架
-bibliocraft:label:0, 橡木标签
-bibliocraft:label:1, 云杉木标签
-bibliocraft:label:2, 白桦木标签
-bibliocraft:label:3, 丛林木标签
-bibliocraft:label:4, 金合欢木标签
-bibliocraft:label:5, 深色橡木标签
-bibliocraft:label:6, 镶框标签
-bibliocraft:desk:0, 橡木书桌
-bibliocraft:desk:1, 云杉木书桌
-bibliocraft:desk:2, 白桦木书桌
-bibliocraft:desk:3, 丛林木书桌
-bibliocraft:desk:4, 金合欢木书桌
-bibliocraft:desk:5, 深色橡木书桌
-bibliocraft:desk:6, 镶框餐桌
-bibliocraft:table:0, 橡木餐桌
-bibliocraft:table:1, 云杉木餐桌
-bibliocraft:table:2, 白桦木餐桌
-bibliocraft:table:3, 丛林木餐桌
-bibliocraft:table:4, 金合欢木餐桌
-bibliocraft:table:5, 深色橡木餐桌
-bibliocraft:table:6, 镶框书桌
-bibliocraft:seat:0, 橡木椅子
-bibliocraft:seat:1, 云杉木椅子
-bibliocraft:seat:2, 白桦木椅子
-bibliocraft:seat:3, 丛林木椅子
-bibliocraft:seat:4, 金合欢木椅子
-bibliocraft:seat:5, 深色橡木椅子
-bibliocraft:seat:6, 镶框椅子
-bibliocraft:clock:0, 橡木时钟
-bibliocraft:clock:1, 云杉木时钟
-bibliocraft:clock:2, 白桦木时钟
-bibliocraft:clock:3, 丛林木时钟
-bibliocraft:clock:4, 金合欢木时钟
-bibliocraft:clock:5, 深色橡木台钟
-bibliocraft:clock:6, 镶框钟
-bibliocraft:case:0, 橡木展示盒
-bibliocraft:case:1, 云杉木展示盒
-bibliocraft:case:2, 白桦木展示盒
-bibliocraft:case:3, 丛林木展示盒
-bibliocraft:case:4, 金合欢木展示盒
-bibliocraft:case:5, 深色橡木展示盒
-bibliocraft:case:6, 镶框展示盒
-bibliocraft:mapframe:0, 橡木地图框
-bibliocraft:mapframe:1, 云杉木地图框
-bibliocraft:mapframe:2, 白桦木地图框
-bibliocraft:mapframe:3, 丛林木地图框
-bibliocraft:mapframe:4, 金合欢木地图框
-bibliocraft:mapframe:5, 深色橡木地图框
-bibliocraft:mapframe:6, 镶框地图框
-bibliocraft:paintingframeflat:0, 橡木画框
-bibliocraft:paintingframeflat:1, 云杉木画框
-bibliocraft:paintingframeflat:2, 白桦木画框
-bibliocraft:paintingframeflat:3, 丛林木画框
-bibliocraft:paintingframeflat:4, 金合欢木画框
-bibliocraft:paintingframeflat:5, 深色橡木画框
-bibliocraft:paintingframeflat:6, 镶框画框
-bibliocraft:paintingframesimple:0, 橡木画框
-bibliocraft:paintingframesimple:1, 云杉木画框
-bibliocraft:paintingframesimple:2, 白桦木画框
-bibliocraft:paintingframesimple:3, 丛林木画框
-bibliocraft:paintingframesimple:4, 金合欢木画框
-bibliocraft:paintingframesimple:5, 深色橡木画框
-bibliocraft:paintingframesimple:6, 镶框画框
-bibliocraft:paintingframemiddle:0, 橡木画框
-bibliocraft:paintingframemiddle:1, 云杉木画框
-bibliocraft:paintingframemiddle:2, 白桦木画框
-bibliocraft:paintingframemiddle:3, 丛林木画框
-bibliocraft:paintingframemiddle:4, 金合欢木画框
-bibliocraft:paintingframemiddle:5, 深色橡木画框
-bibliocraft:paintingframemiddle:6, 镶框画框
-bibliocraft:paintingframefancy:0, 橡木画框
-bibliocraft:paintingframefancy:1, 云杉木画框
-bibliocraft:paintingframefancy:2, 白桦木画框
-bibliocraft:paintingframefancy:3, 丛林木画框
-bibliocraft:paintingframefancy:4, 金合欢木画框
-bibliocraft:paintingframefancy:5, 深色橡木画框
-bibliocraft:paintingframefancy:6, 镶框画框
-bibliocraft:paintingframeborderless:0, 橡木画框
-bibliocraft:paintingframeborderless:1, 云杉木画框
-bibliocraft:paintingframeborderless:2, 白桦木画框
-bibliocraft:paintingframeborderless:3, 丛林木画框
-bibliocraft:paintingframeborderless:4, 金合欢木画框
-bibliocraft:paintingframeborderless:5, 深色橡木画框
-bibliocraft:paintingframeborderless:6, 镶框画框
-bibliocraft:paintingpress, 制画机
-bibliocraft:typewriter:0, 白色打字机
-bibliocraft:typewriter:1, 淡灰色打字机
-bibliocraft:typewriter:2, 灰色打字机
-bibliocraft:typewriter:3, 黑色打字机
-bibliocraft:typewriter:4, 红色打字机
-bibliocraft:typewriter:5, 橙色打字机
-bibliocraft:typewriter:6, 黄色打字机
-bibliocraft:typewriter:7, 黄绿色打字机
-bibliocraft:typewriter:8, 绿色打字机
-bibliocraft:typewriter:9, 青色打字机
-bibliocraft:typewriter:10, 淡蓝色打字机
-bibliocraft:typewriter:11, 蓝色打字机
-bibliocraft:typewriter:12, 紫色打字机
-bibliocraft:typewriter:13, 品红色打字机
-bibliocraft:typewriter:14, 粉红色打字机
-bibliocraft:typewriter:15, 棕色打字机
-bibliocraft:swordpedestal:0, 剑座
-bibliocraft:swordpedestal:1, 剑座
-bibliocraft:swordpedestal:2, 剑座
-bibliocraft:swordpedestal:3, 剑座
-bibliocraft:swordpedestal:4, 剑座
-bibliocraft:swordpedestal:5, 剑座
-bibliocraft:swordpedestal:6, 剑座
-bibliocraft:swordpedestal:7, 剑座
-bibliocraft:swordpedestal:8, 剑座
-bibliocraft:swordpedestal:9, 剑座
-bibliocraft:swordpedestal:10, 剑座
-bibliocraft:swordpedestal:11, 剑座
-bibliocraft:swordpedestal:12, 剑座
-bibliocraft:swordpedestal:13, 剑座
-bibliocraft:swordpedestal:14, 剑座
-bibliocraft:swordpedestal:15, 剑座
-bibliocraft:armorstand:0, 橡木衣架
-bibliocraft:armorstand:1, 云杉木衣架
-bibliocraft:armorstand:2, 白桦木衣架
-bibliocraft:armorstand:3, 丛林木衣架
-bibliocraft:armorstand:4, 金合欢木衣架
-bibliocraft:armorstand:5, 深色橡木衣架
-bibliocraft:armorstand:6, 镶框衣架
-bibliocraft:bell, 桌铃
-bibliocraft:typesettingtable, 排版台
-bibliocraft:printingpress, 拓印机
-bibliocraft:cookiejar, 曲奇罐
-bibliocraft:dinnerplate, 餐盘
-bibliocraft:discrack, 唱片架
-bibliocraft:compass, 指南针
-bibliocraft:maptool, 制图盘
-bibliocraft:seatback1:0, 橡木椅背
-bibliocraft:seatback1:1, 云杉木椅背
-bibliocraft:seatback1:2, 白桦木椅背
-bibliocraft:seatback1:3, 丛林木椅背
-bibliocraft:seatback1:4, 金合欢木椅背
-bibliocraft:seatback1:5, 深色橡木椅背
-bibliocraft:seatback1:6, 镶框椅背
-bibliocraft:seatback2:0, 橡木椅背
-bibliocraft:seatback2:1, 云杉木椅背
-bibliocraft:seatback2:2, 白桦木椅背
-bibliocraft:seatback2:3, 丛林木椅背
-bibliocraft:seatback2:4, 金合欢木椅背
-bibliocraft:seatback2:5, 深色橡木椅背
-bibliocraft:seatback2:6, 镶框椅背
-bibliocraft:seatback3:0, 橡木椅背
-bibliocraft:seatback3:1, 云杉木椅背
-bibliocraft:seatback3:2, 白桦木椅背
-bibliocraft:seatback3:3, 丛林木椅背
-bibliocraft:seatback3:4, 金合欢木椅背
-bibliocraft:seatback3:5, 深色橡木椅背
-bibliocraft:seatback3:6, 镶框椅背
-bibliocraft:seatback4:0, 橡木椅背
-bibliocraft:seatback4:1, 云杉木椅背
-bibliocraft:seatback4:2, 白桦木椅背
-bibliocraft:seatback4:3, 丛林木椅背
-bibliocraft:seatback4:4, 金合欢木椅背
-bibliocraft:seatback4:5, 深色橡木椅背
-bibliocraft:seatback4:6, 镶框椅背
-bibliocraft:seatback5:0, 橡木椅背
-bibliocraft:seatback5:1, 云杉木椅背
-bibliocraft:seatback5:2, 白桦木椅背
-bibliocraft:seatback5:3, 丛林木椅背
-bibliocraft:seatback5:4, 金合欢木椅背
-bibliocraft:seatback5:5, 深色橡木椅背
-bibliocraft:seatback5:6, 镶框椅背
-bibliocraft:stockroomcatalog, 仓库目录
-bibliocraft:plumbline, 铅垂线
-bibliocraft:framingsaw, 镶框锯
-bibliocraft:framingboard, 镶框板
-bibliocraft:framingsheet, 镶框片
-bibliocraft:testeritem, 物品名检测器
-bibliocraft:atlasbook:0, 地图册
-bibliocraft:atlasplate, 地图板
-bibliocraft:deathcompass, 永恒罗盘
-bibliocraft:paintingcanvas, 画布
-bibliocraft:bigbook, 精致成书
-bibliocraft:recipebook, 空白合成手册
-bibliocraft:slottedbook, 中空书
-bibliocraft:handdrill, 手摇钻
-bibliocraft:tapemeasure, 卷尺
-bibliocraft:tape, 卷尺卷筒
-bibliocraft:bibliochase, 拓印槽
-bibliocraft:printplate, 拓印片
-bibliocraft:enchantedplate, 附魔片
-bibliocraft:biblioredbook, 红石之书：第一卷
-bibliocraft:biblioglasses:0, 老花镜
-bibliocraft:biblioglasses:1, 太阳镜
-bibliocraft:biblioglasses:2, 单片眼镜
-bibliocraft:bibliodrill, 机械螺丝刀
-bibliocraft:bibliocreativelock, 钥匙与锁
-bibliocraft:biblioclipboard, 写字板
 champions:champion_egg, 生成精英怪
 combustfish:combustive_cod, 燃烧鳕鱼
 combustfish:golden_rod, 黄金钓竿
@@ -3586,10 +4083,6 @@ combustfish:magma_string, 岩浆线
 combustfish:searing_swordfish, 炽热剑鱼
 combustfish:tempered_swordfish, 降温的剑鱼
 combustfish:bone_fish, 骨鱼
-ctmortar:mortar_wood, 研钵与研杵（木质）
-ctmortar:mortar_stone, 研钵与研杵（石质）
-ctmortar:mortar_iron, 研钵与研杵（铁质）
-ctmortar:mortar_diamond, 研钵与研杵（钻石质）
 mod_lavacow:netherstew, 疙瘩汤
 mod_lavacow:canebeef, 甘蔗牛
 mod_lavacow:canepork, 甘蔗猪
@@ -3702,6 +4195,7 @@ mod_lavacow:scarecrowhead_common, 稻草人头
 mod_lavacow:scarecrowhead_straw, 稻草人头
 mod_lavacow:scarecrowhead_plague, 稻草人头
 mod_lavacow:tombstone, 墓碑
+flopper:flopper:0, 流体漏斗
 itemfilters:filter, 物品过滤器
 itemfilters:missing, 缺少物品
 ftbquests:screen, 任务显示器
@@ -3777,78 +4271,6 @@ gugu-utils:environmenthatch, 环境传感器
 gugu-utils:energyoutputport, 能源输出端口
 gugu-utils:constructionranged, 范围建造选择工具
 gugu-utils:aurainputhatch, 灵气输入仓
-cgm:workbench, 枪械工作台
-cgm:handgun, 手枪
-cgm:shotgun, 霰弹枪
-cgm:rifle, 步枪
-cgm:grenade_launcher, 榴弹枪
-cgm:bazooka, 巴祖卡火箭筒
-cgm:chain_gun, 加特林机枪
-cgm:assault_rifle, 突击步枪
-cgm:machine_pistol, 自动手枪
-cgm:basic_ammo, 基础弹药
-cgm:advanced_ammo, 高级弹药
-cgm:shell, 霰弹
-cgm:missile, 导弹
-cgm:grenade, 手榴弹
-cgm:stun_grenade, 闪光弹
-cgm:part:0, item.cgm.part_chain_gun_base.name
-cgm:scope:0, 瞄准镜（短）
-cgm:scope:1, 瞄准镜（中）
-cgm:scope:2, 瞄准镜（长）
-cgm:silencer, 消音器
-littleframes:creative_frame, 创意相框
-littletiles:hammer:0, 锤子
-littletiles:recipeadvanced:0, 配方图纸（高级）
-littletiles:saw, 锯子
-littletiles:container, 收纳容器
-littletiles:wrench, 扳手
-littletiles:screwdriver:0, 螺丝刀
-littletiles:chisel:0, 凿子
-littletiles:colortube:0, 色管
-littletiles:grabber:0, 手套
-littletiles:premade:0, 工作台
-littletiles:premade:0, 输入台
-littletiles:premade:0, 输出台
-littletiles:premade:0, 粒子发射器
-littletiles:premade:0, O形电气化工具(空白)
-littletiles:premade:0, 单芯电缆(1-bit)
-littletiles:premade:0, 单芯电缆(4-bit)
-littletiles:premade:0, 单芯电缆(16-bit)
-littletiles:premade:0, 单向输出(1-bit)
-littletiles:premade:0, 单向输出(4-bit)
-littletiles:premade:0, 单向输出(16-bit)
-littletiles:premade:0, 单向输入(1-bit)
-littletiles:premade:0, 单向输入(4-bit)
-littletiles:premade:0, 单向输入(16-bit)
-littletiles:premade:0, 信号显示器(16-bit)
-littletiles:premade:0, 结构生成器
-littletiles:ltstorageblocktile, 储存方块
-littletiles:ltcoloredblock:0, 染色方块（清澈）
-littletiles:ltcoloredblock:1, 染色方块（基底）
-littletiles:ltcoloredblock:2, 染色方块（大纹理）
-littletiles:ltcoloredblock:3, 染色方块（正常纹理）
-littletiles:ltcoloredblock:4, 染色方块（低纹理）
-littletiles:ltcoloredblock:5, 染色方块（砖块）
-littletiles:ltcoloredblock:6, 染色方块（邻接）
-littletiles:ltcoloredblock:7, 染色方块（大石砖）
-littletiles:ltcoloredblock:8, Dyeable Chiseled
-littletiles:ltcoloredblock:9, 染色方块（大裂石砖）
-littletiles:ltcoloredblock:10, 染色方块（黏土）
-littletiles:ltcoloredblock:12, 岩浆方块
-littletiles:ltcoloredblock:13, Dyeable Strips
-littletiles:ltcoloredblock:14, 岩浆方块（白色）
-littletiles:ltcoloredblock2:0, 染色方块（砂砾）
-littletiles:ltcoloredblock2:1, 染色方块（沙子）
-littletiles:ltcoloredblock2:2, 染色方块（石头）
-littletiles:ltcoloredblock2:3, Dyeable Cork
-littletiles:ltcoloredblock2:4, 白色不透明的水
-littletiles:lttransparentcoloredblock:5, 水方块
-littletiles:lttransparentcoloredblock:6, 水方块（白色）
-littletiles:ltsinglecable, tile.ltsinglecable.name
-littletiles:ltinput, tile.ltinput.name
-littletiles:ltoutput, tile.ltoutput.name
-littletiles:signal_converter, 信号转换器
 mekanism:electricbow, 电动弓
 mekanism:dust:0, 铁粉
 mekanism:dust:1, 金粉
@@ -4611,6 +5033,18 @@ natura:netherquartz_shovel, 石英锹
 natura:netherquartz_axe, 石英手斧
 natura:netherquartz_kama, 石英镰刀
 natura:flint_and_blaze, 烈焰打火石
+netmusic:music_cd, 音乐唱片
+netmusic:music_player, 唱片机
+portality:controller, 传送门控制器
+portality:frame, 传送门框架
+portality:module_interdimensional, 多维度交互模块
+portality:module_items:0, 物品模块 (类型：输入§r)
+portality:module_items:1, 物品模块 (类型：输出§r)
+portality:module_fluids:0, 流体模块 (类型：输入§r)
+portality:module_fluids:1, 流体模块 (类型：输出§r)
+portality:module_energy:0, 能量模块 (类型：输入§r)
+portality:module_energy:1, 能量模块 (类型：输出§r)
+portality:creative_creator, 创造制造者
 tenshilib:ignore, Structure Ignore
 tenshilib:structure_piece, Structure Piece
 tenshilib:breakable_barrier, tile.tenshilib:breakable_barrier.name
@@ -4702,11 +5136,14 @@ travelersbackpack:backpack_tank, 背包储罐
 travelersbackpack:sleeping_bag_bottom, 睡袋
 travelersbackpack:hose_nozzle, 水管口
 travelersbackpack:hose, 水管
+uppers:upper, 上吸漏斗
 waystones:waystone, 指路石
 waystones:return_scroll, 回程卷轴
 waystones:bound_scroll, 绑定卷轴
 waystones:warp_scroll, 传送卷轴
 waystones:warp_stone, 传送石
+zensummoning:altar, 祭坛
+zerocore:debugtool, 调试工具
 base:wrench, 扳手
 buildcraftcore:spring:0, 水泉
 buildcraftcore:spring:1, 油泉
@@ -4875,11 +5312,9 @@ buildcraftfactory:heat_exchange, 热交换器
 buildcraftfactory:water_gel_spawn, 水胶化剂
 buildcraftfactory:gel, 胶凝水
 buildcraftrobotics:zone_planner, 区域规划
-contenttweaker:hatchet, 燧石斧
 contenttweaker:meatstew, 肉粥
 contenttweaker:netherstew, 黑暗料理
 contenttweaker:key, 维度通行证
-contenttweaker:workpb, 原子重构机图纸
 contenttweaker:hunl2, 混乱
 contenttweaker:youyihj, 友谊
 contenttweaker:pearl_red, 奥法珍珠·红
@@ -4888,31 +5323,42 @@ contenttweaker:pearl_yellow, 奥法珍珠·黄
 contenttweaker:pearl_green, 奥法珍珠·绿
 contenttweaker:pearl_orange, 奥法珍珠·橙
 contenttweaker:pearl_purple, 奥法珍珠·紫
-customnpcs:npcwand, Npc魔杖
-customnpcs:npcmobcloner, Mob复制魔杖
-customnpcs:npcscripter, 脚本魔杖
-customnpcs:npcmovingpath, Npc路径魔杖
-customnpcs:npcmounter, 骑乘魔杖
-customnpcs:npcteleporter, 传送魔杖
-customnpcs:npcscripteddoortool, 脚本之门
-customnpcs:npcsoulstoneempty, 灵魂石（空）
-customnpcs:npcsoulstonefilled, 灵魂石（有）
-customnpcs:scripted_item:0, 脚本物品
-customnpcs:nbt_book, NBT编辑书
-customnpcs:npcredstoneblock, 红石块
-customnpcs:npccarpentybench, 木工台
-customnpcs:npcmailbox:0, 信箱
-customnpcs:npcmailbox:1, 信箱
-customnpcs:npcmailbox:2, 信箱
-customnpcs:npcwaypoint, 地点任务方块
-customnpcs:npcborder, 边界方块
-customnpcs:npcscripted, 脚本方块
-customnpcs:npcscripteddoor, tile.npcscripteddoor.name
-customnpcs:npcbuilderblock, 建造者方块
-customnpcs:npccopyblock, 复制方块
+grapplemod:grapplinghook, 抓钩
+grapplemod:block_grapple_modifier, 抓勾修改器
+grapplemod:enderhook, 抓钩
+grapplemod:magnethook, 抓钩
+grapplemod:rockethook, 抓钩
+grapplemod:motorhook, 抓钩
+grapplemod:smarthook, 抓钩
+grapplemod:doublemotorhook, 抓钩
+grapplemod:rocketdoublemotorhook, 抓钩
+grapplemod:launcheritem, 末影手杖
+grapplemod:repeller, 磁力力场
+grapplemod:longfallboots, 长筒靴
+grapplemod:baseupgradeitem, 基础抓勾升级
+grapplemod:ropeupgradeitem, 绳抓勾升级
+grapplemod:throwupgradeitem, 抓勾丢出升级
+grapplemod:motorupgradeitem, 机动抓勾升级
+grapplemod:swingupgradeitem, 摆动抓勾升级
+grapplemod:staffupgradeitem, 末影手杖抓勾升级
+grapplemod:forcefieldupgradeitem, 力场抓勾升级
+grapplemod:magnetupgradeitem, 磁力抓勾升级
+grapplemod:doubleupgradeitem, 双抓勾升级
+grapplemod:rocketupgradeitem, Rocket Grappling Hook Upgrade
+grapplemod:limitsupgradeitem, 受限抓勾升级
 mcjtylib_ng:multipart, tile.mcjtylib_ng.multipart.name
 patchouli:guide_book, 指南书
 inventoryneko:neko, Neko
+mapgadgets:trade_editor, 村民交易编辑器
+mapgadgets:item_editor, 物品编辑器
+mapgadgets:entity_editor, 实体编辑器
+mapgadgets:potion_maker, 药水制作器
+mapgadgets:spawn_egg_maker, 刷怪蛋创造器
+mapgadgets:spawner_editor, 刷怪笼编辑器
+mapgadgets:tiny_spawner_maker, 微型刷怪笼创建器
+mapgadgets:nbt_checker, NBT 检查器
+mapgadgets:fight_starter, 战斗发令器
+mapgadgets:stacker, 实体堆叠器
 omlib:debug_tool, 调试工具
 omlib:fake_sword, item.fake_sword.name
 omlib:multi_tool, 多功能工具
@@ -4981,18 +5427,4 @@ openmodularturrets:teleporter_turret, 传送炮塔
 openmodularturrets:laser_turret, 激光炮塔
 openmodularturrets:rail_gun_turret, 磁轨炮炮塔
 openmodularturrets:lever_block, 炮塔基座曲柄
-stellarapi:defaulttelescope, 默认望远镜
-stellarapi:defaultfilteredtelescope, 默认夜视望远镜
-photoptics:photopticsbasicbinoculars, Basic Binoculars
-photoptics:binoculars_gold, Golden Binoculars
-photoptics:binoculars_diamondgreen, Diamond Binoculars(Green)
-photoptics:binoculars_diamondblue, Diamond Binoculars(Blue)
-photoptics:binoculars_diamondred, Diamond Binoculars(Red)
-photoptics:binoculars_ultimate, Ultimate Binoculars
-photoptics:basichandheldtelescope, Basic Handheld Telescope
-photoptics:handheldtelescope_gold, Golden Handheld Telescope
-photoptics:handheldtelescope_diamondgreen, Diamond Handheld Telescope(Green)
-photoptics:handheldtelescope_diamondblue, Diamond Handheld Telescope(Blue)
-photoptics:handheldtelescope_diamondred, Diamond Handheld Telescope(Red)
-photoptics:handheldtelescope_ultimate, Ultimate Handheld Telescope
 trumpetskeleton:trumpet, 小号

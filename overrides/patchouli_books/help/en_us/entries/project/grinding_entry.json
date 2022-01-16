@@ -1,0 +1,26 @@
+{
+    "name": "研磨",
+    "icon": "advancedmortars:mortar:3",
+    "category": "project_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "材料粉碎。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"advancedmortars:mortar_diamond",
+            "text":"此处仅展示钻石研钵。大部分矿物都可使用研钵打粉。"
+        },
+        {
+            "type":"spotlight",
+            "item":"modularcontroller:j_mineral_crusher_controller",
+            "text":"初级打粉机，在JEI中右键控制器即可查看多方块结构图。如果身上有足够的搭建方块，使用木棍右键控制器即可快速搭建。"
+        },
+        {
+            "type":"spotlight",
+            "item":"modularcontroller:e_mineral_crusher_controller",
+            "text":"高级打粉机，在JEI中右键控制器即可查看多方块结构图。如果身上有足够的搭建方块，使用木棍右键控制器即可快速搭建。"
+        }
+    ]
+}

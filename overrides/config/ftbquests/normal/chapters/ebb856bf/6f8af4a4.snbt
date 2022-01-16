@@ -12,10 +12,7 @@
 		uid: "b8099505",
 		type: "item",
 		items: [{
-			id: "combustfish:golden_rod",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "combustfish:golden_rod"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

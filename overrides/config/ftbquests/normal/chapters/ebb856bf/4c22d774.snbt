@@ -7,10 +7,7 @@
 		uid: "450b2493",
 		type: "item",
 		items: [{
-			id: "minecraft:crafting_table",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:crafting_table"
 		}]
 	}]
 }

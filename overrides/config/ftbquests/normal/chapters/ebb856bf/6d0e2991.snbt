@@ -10,10 +10,7 @@
 		uid: "1967a4f9",
 		type: "item",
 		items: [{
-			id: "minecraft:blaze_rod",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:blaze_rod"
 		}],
 		count: 10L
 	}]

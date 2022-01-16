@@ -23,9 +23,9 @@ val furdeletes as IIngredient[]=[
     <ore:ingotSteel>
 ];
 
-for item in furdeletes{
-    furnace.remove(item);
-}
+//for item in furdeletes{
+//    furnace.remove(item);
+//}
 mods.mekanism.chemical.crystallizer.removeAllRecipes();
 mods.mekanism.chemical.dissolution.removeAllRecipes();
 mods.mekanism.chemical.infuser.removeAllRecipes();
@@ -46,7 +46,7 @@ mods.mekanism.purification.removeAllRecipes();
 mods.mekanism.solarneutronactivator.removeAllRecipes();
 mods.mekanism.thermalevaporation.removeAllRecipes();
 
-recipes.remove(<natura:overworld_workbenches:*>);
-recipes.remove(<natura:nether_workbenches:*>);
+//recipes.remove(<natura:overworld_workbenches:*>);
+//recipes.remove(<natura:nether_workbenches:*>);
 recipes.remove(<betternether:cincinnasite_block>);
-recipes.remove(<minecraft:crafting_table>);
+recipes.remove(<naturesaura:gold_powder>);

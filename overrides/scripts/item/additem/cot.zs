@@ -12,19 +12,12 @@ import mods.contenttweaker.CreativeTab;
 val alsTab as CreativeTab = VanillaFactory.createCreativeTab("AnnalsItems", <item:contenttweaker:netherstew>);
 alsTab.register();
 
-val hatChet as Item = VanillaFactory.createItem("hatchet");
-hatChet.creativeTab = <creativetab:AnnalsItems>;
-hatChet.maxStackSize = 1;
-hatChet.maxDamage = 120;
-hatChet.toolClass = "axe";
-hatChet.toolLevel = 2;
-hatChet.register();
-
 val meatStew as ItemFood = VanillaFactory.createItemFood("meatstew",3);
 meatStew.onItemFoodEaten = function(stack, world, player) {
         if (!world.remote) {
             player.addPotionEffect(<potion:minecraft:hunger>.makePotionEffect(30, 1));
             player.sendChat("是不是吃错了什么东西");
+            player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(30, 1));
             Commands.call("give @p minecraft:bowl 1", player, world);
         }
     };
@@ -35,6 +28,7 @@ val netherStew as ItemFood = VanillaFactory.createItemFood("netherstew",6);
 netherStew.onItemFoodEaten = function(stack, world, player) {
         if (!world.remote) {
             player.addPotionEffect(<potion:minecraft:unluck>.makePotionEffect(600, 1));
+            player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(30, 1));
         }
     };
 netherStew.creativeTab = <creativetab:AnnalsItems>;
@@ -56,7 +50,7 @@ key.maxStackSize = 1;
 key.register();
 
 //普通物品
-val anythingsNormal as string[]=["workpb","hunl2","youyihj"];
+val anythingsNormal as string[]=["hunl2","youyihj"];
 function thingsReg(things as string){
     var sub as Item = VanillaFactory.createItem(things);
     sub.creativeTab = <creativetab:AnnalsItems>;

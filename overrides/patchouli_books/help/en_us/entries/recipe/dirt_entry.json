@@ -1,0 +1,17 @@
+{
+    "name": "泥土",
+    "icon": "minecraft:dirt",
+    "category": "recipe_category",
+    "pages": [
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:ct_shapeless-430179236",
+            "text":"不玩自然灵气死路一条。"
+        },
+        {
+            "type": "tree_ritual",
+            "recipe": "naturesaura:dirtsama",
+            "text": ""
+        }
+    ]
+}

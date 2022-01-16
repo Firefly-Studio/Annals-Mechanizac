@@ -7,10 +7,7 @@
 		uid: "c53a7339",
 		type: "item",
 		items: [{
-			id: "waystones:waystone",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "waystones:waystone"
 		}]
 	}]
 }

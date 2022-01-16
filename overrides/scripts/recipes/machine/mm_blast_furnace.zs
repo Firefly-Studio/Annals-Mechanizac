@@ -9,7 +9,7 @@ for key,dore in bdustOres{
             .addFluidInput(<liquid:lava>*100)
             .addItemInput(dore)
             .addItemInput(<ore:itemCoal>)
-            .addItemOutput(iore)
+            .addItemOutput(iore,2)
             .build();
             i+="1";
             break;
@@ -23,7 +23,7 @@ for key,dore in bdustOres{
             .addEnergyPerTickInput(35)
             .addFluidInput(<liquid:lava>*50)
             .addItemInput(dore)
-            .addItemOutput(iore)
+            .addItemOutput(iore,2)
             .build();
             i+="1";
             break;
@@ -38,7 +38,7 @@ for key,dore in bdustOres{
             .addFluidInput(<liquid:lava>*120)
             .addItemInput(dore)
             .addItemInput(<ore:itemCoal>)
-            .addItemOutput(iore)
+            .addItemOutput(iore,2)
             .build();
             i+="1";
             break;
@@ -52,7 +52,7 @@ for key,dore in bdustOres{
             .addEnergyPerTickInput(90)
             .addFluidInput(<liquid:lava>*25)
             .addItemInput(dore)
-            .addItemOutput(iore)
+            .addItemOutput(iore,2)
             .build();
             i+="1";
             break;

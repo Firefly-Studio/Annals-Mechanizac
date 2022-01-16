@@ -6,10 +6,7 @@
 		uid: "086f1859",
 		type: "item",
 		items: [{
-			id: "improvableskills:skills_book",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "improvableskills:skills_book"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

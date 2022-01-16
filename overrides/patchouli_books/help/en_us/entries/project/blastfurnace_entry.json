@@ -1,0 +1,21 @@
+{
+    "name": "冶炼",
+    "icon": "minecraft:coal",
+    "category": "project_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "矿物冶炼。"
+        },
+        {
+            "type":"spotlight",
+            "item":"modularcontroller:blastfurnace_controller",
+            "text":"初级高炉，在JEI中右键控制器即可查看多方块结构图。如果身上有足够的搭建方块，使用木棍右键控制器即可快速搭建。"
+        },
+        {
+            "type":"spotlight",
+            "item":"modularcontroller:blastfurnaceplus_controller",
+            "text":"高级高炉，在JEI中右键控制器即可查看多方块结构图。如果身上有足够的搭建方块，使用木棍右键控制器即可快速搭建。"
+        }
+    ]
+}

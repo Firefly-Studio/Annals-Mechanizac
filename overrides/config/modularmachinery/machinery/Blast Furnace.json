@@ -1,6 +1,7 @@
 {
     "registryname": "blastFurnace",
     "localizedname": "傲慢火山炉",
+    "color": "FFC125",
     "parts": [
         {
             "x": -1,

@@ -3,6 +3,31 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemCondition;
 import crafttweaker.item.IIngredient;
+//合金炉
+global aingotOre as IOreDictEntry[int] = {
+    1:<ore:ingotCopper>,
+    4:<ore:dustRedstone>,
+    5:<ore:alloyAdvanced>,
+    6:<ore:alloyElite>,
+    7:<ore:itemCoal>,
+
+};
+global aingotOres as IOreDictEntry[int] = {
+    1:<ore:ingotTin>,
+    4:<ore:ingotIron>,
+    5:<ore:gemDiamond>,
+    6:<ore:obsidian>,
+    7:<ore:ingotIron>
+
+};
+global alloyOres as IOreDictEntry[int] = {
+    1:<ore:ingotBronze>,
+    4:<ore:alloyAdvanced>,
+    5:<ore:alloyElite>,
+    6:<ore:alloyUltimate>,
+    7:<ore:enrichedIron>
+};
+
 
 //高炉
 global bdustOres as IOreDictEntry[int] = {
@@ -11,24 +36,13 @@ global bdustOres as IOreDictEntry[int] = {
     3:<ore:dustOsmium>,
     4:<ore:dustCopper>,
     5:<ore:dustTin>,
-    6:<ore:dustTitanium>,
-    7:<ore:dustIridium>,
     8:<ore:blockGlowstone>,
     9:<ore:ingotIron>,
     10:<ore:sand>,
-
     11:<ore:oreGold>,
     12:<ore:oreIron>,
-    13:<ore:oreAluminum>,
     14:<ore:oreCopper>,
     15:<ore:oreTin>,
-    16:<ore:oreSilver>,
-    17:<ore:oreLead>,
-    18:<ore:oreNickel>,
-    19:<ore:orePlatinum>,
-    20:<ore:oreUranium>,
-    21:<ore:oreZinc>,
-    22:<ore:oreYellorium>,
     23:<ore:oreOsmium>
 };
 global bingotOres as IOreDictEntry[int] = {
@@ -37,24 +51,13 @@ global bingotOres as IOreDictEntry[int] = {
     3:<ore:ingotOsmium>,
     4:<ore:ingotCopper>,
     5:<ore:ingotTin>,
-    6:<ore:ingotTitanium>,
-    7:<ore:ingotIridium>,
     8:<ore:ingotRefinedGlowstone>,
     9:<ore:ingotSteel>,
-    10:<ore:ingotSilicon>,
-
+    10:<ore:itemSilicon>,
     11:<ore:ingotGold>,
     12:<ore:ingotIron>,
-    13:<ore:ingotAluminum>,
     14:<ore:ingotCopper>,
     15:<ore:ingotTin>,
-    16:<ore:ingotSilver>,
-    17:<ore:ingotLead>,
-    18:<ore:ingotNickel>,
-    19:<ore:ingotPlatinum>,
-    20:<ore:ingotYellorium>,
-    21:<ore:ingotZinc>,
-    22:<ore:ingotYellorium>,
     23:<ore:ingotOsmium>
 };
 
@@ -68,27 +71,17 @@ global mblockOres as IOreDictEntry[int] = {
     6:<ore:oreRedstone>,
     7:<ore:gemQuartz>,
     8:<ore:oreEmerald>,
-    9:<ore:oreAmethyst>,
-    10:<ore:oreRuby>,
-    11:<ore:orePeridot>,
-    12:<ore:oreTopaz>,
-    13:<ore:oreTanzanite>,
-    14:<ore:oreMalachite>,
-    15:<ore:oreSapphire>,
-    16:<ore:oreAmber>,
     17:<ore:oreOsmium>,
     18:<ore:oreCopper>,
     19:<ore:oreTin>,
-    20:<ore:oreDilithium>,
-    21:<ore:oreTitanium>,
-    22:<ore:oreIridium>,
     23:<ore:obsidian>,
     24:<ore:blockBone>,
     25:<ore:gemDiamond>,
     26:<ore:oreQuartz>,
     27:<ore:netherrack>,
     28:<ore:crystalCertusQuartz>,
-    29:<ore:crystalFluix>
+    29:<ore:crystalFluix>,
+    30:<ore:ingotRefinedObsidian>
 };
 global mdustOres as IOreDictEntry[int] = {
     1:<ore:dustGold>,
@@ -99,27 +92,17 @@ global mdustOres as IOreDictEntry[int] = {
     6:<ore:dustRedstone>,
     7:<ore:gemQuartz>,
     8:<ore:gemEmerald>,
-    9:<ore:gemAmethyst>,
-    10:<ore:gemRuby>,
-    11:<ore:gemPeridot>,
-    12:<ore:gemTopaz>,
-    13:<ore:gemTanzanite>,
-    14:<ore:gemMalachite>,
-    15:<ore:gemSapphire>,
-    16:<ore:gemAmber>,
     17:<ore:dustOsmium>,
     18:<ore:dustCopper>,
     19:<ore:dustTin>,
-    20:<ore:dustDilithium>,
-    21:<ore:dustTitanium>,
-    22:<ore:dustIridium>,
     23:<ore:dustObsidian>,
     24:<ore:dyeWhite>,
     25:<ore:dustDiamond>,
     26:<ore:dustQuartz>,
     27:<ore:dustSulfur>,
     28:<ore:dustCertusQuartz>,
-    29:<ore:dustFluix>
+    29:<ore:dustFluix>,
+    30:<ore:dustRefinedObsidian>
 };
 
 //分离机
@@ -127,121 +110,24 @@ global sblockOres as IOreDictEntry[int] = {
     1:<ore:oreIron>,
     2:<ore:oreTin>,
     3:<ore:gravel>,
-    4:<ore:oreLapis>
+    4:<ore:oreLapis>,
+    5:<ore:blockCoal>
 };
 global sdustOre as IOreDictEntry[int] = {
     1:<ore:dustIron>,
     2:<ore:dustTin>,
     3:<ore:itemFlint>,
-    4:<ore:gemLapis>
+    4:<ore:gemLapis>,
+    5:<ore:itemCoal>
 };
 global sdustOres as IOreDictEntry[int] = {
     1:<ore:dustOsmium>,
-    2:<ore:dustAluminum>,
+    2:<ore:dustCopper>,
     3:<ore:oreCertusQuartz>,
-    4:<ore:dustLithium>
+    4:<ore:dustLithium>,
+    5:<ore:graphite>
 };
 
-//常规配方
-global shapedMirroredRecipes as IIngredient[][][IItemStack] = {
-    <contenttweaker:meatstew>:
-    [
-        [<biomesoplenty:fleshchunk>*2,<ore:bowlWood>]
-    ],
-    <contenttweaker:hatchet>:
-    [
-        [<ore:itemFlint>,<ore:itemFlint>],
-        [<ore:stickWood>]
-    ],
-    <minecraft:bucket>:
-        [[<betternether:cincinnasite_block>,null,<betternether:cincinnasite_block>],
-        [null,<betternether:cincinnasite_block>,null]
-    ],
-    <modularmachinery:blockcasing:3>:
-    [
-        [null,<modularmachinery:itemmodularium>,null],
-        [<modularmachinery:itemmodularium>,<ore:gearIron>,<modularmachinery:itemmodularium>],
-        [null,<modularmachinery:itemmodularium>,null]
-    ],
-    <modularmachinery:blockcasing:1>:
-    [
-        [null,<modularmachinery:itemmodularium>,null],
-        [<modularmachinery:itemmodularium>,<trapcraft:fan>,<modularmachinery:itemmodularium>],
-        [null,<modularmachinery:itemmodularium>,null]
-    ],
-    <buildcraftcore:engine>:
-    [
-        [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
-        [null,<ore:blockGlass>,null],
-        [<ore:gearWood>,<ore:craftingPiston>,<ore:gearWood>]
-    ],
-    <buildcraftcore:engine:1>:
-    [
-        [<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>],
-        [null,<ore:blockGlass>,null],
-        [<ore:gearStone>,<ore:craftingPiston>,<ore:gearStone>]
-    ],
-    <buildcraftcore:engine:2>:
-    [
-        [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],
-        [null,<ore:blockGlass>,null],
-        [<ore:gearIron>,<ore:craftingPiston>,<ore:gearIron>]
-    ],
-    <mekanism:controlcircuit>:
-    [
-        [<ore:dustRedstone>,<ore:ingotSteel>,<ore:dustRedstone>],
-        [<ore:ingotSteel>,<ore:ingotSilicon>,<ore:ingotSteel>],
-        [<ore:dustRedstone>,<ore:ingotSteel>,<ore:dustRedstone>]
-    ],
-    <minecraft:crafting_table>:
-    [
-        [<ore:ingotSteel>,<ore:logWood>,<ore:ingotSteel>],
-        [<ore:logWood>,<contenttweaker:workpb>,<ore:logWood>],
-        [<ore:ingotSteel>,<ore:logWood>,<ore:ingotSteel>]
-    ],
-    <naturesaura:gold_fiber>:
-    [
-        [<ore:treeLeaves>,<ore:nuggetGold>,<ore:treeLeaves>],
-        [<ore:nuggetGold>,<betternether:nether_grass>,<ore:nuggetGold>],
-        [<ore:treeLeaves>,<ore:nuggetGold>,<ore:treeLeaves>]
-    ],
-    <cgm:workbench>:
-    [
-        [<ore:blockQuartz>,<ore:blockQuartz>,<ore:blockQuartz>],
-        [<ore:ingotIron>,null,<ore:ingotIron>],
-        [<ore:ingotIron>,null,<ore:ingotIron>]
-    ]
-};
-global shapedLessRecipes as IIngredient[][][IItemStack] = {
-    <contenttweaker:meatstew>:[
-        [<biomesoplenty:fleshchunk>*2,<ore:bowlWood>]
-    ],
-    <minecraft:stick>:[
-        [<ore:treeSapling>]
-    ],
-    <contenttweaker:netherstew>:
-    [
-        [<ore:blockCactus>,<betternether:stalagnate_stem>]
-    ],
-    <minecraft:gunpowder>*2:
-    [
-        [<ctmortar:mortar_iron>.anyDamage().noReturn(),<ore:itemBlazeRod>]
-    ],
-    <cgm:basic_ammo>*4:
-    [
-        [<ore:ingotIron>,<minecraft:gunpowder>]
-    ],
-    <betternether:cincinnasite_block>:
-    [
-        [<betternether:cincinnasite>,<betternether:cincinnasite>]
-    ],
-    <mod_lavacow:intestine>:[
-        [<minecraft:rotten_flesh>*3]
-    ],
-    <mekanism:dust>*2:[
-        [<ctmortar:mortar_stone>.anyDamage().noReturn(),<ore:oreIron>]
-    ]
-};
 //模块化机械
 
 global outputbus as IItemStack[IItemStack] ={

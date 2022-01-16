@@ -1,6 +1,7 @@
 {
     "registryname": "alloy_furnace",
     "localizedname": "守序合金炉",
+    "color": "FFC125",
     "parts": [
         {
             "x": -2,

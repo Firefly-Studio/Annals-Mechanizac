@@ -1,0 +1,12 @@
+{
+	title: "还剩下什么来着。。。",
+	x: -2.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "a6d206c5",
+		type: "item",
+		items: [{
+			item: "uppers:upper"
+		}]
+	}]
+}

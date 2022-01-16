@@ -17,12 +17,7 @@
 	tasks: [{
 		uid: "a119e95d",
 		type: "kill",
-		icon: {
-			id: "biomesoplenty:filled_honeycomb",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
-		},
+		icon: "biomesoplenty:filled_honeycomb",
 		entity: "mod_lavacow:vespa",
 		value: 1L
 	}]

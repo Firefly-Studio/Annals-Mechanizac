@@ -7,10 +7,7 @@
 		uid: "04670b83",
 		type: "item",
 		items: [{
-			id: "minecraft:obsidian",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:obsidian"
 		}],
 		count: 10L
 	}]

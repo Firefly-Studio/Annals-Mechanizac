@@ -1,0 +1,18 @@
+{
+  "song.dedication": {
+    "category": "player",
+    "sounds": ["customnpcs:Dedications"]
+  },
+  "song.endoftheWorld":{
+    "category":"player",
+    "sounds":["customnpcs:EndoftheWorld"]
+  },
+  "song.mowang":{
+    "category":"player",
+    "sounds":["customnpcs:mowang"]
+  },
+  "song.fantasia":{
+    "category":"player",
+    "sounds":["customnpcs:Fantasia"]
+  }
+}

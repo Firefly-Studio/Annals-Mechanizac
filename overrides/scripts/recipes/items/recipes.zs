@@ -8,15 +8,13 @@ import crafttweaker.item.IIngredient;
 <ore:sand>.add(<minecraft:soul_sand>);
 <ore:blockCactus>.add(<betternether:barrel_cactus>);
 <ore:blockCactus>.add(<betternether:nether_cactus>);
-<ore:mortar>.add(<ctmortar:mortar_stone>);
-<ore:mortar>.add(<ctmortar:mortar_wood>);
-<ore:mortar>.add(<ctmortar:mortar_iron>);
-<ore:mortar>.add(<ctmortar:mortar_diamond>);
 <ore:enrichedIron>.add(<mekanism:enrichediron>);
 <ore:blockBone>.add(<betternether:bone_block>);
 <ore:blockGlowstone>.add(<minecraft:glowstone>);
 <ore:colder>.addAll(<ore:sugarcane>);
 <ore:colder>.add(<betternether:egg_plant>);
+<ore:fiber>.add(<naturesaura:gold_fiber>);
+<ore:graphite>.add(<mw:graphitechunk>);
 
 //变量
 val iIron = <ore:ingotIron>;
@@ -28,11 +26,6 @@ val shapedMirroredRecipes as IIngredient[][][IItemStack] = {
     <contenttweaker:meatstew>:
     [
         [<biomesoplenty:fleshchunk>*2,<ore:bowlWood>]
-    ],
-    <contenttweaker:hatchet>:
-    [
-        [<ore:itemFlint>,<ore:itemFlint>],
-        [<ore:stickWood>]
     ],
     <minecraft:bucket>:
         [[ccn,null,ccn],
@@ -71,14 +64,8 @@ val shapedMirroredRecipes as IIngredient[][][IItemStack] = {
     <mekanism:controlcircuit>:
     [
         [<ore:dustRedstone>,<ore:ingotSteel>,<ore:dustRedstone>],
-        [<ore:ingotSteel>,<ore:ingotSilicon>,<ore:ingotSteel>],
+        [<ore:ingotSteel>,<ore:itemSilicon>,<ore:ingotSteel>],
         [<ore:dustRedstone>,<ore:ingotSteel>,<ore:dustRedstone>]
-    ],
-    <minecraft:crafting_table>:
-    [
-        [<ore:ingotSteel>,<ore:logWood>,<ore:ingotSteel>],
-        [<ore:logWood>,<contenttweaker:workpb>,<ore:logWood>],
-        [<ore:ingotSteel>,<ore:logWood>,<ore:ingotSteel>]
     ],
     <naturesaura:gold_fiber>:
     [
@@ -86,49 +73,93 @@ val shapedMirroredRecipes as IIngredient[][][IItemStack] = {
         [<ore:nuggetGold>,<betternether:nether_grass>,<ore:nuggetGold>],
         [<ore:treeLeaves>,<ore:nuggetGold>,<ore:treeLeaves>]
     ],
-    <cgm:workbench>:
+    <modularcontroller:j_power_machine_controller>:
     [
-        [<ore:blockQuartz>,<ore:blockQuartz>,<ore:blockQuartz>],
-        [<ore:ingotIron>,null,<ore:ingotIron>],
-        [<ore:ingotIron>,null,<ore:ingotIron>]
+        [null,<ore:gemDiamond>,null],
+        [<ore:ingotIron>,<ore:circuitBasic>,<ore:ingotIron>],
+        [<ore:ingotIron>,<modularmachinery:itemmodularium>,<ore:ingotIron>]
+    ],
+    <modularcontroller:s_power_machine_controller>:
+    [
+        [null,<ore:blockDiamond>,null],
+        [<ore:ingotSteel>,<ore:circuitElite>,<ore:ingotSteel>],
+        [<ore:ingotSteel>,<modularcontroller:j_power_machine_controller>,<ore:ingotSteel>]
+    ],
+    <modularcontroller:alloy_furnace_controller>:
+    [
+        [null,<minecraft:fire_charge>,null],
+        [<modularmachinery:itemmodularium>,<ore:circuitBasic>,<modularmachinery:itemmodularium>],
+        [<modularmachinery:itemmodularium>,<ore:dustRedstone>,<modularmachinery:itemmodularium>]
+    ],
+    <modularcontroller:separator_controller>:
+    [
+        [null,<modularmachinery:blockcasing>,null],
+        [<modularmachinery:itemmodularium>,<ore:circuitAdvanced>,<modularmachinery:itemmodularium>],
+        [<ore:ingotSteel>,<ore:dustRedstone>,<ore:ingotSteel>]
+    ],
+    <modularcontroller:j_mineral_crusher_controller>:
+    [
+        [null,<modularmachinery:blockcasing>,null],
+        [<modularmachinery:itemmodularium>,<ore:circuitBasic>,<modularmachinery:itemmodularium>],
+        [<ore:ingotSteel>,<ore:gearIron>,<ore:ingotSteel>]
+    ],
+    <modularcontroller:e_mineral_crusher_controller>:
+    [
+        [null,<modularmachinery:blockcasing>,null],
+        [<modularmachinery:itemmodularium>,<ore:circuitElite>,<modularmachinery:itemmodularium>],
+        [<ore:blockSteel>,<ore:gearDiamond>,<ore:blockSteel>]
+    ],
+    <modularcontroller:blastfurnace_controller>:
+    [
+        [null,<modularmachinery:blockcasing>,null],
+        [<modularmachinery:itemmodularium>,<ore:circuitAdvanced>,<modularmachinery:itemmodularium>],
+        [<modularmachinery:blockcasing:1>,null,<modularmachinery:blockcasing:1>]
+    ],
+    <modularcontroller:blastfurnaceplus_controller>:
+    [
+        [null,<modularmachinery:blockcasing>,null],
+        [<naturesaura:infused_iron_block>,<ore:circuitAdvanced>,<naturesaura:infused_iron_block>],
+        [<modularmachinery:blockcasing:1>,null,<modularmachinery:blockcasing:1>]
     ]
 };
-val shapedLessRecipes as IIngredient[][][IItemStack] = {
-    <contenttweaker:meatstew>:[
+val shapedLessRecipes as IIngredient[][IItemStack] = {
+    <contenttweaker:meatstew>:
         [<biomesoplenty:fleshchunk>*2,<ore:bowlWood>]
-    ],
-    <minecraft:stick>:[
+    ,
+    <minecraft:stick>:
         [<ore:treeSapling>]
-    ],
+    ,
     <contenttweaker:netherstew>:
-    [
         [<ore:blockCactus>,<betternether:stalagnate_stem>]
-    ],
-    <minecraft:gunpowder>*2:
-    [
-        [<ctmortar:mortar_iron>.anyDamage().noReturn(),<ore:itemBlazeRod>]
-    ],
-    <cgm:basic_ammo>*4:
-    [
-        [<ore:ingotIron>,<minecraft:gunpowder>]
-    ],
+    ,
     <betternether:cincinnasite_block>:
-    [
         [<betternether:cincinnasite>,<betternether:cincinnasite>]
-    ],
-    <mod_lavacow:intestine>:[
+    ,
+    <mod_lavacow:intestine>:
         [<minecraft:rotten_flesh>*3]
-    ],
-    <mekanism:dust>*2:[
-        [<ctmortar:mortar_stone>.anyDamage().noReturn(),<ore:oreIron>]
-    ]
+    ,
+    <minecraft:sapling>:
+        [<naturesaura:gold_fiber>,<natura:nether_sapling:2>]
+    ,
+    <mw:bfgammo>*3:
+        [<ore:ingotRefinedObsidian>,<naturesaura:infused_iron>]
+    ,
+    <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}):
+        [<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}),<naturesaura:token_fear>]
+    ,
+    <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"}):
+        [<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}),<naturesaura:token_joy>]
+    ,
+    <minecraft:grass>:
+        [<minecraft:dirt>,<naturesaura:gold_powder>,<minecraft:dye:15>,<betternether:nether_grass>]
+    
 };
 
 for item, ingredients in shapedMirroredRecipes{
-    recipes.addShaped(item,ingredients);
+    recipes.addShapedMirrored(item,ingredients);
 }
 for item, ingredients in shapedLessRecipes{
-    recipes.addShaped(item,ingredients);
+    recipes.addShapeless(item,ingredients);
 }
 //仙人掌
 furnace.addRecipe(<minecraft:dye:2>, <ore:blockCactus>,0.1);

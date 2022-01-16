@@ -1,6 +1,7 @@
 {
     "registryname": "blastFurnacePlus",
     "localizedname": "地核熔炼机",
+    "color": "FFC125",
     "parts": [
         {
             "x": -1,

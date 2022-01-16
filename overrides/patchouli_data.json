@@ -1,0 +1,106 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": true,
+  "bookData": {
+    "naturesaura:book": {
+      "viewedEntries": [
+        "naturesaura:intro/intro",
+        "naturesaura:intro/botany",
+        "naturesaura:practices/gold_trees",
+        "naturesaura:intro/aura",
+        "naturesaura:practices/tree_ritual",
+        "naturesaura:practices/aura_bottle",
+        "naturesaura:items/eye",
+        "naturesaura:practices/offering",
+        "naturesaura:creating/potion_generator"
+      ],
+      "bookmarks": [],
+      "history": [
+        "naturesaura:practices/tree_ritual",
+        "naturesaura:practices/offering",
+        "naturesaura:practices/gold_trees",
+        "naturesaura:practices/aura_bottle",
+        "naturesaura:items/eye",
+        "naturesaura:creating/potion_generator",
+        "naturesaura:intro/aura",
+        "naturesaura:intro/intro",
+        "naturesaura:intro/botany"
+      ],
+      "completedManualQuests": []
+    },
+    "bigreactors:erguide": {
+      "viewedEntries": [
+        "bigreactors:intro/first"
+      ],
+      "bookmarks": [],
+      "history": [
+        "bigreactors:intro/first"
+      ],
+      "completedManualQuests": []
+    },
+    "patchouli:help": {
+      "viewedEntries": [
+        "patchouli:test/test_entry",
+        "patchouli:survival/survival_entry",
+        "patchouli:survival/food_entry",
+        "patchouli:survival/tree_entry",
+        "patchouli:survival/mob_entry",
+        "patchouli:survival/fish_entry",
+        "patchouli:survival/plant_entry",
+        "patchouli:project/generator_entry",
+        "patchouli:project/grinding_entry",
+        "patchouli:project/separator_entry",
+        "patchouli:project/blastfurnace_entry",
+        "patchouli:project/wrench_entry",
+        "patchouli:project/alloy_entry",
+        "patchouli:logistics/upper_entry",
+        "patchouli:logistics/flu_entry",
+        "patchouli:logistics/port_entry",
+        "patchouli:recipe/recipe_entry",
+        "patchouli:recipe/dirt_entry",
+        "patchouli:recipe/tree_entry",
+        "patchouli:recipe/flower_entry"
+      ],
+      "bookmarks": [
+        {
+          "entry": "patchouli:survival/food_entry",
+          "page": 0
+        },
+        {
+          "entry": "patchouli:logistics/port_entry",
+          "page": 0
+        }
+      ],
+      "history": [
+        "patchouli:logistics/flu_entry",
+        "patchouli:logistics/port_entry",
+        "patchouli:recipe/tree_entry",
+        "patchouli:recipe/dirt_entry",
+        "patchouli:survival/food_entry",
+        "patchouli:survival/fish_entry",
+        "patchouli:survival/tree_entry",
+        "patchouli:survival/mob_entry",
+        "patchouli:recipe/flower_entry",
+        "patchouli:recipe/recipe_entry",
+        "patchouli:survival/plant_entry",
+        "patchouli:project/wrench_entry",
+        "patchouli:project/generator_entry"
+      ],
+      "completedManualQuests": []
+    },
+    "techguns:techguns_manual": {
+      "viewedEntries": [
+        "techguns:weapon_mechanics",
+        "techguns:machine_mechanics",
+        "techguns:machines/blast_furnace"
+      ],
+      "bookmarks": [],
+      "history": [
+        "techguns:machines/blast_furnace",
+        "techguns:machine_mechanics",
+        "techguns:weapon_mechanics"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

@@ -1,6 +1,7 @@
 {
     "registryname": "j_mineral_crusher",
     "localizedname": "愚笨粉碎机",
+    "color": "FFC125",
     "parts": [
         {
             "x": -1,

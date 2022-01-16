@@ -5,12 +5,7 @@
 	tasks: [{
 		uid: "5dd96ebd",
 		type: "kill",
-		icon: {
-			id: "minecraft:skull",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
-		},
+		icon: "minecraft:skull",
 		entity: "mod_lavacow:skeletonking",
 		value: 1L
 	}]

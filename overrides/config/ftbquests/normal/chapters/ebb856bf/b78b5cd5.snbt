@@ -7,10 +7,7 @@
 		uid: "00d215f5",
 		type: "item",
 		items: [{
-			id: "mod_lavacow:intestine",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "mod_lavacow:intestine"
 		}]
 	}]
 }

@@ -7,10 +7,7 @@
 		uid: "b6b00064",
 		type: "item",
 		items: [{
-			id: "minecraft:fishing_rod",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "minecraft:fishing_rod"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

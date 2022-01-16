@@ -1,0 +1,18 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "31a3a703",
+		type: "item",
+		items: [{
+			item: "betternether:nether_reed"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "92547b57",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

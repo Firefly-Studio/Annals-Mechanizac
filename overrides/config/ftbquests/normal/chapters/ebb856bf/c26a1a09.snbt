@@ -6,10 +6,7 @@
 		uid: "ff208d16",
 		type: "item",
 		items: [{
-			id: "buildcraftfactory:pump",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "buildcraftfactory:pump"
 		}]
 	}]
 }

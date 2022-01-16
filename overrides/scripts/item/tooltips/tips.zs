@@ -1,3 +1,10 @@
 <contenttweaker:key>.addTooltip("充斥着不祥的气息。");
-
+<minecraft:stick>.addTooltip("大魔法棒！");
 <contenttweaker:youyihj>.addTooltip("生物燃料+1");
+<betterpipes:wrench>.addTooltip("管塞失业。");
+<betternether:egg_plant>.addTooltip("我茄子花也是花。");
+<naturesaura:wood_stand>.addTooltip("可以使用漏斗等输入物品。");
+<naturesaura:gold_powder>.addTooltip("可以使用发射器放置！");
+<inventoryneko:neko>.addTooltip("喜欢吃东西。");
+<mw:m56>.addTooltip("使用5.56*45mm 北约制式子弹。");
+<mw:bfg_9000>.addTooltip("银离子容器。");

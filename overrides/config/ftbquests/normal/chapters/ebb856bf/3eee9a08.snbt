@@ -1,0 +1,12 @@
+{
+	title: "你是否抱怨过为什么mc没有流体漏斗？",
+	x: -2.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "12b38976",
+		type: "item",
+		items: [{
+			item: "flopper:flopper"
+		}]
+	}]
+}

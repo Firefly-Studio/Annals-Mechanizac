@@ -7,10 +7,7 @@
 		uid: "2f7bc318",
 		type: "item",
 		items: [{
-			id: "modularcontroller:j_power_machine_controller",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "modularcontroller:j_power_machine_controller"
 		}]
 	}]
 }

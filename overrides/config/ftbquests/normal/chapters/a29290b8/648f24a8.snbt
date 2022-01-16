@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "7319eb7b",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "67a2a4a6",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	}]
+}

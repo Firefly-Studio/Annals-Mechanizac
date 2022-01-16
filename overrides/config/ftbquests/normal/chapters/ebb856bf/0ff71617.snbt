@@ -7,10 +7,7 @@
 		uid: "cce31061",
 		type: "item",
 		items: [{
-			id: "cgm:workbench",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "cgm:workbench"
 		}]
 	}]
 }

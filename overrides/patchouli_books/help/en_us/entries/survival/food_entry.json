@@ -1,0 +1,26 @@
+{
+    "name": "食物",
+    "icon": "contenttweaker:meatstew",
+    "category": "survival_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "为了生存我们首先需要解决饱腹问题。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:ct_shaped226866610",
+            "text":"肉块可以在血肉群系找到。食用肉粥后可获得饥饿与治疗Buff。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:ct_shaped-726026834",
+            "text":"食用黑暗料理后可获得不幸与治疗Buff。"
+        },
+        {
+            "type":"spotlight",
+            "item":"forge:bucketfilled{FluidName:coolliquid, Amount: 1000}",
+            "text":"有趣的是你可以在地狱里用冷液替换水来种小麦。你可以将下界芦苇、甘蔗、茄子花投入到岩浆中获得冷液。"
+        }
+    ]
+}

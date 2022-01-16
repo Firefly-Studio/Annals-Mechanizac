@@ -1,0 +1,32 @@
+{
+    "name": "传送门",
+    "icon": "portality:controller",
+    "category": "logistics_category",
+    "pages": [
+        {
+            "type":"crafting",
+            "recipe":"portality:controller",
+            "recipe2":"portality:frame",
+            "text":"搭建传送门最基础的就是控制器和框架。"
+        },
+        {
+            "type":"multiblock",
+            "text":"可通过添加相应模块以传输相应物品、能量、实体等。开启传送门传输需要能量。可扩大传送门体积以增大传送距离。",
+            "multiblock": {
+                "pattern": [
+                    ["LLL","LLL","LLL"],
+                    ["LLL","   ","LLL"],
+                    ["LLL"," 0 ","LLL"],
+                    ["LLL","   ","LLL"],
+                    ["LLL","NLL","LLL"]
+                ],
+                "mapping": {
+                    "N": "portality:controller",
+                    "L": "portality:frame"
+                },
+                "symmetrical": true
+            }
+        }
+
+    ]
+}

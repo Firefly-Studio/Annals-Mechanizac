@@ -1,0 +1,16 @@
+{
+    "name": "管道连接",
+    "icon": "betterpipes:wrench",
+    "category": "project_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "管塞失业。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"betterpipes:recipes",
+            "text":"用于连接管道。"
+        }
+    ]
+}

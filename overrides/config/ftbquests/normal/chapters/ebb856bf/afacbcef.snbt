@@ -1,0 +1,56 @@
+{
+	title: "这就是自由的感觉！",
+	x: -2.0d,
+	y: -2.0d,
+	description: "这就是飞翔的感觉！",
+	text: [
+		"道路千万条",
+		"安全第一条",
+		"飞行不规范",
+		"亲人两行泪"
+	],
+	tasks: [{
+		uid: "f2e38ca0",
+		type: "item",
+		items: [{
+			id: "grapplemod:grapplinghook",
+			tag: {
+				phaserope: 0b,
+				motor: 0b,
+				motorwhencrouching: 0b,
+				motorwhennotcrouching: 1b,
+				smartmotor: 0b,
+				enderstaff: 0b,
+				repel: 0b,
+				attract: 0b,
+				doublehook: 0b,
+				smartdoublemotor: 1b,
+				motordampener: 0b,
+				reelin: 1b,
+				pullbackwards: 1b,
+				oneropepull: 0b,
+				sticky: 0b,
+				detachonkeyrelease: 0b,
+				rocket: 0b,
+				maxlen: 30.0d,
+				hookgravity: 1.0d,
+				throwspeed: 2.0d,
+				motormaxspeed: 4.0d,
+				motoracceleration: 0.2d,
+				playermovementmult: 1.0d,
+				repelforce: 1.0d,
+				attractradius: 3.0d,
+				angle: 20.0d,
+				sneakingangle: 10.0d,
+				verticalthrowangle: 0.0d,
+				sneakingverticalthrowangle: 0.0d,
+				rocket_force: 1.0d,
+				rocket_active_time: 0.5d,
+				rocket_refuel_ratio: 15.0d,
+				rocket_vertical_angle: 0.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

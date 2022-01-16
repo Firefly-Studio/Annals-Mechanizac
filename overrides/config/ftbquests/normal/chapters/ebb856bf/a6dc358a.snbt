@@ -7,10 +7,7 @@
 		uid: "6b979659",
 		type: "item",
 		items: [{
-			id: "securitycraft:mine",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "securitycraft:mine"
 		}]
 	}]
 }

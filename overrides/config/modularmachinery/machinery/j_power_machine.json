@@ -1,6 +1,7 @@
 {
     "registryname": "j_power_machine",
     "localizedname": "邪恶熔解炉",
+    "color": "FFC125",
     "parts": [
         {
             "x": -2,

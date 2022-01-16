@@ -6,10 +6,7 @@
 		uid: "2830a278",
 		type: "item",
 		items: [{
-			id: "betternether:pig_statue_01",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "betternether:pig_statue_01"
 		}]
 	}]
 }

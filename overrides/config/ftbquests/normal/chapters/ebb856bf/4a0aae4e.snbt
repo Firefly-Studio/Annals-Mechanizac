@@ -7,10 +7,7 @@
 		uid: "5b74c543",
 		type: "item",
 		items: [{
-			id: "openmodularturrets:turret_base",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "openmodularturrets:turret_base"
 		}]
 	}]
 }

@@ -1,11 +1,6 @@
 {
 	title: "初访世界",
-	icon: {
-		id: "minecraft:netherrack",
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
-		}
-	},
+	icon: "minecraft:netherrack",
 	x: -1.0d,
 	y: 1.0d,
 	description: "炎热阴森",
@@ -18,18 +13,48 @@
 		uid: "22f5fe2e",
 		type: "item",
 		auto: "enabled",
-		item: {
-			id: "natura:nether_sapling",
-			Damage: 2s,
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
-		}
+		item: "natura:nether_sapling 1 2"
 	},
 	{
 		uid: "5ba2a359",
 		type: "command",
 		auto: "invisible",
 		command: "/gamerule keepInventory true"
+	},
+	{
+		uid: "eb61c45b",
+		type: "command",
+		auto: "enabled",
+		command: "/effect @p minecraft:fire_resistance 400"
+	},
+	{
+		uid: "6f450372",
+		type: "command",
+		auto: "enabled",
+		command: "/effect @p minecraft:resistance 400"
+	},
+	{
+		uid: "568a6d69",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "patchouli:help"
+			}
+		}
+	},
+	{
+		uid: "6a6d1ff7",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "minecraft:dirt",
+			tag: {
+				display: {
+					Name: "留着以后有条件种橡树用"
+				}
+			}
+		}
 	}]
 }
