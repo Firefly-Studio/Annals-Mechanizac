@@ -120,6 +120,30 @@ val shapedMirroredRecipes as IIngredient[][][IItemStack] = {
         [null,<modularmachinery:blockcasing>,null],
         [<naturesaura:infused_iron_block>,<ore:circuitAdvanced>,<naturesaura:infused_iron_block>],
         [<modularmachinery:blockcasing:1>,null,<modularmachinery:blockcasing:1>]
+    ],
+    <modularcontroller:transport_controller>:
+    [
+        [null,<modularmachinery:blockcasing:4>,null],
+        [<naturesaura:ancient_log>,null,<naturesaura:ancient_log>],
+        [null,<minecraft:glowstone>,null]
+    ],
+    <modularcontroller:altar_controller>:
+    [
+        [null,<modularmachinery:blockcasing:4>,null],
+        [<naturesaura:gold_brick>,<natura:nether_leaves>,<naturesaura:gold_brick>],
+        [<biomesoplenty:ash_block>,<biomesoplenty:ash_block>,<biomesoplenty:ash_block>]
+    ],
+    <modularmagic:blockauraproviderinput>:
+    [
+        [<naturesaura:gold_brick>,<ore:logWood>,<naturesaura:gold_brick>],
+        [<ore:logWood>,<modularmachinery:blockcasing>,<ore:logWood>],
+        [<naturesaura:gold_brick>,<ore:logWood>,<naturesaura:gold_brick>]
+    ],
+    <modularmagic:blockauraprovideroutput>:
+    [
+        [<ore:logWood>,<naturesaura:gold_brick>,<ore:logWood>],
+        [<naturesaura:gold_brick>,<modularmachinery:blockcasing>,<naturesaura:gold_brick>],
+        [<naturesaura:gold_brick>,<ore:logWood>,<naturesaura:gold_brick>]
     ]
 };
 val shapedLessRecipes as IIngredient[][IItemStack] = {
@@ -152,6 +176,9 @@ val shapedLessRecipes as IIngredient[][IItemStack] = {
     ,
     <minecraft:grass>:
         [<minecraft:dirt>,<naturesaura:gold_powder>,<minecraft:dye:15>,<betternether:nether_grass>]
+    ,
+    <minecraft:spider_eye>:
+        [<minecraft:string>,<betternether:eye_seed>]
     
 };
 

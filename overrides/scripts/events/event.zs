@@ -14,6 +14,7 @@ import crafttweaker.event.BlockHarvestDropsEvent;
 import crafttweaker.event.EntityTravelToDimensionEvent;
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.PlayerChangedDimensionEvent;
+import crafttweaker.event.PlayerRespawnEvent;
 
 events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent){
     val player as IPlayer = event.player;
@@ -68,4 +69,11 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
 events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent){
     var player as IPlayer = event.player;
     player.sendChat("欢迎来到Annals:Mechanizac!");
+});
+
+//复活buff
+events.onPlayerRespawn(function(event as PlayerRespawnEvent){
+    var player as IPlayer = event.player;
+    player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(600, 1));
+    player.addPotionEffect(<potion:minecraft:fire_resistance>.makePotionEffect(600, 1));
 });

@@ -4,6 +4,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemCondition;
 import crafttweaker.item.IIngredient;
 //合金炉
+//所有机械我都试过用Func写，但是写完后机械的配方总是乱的，问了很多大佬都没招，然后就只能3个for用map匹配了。
 global aingotOre as IOreDictEntry[int] = {
     1:<ore:ingotCopper>,
     4:<ore:dustRedstone>,
@@ -71,6 +72,7 @@ global mblockOres as IOreDictEntry[int] = {
     6:<ore:oreRedstone>,
     7:<ore:gemQuartz>,
     8:<ore:oreEmerald>,
+    9:<ore:blockBone>,
     17:<ore:oreOsmium>,
     18:<ore:oreCopper>,
     19:<ore:oreTin>,
@@ -92,6 +94,7 @@ global mdustOres as IOreDictEntry[int] = {
     6:<ore:dustRedstone>,
     7:<ore:gemQuartz>,
     8:<ore:gemEmerald>,
+    9:<ore:dyeWhite>,
     17:<ore:dustOsmium>,
     18:<ore:dustCopper>,
     19:<ore:dustTin>,

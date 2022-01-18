@@ -13,6 +13,20 @@
             "recipe": "naturesaura:gold_fiber",
             "recipe2":"crafttweaker:ct_shaped1320994070",
             "text": "然后看自然灵气指导书就是了。"
+        },
+        {
+            "type": "text",
+            "text": "灵气与能量转化机，用于转化灵气与能量，在JEI中右键控制器即可查看多方块结构图。如果身上有足够的搭建方块，使用木棍右键控制器即可快速搭建."
+        },
+        {
+            "type":"spotlight",
+            "item":"modularcontroller:transport_controller",
+            "text":"投入铁锭会启动低效能量到灵气转化模式，投入钻石会启动激进能量到灵气转化模式，投入金锭会启动低效灵气到能量转化模式，投入绿宝石会启动激进灵气到能量转化模式。"
+        },
+        {
+            "type": "kk",
+            "recipe": "nullhere",
+            "text": ""
         }
     ]
 }

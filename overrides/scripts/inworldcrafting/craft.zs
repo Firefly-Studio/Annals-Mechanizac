@@ -7,7 +7,8 @@ mods.inworldcrafting.FluidToFluid.transform(<liquid:coolliquid>, <liquid:lava>, 
 mods.inworldcrafting.FluidToItem.transform(<minecraft:dirt>, <liquid:coolliquid>, [<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}),<ore:itemClay>,<ore:dustSulfur>*8,<ore:sugarcane>*4],true);
 mods.inworldcrafting.FluidToItem.transform(<minecraft:iron_ingot>, <liquid:coolliquid>, [<ore:dustIron>], false);
 mods.inworldcrafting.FluidToItem.transform(<minecraft:string>, <liquid:coolliquid>, [<ore:paper>,<ore:fiber>], false);
-
+mods.inworldcrafting.FluidToItem.transform(<minecraft:reeds>, <liquid:coolliquid>, [<betternether:nether_reed>,<ore:fiber>], false);
+mods.inworldcrafting.FireCrafting.addRecipe(<contenttweaker:youyihj>,<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:help"}),114514);
 val fireC as IIngredient[IItemStack]={
     <minecraft:cobblestone>:<ore:netherrack>,
     <minecraft:stone>:<ore:cobblestone>,
