@@ -6,12 +6,11 @@
         {
             "type":"crafting",
             "recipe":"portality:controller",
-            "recipe2":"portality:frame",
-            "text":"搭建传送门最基础的就是控制器和框架。"
+            "recipe2":"portality:frame"
         },
         {
             "type":"multiblock",
-            "text":"可通过添加相应模块以传输相应物品、能量、实体等。开启传送门传输需要能量。可扩大传送门体积以增大传送距离。",
+            "text":"注意，传送门的宽度应该比图示大，且传送门核心总是必须处在前端中间位置。",
             "multiblock": {
                 "pattern": [
                     ["LLL","LLL","LLL"],
@@ -26,6 +25,10 @@
                 },
                 "symmetrical": true
             }
+        },
+        {
+            "type":"text",
+            "text":"搭建传送门最基础的就是控制器和框架。可通过添加相应模块以传输相应物品、能量、实体等。开启传送门传输需要能量。可扩大传送门体积以增大传送距离。"
         }
 
     ]

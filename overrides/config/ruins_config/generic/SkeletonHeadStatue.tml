@@ -1,7 +1,7 @@
 # Created by Ruins mod version 12.8 Ingame Parser
 # authoring Player: AtomicStryker
 
-weight=2
+weight=4
 embed_into_distance=0
 acceptable_target_blocks=
 
@@ -20,9 +20,11 @@ rule2=0,100,Skull:0:0-4
 rule3=0,100,minecraft:iron_bars-0
 rule4=0,100,Skull:0:0-4
 rule5=0,100,Skull:0:0-4
+rule6=0,100,CommandBlock:RUINSTRIGGER /playsound random.explode @p
+rule7=0,100,CommandBlock:RUINSTRIGGER /testruin king ~5 0 ~5
 
 layer
-0,0,0
+0,6,0
 0,1,0
 endlayer
 
@@ -37,7 +39,7 @@ layer
 endlayer
 
 layer
-0,0,0
+0,7,0
 0,3,0
 endlayer
 

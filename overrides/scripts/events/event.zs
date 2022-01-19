@@ -15,11 +15,11 @@ import crafttweaker.event.EntityTravelToDimensionEvent;
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.PlayerChangedDimensionEvent;
 import crafttweaker.event.PlayerRespawnEvent;
-
+import crafttweaker.event.PlayerPickupItemEvent;
 events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent){
     val player as IPlayer = event.player;
     val world as IWorld = event.toWorld;
-    if(world.getDimension() == 0 && world.isDayTime()){
+    if(!world.remote && world.getDimension() == 0 && world.isDayTime()){
         player.sendChat("主世界光芒万丈。");
     }
 });
@@ -76,4 +76,15 @@ events.onPlayerRespawn(function(event as PlayerRespawnEvent){
     var player as IPlayer = event.player;
     player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(600, 1));
     player.addPotionEffect(<potion:minecraft:fire_resistance>.makePotionEffect(600, 1));
+});
+
+//祭坛
+events.onPlayerInteract(function(event as PlayerInteractEvent){
+    var player as IPlayer = event.player;
+    var world as IWorld = event.world;
+    var block as IBlock = event.block;
+    if(!world.remote && <natura:bloodwood_sword> in player.currentItem && "zensummoning:altar" in block.definition.id){
+        player.removeXP(100);
+        player.sendChat("遗忘了一些东西。");
+    }
 });

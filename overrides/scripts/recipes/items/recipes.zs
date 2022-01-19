@@ -179,11 +179,31 @@ val shapedLessRecipes as IIngredient[][IItemStack] = {
     ,
     <minecraft:spider_eye>:
         [<minecraft:string>,<betternether:eye_seed>]
-    
+    ,
+    <minecraft:double_plant:5>:
+        [<minecraft:red_flower>,<minecraft:red_flower>]
+    ,
+    <minecraft:vine>:
+        [<minecraft:nether_wart>,<betternether:agave>]
+    ,
+    <minecraft:porkchop>:
+        [<natura:edibles>,<quark:black_ash>]
+    ,
+    <minecraft:ender_pearl>:
+        [<betternether:eye_seed>,<minecraft:spider_eye>]
+    ,
+    <minecraft:feather>:
+        [<minecraft:fish>,<minecraft:wheat_seeds>]
+    ,
+    <mw:sulfurdust>:
+        [<mekanism:otherdust:3>]
+    ,
+    <mekanism:otherdust:3>:
+        [<mw:sulfurdust>]
 };
 
 for item, ingredients in shapedMirroredRecipes{
-    recipes.addShapedMirrored(item,ingredients);
+    recipes.addShaped(item,ingredients);
 }
 for item, ingredients in shapedLessRecipes{
     recipes.addShapeless(item,ingredients);
