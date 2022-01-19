@@ -28,3 +28,9 @@ RecipeBuilder.newBuilder("a2ep", "transport", 600)
     .addEnergyPerTickOutput(120)
     .addItemOutput(<minecraft:emerald>)
     .build();
+RecipeBuilder.newBuilder("o2f", "transport", 600)
+    .addItemInput(<minecraft:obsidian>,<mekanism:ingot:5>,<minecraft:iron_ingot>)
+    .addAuraInput("nether",2)
+    .addEnergyPerTickInput(120)
+    .addItemOutput(<appliedenergistics2:sky_stone_block>*2)
+    .build();
