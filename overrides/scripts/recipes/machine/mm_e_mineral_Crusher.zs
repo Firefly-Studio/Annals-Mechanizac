@@ -17,6 +17,6 @@ for key,bore in mblockOres{
 }
 mods.modularmachinery.RecipeBuilder.newBuilder("e_mineral_sands", "e_mineral_crusher", 60)
     .addEnergyPerTickInput(15)
-    .addItemInput(<natura:nether_tainted_soil:*>)
-    .addItemOutput(<minecraft:sand>,2)
+    .addItemInput(<ore:sand>)
+    .addItemOutput(<ore:sand>)
     .build();
