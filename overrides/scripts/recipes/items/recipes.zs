@@ -15,7 +15,7 @@ import crafttweaker.item.IIngredient;
 <ore:colder>.add(<betternether:egg_plant>);
 <ore:fiber>.add(<naturesaura:gold_fiber>);
 <ore:graphite>.add(<mw:graphitechunk>);
-
+<ore:blockSky>.add(<appliedenergistics2:sky_stone_block>);
 //变量
 val iIron = <ore:ingotIron>;
 val imm = <modularmachinery:itemmodularium>;
