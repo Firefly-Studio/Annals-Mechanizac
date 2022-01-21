@@ -56,5 +56,10 @@
 				}
 			}
 		}
+	},
+	{
+		uid: "dc8e4dd4",
+		type: "ftbmoney:money",
+		ftb_money: 1200L
 	}]
 }

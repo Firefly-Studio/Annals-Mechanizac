@@ -3,6 +3,22 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemCondition;
 import crafttweaker.item.IIngredient;
+//矿辞
+<ore:blockGlass>.add(<natura:nether_glass:*>);
+<ore:sand>.add(<natura:nether_tainted_soil:*>);
+<ore:sand>.add(<minecraft:soul_sand>);
+<ore:blockCactus>.add(<betternether:barrel_cactus>);
+<ore:blockCactus>.add(<betternether:nether_cactus>);
+<ore:enrichedIron>.add(<mekanism:enrichediron>);
+<ore:blockBone>.add(<betternether:bone_block>);
+<ore:blockGlowstone>.add(<minecraft:glowstone>);
+<ore:colder>.addAll(<ore:sugarcane>);
+<ore:colder>.add(<betternether:egg_plant>);
+<ore:fiber>.add(<naturesaura:gold_fiber>);
+<ore:graphite>.add(<mw:graphitechunk>);
+<ore:blockSky>.add(<appliedenergistics2:sky_stone_block>);
+<ore:record>.add(<pigstep:pigstep>);
+<ore:vine>.add(<biomesoplenty:ivy>);
 //合金炉
 //所有机械我都试过用Func写，但是写完后机械的配方总是乱的，问了很多大佬都没招，然后就只能3个for用map匹配了。
 global aingotOre as IOreDictEntry[int] = {
@@ -42,8 +58,12 @@ global bdustOres as IOreDictEntry[int] = {
     10:<ore:sand>,
     11:<ore:oreGold>,
     12:<ore:oreIron>,
+    13:<ore:blockCoal>,
     14:<ore:oreCopper>,
     15:<ore:oreTin>,
+    16:<ore:blockRedstone>,
+    17:<ore:blockDiamond>,
+    18:<ore:blockRefinedObsidian>,
     23:<ore:oreOsmium>
 };
 global bingotOres as IOreDictEntry[int] = {
@@ -57,8 +77,12 @@ global bingotOres as IOreDictEntry[int] = {
     10:<ore:itemSilicon>,
     11:<ore:ingotGold>,
     12:<ore:ingotIron>,
+    13:<ore:itemCompressedCarbon>,
     14:<ore:ingotCopper>,
     15:<ore:ingotTin>,
+    16:<ore:itemCompressedRedstone>,
+    17:<ore:itemCompressedDiamond>,
+    18:<ore:itemCompressedObsidian>,
     23:<ore:ingotOsmium>
 };
 
@@ -70,10 +94,9 @@ global mblockOres as IOreDictEntry[int] = {
     4:<ore:oreLapis>,
     5:<ore:oreDiamond>,
     6:<ore:oreRedstone>,
-    7:<ore:gemQuartz>,
     8:<ore:oreEmerald>,
     9:<ore:blockBone>,
-    10:<ore:crystalCertusQuartz>,
+    11:<ore:gemPrismarine>,
     17:<ore:oreOsmium>,
     18:<ore:oreCopper>,
     19:<ore:oreTin>,
@@ -93,10 +116,9 @@ global mdustOres as IOreDictEntry[int] = {
     4:<ore:gemLapis>,
     5:<ore:gemDiamond>,
     6:<ore:dustRedstone>,
-    7:<ore:gemQuartz>,
     8:<ore:gemEmerald>,
     9:<ore:dyeWhite>,
-    10:<ore:crystalCertusQuartz>,
+    11:<ore:dustPrismarine>,
     17:<ore:dustOsmium>,
     18:<ore:dustCopper>,
     19:<ore:dustTin>,
@@ -131,51 +153,4 @@ global sdustOres as IOreDictEntry[int] = {
     3:<ore:oreCertusQuartz>,
     4:<ore:dustLithium>,
     5:<ore:graphite>
-};
-
-//模块化机械
-
-global outputbus as IItemStack[IItemStack] ={
-    <modularmachinery:blockoutputbus:0>:<modularmachinery:blockoutputbus:1>,
-    <modularmachinery:blockoutputbus:1>:<modularmachinery:blockoutputbus:2>,
-    <modularmachinery:blockoutputbus:2>:<modularmachinery:blockoutputbus:3>,
-    <modularmachinery:blockoutputbus:3>:<modularmachinery:blockoutputbus:4>,
-    <modularmachinery:blockoutputbus:4>:<modularmachinery:blockoutputbus:5>,
-    <modularmachinery:blockoutputbus:5>:<modularmachinery:blockoutputbus:6>
-};
-global liquidinputbus as IItemStack[IItemStack] ={
-    <modularmachinery:blockfluidinputhatch:0>:<modularmachinery:blockfluidinputhatch:1>,
-    <modularmachinery:blockfluidinputhatch:1>:<modularmachinery:blockfluidinputhatch:2>,
-    <modularmachinery:blockfluidinputhatch:2>:<modularmachinery:blockfluidinputhatch:3>,
-    <modularmachinery:blockfluidinputhatch:3>:<modularmachinery:blockfluidinputhatch:4>,
-    <modularmachinery:blockfluidinputhatch:4>:<modularmachinery:blockfluidinputhatch:5>,
-    <modularmachinery:blockfluidinputhatch:5>:<modularmachinery:blockfluidinputhatch:6>,
-    <modularmachinery:blockfluidinputhatch:6>:<modularmachinery:blockfluidinputhatch:7>
-};
-global liquidoutputbus as IItemStack[IItemStack] ={
-    <modularmachinery:blockfluidoutputhatch:0>:<modularmachinery:blockfluidoutputhatch:1>,
-    <modularmachinery:blockfluidoutputhatch:1>:<modularmachinery:blockfluidoutputhatch:2>,
-    <modularmachinery:blockfluidoutputhatch:2>:<modularmachinery:blockfluidoutputhatch:3>,
-    <modularmachinery:blockfluidoutputhatch:3>:<modularmachinery:blockfluidoutputhatch:4>,
-    <modularmachinery:blockfluidoutputhatch:4>:<modularmachinery:blockfluidoutputhatch:5>,
-    <modularmachinery:blockfluidoutputhatch:5>:<modularmachinery:blockfluidoutputhatch:6>,
-    <modularmachinery:blockfluidoutputhatch:6>:<modularmachinery:blockfluidoutputhatch:7>
-};
-global energyinputbus as IItemStack[IItemStack] ={
-    <modularmachinery:blockenergyinputhatch:0>:<modularmachinery:blockenergyinputhatch:1>,
-    <modularmachinery:blockenergyinputhatch:1>:<modularmachinery:blockenergyinputhatch:2>,
-    <modularmachinery:blockenergyinputhatch:2>:<modularmachinery:blockenergyinputhatch:3>,
-    <modularmachinery:blockenergyinputhatch:3>:<modularmachinery:blockenergyinputhatch:4>,
-    <modularmachinery:blockenergyinputhatch:4>:<modularmachinery:blockenergyinputhatch:5>,
-    <modularmachinery:blockenergyinputhatch:5>:<modularmachinery:blockenergyinputhatch:6>,
-    <modularmachinery:blockenergyinputhatch:6>:<modularmachinery:blockenergyinputhatch:7>
-};
-global energyoutputbus as IItemStack[IItemStack] ={
-    <modularmachinery:blockenergyoutputhatch:0>:<modularmachinery:blockenergyoutputhatch:1>,
-    <modularmachinery:blockenergyoutputhatch:1>:<modularmachinery:blockenergyoutputhatch:2>,
-    <modularmachinery:blockenergyoutputhatch:2>:<modularmachinery:blockenergyoutputhatch:3>,
-    <modularmachinery:blockenergyoutputhatch:3>:<modularmachinery:blockenergyoutputhatch:4>,
-    <modularmachinery:blockenergyoutputhatch:4>:<modularmachinery:blockenergyoutputhatch:5>,
-    <modularmachinery:blockenergyoutputhatch:5>:<modularmachinery:blockenergyoutputhatch:6>,
-    <modularmachinery:blockenergyoutputhatch:6>:<modularmachinery:blockenergyoutputhatch:7>
 };

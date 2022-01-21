@@ -2,20 +2,6 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemCondition;
 import crafttweaker.item.IIngredient;
-//矿辞
-<ore:blockGlass>.add(<natura:nether_glass:*>);
-<ore:sand>.add(<natura:nether_tainted_soil:*>);
-<ore:sand>.add(<minecraft:soul_sand>);
-<ore:blockCactus>.add(<betternether:barrel_cactus>);
-<ore:blockCactus>.add(<betternether:nether_cactus>);
-<ore:enrichedIron>.add(<mekanism:enrichediron>);
-<ore:blockBone>.add(<betternether:bone_block>);
-<ore:blockGlowstone>.add(<minecraft:glowstone>);
-<ore:colder>.addAll(<ore:sugarcane>);
-<ore:colder>.add(<betternether:egg_plant>);
-<ore:fiber>.add(<naturesaura:gold_fiber>);
-<ore:graphite>.add(<mw:graphitechunk>);
-<ore:blockSky>.add(<appliedenergistics2:sky_stone_block>);
 //变量
 val iIron = <ore:ingotIron>;
 val imm = <modularmachinery:itemmodularium>;
@@ -144,6 +130,12 @@ val shapedMirroredRecipes as IIngredient[][][IItemStack] = {
         [<ore:logWood>,<naturesaura:gold_brick>,<ore:logWood>],
         [<naturesaura:gold_brick>,<modularmachinery:blockcasing>,<naturesaura:gold_brick>],
         [<naturesaura:gold_brick>,<ore:logWood>,<naturesaura:gold_brick>]
+    ],
+    <modularcontroller:machine_projector>:
+    [
+        [null,<ore:ingotSteel>,<ore:ingotSteel>],
+        [null,<ore:gearGold>,null],
+        [null,<ore:ingotSteel>,null]
     ]
 };
 val shapedLessRecipes as IIngredient[][IItemStack] = {
@@ -200,6 +192,14 @@ val shapedLessRecipes as IIngredient[][IItemStack] = {
     ,
     <mekanism:otherdust:3>:
         [<mw:sulfurdust>]
+    ,
+    <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:help"}):
+        [<ore:ingotGold>,<minecraft:book>]
+    ,<contenttweaker:key>:
+        [<contenttweaker:pearl_red>,<contenttweaker:pearl_blue>,<contenttweaker:pearl_yellow>,<contenttweaker:pearl_green>,<contenttweaker:pearl_orange>,<contenttweaker:pearl_purple>]
+    ,
+    <minecraft:dye:3>*12:
+        [<betternether:red_mold>,<betternether:lucis_spore>]
 };
 
 for item, ingredients in shapedMirroredRecipes{

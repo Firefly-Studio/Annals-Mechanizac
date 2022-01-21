@@ -18,6 +18,8 @@ rule2=1,95,flowing_water,flowing_water,flowing_water,flowing_water,dirt
 rule3=0,80,farmland
 rule4=1,70,wheat-1,wheat-2,wheat-3
 rule5=1,40,fence
+rule6=0,100,CommandBlock:RUINSTRIGGER /playsound random.explode @p
+rule7=0,100,CommandBlock:RUINSTRIGGER /testruin king ~5 0 ~5
 
 layer
 1,1,1,1,1,1,1
@@ -31,8 +33,8 @@ endlayer
 
 layer
 5,5,5,5,5,5,5
-5,4,4,0,4,4,5
-5,4,4,0,4,4,5
+5,4,4,6,4,4,5
+5,4,4,7,4,4,5
 5,0,0,0,0,0,5
 5,4,4,0,4,4,5
 5,4,4,0,4,4,5

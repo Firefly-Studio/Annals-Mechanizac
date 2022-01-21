@@ -1,7 +1,7 @@
 {
 	title: "让距离不再是问题",
-	x: -3.0d,
-	y: -1.0d,
+	x: -2.0d,
+	y: -3.0d,
 	tasks: [{
 		uid: "3387f79f",
 		type: "item",

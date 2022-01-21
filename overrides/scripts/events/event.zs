@@ -20,7 +20,7 @@ events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent){
     val player as IPlayer = event.player;
     val world as IWorld = event.toWorld;
     if(!world.remote && world.getDimension() == 0 && world.isDayTime()){
-        player.sendChat("主世界光芒万丈。");
+        player.sendChat(game.localize("ans.message.comeback.success"));
     }
 });
 //维度钥匙
@@ -30,10 +30,11 @@ events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent)
         val living as IEntityLivingBase = entity;
         if (event.dimension == 0 && !<contenttweaker:key>.matches(living.mainHandHeldItem)) {
             event.cancel();
-            entity.sendMessage("请手持维度通行证");
+            entity.sendMessage(game.localize("ans.message.comeback.faild"));
         }
     }
 });
+
 //赛特斯石英
 events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
     var player as IPlayer = event.player;
@@ -68,7 +69,7 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
 //欢迎信息
 events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent){
     var player as IPlayer = event.player;
-    player.sendChat("欢迎来到Annals:Mechanizac!");
+    player.sendChat(game.localize("ans.message.welcome"));
 });
 
 //复活buff
@@ -85,6 +86,6 @@ events.onPlayerInteract(function(event as PlayerInteractEvent){
     var block as IBlock = event.block;
     if(!world.remote && <natura:bloodwood_sword> in player.currentItem && "zensummoning:altar" in block.definition.id){
         player.removeXP(100);
-        player.sendChat("遗忘了一些东西。");
+        player.sendChat(game.localize("ans.message.altar.bloodwood_sword"));
     }
 });

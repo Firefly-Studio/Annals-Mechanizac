@@ -22,3 +22,5 @@ function fireCFunc(output as IItemStack,input as IIngredient){
 for output,input in fireC{
     fireCFunc(output,input);
 }
+
+mods.plustweaks.Liquid.setInfinite(<liquid:coolliquid>, false);

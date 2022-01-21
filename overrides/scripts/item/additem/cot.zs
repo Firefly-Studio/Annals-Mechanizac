@@ -16,7 +16,7 @@ val meatStew as ItemFood = VanillaFactory.createItemFood("meatstew",3);
 meatStew.onItemFoodEaten = function(stack, world, player) {
         if (!world.remote) {
             player.addPotionEffect(<potion:minecraft:hunger>.makePotionEffect(30, 1));
-            player.sendChat("是不是吃错了什么东西");
+            player.sendChat(game.localize("ans.message.meatstew.eat"));
             player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(30, 1));
             Commands.call("give @p minecraft:bowl 1", player, world);
         }
