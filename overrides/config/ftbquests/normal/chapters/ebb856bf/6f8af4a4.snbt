@@ -16,5 +16,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9b850faf",
+		type: "ftbmoney:money",
+		ftb_money: 200L
 	}]
 }

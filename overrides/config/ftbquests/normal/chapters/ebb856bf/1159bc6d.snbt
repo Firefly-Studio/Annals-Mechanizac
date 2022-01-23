@@ -20,5 +20,10 @@
 		icon: "biomesoplenty:filled_honeycomb",
 		entity: "mod_lavacow:vespa",
 		value: 1L
+	}],
+	rewards: [{
+		uid: "8ffc5296",
+		type: "ftbmoney:money",
+		ftb_money: 200L
 	}]
 }

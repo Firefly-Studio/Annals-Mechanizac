@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "25e13292",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "ee6f97a3",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

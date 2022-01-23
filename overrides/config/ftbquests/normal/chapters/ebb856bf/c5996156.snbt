@@ -1,0 +1,19 @@
+{
+	title: "比铁镐更好",
+	x: -1.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "8d079b4a",
+		type: "item",
+		items: [{
+			item: "betternether:cincinnasite_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "68ff3410",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

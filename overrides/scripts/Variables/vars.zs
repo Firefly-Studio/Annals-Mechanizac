@@ -3,22 +3,6 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemCondition;
 import crafttweaker.item.IIngredient;
-//矿辞
-<ore:blockGlass>.add(<natura:nether_glass:*>);
-<ore:sand>.add(<natura:nether_tainted_soil:*>);
-<ore:sand>.add(<minecraft:soul_sand>);
-<ore:blockCactus>.add(<betternether:barrel_cactus>);
-<ore:blockCactus>.add(<betternether:nether_cactus>);
-<ore:enrichedIron>.add(<mekanism:enrichediron>);
-<ore:blockBone>.add(<betternether:bone_block>);
-<ore:blockGlowstone>.add(<minecraft:glowstone>);
-<ore:colder>.addAll(<ore:sugarcane>);
-<ore:colder>.add(<betternether:egg_plant>);
-<ore:fiber>.add(<naturesaura:gold_fiber>);
-<ore:graphite>.add(<mw:graphitechunk>);
-<ore:blockSky>.add(<appliedenergistics2:sky_stone_block>);
-<ore:record>.add(<pigstep:pigstep>);
-<ore:vine>.add(<biomesoplenty:ivy>);
 //合金炉
 //所有机械我都试过用Func写，但是写完后机械的配方总是乱的，问了很多大佬都没招，然后就只能3个for用map匹配了。
 global aingotOre as IOreDictEntry[int] = {
@@ -138,19 +122,28 @@ global sblockOres as IOreDictEntry[int] = {
     2:<ore:oreTin>,
     3:<ore:gravel>,
     4:<ore:oreLapis>,
-    5:<ore:blockCoal>
+    5:<ore:blockCoal>,
+    6:<ore:oreDiamond>,
+    7:<ore:oreGobber>,
+    8:<ore:oreGobberNether>
 };
 global sdustOre as IOreDictEntry[int] = {
     1:<ore:dustIron>,
     2:<ore:dustTin>,
     3:<ore:itemFlint>,
     4:<ore:gemLapis>,
-    5:<ore:itemCoal>
+    5:<ore:itemCoal>,
+    6:<ore:oreDiamond>,
+    7:<ore:oreGobber>,
+    8:<ore:oreGobberNether>
 };
 global sdustOres as IOreDictEntry[int] = {
     1:<ore:dustOsmium>,
     2:<ore:dustCopper>,
     3:<ore:oreCertusQuartz>,
     4:<ore:dustLithium>,
-    5:<ore:graphite>
+    5:<ore:graphite>,
+    6:<ore:oreGobber>,
+    7:<ore:oreGobberNether>,
+    8:<ore:oreGobberEnd>
 };

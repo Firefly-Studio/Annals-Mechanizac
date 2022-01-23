@@ -8,5 +8,10 @@
 		items: [{
 			item: "uppers:upper"
 		}]
+	}],
+	rewards: [{
+		uid: "45f2476c",
+		type: "ftbmoney:money",
+		ftb_money: 200L
 	}]
 }

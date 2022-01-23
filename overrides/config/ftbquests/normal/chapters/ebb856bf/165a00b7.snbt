@@ -1,0 +1,19 @@
+{
+	title: "真实伤害",
+	x: -2.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "31c4a619",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:reapers_scythe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7d0ab100",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

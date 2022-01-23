@@ -9,5 +9,10 @@
 		items: [{
 			item: "modularcontroller:j_power_machine_controller"
 		}]
+	}],
+	rewards: [{
+		uid: "4596a4fb",
+		type: "ftbmoney:money",
+		ftb_money: 200L
 	}]
 }

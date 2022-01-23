@@ -1,0 +1,17 @@
+{
+	title: "尝试",
+	x: 2.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "c192ab0c",
+		type: "item",
+		items: [{
+			item: "openblocks:vacuum_hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "4e778216",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

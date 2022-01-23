@@ -2290,319 +2290,6 @@ openblocks:glyph:120, "x" 雕文
 openblocks:glyph:121, "y" 雕文
 openblocks:glyph:122, "z" 雕文
 forge:bucketfilled, %s桶
-securitycraft:laser_block, 激光方块
-securitycraft:keypad, 键盘
-securitycraft:mine, 地雷
-securitycraft:retinal_scanner, 虹膜扫描仪
-securitycraft:bogus_lava, 假熔岩
-securitycraft:bogus_lava_flowing, tile.securitycraft:bogusLavaFlowing.name
-securitycraft:bogus_water, 假水
-securitycraft:bogus_water_flowing, tile.securitycraft:bogusWaterFlowing.name
-securitycraft:keycard_reader, 钥匙卡读卡器
-securitycraft:reinforced_iron_trapdoor, 强化铁活板门
-securitycraft:bouncing_betty, 弹跳贝蒂
-securitycraft:inventory_scanner, 物品栏扫描器
-securitycraft:track_mine, 铁轨地雷
-securitycraft:cage_trap, 陷阱笼子
-securitycraft:portable_radar, 便携式雷达
-securitycraft:reinforced_iron_bars, 强化铁栏杆
-securitycraft:keypad_chest, 密码箱
-securitycraft:username_logger, 用户名记录器
-securitycraft:alarm, 报警器
-securitycraft:reinforced_stone:0, 强化石头
-securitycraft:reinforced_stone:1, 强化花岗岩
-securitycraft:reinforced_stone:2, 强化磨制花岗岩
-securitycraft:reinforced_stone:3, 强化闪长岩
-securitycraft:reinforced_stone:4, 强化磨制闪长岩
-securitycraft:reinforced_stone:5, 强化安山岩
-securitycraft:reinforced_stone:6, 强化磨制安山岩
-securitycraft:reinforced_sandstone:0, 强化砂岩
-securitycraft:reinforced_sandstone:1, 强化錾制砂岩
-securitycraft:reinforced_sandstone:2, 强化平滑砂岩
-securitycraft:reinforced_dirt:0, 强化泥土
-securitycraft:reinforced_dirt:1, Reinforced Coarse Dirt
-securitycraft:reinforced_dirt:2, Reinforced Podzol
-securitycraft:reinforced_cobblestone, 强化圆石
-securitycraft:reinforced_fence_gate, 带电的铁栅栏门
-securitycraft:reinforced_planks:0, 强化橡木木板
-securitycraft:reinforced_planks:1, 强化云杉木板
-securitycraft:reinforced_planks:2, 强化白桦木板
-securitycraft:reinforced_planks:3, 强化丛林木板
-securitycraft:reinforced_planks:4, 强化金合欢木板
-securitycraft:reinforced_planks:5, 强化深色橡木木板
-securitycraft:panic_button, 紧急按钮
-securitycraft:keypad_frame, 框架
-securitycraft:claymore, 阔剑地雷
-securitycraft:keypad_furnace, 密码炉
-securitycraft:security_camera, 安防摄像头
-securitycraft:reinforced_stairs_oak, 强化橡木楼梯
-securitycraft:reinforced_stairs_spruce, 强化云杉楼梯
-securitycraft:reinforced_stairs_cobblestone, 强化圆石楼梯
-securitycraft:reinforced_stairs_sandstone, 强化砂岩楼梯
-securitycraft:reinforced_stairs_birch, 强化白桦楼梯
-securitycraft:reinforced_stairs_jungle, 强化丛林楼梯
-securitycraft:reinforced_stairs_acacia, 强化金合欢楼梯
-securitycraft:reinforced_stairs_darkoak, 强化深色橡木楼梯
-securitycraft:reinforced_stairs_stone, 强化石楼梯
-securitycraft:electrified_iron_fence, 带电的铁栅栏
-securitycraft:ims, 智能弹药系统
-securitycraft:reinforced_glass_block, 强化玻璃
-securitycraft:reinforced_stained_glass:0, 强化白色玻璃
-securitycraft:reinforced_stained_glass:1, 强化橙色玻璃
-securitycraft:reinforced_stained_glass:2, 强化红色玻璃
-securitycraft:reinforced_stained_glass:3, 强化淡蓝色玻璃
-securitycraft:reinforced_stained_glass:4, 强化黄色玻璃
-securitycraft:reinforced_stained_glass:5, 强化淡灰色玻璃
-securitycraft:reinforced_stained_glass:6, 强化粉红色玻璃
-securitycraft:reinforced_stained_glass:7, 强化灰色玻璃
-securitycraft:reinforced_stained_glass:8, 强化淡灰色玻璃
-securitycraft:reinforced_stained_glass:9, 强化青色玻璃
-securitycraft:reinforced_stained_glass:10, 强化紫色玻璃
-securitycraft:reinforced_stained_glass:11, 强化蓝色玻璃
-securitycraft:reinforced_stained_glass:12, 强化棕色玻璃
-securitycraft:reinforced_stained_glass:13, 强化绿色玻璃
-securitycraft:reinforced_stained_glass:14, 强化红色玻璃
-securitycraft:reinforced_stained_glass:15, 强化黑色玻璃
-securitycraft:reinforced_wood_slabs:0, 强化橡木台阶
-securitycraft:reinforced_wood_slabs:1, 强化云杉台阶
-securitycraft:reinforced_wood_slabs:2, 强化白桦台阶
-securitycraft:reinforced_wood_slabs:3, 强化丛林台阶
-securitycraft:reinforced_wood_slabs:4, 强化金合欢台阶
-securitycraft:reinforced_wood_slabs:5, 强化深色橡木台阶
-securitycraft:reinforced_stone_slabs:0, 强化石台阶
-securitycraft:reinforced_stone_slabs:1, 强化圆石台阶
-securitycraft:reinforced_stone_slabs:2, 强化砂岩台阶
-securitycraft:reinforced_stone_slabs:3, 强化石砖台阶
-securitycraft:reinforced_stone_slabs:4, 强化红砖台阶
-securitycraft:reinforced_stone_slabs:5, 强化地狱砖台阶
-securitycraft:reinforced_stone_slabs:6, 强化石英台阶
-securitycraft:protecto, 防火墙
-securitycraft:reinforced_stone_brick:0, 强化石砖
-securitycraft:reinforced_stone_brick:1, 强化苔石砖
-securitycraft:reinforced_stone_brick:2, 强化裂石砖
-securitycraft:reinforced_stone_brick:3, 强化錾制石砖
-securitycraft:reinforced_stairs_stone_brick, 强化石砖楼梯
-securitycraft:reinforced_mossy_cobblestone, 强化苔石
-securitycraft:reinforced_brick, 强化砖块
-securitycraft:reinforced_stairs_brick, 强化红砖楼梯
-securitycraft:reinforced_nether_brick, 强化地狱砖
-securitycraft:reinforced_stairs_nether_brick, 强化地狱砖楼梯
-securitycraft:reinforced_hardened_clay, 强化陶瓦
-securitycraft:reinforced_stained_hardened_clay:0, 强化白色陶瓦
-securitycraft:reinforced_stained_hardened_clay:1, 强化橙色陶瓦
-securitycraft:reinforced_stained_hardened_clay:2, 强化品红色陶瓦
-securitycraft:reinforced_stained_hardened_clay:3, 强化淡蓝色陶瓦
-securitycraft:reinforced_stained_hardened_clay:4, 强化黄色陶瓦
-securitycraft:reinforced_stained_hardened_clay:5, 强化黄绿色陶瓦
-securitycraft:reinforced_stained_hardened_clay:6, 强化粉红色陶瓦
-securitycraft:reinforced_stained_hardened_clay:7, 强化灰色陶瓦
-securitycraft:reinforced_stained_hardened_clay:8, 强化淡灰色陶瓦
-securitycraft:reinforced_stained_hardened_clay:9, 强化青色陶瓦
-securitycraft:reinforced_stained_hardened_clay:10, 强化紫色陶瓦
-securitycraft:reinforced_stained_hardened_clay:11, 强化蓝色陶瓦
-securitycraft:reinforced_stained_hardened_clay:12, 强化棕色陶瓦
-securitycraft:reinforced_stained_hardened_clay:13, 强化绿色陶瓦
-securitycraft:reinforced_stained_hardened_clay:14, 强化红色陶瓦
-securitycraft:reinforced_stained_hardened_clay:15, 强化黑色陶瓦
-securitycraft:reinforced_logs:0, 强化橡木
-securitycraft:reinforced_logs:1, 强化云杉木
-securitycraft:reinforced_logs:2, 强化白桦木
-securitycraft:reinforced_logs:3, 强化丛林木
-securitycraft:reinforced_logs2:0, 强化金合欢木
-securitycraft:reinforced_logs2:1, 强化深色橡木
-securitycraft:reinforced_metals:0, 强化金块
-securitycraft:reinforced_metals:1, 强化铁块
-securitycraft:reinforced_metals:2, 强化钻石块
-securitycraft:reinforced_metals:3, 强化绿宝石块
-securitycraft:reinforced_metals:4, 强化红石块
-securitycraft:reinforced_compressed_blocks:0, 强化青金石块
-securitycraft:reinforced_compressed_blocks:1, 强化煤炭块
-securitycraft:reinforced_wool:0, 强化白色羊毛
-securitycraft:reinforced_wool:1, 强化橙色羊毛
-securitycraft:reinforced_wool:2, 强化品红色羊毛
-securitycraft:reinforced_wool:3, 强化淡蓝色羊毛
-securitycraft:reinforced_wool:4, 强化黄色羊毛
-securitycraft:reinforced_wool:5, 强化黄绿色羊毛
-securitycraft:reinforced_wool:6, 强化粉红色羊毛
-securitycraft:reinforced_wool:7, 强化灰色羊毛
-securitycraft:reinforced_wool:8, 强化淡灰色羊毛
-securitycraft:reinforced_wool:9, 强化青色羊毛
-securitycraft:reinforced_wool:10, 强化紫色羊毛
-securitycraft:reinforced_wool:11, 强化蓝色羊毛
-securitycraft:reinforced_wool:12, 强化棕色羊毛
-securitycraft:reinforced_wool:13, 强化绿色羊毛
-securitycraft:reinforced_wool:14, 强化红色羊毛
-securitycraft:reinforced_wool:15, 强化黑色羊毛
-securitycraft:reinforced_quartz:0, 强化石英块
-securitycraft:reinforced_quartz:1, 强化錾制石英块
-securitycraft:reinforced_quartz:2, 强化竖纹石英块
-securitycraft:reinforced_stairs_quartz, 强化石英楼梯
-securitycraft:reinforced_prismarine:0, 强化海晶石
-securitycraft:reinforced_prismarine:1, 强化海晶石砖
-securitycraft:reinforced_prismarine:2, 强化暗海晶石
-securitycraft:reinforced_red_sandstone:0, 强化红砂岩
-securitycraft:reinforced_red_sandstone:1, 强化錾制红砂岩
-securitycraft:reinforced_red_sandstone:2, 强化平滑红砂岩
-securitycraft:reinforced_stairs_red_sandstone, 强化红砂岩楼梯
-securitycraft:reinforced_stone_slabs2:0, 强化红砂岩台阶
-securitycraft:reinforced_stone_slabs2:1, 强化紫珀台阶
-securitycraft:reinforced_end_stone_bricks, 强化末地石砖
-securitycraft:reinforced_red_nether_brick, 强化红色地狱砖
-securitycraft:reinforced_purpur:0, 强化紫珀块
-securitycraft:reinforced_purpur:1, 强化竖纹紫珀块
-securitycraft:reinforced_stairs_purpur, 强化紫珀楼梯
-securitycraft:reinforced_concrete:0, 强化白色混凝土
-securitycraft:reinforced_concrete:1, 强化橙色混凝土
-securitycraft:reinforced_concrete:2, 强化品红色混凝土
-securitycraft:reinforced_concrete:3, 强化淡蓝色混凝土
-securitycraft:reinforced_concrete:4, 强化黄色混凝土
-securitycraft:reinforced_concrete:5, 强化黄绿色混凝土
-securitycraft:reinforced_concrete:6, 强化粉红色混凝土
-securitycraft:reinforced_concrete:7, 强化灰色混凝土
-securitycraft:reinforced_concrete:8, 强化淡灰色混凝土
-securitycraft:reinforced_concrete:9, 强化青色混凝土
-securitycraft:reinforced_concrete:10, 强化紫色混凝土
-securitycraft:reinforced_concrete:11, 强化蓝色混凝土
-securitycraft:reinforced_concrete:12, 强化棕色混凝土
-securitycraft:reinforced_concrete:13, 强化绿色混凝土
-securitycraft:reinforced_concrete:14, 强化红色混凝土
-securitycraft:reinforced_concrete:15, 强化黑色混凝土
-securitycraft:motion_activated_light, 触发式光源
-securitycraft:reinforced_obsidian, 强化黑曜石
-securitycraft:reinforced_netherrack, 强化地狱岩
-securitycraft:reinforced_end_stone, 强化末地石
-securitycraft:reinforced_sea_lantern, 强化海晶石
-securitycraft:reinforced_bone_block, 强化骨块
-securitycraft:reinforced_glass_pane, 强化玻璃板
-securitycraft:reinforced_stained_panes:0, 强化白色玻璃板
-securitycraft:reinforced_stained_panes:1, 强化橙色玻璃板
-securitycraft:reinforced_stained_panes:2, 强化浅红色玻璃板
-securitycraft:reinforced_stained_panes:3, 强化淡蓝色玻璃板
-securitycraft:reinforced_stained_panes:4, 强化黄色玻璃板
-securitycraft:reinforced_stained_panes:5, 强化淡灰色玻璃板
-securitycraft:reinforced_stained_panes:6, 强化粉红色玻璃板
-securitycraft:reinforced_stained_panes:7, 强化灰色玻璃板
-securitycraft:reinforced_stained_panes:8, 强化淡灰色玻璃板
-securitycraft:reinforced_stained_panes:9, 强化青色玻璃板
-securitycraft:reinforced_stained_panes:10, 强化紫色玻璃板
-securitycraft:reinforced_stained_panes:11, 强化蓝色玻璃板
-securitycraft:reinforced_stained_panes:12, 强化棕色玻璃板
-securitycraft:reinforced_stained_panes:13, 强化绿色玻璃板
-securitycraft:reinforced_stained_panes:14, 强化红色玻璃板
-securitycraft:reinforced_stained_panes:15, 强化黑色玻璃板
-securitycraft:reinforced_carpet:0, 强化白色地毯
-securitycraft:reinforced_carpet:1, 强化橙色地毯
-securitycraft:reinforced_carpet:2, 强化品红色地毯
-securitycraft:reinforced_carpet:3, 强化淡蓝色地毯
-securitycraft:reinforced_carpet:4, 强化黄色地毯
-securitycraft:reinforced_carpet:5, 强化黄绿色地毯
-securitycraft:reinforced_carpet:6, 强化粉红色地毯
-securitycraft:reinforced_carpet:7, 强化灰色地毯
-securitycraft:reinforced_carpet:8, 强化淡灰色地毯
-securitycraft:reinforced_carpet:9, 强化青色地毯
-securitycraft:reinforced_carpet:10, 强化紫色地毯
-securitycraft:reinforced_carpet:11, 强化蓝色地毯
-securitycraft:reinforced_carpet:12, 强化棕色地毯
-securitycraft:reinforced_carpet:13, 强化绿色地毯
-securitycraft:reinforced_carpet:14, 强化红色地毯
-securitycraft:reinforced_carpet:15, 强化黑色地毯
-securitycraft:reinforced_glowstone, 强化荧石
-securitycraft:reinforced_sand:0, 强化砂
-securitycraft:reinforced_sand:1, 强化红沙
-securitycraft:reinforced_gravel, 强化沙砾
-securitycraft:trophy_system, Trophy System
-securitycraft:crystal_quartz:0, 水晶石英块
-securitycraft:crystal_quartz:1, 錾制水晶石英块
-securitycraft:crystal_quartz:2, Pillar Crystal Quartz Block
-securitycraft:reinforced_crystal_quartz:0, Reinforced Block of Crystal Quartz
-securitycraft:reinforced_crystal_quartz:1, Reinforced Chiseled Crystal Quartz Block
-securitycraft:reinforced_crystal_quartz:2, Reinforced Pillar Crystal Quartz Block
-securitycraft:crystal_quartz_slab, Crystal Quartz Slab
-securitycraft:reinforced_crystal_quartz_slab, Reinforced Crystal Quartz Slab
-securitycraft:stairs_crystal_quartz, Crystal Quartz Stairs
-securitycraft:reinforced_stairs_crystal_quartz, Reinforced Crystal Quartz Stairs
-securitycraft:block_pocket_wall, Block Pocket Wall
-securitycraft:block_pocket_manager, Block Pocket Manager
-securitycraft:reinforced_stone_pressure_plate, Reinforced Stone Pressure Plate
-securitycraft:reinforced_wooden_pressure_plate, Reinforced Wooden Pressure Plate
-securitycraft:reinforced_bookshelf, Reinforced Bookshelf
-securitycraft:reinforced_walls:0, Reinforced Cobblestone Wall
-securitycraft:reinforced_walls:1, Reinforced Mossy Cobblestone Wall
-securitycraft:reinforced_sticky_piston, Reinforced Sticky Piston
-securitycraft:reinforced_piston, Reinforced Piston
-securitycraft:reinforced_observer, Reinforced Observer
-securitycraft:reinforced_redstone_lamp, Reinforced Redstone Lamp
-securitycraft:reinforced_cobweb, Reinforced Cobweb
-securitycraft:reinforced_grass, Reinforced Grass
-securitycraft:reinforced_snow_block, Reinforced Snow Block
-securitycraft:reinforced_ice, Reinforced Ice
-securitycraft:reinforced_packed_ice, Reinforced Packed Ice
-securitycraft:reinforced_mycelium, Reinfored Mycelium
-securitycraft:reinforced_clay, Reinforced Clay
-securitycraft:reinforced_nether_wart_block, Reinforced Nether Wart Block
-securitycraft:reinforced_grass_path, Reinforced Grass Path
-securitycraft:reinforced_stone_button, Reinforced Button
-securitycraft:reinforced_wooden_button, Reinforced Button
-securitycraft:reinforced_lever, Reinforced Lever
-securitycraft:reinforced_hopper, Reinforced Hopper
-securitycraft:projector, Projector
-securitycraft:reinforced_cauldron, Reinforced Cauldron
-securitycraft:sonic_security_system, Sonic Security System
-securitycraft:stone_mine, 石头地雷
-securitycraft:dirt_mine, 泥土地雷
-securitycraft:cobblestone_mine, 圆石地雷
-securitycraft:sand_mine, 沙子地雷
-securitycraft:gravel_mine, 沙砾地雷
-securitycraft:gold_mine, Gold Ore Mine
-securitycraft:iron_mine, Iron Ore Mine
-securitycraft:coal_mine, Coal Ore Mine
-securitycraft:lapis_mine, Lapis Lazuli Ore Mine
-securitycraft:diamond_mine, 钻石矿地雷
-securitycraft:redstone_mine, Redstone Ore Mine
-securitycraft:emerald_mine, Emerald Ore Mine
-securitycraft:quartz_mine, Nether Quartz Ore Mine
-securitycraft:furnace_mine, 熔炉地雷
-securitycraft:codebreaker, 编码破坏器
-securitycraft:door_indestructible_iron_item, 强化门
-securitycraft:scanner_door_item, 安全门
-securitycraft:universal_block_remover, 通用方块移除器
-securitycraft:keycard_lv1, 一级身份卡
-securitycraft:keycard_lv2, 二级身份卡
-securitycraft:keycard_lv3, 三级身份卡
-securitycraft:keycard_lv4, 四级身份卡
-securitycraft:keycard_lv5, 五级身份卡
-securitycraft:limited_use_keycard, 有限次数的身份卡
-securitycraft:remote_access_mine, 远程地雷访问工具
-securitycraft:remote_access_sentry, Sentry Remote Access Tool
-securitycraft:bucket_f_water, 假水桶
-securitycraft:bucket_f_lava, 假熔岩桶
-securitycraft:universal_block_modifier, 通用方块修改器
-securitycraft:redstone_module, 红石模块
-securitycraft:whitelist_module, 白名单模块
-securitycraft:blacklist_module, 黑名单模块
-securitycraft:harming_module, 伤害模块
-securitycraft:smart_module, 智能模块
-securitycraft:storage_module, 储存模块
-securitycraft:disguise_module, 伪装模块
-securitycraft:speed_module, Speed Module
-securitycraft:wire_cutters, 剪线钳
-securitycraft:admin_tool, 管理员工具
-securitycraft:keypad_item, Key Panel
-securitycraft:camera_monitor, 摄像头监视器
-securitycraft:taser, 泰瑟枪
-securitycraft:sc_manual, SecurityCraft 指南
-securitycraft:universal_owner_changer, 通用所有者修改器
-securitycraft:universal_block_reinforcer_lvl1, 通用方块强化器（一级）
-securitycraft:universal_block_reinforcer_lvl2, 通用方块强化器（二级）
-securitycraft:universal_block_reinforcer_lvl3, 通用方块强化器（三级）
-securitycraft:briefcase, 公文包
-securitycraft:universal_key_changer, 通用密锁变换器
-securitycraft:taser_powered, 泰瑟枪
-securitycraft:secret_sign_item, 安全告示牌
-securitycraft:sentry, 战斗哨石
-securitycraft:crystal_quartz_item, Crystal Quartz
-securitycraft:keypad_door_item, Keypad Door
-securitycraft:portable_tune_player, Portable Tune Player
 advancedmortars:mortar:0, 木研钵
 advancedmortars:mortar:1, 石研钵
 advancedmortars:mortar:2, 铁研钵
@@ -2985,9 +2672,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - 硫矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 电梯
 appliedenergistics2:facade:0, 线缆伪装板 - 海绵
 appliedenergistics2:facade:0, 线缆伪装板 - 脚手架
-appliedenergistics2:facade:0, 线缆伪装板 - 水晶石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制水晶石英块
-appliedenergistics2:facade:0, 线缆伪装板 - Pillar Crystal Quartz Block
 appliedenergistics2:facade:0, 线缆伪装板 - 赛特斯石英矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 充能赛特斯石英矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 赛特斯石英块
@@ -3031,9 +2715,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - 灵魂砂岩
 appliedenergistics2:facade:0, 线缆伪装板 - 草块
 appliedenergistics2:facade:0, 线缆伪装板 - 熔铸石
 appliedenergistics2:facade:0, 线缆伪装板 - 白色缝线羊毛
-appliedenergistics2:facade:0, 线缆伪装板 - 糖块
-appliedenergistics2:facade:0, 线缆伪装板 - 红色粘液块
-appliedenergistics2:facade:0, 线缆伪装板 - 末影沙
 appliedenergistics2:facade:0, 线缆伪装板 - 沼泽橡树树叶
 appliedenergistics2:facade:0, 线缆伪装板 - 白色洞穴水晶
 appliedenergistics2:facade:0, 线缆伪装板 - 末影黑云母矿石
@@ -3051,8 +2732,9 @@ appliedenergistics2:facade:0, 线缆伪装板 - 远古海晶石
 appliedenergistics2:facade:0, 线缆伪装板 - 远古海晶灯
 appliedenergistics2:facade:0, 线缆伪装板 - 荧光菌丝
 appliedenergistics2:facade:0, 线缆伪装板 - 荧光菇
-appliedenergistics2:facade:0, 线缆伪装板 - 铜块
-appliedenergistics2:facade:0, 线缆伪装板 - 锡块
+appliedenergistics2:facade:0, 线缆伪装板 - 糖块
+appliedenergistics2:facade:0, 线缆伪装板 - 红色粘液块
+appliedenergistics2:facade:0, 线缆伪装板 - 末影沙
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Emerald Ore
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Diamond Ore
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Redstone Ore
@@ -3062,6 +2744,8 @@ appliedenergistics2:facade:0, 线缆伪装板 - Nether Gold Ore
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Iron Ore
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Copper Ore
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Tin Ore
+appliedenergistics2:facade:0, 线缆伪装板 - 铜块
+appliedenergistics2:facade:0, 线缆伪装板 - 锡块
 appliedenergistics2:facade:0, 线缆伪装板 - tile.dungeonmobs.lavarock.name
 appliedenergistics2:facade:0, 线缆伪装板 - 萤光蕈柄
 appliedenergistics2:facade:0, 线缆伪装板 - 萤光蕈伞
@@ -3244,6 +2928,9 @@ appliedenergistics2:facade:0, 线缆伪装板 - 腐沙
 appliedenergistics2:facade:0, 线缆伪装板 - 腐沙
 appliedenergistics2:facade:0, 线缆伪装板 - 腐沙
 appliedenergistics2:facade:0, 线缆伪装板 - 重生方尖碑（未激活）
+appliedenergistics2:facade:0, 线缆伪装板 - 水晶石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制水晶石英块
+appliedenergistics2:facade:0, 线缆伪装板 - Pillar Crystal Quartz Block
 appliedenergistics2:facade:0, 线缆伪装板 - 地狱书架
 appliedenergistics2:facade:0, 线缆伪装板 - 水泉
 appliedenergistics2:facade:0, 线缆伪装板 - 油泉
@@ -3473,23 +3160,6 @@ appliedenergistics2:part:220, ME存储总线
 appliedenergistics2:part:400, ME存储监控器
 appliedenergistics2:part:380, ME终端
 appliedenergistics2:part:80, ME触发总线
-quark:glass_shards:0, 玻璃碎片
-quark:glass_shards:1, 白色玻璃碎片
-quark:glass_shards:2, 橙色玻璃碎片
-quark:glass_shards:3, 品红色玻璃碎片
-quark:glass_shards:4, 淡蓝色玻璃碎片
-quark:glass_shards:5, 黄色玻璃碎片
-quark:glass_shards:6, 黄绿色玻璃碎片
-quark:glass_shards:7, 粉红色玻璃碎片
-quark:glass_shards:8, 灰色玻璃碎片
-quark:glass_shards:9, 淡灰色玻璃碎片
-quark:glass_shards:10, 青色玻璃碎片
-quark:glass_shards:11, 紫色玻璃碎片
-quark:glass_shards:12, 蓝色玻璃碎片
-quark:glass_shards:13, 棕色玻璃碎片
-quark:glass_shards:14, 绿色玻璃碎片
-quark:glass_shards:15, 红色玻璃碎片
-quark:glass_shards:16, 黑色玻璃碎片
 quark:spruce_trapdoor, tile.spruce_trapdoor.name
 quark:birch_trapdoor, tile.birch_trapdoor.name
 quark:jungle_trapdoor, tile.jungle_trapdoor.name
@@ -3589,39 +3259,6 @@ quark:acacia_button, tile.acacia_button.name
 quark:dark_oak_button, tile.dark_oak_button.name
 quark:grate, tile.grate.name
 quark:glass_item_frame, item.glass_item_frame.name
-quark:witch_hat, item.witch_hat.name
-quark:pickarang, item.pickarang.name
-quark:arrow_ender, item.arrow_ender.name
-quark:arrow_explosive, item.arrow_explosive.name
-quark:arrow_torch, item.arrow_torch.name
-quark:slime_bucket:0, 史莱姆桶
-quark:rune:0, 白色符文
-quark:rune:1, 橙色符文
-quark:rune:2, 品红色符文
-quark:rune:3, 淡蓝色符文
-quark:rune:4, 黄色符文
-quark:rune:5, 黄绿色符文
-quark:rune:6, 粉红色符文
-quark:rune:7, 灰色符文
-quark:rune:8, 淡灰色符文
-quark:rune:9, 青色符文
-quark:rune:10, 紫色符文
-quark:rune:11, 蓝色符文
-quark:rune:12, 棕色符文
-quark:rune:13, 绿色符文
-quark:rune:14, 红色符文
-quark:rune:15, 黑色符文
-quark:rune:16, 彩虹符文
-quark:black_ash, tile.black_ash.name
-quark:ancient_tome, item.ancient_tome.name
-quark:horse_whistle, item.horse_whistle.name
-quark:soul_powder, item.soul_powder.name
-quark:parrot_egg:0, 红色鹦鹉蛋
-quark:parrot_egg:1, 蓝色鹦鹉蛋
-quark:parrot_egg:2, 绿色鹦鹉蛋
-quark:parrot_egg:3, 青色鹦鹉蛋
-quark:parrot_egg:4, 灰色鹦鹉蛋
-quark:enderdragon_scale, item.enderdragon_scale.name
 quark:sandstone_new:0, 磨制砂岩
 quark:sandstone_new:1, 砂岩砖
 quark:sandstone_new:2, 磨制红砂岩
@@ -3942,23 +3579,6 @@ quark:quilted_wool:12, 棕色缝线羊毛
 quark:quilted_wool:13, 绿色缝线羊毛
 quark:quilted_wool:14, 红色缝线羊毛
 quark:quilted_wool:15, 黑色缝线羊毛
-quark:chute, 滑槽漏斗
-quark:sugar_block, tile.sugar_block.name
-quark:redstone_randomizer, tile.redstone_randomizer.name
-quark:iron_button, tile.iron_button.name
-quark:gold_button, tile.gold_button.name
-quark:ender_watcher, tile.ender_watcher.name
-quark:iron_rod, tile.iron_rod.name
-quark:color_slime:0, 红色粘液块
-quark:color_slime:1, 蓝色粘液块
-quark:color_slime:2, 青色粘液块
-quark:color_slime:3, 品红色粘液块
-quark:color_slime:4, 黄色粘液块
-quark:gravisand, tile.gravisand.name
-quark:redstone_inductor, tile.redstone_inductor.name
-quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
-quark:rain_detector, tile.rain_detector.name
-quark:chain, item.chain.name
 quark:roots, tile.roots.name
 quark:root, item.root.name
 quark:roots_blue_flower, tile.roots_blue_flower.name
@@ -4083,6 +3703,73 @@ quark:glowshroom, tile.glowshroom.name
 quark:glowshroom_block, tile.glowshroom_block.name
 quark:soul_bead, item.soul_bead.name
 quark:smoker, 烟口
+quark:chute, 滑槽漏斗
+quark:sugar_block, tile.sugar_block.name
+quark:redstone_randomizer, tile.redstone_randomizer.name
+quark:iron_button, tile.iron_button.name
+quark:gold_button, tile.gold_button.name
+quark:ender_watcher, tile.ender_watcher.name
+quark:iron_rod, tile.iron_rod.name
+quark:color_slime:0, 红色粘液块
+quark:color_slime:1, 蓝色粘液块
+quark:color_slime:2, 青色粘液块
+quark:color_slime:3, 品红色粘液块
+quark:color_slime:4, 黄色粘液块
+quark:gravisand, tile.gravisand.name
+quark:redstone_inductor, tile.redstone_inductor.name
+quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
+quark:rain_detector, tile.rain_detector.name
+quark:chain, item.chain.name
+quark:pickarang, item.pickarang.name
+quark:arrow_ender, item.arrow_ender.name
+quark:arrow_explosive, item.arrow_explosive.name
+quark:arrow_torch, item.arrow_torch.name
+quark:slime_bucket:0, 史莱姆桶
+quark:rune:0, 白色符文
+quark:rune:1, 橙色符文
+quark:rune:2, 品红色符文
+quark:rune:3, 淡蓝色符文
+quark:rune:4, 黄色符文
+quark:rune:5, 黄绿色符文
+quark:rune:6, 粉红色符文
+quark:rune:7, 灰色符文
+quark:rune:8, 淡灰色符文
+quark:rune:9, 青色符文
+quark:rune:10, 紫色符文
+quark:rune:11, 蓝色符文
+quark:rune:12, 棕色符文
+quark:rune:13, 绿色符文
+quark:rune:14, 红色符文
+quark:rune:15, 黑色符文
+quark:rune:16, 彩虹符文
+quark:black_ash, tile.black_ash.name
+quark:ancient_tome, item.ancient_tome.name
+quark:horse_whistle, item.horse_whistle.name
+quark:soul_powder, item.soul_powder.name
+quark:parrot_egg:0, 红色鹦鹉蛋
+quark:parrot_egg:1, 蓝色鹦鹉蛋
+quark:parrot_egg:2, 绿色鹦鹉蛋
+quark:parrot_egg:3, 青色鹦鹉蛋
+quark:parrot_egg:4, 灰色鹦鹉蛋
+quark:enderdragon_scale, item.enderdragon_scale.name
+quark:witch_hat, item.witch_hat.name
+quark:glass_shards:0, 玻璃碎片
+quark:glass_shards:1, 白色玻璃碎片
+quark:glass_shards:2, 橙色玻璃碎片
+quark:glass_shards:3, 品红色玻璃碎片
+quark:glass_shards:4, 淡蓝色玻璃碎片
+quark:glass_shards:5, 黄色玻璃碎片
+quark:glass_shards:6, 黄绿色玻璃碎片
+quark:glass_shards:7, 粉红色玻璃碎片
+quark:glass_shards:8, 灰色玻璃碎片
+quark:glass_shards:9, 淡灰色玻璃碎片
+quark:glass_shards:10, 青色玻璃碎片
+quark:glass_shards:11, 紫色玻璃碎片
+quark:glass_shards:12, 蓝色玻璃碎片
+quark:glass_shards:13, 棕色玻璃碎片
+quark:glass_shards:14, 绿色玻璃碎片
+quark:glass_shards:15, 红色玻璃碎片
+quark:glass_shards:16, 黑色玻璃碎片
 bno:ore_netheremerald, Nether Emerald Ore
 bno:ore_netherdiamond, Nether Diamond Ore
 bno:ore_netherredstone, Nether Redstone Ore
@@ -5311,8 +4998,6 @@ natura:netherquartz_axe, 石英手斧
 natura:netherquartz_kama, 石英镰刀
 natura:flint_and_blaze, 烈焰打火石
 netherchest:nether_chest, 下界箱
-netmusic:music_cd, 音乐唱片
-netmusic:music_player, 唱片机
 pigstep:pigstep, 音乐唱片
 portality:controller, 传送门控制器
 portality:frame, 传送门框架
@@ -5324,16 +5009,329 @@ portality:module_fluids:1, 流体模块 (类型：输出§r)
 portality:module_energy:0, 能量模块 (类型：输入§r)
 portality:module_energy:1, 能量模块 (类型：输出§r)
 portality:creative_creator, 创造制造者
+securitycraft:laser_block, 激光方块
+securitycraft:keypad, 键盘
+securitycraft:mine, 地雷
+securitycraft:retinal_scanner, 虹膜扫描仪
+securitycraft:bogus_lava, 假熔岩
+securitycraft:bogus_lava_flowing, tile.securitycraft:bogusLavaFlowing.name
+securitycraft:bogus_water, 假水
+securitycraft:bogus_water_flowing, tile.securitycraft:bogusWaterFlowing.name
+securitycraft:keycard_reader, 钥匙卡读卡器
+securitycraft:reinforced_iron_trapdoor, 强化铁活板门
+securitycraft:bouncing_betty, 弹跳贝蒂
+securitycraft:inventory_scanner, 物品栏扫描器
+securitycraft:track_mine, 铁轨地雷
+securitycraft:cage_trap, 陷阱笼子
+securitycraft:portable_radar, 便携式雷达
+securitycraft:reinforced_iron_bars, 强化铁栏杆
+securitycraft:keypad_chest, 密码箱
+securitycraft:username_logger, 用户名记录器
+securitycraft:alarm, 报警器
+securitycraft:reinforced_stone:0, 强化石头
+securitycraft:reinforced_stone:1, 强化花岗岩
+securitycraft:reinforced_stone:2, 强化磨制花岗岩
+securitycraft:reinforced_stone:3, 强化闪长岩
+securitycraft:reinforced_stone:4, 强化磨制闪长岩
+securitycraft:reinforced_stone:5, 强化安山岩
+securitycraft:reinforced_stone:6, 强化磨制安山岩
+securitycraft:reinforced_sandstone:0, 强化砂岩
+securitycraft:reinforced_sandstone:1, 强化錾制砂岩
+securitycraft:reinforced_sandstone:2, 强化平滑砂岩
+securitycraft:reinforced_dirt:0, 强化泥土
+securitycraft:reinforced_dirt:1, Reinforced Coarse Dirt
+securitycraft:reinforced_dirt:2, Reinforced Podzol
+securitycraft:reinforced_cobblestone, 强化圆石
+securitycraft:reinforced_fence_gate, 带电的铁栅栏门
+securitycraft:reinforced_planks:0, 强化橡木木板
+securitycraft:reinforced_planks:1, 强化云杉木板
+securitycraft:reinforced_planks:2, 强化白桦木板
+securitycraft:reinforced_planks:3, 强化丛林木板
+securitycraft:reinforced_planks:4, 强化金合欢木板
+securitycraft:reinforced_planks:5, 强化深色橡木木板
+securitycraft:panic_button, 紧急按钮
+securitycraft:keypad_frame, 框架
+securitycraft:claymore, 阔剑地雷
+securitycraft:keypad_furnace, 密码炉
+securitycraft:security_camera, 安防摄像头
+securitycraft:reinforced_stairs_oak, 强化橡木楼梯
+securitycraft:reinforced_stairs_spruce, 强化云杉楼梯
+securitycraft:reinforced_stairs_cobblestone, 强化圆石楼梯
+securitycraft:reinforced_stairs_sandstone, 强化砂岩楼梯
+securitycraft:reinforced_stairs_birch, 强化白桦楼梯
+securitycraft:reinforced_stairs_jungle, 强化丛林楼梯
+securitycraft:reinforced_stairs_acacia, 强化金合欢楼梯
+securitycraft:reinforced_stairs_darkoak, 强化深色橡木楼梯
+securitycraft:reinforced_stairs_stone, 强化石楼梯
+securitycraft:electrified_iron_fence, 带电的铁栅栏
+securitycraft:ims, 智能弹药系统
+securitycraft:reinforced_glass_block, 强化玻璃
+securitycraft:reinforced_stained_glass:0, 强化白色玻璃
+securitycraft:reinforced_stained_glass:1, 强化橙色玻璃
+securitycraft:reinforced_stained_glass:2, 强化红色玻璃
+securitycraft:reinforced_stained_glass:3, 强化淡蓝色玻璃
+securitycraft:reinforced_stained_glass:4, 强化黄色玻璃
+securitycraft:reinforced_stained_glass:5, 强化淡灰色玻璃
+securitycraft:reinforced_stained_glass:6, 强化粉红色玻璃
+securitycraft:reinforced_stained_glass:7, 强化灰色玻璃
+securitycraft:reinforced_stained_glass:8, 强化淡灰色玻璃
+securitycraft:reinforced_stained_glass:9, 强化青色玻璃
+securitycraft:reinforced_stained_glass:10, 强化紫色玻璃
+securitycraft:reinforced_stained_glass:11, 强化蓝色玻璃
+securitycraft:reinforced_stained_glass:12, 强化棕色玻璃
+securitycraft:reinforced_stained_glass:13, 强化绿色玻璃
+securitycraft:reinforced_stained_glass:14, 强化红色玻璃
+securitycraft:reinforced_stained_glass:15, 强化黑色玻璃
+securitycraft:reinforced_wood_slabs:0, 强化橡木台阶
+securitycraft:reinforced_wood_slabs:1, 强化云杉台阶
+securitycraft:reinforced_wood_slabs:2, 强化白桦台阶
+securitycraft:reinforced_wood_slabs:3, 强化丛林台阶
+securitycraft:reinforced_wood_slabs:4, 强化金合欢台阶
+securitycraft:reinforced_wood_slabs:5, 强化深色橡木台阶
+securitycraft:reinforced_stone_slabs:0, 强化石台阶
+securitycraft:reinforced_stone_slabs:1, 强化圆石台阶
+securitycraft:reinforced_stone_slabs:2, 强化砂岩台阶
+securitycraft:reinforced_stone_slabs:3, 强化石砖台阶
+securitycraft:reinforced_stone_slabs:4, 强化红砖台阶
+securitycraft:reinforced_stone_slabs:5, 强化地狱砖台阶
+securitycraft:reinforced_stone_slabs:6, 强化石英台阶
+securitycraft:protecto, 防火墙
+securitycraft:reinforced_stone_brick:0, 强化石砖
+securitycraft:reinforced_stone_brick:1, 强化苔石砖
+securitycraft:reinforced_stone_brick:2, 强化裂石砖
+securitycraft:reinforced_stone_brick:3, 强化錾制石砖
+securitycraft:reinforced_stairs_stone_brick, 强化石砖楼梯
+securitycraft:reinforced_mossy_cobblestone, 强化苔石
+securitycraft:reinforced_brick, 强化砖块
+securitycraft:reinforced_stairs_brick, 强化红砖楼梯
+securitycraft:reinforced_nether_brick, 强化地狱砖
+securitycraft:reinforced_stairs_nether_brick, 强化地狱砖楼梯
+securitycraft:reinforced_hardened_clay, 强化陶瓦
+securitycraft:reinforced_stained_hardened_clay:0, 强化白色陶瓦
+securitycraft:reinforced_stained_hardened_clay:1, 强化橙色陶瓦
+securitycraft:reinforced_stained_hardened_clay:2, 强化品红色陶瓦
+securitycraft:reinforced_stained_hardened_clay:3, 强化淡蓝色陶瓦
+securitycraft:reinforced_stained_hardened_clay:4, 强化黄色陶瓦
+securitycraft:reinforced_stained_hardened_clay:5, 强化黄绿色陶瓦
+securitycraft:reinforced_stained_hardened_clay:6, 强化粉红色陶瓦
+securitycraft:reinforced_stained_hardened_clay:7, 强化灰色陶瓦
+securitycraft:reinforced_stained_hardened_clay:8, 强化淡灰色陶瓦
+securitycraft:reinforced_stained_hardened_clay:9, 强化青色陶瓦
+securitycraft:reinforced_stained_hardened_clay:10, 强化紫色陶瓦
+securitycraft:reinforced_stained_hardened_clay:11, 强化蓝色陶瓦
+securitycraft:reinforced_stained_hardened_clay:12, 强化棕色陶瓦
+securitycraft:reinforced_stained_hardened_clay:13, 强化绿色陶瓦
+securitycraft:reinforced_stained_hardened_clay:14, 强化红色陶瓦
+securitycraft:reinforced_stained_hardened_clay:15, 强化黑色陶瓦
+securitycraft:reinforced_logs:0, 强化橡木
+securitycraft:reinforced_logs:1, 强化云杉木
+securitycraft:reinforced_logs:2, 强化白桦木
+securitycraft:reinforced_logs:3, 强化丛林木
+securitycraft:reinforced_logs2:0, 强化金合欢木
+securitycraft:reinforced_logs2:1, 强化深色橡木
+securitycraft:reinforced_metals:0, 强化金块
+securitycraft:reinforced_metals:1, 强化铁块
+securitycraft:reinforced_metals:2, 强化钻石块
+securitycraft:reinforced_metals:3, 强化绿宝石块
+securitycraft:reinforced_metals:4, 强化红石块
+securitycraft:reinforced_compressed_blocks:0, 强化青金石块
+securitycraft:reinforced_compressed_blocks:1, 强化煤炭块
+securitycraft:reinforced_wool:0, 强化白色羊毛
+securitycraft:reinforced_wool:1, 强化橙色羊毛
+securitycraft:reinforced_wool:2, 强化品红色羊毛
+securitycraft:reinforced_wool:3, 强化淡蓝色羊毛
+securitycraft:reinforced_wool:4, 强化黄色羊毛
+securitycraft:reinforced_wool:5, 强化黄绿色羊毛
+securitycraft:reinforced_wool:6, 强化粉红色羊毛
+securitycraft:reinforced_wool:7, 强化灰色羊毛
+securitycraft:reinforced_wool:8, 强化淡灰色羊毛
+securitycraft:reinforced_wool:9, 强化青色羊毛
+securitycraft:reinforced_wool:10, 强化紫色羊毛
+securitycraft:reinforced_wool:11, 强化蓝色羊毛
+securitycraft:reinforced_wool:12, 强化棕色羊毛
+securitycraft:reinforced_wool:13, 强化绿色羊毛
+securitycraft:reinforced_wool:14, 强化红色羊毛
+securitycraft:reinforced_wool:15, 强化黑色羊毛
+securitycraft:reinforced_quartz:0, 强化石英块
+securitycraft:reinforced_quartz:1, 强化錾制石英块
+securitycraft:reinforced_quartz:2, 强化竖纹石英块
+securitycraft:reinforced_stairs_quartz, 强化石英楼梯
+securitycraft:reinforced_prismarine:0, 强化海晶石
+securitycraft:reinforced_prismarine:1, 强化海晶石砖
+securitycraft:reinforced_prismarine:2, 强化暗海晶石
+securitycraft:reinforced_red_sandstone:0, 强化红砂岩
+securitycraft:reinforced_red_sandstone:1, 强化錾制红砂岩
+securitycraft:reinforced_red_sandstone:2, 强化平滑红砂岩
+securitycraft:reinforced_stairs_red_sandstone, 强化红砂岩楼梯
+securitycraft:reinforced_stone_slabs2:0, 强化红砂岩台阶
+securitycraft:reinforced_stone_slabs2:1, 强化紫珀台阶
+securitycraft:reinforced_end_stone_bricks, 强化末地石砖
+securitycraft:reinforced_red_nether_brick, 强化红色地狱砖
+securitycraft:reinforced_purpur:0, 强化紫珀块
+securitycraft:reinforced_purpur:1, 强化竖纹紫珀块
+securitycraft:reinforced_stairs_purpur, 强化紫珀楼梯
+securitycraft:reinforced_concrete:0, 强化白色混凝土
+securitycraft:reinforced_concrete:1, 强化橙色混凝土
+securitycraft:reinforced_concrete:2, 强化品红色混凝土
+securitycraft:reinforced_concrete:3, 强化淡蓝色混凝土
+securitycraft:reinforced_concrete:4, 强化黄色混凝土
+securitycraft:reinforced_concrete:5, 强化黄绿色混凝土
+securitycraft:reinforced_concrete:6, 强化粉红色混凝土
+securitycraft:reinforced_concrete:7, 强化灰色混凝土
+securitycraft:reinforced_concrete:8, 强化淡灰色混凝土
+securitycraft:reinforced_concrete:9, 强化青色混凝土
+securitycraft:reinforced_concrete:10, 强化紫色混凝土
+securitycraft:reinforced_concrete:11, 强化蓝色混凝土
+securitycraft:reinforced_concrete:12, 强化棕色混凝土
+securitycraft:reinforced_concrete:13, 强化绿色混凝土
+securitycraft:reinforced_concrete:14, 强化红色混凝土
+securitycraft:reinforced_concrete:15, 强化黑色混凝土
+securitycraft:motion_activated_light, 触发式光源
+securitycraft:reinforced_obsidian, 强化黑曜石
+securitycraft:reinforced_netherrack, 强化地狱岩
+securitycraft:reinforced_end_stone, 强化末地石
+securitycraft:reinforced_sea_lantern, 强化海晶石
+securitycraft:reinforced_bone_block, 强化骨块
+securitycraft:reinforced_glass_pane, 强化玻璃板
+securitycraft:reinforced_stained_panes:0, 强化白色玻璃板
+securitycraft:reinforced_stained_panes:1, 强化橙色玻璃板
+securitycraft:reinforced_stained_panes:2, 强化浅红色玻璃板
+securitycraft:reinforced_stained_panes:3, 强化淡蓝色玻璃板
+securitycraft:reinforced_stained_panes:4, 强化黄色玻璃板
+securitycraft:reinforced_stained_panes:5, 强化淡灰色玻璃板
+securitycraft:reinforced_stained_panes:6, 强化粉红色玻璃板
+securitycraft:reinforced_stained_panes:7, 强化灰色玻璃板
+securitycraft:reinforced_stained_panes:8, 强化淡灰色玻璃板
+securitycraft:reinforced_stained_panes:9, 强化青色玻璃板
+securitycraft:reinforced_stained_panes:10, 强化紫色玻璃板
+securitycraft:reinforced_stained_panes:11, 强化蓝色玻璃板
+securitycraft:reinforced_stained_panes:12, 强化棕色玻璃板
+securitycraft:reinforced_stained_panes:13, 强化绿色玻璃板
+securitycraft:reinforced_stained_panes:14, 强化红色玻璃板
+securitycraft:reinforced_stained_panes:15, 强化黑色玻璃板
+securitycraft:reinforced_carpet:0, 强化白色地毯
+securitycraft:reinforced_carpet:1, 强化橙色地毯
+securitycraft:reinforced_carpet:2, 强化品红色地毯
+securitycraft:reinforced_carpet:3, 强化淡蓝色地毯
+securitycraft:reinforced_carpet:4, 强化黄色地毯
+securitycraft:reinforced_carpet:5, 强化黄绿色地毯
+securitycraft:reinforced_carpet:6, 强化粉红色地毯
+securitycraft:reinforced_carpet:7, 强化灰色地毯
+securitycraft:reinforced_carpet:8, 强化淡灰色地毯
+securitycraft:reinforced_carpet:9, 强化青色地毯
+securitycraft:reinforced_carpet:10, 强化紫色地毯
+securitycraft:reinforced_carpet:11, 强化蓝色地毯
+securitycraft:reinforced_carpet:12, 强化棕色地毯
+securitycraft:reinforced_carpet:13, 强化绿色地毯
+securitycraft:reinforced_carpet:14, 强化红色地毯
+securitycraft:reinforced_carpet:15, 强化黑色地毯
+securitycraft:reinforced_glowstone, 强化荧石
+securitycraft:reinforced_sand:0, 强化砂
+securitycraft:reinforced_sand:1, 强化红沙
+securitycraft:reinforced_gravel, 强化沙砾
+securitycraft:trophy_system, Trophy System
+securitycraft:crystal_quartz:0, 水晶石英块
+securitycraft:crystal_quartz:1, 錾制水晶石英块
+securitycraft:crystal_quartz:2, Pillar Crystal Quartz Block
+securitycraft:reinforced_crystal_quartz:0, Reinforced Block of Crystal Quartz
+securitycraft:reinforced_crystal_quartz:1, Reinforced Chiseled Crystal Quartz Block
+securitycraft:reinforced_crystal_quartz:2, Reinforced Pillar Crystal Quartz Block
+securitycraft:crystal_quartz_slab, Crystal Quartz Slab
+securitycraft:reinforced_crystal_quartz_slab, Reinforced Crystal Quartz Slab
+securitycraft:stairs_crystal_quartz, Crystal Quartz Stairs
+securitycraft:reinforced_stairs_crystal_quartz, Reinforced Crystal Quartz Stairs
+securitycraft:block_pocket_wall, Block Pocket Wall
+securitycraft:block_pocket_manager, Block Pocket Manager
+securitycraft:reinforced_stone_pressure_plate, Reinforced Stone Pressure Plate
+securitycraft:reinforced_wooden_pressure_plate, Reinforced Wooden Pressure Plate
+securitycraft:reinforced_bookshelf, Reinforced Bookshelf
+securitycraft:reinforced_walls:0, Reinforced Cobblestone Wall
+securitycraft:reinforced_walls:1, Reinforced Mossy Cobblestone Wall
+securitycraft:reinforced_sticky_piston, Reinforced Sticky Piston
+securitycraft:reinforced_piston, Reinforced Piston
+securitycraft:reinforced_observer, Reinforced Observer
+securitycraft:reinforced_redstone_lamp, Reinforced Redstone Lamp
+securitycraft:reinforced_cobweb, Reinforced Cobweb
+securitycraft:reinforced_grass, Reinforced Grass
+securitycraft:reinforced_snow_block, Reinforced Snow Block
+securitycraft:reinforced_ice, Reinforced Ice
+securitycraft:reinforced_packed_ice, Reinforced Packed Ice
+securitycraft:reinforced_mycelium, Reinfored Mycelium
+securitycraft:reinforced_clay, Reinforced Clay
+securitycraft:reinforced_nether_wart_block, Reinforced Nether Wart Block
+securitycraft:reinforced_grass_path, Reinforced Grass Path
+securitycraft:reinforced_stone_button, Reinforced Button
+securitycraft:reinforced_wooden_button, Reinforced Button
+securitycraft:reinforced_lever, Reinforced Lever
+securitycraft:reinforced_hopper, Reinforced Hopper
+securitycraft:projector, Projector
+securitycraft:reinforced_cauldron, Reinforced Cauldron
+securitycraft:sonic_security_system, Sonic Security System
+securitycraft:stone_mine, 石头地雷
+securitycraft:dirt_mine, 泥土地雷
+securitycraft:cobblestone_mine, 圆石地雷
+securitycraft:sand_mine, 沙子地雷
+securitycraft:gravel_mine, 沙砾地雷
+securitycraft:gold_mine, Gold Ore Mine
+securitycraft:iron_mine, Iron Ore Mine
+securitycraft:coal_mine, Coal Ore Mine
+securitycraft:lapis_mine, Lapis Lazuli Ore Mine
+securitycraft:diamond_mine, 钻石矿地雷
+securitycraft:redstone_mine, Redstone Ore Mine
+securitycraft:emerald_mine, Emerald Ore Mine
+securitycraft:quartz_mine, Nether Quartz Ore Mine
+securitycraft:furnace_mine, 熔炉地雷
+securitycraft:codebreaker, 编码破坏器
+securitycraft:door_indestructible_iron_item, 强化门
+securitycraft:scanner_door_item, 安全门
+securitycraft:universal_block_remover, 通用方块移除器
+securitycraft:keycard_lv1, 一级身份卡
+securitycraft:keycard_lv2, 二级身份卡
+securitycraft:keycard_lv3, 三级身份卡
+securitycraft:keycard_lv4, 四级身份卡
+securitycraft:keycard_lv5, 五级身份卡
+securitycraft:limited_use_keycard, 有限次数的身份卡
+securitycraft:remote_access_mine, 远程地雷访问工具
+securitycraft:remote_access_sentry, Sentry Remote Access Tool
+securitycraft:bucket_f_water, 假水桶
+securitycraft:bucket_f_lava, 假熔岩桶
+securitycraft:universal_block_modifier, 通用方块修改器
+securitycraft:redstone_module, 红石模块
+securitycraft:whitelist_module, 白名单模块
+securitycraft:blacklist_module, 黑名单模块
+securitycraft:harming_module, 伤害模块
+securitycraft:smart_module, 智能模块
+securitycraft:storage_module, 储存模块
+securitycraft:disguise_module, 伪装模块
+securitycraft:speed_module, Speed Module
+securitycraft:wire_cutters, 剪线钳
+securitycraft:admin_tool, 管理员工具
+securitycraft:keypad_item, Key Panel
+securitycraft:camera_monitor, 摄像头监视器
+securitycraft:taser, 泰瑟枪
+securitycraft:sc_manual, SecurityCraft 指南
+securitycraft:universal_owner_changer, 通用所有者修改器
+securitycraft:universal_block_reinforcer_lvl1, 通用方块强化器（一级）
+securitycraft:universal_block_reinforcer_lvl2, 通用方块强化器（二级）
+securitycraft:universal_block_reinforcer_lvl3, 通用方块强化器（三级）
+securitycraft:briefcase, 公文包
+securitycraft:universal_key_changer, 通用密锁变换器
+securitycraft:taser_powered, 泰瑟枪
+securitycraft:secret_sign_item, 安全告示牌
+securitycraft:sentry, 战斗哨石
+securitycraft:crystal_quartz_item, Crystal Quartz
+securitycraft:keypad_door_item, Keypad Door
+securitycraft:portable_tune_player, Portable Tune Player
 tenshilib:ignore, Structure Ignore
 tenshilib:structure_piece, Structure Piece
 tenshilib:breakable_barrier, tile.tenshilib:breakable_barrier.name
+trapcraft:igniter_range, Igniter Range Upgrade
 trapcraft:magnetic_chest, Magnetic Chest
 trapcraft:grass_covering, Grass Covering
 trapcraft:fan, Fan
 trapcraft:bear_trap, Trap
 trapcraft:spikes, Spikes
 trapcraft:igniter, Igniter
-trapcraft:igniter_range, Igniter Range Upgrade
 travelersbackpack:travelers_backpack:0, 旅行者背包
 travelersbackpack:travelers_backpack:1, 旅行者背包
 travelersbackpack:travelers_backpack:2, 旅行者背包

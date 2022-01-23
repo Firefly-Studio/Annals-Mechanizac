@@ -8,5 +8,10 @@
 		items: [{
 			item: "flopper:flopper"
 		}]
+	}],
+	rewards: [{
+		uid: "b4ed4605",
+		type: "ftbmoney:money",
+		ftb_money: 200L
 	}]
 }

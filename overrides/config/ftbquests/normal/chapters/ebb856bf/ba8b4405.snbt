@@ -1,0 +1,22 @@
+{
+	title: "升级自身",
+	x: -2.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "2a15accd",
+		type: "item",
+		items: [{
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:obsidian_skin"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "77478e05",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "全新升级",
+	x: 1.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "697d1eca",
+		type: "item",
+		items: [{
+			item: "gb:glob2_block"
+		}]
+	},
+	{
+		uid: "6ab664bc",
+		type: "item",
+		items: [{
+			item: "gb:globot2"
+		}]
+	}],
+	rewards: [{
+		uid: "5399fc32",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

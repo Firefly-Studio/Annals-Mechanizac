@@ -1,0 +1,25 @@
+{
+	title: "大人，时代变了！",
+	x: 0.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "49de52a8",
+		type: "item",
+		items: [{
+			item: "mw:ntw_20"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "92f36a1b",
+		type: "item",
+		item: "mw:ntw20mag",
+		count: 4
+	},
+	{
+		uid: "2aaed4f2",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

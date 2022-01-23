@@ -8,5 +8,10 @@
 		icon: "minecraft:skull",
 		entity: "mod_lavacow:skeletonking",
 		value: 1L
+	}],
+	rewards: [{
+		uid: "d64b11e4",
+		type: "ftbmoney:money",
+		ftb_money: 400L
 	}]
 }

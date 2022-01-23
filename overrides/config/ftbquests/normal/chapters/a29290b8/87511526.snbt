@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "be35a09c",
+		type: "item",
+		items: [{
+			item: "gb:gobber_ore"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "2b6e1768",
+		type: "ftbmoney:money",
+		ftb_money: 800L
+	}]
+}

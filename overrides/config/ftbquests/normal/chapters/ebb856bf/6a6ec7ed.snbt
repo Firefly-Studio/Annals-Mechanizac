@@ -8,5 +8,10 @@
 		items: [{
 			item: "minecraft:iron_ingot"
 		}]
+	}],
+	rewards: [{
+		uid: "c229f8dc",
+		type: "ftbmoney:money",
+		ftb_money: 200L
 	}]
 }

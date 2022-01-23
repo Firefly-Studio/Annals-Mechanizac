@@ -1,0 +1,15 @@
+{
+    "name": "维度通行证",
+    "icon": "contenttweaker:key",
+    "category": "adventure_category",
+    "pages": [
+        {
+            "type":"crafting",
+            "recipe":"ct_shapeless-1746258559"
+        },
+        {
+            "type":"text",
+            "text":"返回主世界的必备物，其中蓝色和红色奥法珍珠可以在祭坛遗迹的宝箱中获取。击败骷髅王有80%几率掉落黄色和绿色奥法珍珠。末地城宝箱中有几率出现橙色奥法珍珠。击败域外之物有80%几率掉落紫色奥法珍珠。"
+        }
+    ]
+}

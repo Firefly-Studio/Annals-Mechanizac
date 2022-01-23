@@ -8,5 +8,10 @@
 		items: [{
 			item: "portality:controller"
 		}]
+	}],
+	rewards: [{
+		uid: "c07e96a6",
+		type: "ftbmoney:money",
+		ftb_money: 200L
 	}]
 }

@@ -11,23 +11,28 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Annals",
-  "version": "D0A4R3F0",
+  "version": "D0A5R0F0",
   "author": "",
   "files": [
     {
-      "projectID":278494,
-      "fileID":3327893,
-      "required":true
+      "projectID": 264353,
+      "fileID": 2508268,
+      "required": true
     },
     {
-      "projectID":225928,
-      "fileID":2445809,
-      "required":true
+      "projectID": 64760,
+      "fileID": 3577164,
+      "required": true
     },
     {
-      "projectID":264353,
-      "fileID":2508268,
-      "required":true
+      "projectID": 278494,
+      "fileID": 3327893,
+      "required": true
+    },
+    {
+      "projectID": 225928,
+      "fileID": 2445809,
+      "required": true
     },
     {
       "projectID": 297438,

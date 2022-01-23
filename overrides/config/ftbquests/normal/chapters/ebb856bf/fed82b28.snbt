@@ -1,0 +1,18 @@
+{
+	title: "扩容",
+	x: 0.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "38bfd178",
+		type: "item",
+		items: [{
+			item: "travelersbackpack:travelers_backpack"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f7479b6d",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

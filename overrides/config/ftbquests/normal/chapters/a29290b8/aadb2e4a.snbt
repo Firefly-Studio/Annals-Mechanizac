@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "c1c839ad",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "08ba6576",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

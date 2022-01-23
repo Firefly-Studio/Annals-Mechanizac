@@ -1,0 +1,24 @@
+{
+	title: "老牌物流",
+	x: -1.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "39949335",
+		type: "item",
+		items: [{
+			item: "buildcraftcore:engine"
+		}]
+	},
+	{
+		uid: "37e8925c",
+		type: "item",
+		items: [{
+			item: "buildcrafttransport:pipe_wood_item"
+		}]
+	}],
+	rewards: [{
+		uid: "42aec1e4",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

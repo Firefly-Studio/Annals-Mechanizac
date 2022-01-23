@@ -8,5 +8,10 @@
 		items: [{
 			item: "betternether:pig_statue_01"
 		}]
+	}],
+	rewards: [{
+		uid: "19704438",
+		type: "ftbmoney:money",
+		ftb_money: 100L
 	}]
 }

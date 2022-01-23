@@ -9,5 +9,10 @@
 		items: [{
 			item: "mod_lavacow:intestine"
 		}]
+	}],
+	rewards: [{
+		uid: "286efed5",
+		type: "ftbmoney:money",
+		ftb_money: 200L
 	}]
 }

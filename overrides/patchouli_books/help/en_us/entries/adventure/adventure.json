@@ -1,0 +1,23 @@
+{
+    "name": "Boss主线",
+    "icon": "minecraft:diamond_sword",
+    "category": "adventure_category",
+    "pages": [
+        {
+            "type":"entity",
+            "entity":"mod_lavacow:skeletonking"
+        },
+        {
+            "type":"text",
+            "text":"在祭坛遗迹中将 两组骨头 一颗下界之星 一顶被诅咒的王之冠 一组钻石放入祭坛并手持血木剑按下Shift右键祭坛即可生成。有80%几率掉落 奥法珍珠·黄 和 奥法珍珠·绿 等。"
+        },
+        {
+            "type":"entity",
+            "entity":"dungeonmobs:dmeldermob"
+        },
+        {
+            "type":"text",
+            "text":"在祭坛遗迹中将 10枚王之徽纪 4颗下界之星 末影戈伯块 龙蛋 灵气宝藏 放入祭坛并手持末影戈伯剑按下Shift右键祭坛即可生成。有80%几率掉落 奥法珍珠·紫。"
+        }
+    ]
+}

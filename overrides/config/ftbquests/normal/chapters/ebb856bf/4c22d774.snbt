@@ -9,5 +9,10 @@
 		items: [{
 			item: "minecraft:crafting_table"
 		}]
+	}],
+	rewards: [{
+		uid: "10481d63",
+		type: "ftbmoney:money",
+		ftb_money: 200L
 	}]
 }

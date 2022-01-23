@@ -9,5 +9,10 @@
 		items: [{
 			item: "waystones:waystone"
 		}]
+	}],
+	rewards: [{
+		uid: "5bb11cdc",
+		type: "ftbmoney:money",
+		ftb_money: 400L
 	}]
 }

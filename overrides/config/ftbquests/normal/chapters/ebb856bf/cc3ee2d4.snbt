@@ -1,0 +1,17 @@
+{
+	title: "AE自动化",
+	x: 1.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "da8eb639",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "6aa82e8c",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

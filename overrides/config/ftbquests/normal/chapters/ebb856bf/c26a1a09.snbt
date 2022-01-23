@@ -8,5 +8,10 @@
 		items: [{
 			item: "buildcraftfactory:pump"
 		}]
+	}],
+	rewards: [{
+		uid: "6b00ffc1",
+		type: "ftbmoney:money",
+		ftb_money: 200L
 	}]
 }

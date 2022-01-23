@@ -13,5 +13,10 @@
 			item: "minecraft:blaze_rod"
 		}],
 		count: 10L
+	}],
+	rewards: [{
+		uid: "707d767b",
+		type: "ftbmoney:money",
+		ftb_money: 200L
 	}]
 }

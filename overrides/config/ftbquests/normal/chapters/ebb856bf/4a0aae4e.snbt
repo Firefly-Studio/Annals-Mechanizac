@@ -9,5 +9,10 @@
 		items: [{
 			item: "openmodularturrets:turret_base"
 		}]
+	}],
+	rewards: [{
+		uid: "14c7957b",
+		type: "ftbmoney:money",
+		ftb_money: 200L
 	}]
 }

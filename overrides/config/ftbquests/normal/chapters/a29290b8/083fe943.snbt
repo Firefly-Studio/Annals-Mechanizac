@@ -6,7 +6,18 @@
 		uid: "3fa77254",
 		type: "item",
 		items: [{
-			item: "minecraft:gold_ingot"
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotGold"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotGold"
+				}
+			}
 		}],
 		count: 64L
 	}],

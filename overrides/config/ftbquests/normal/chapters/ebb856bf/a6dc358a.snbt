@@ -9,5 +9,10 @@
 		items: [{
 			item: "securitycraft:mine"
 		}]
+	}],
+	rewards: [{
+		uid: "37678bea",
+		type: "ftbmoney:money",
+		ftb_money: 100L
 	}]
 }

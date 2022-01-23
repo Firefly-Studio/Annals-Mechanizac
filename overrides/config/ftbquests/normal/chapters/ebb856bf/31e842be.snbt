@@ -23,5 +23,10 @@
 				}
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "890e3b7d",
+		type: "ftbmoney:money",
+		ftb_money: 200L
 	}]
 }

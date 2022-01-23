@@ -7,5 +7,10 @@
 		type: "xp",
 		value: 90L,
 		points: false
+	}],
+	rewards: [{
+		uid: "8f02917f",
+		type: "ftbmoney:money",
+		ftb_money: 200L
 	}]
 }

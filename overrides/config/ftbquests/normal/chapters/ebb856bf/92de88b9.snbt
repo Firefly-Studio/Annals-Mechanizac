@@ -10,5 +10,10 @@
 			item: "minecraft:obsidian"
 		}],
 		count: 10L
+	}],
+	rewards: [{
+		uid: "8feadc61",
+		type: "ftbmoney:money",
+		ftb_money: 300L
 	}]
 }
