@@ -1,0 +1,17 @@
+{
+	title: "比床更好",
+	x: 3.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "4c8b52d0",
+		type: "item",
+		items: [{
+			item: "natura:respawn_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "0cb4b134",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

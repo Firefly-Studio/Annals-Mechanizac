@@ -16,6 +16,7 @@ import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.PlayerChangedDimensionEvent;
 import crafttweaker.event.PlayerRespawnEvent;
 import crafttweaker.event.PlayerPickupItemEvent;
+import crafttweaker.entity.IEntityItem;
 events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent){
     val player as IPlayer = event.player;
     val world as IWorld = event.toWorld;
@@ -53,6 +54,48 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
     val block as IBlock = event.block;
     if (block.definition.id == "minecraft:netherrack") {
         event.addItem(<item:mekanism:otherdust:3> * 1 % 15);
+    }
+});
+//禁止随地挖祭坛 😡
+events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
+    var player as IPlayer = event.player;
+    if(!event.isPlayer || event.drops.length == 0 || event.silkTouch) return;
+    val block as IBlock = event.block;
+    if (block.definition.id == "zensummoning:altar") {
+        event.drops = [];
+    }
+});
+
+events.onPlayerPickupItem(function(event as PlayerPickupItemEvent) {
+    val item as IEntityItem = event.item;
+    if ("zensummoning:altar" in item.definition.id) {
+        event.cancel();
+    }
+});
+
+//戈伯种子
+events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
+    var player as IPlayer = event.player;
+    if(!event.isPlayer || event.drops.length == 0 || event.silkTouch) return;
+    val block as IBlock = event.block;
+    if (block.definition.id == "gb:globplant") {
+        event.addItem(<gb:glob_seed> * 1 % 100);
+    }
+});
+events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
+    var player as IPlayer = event.player;
+    if(!event.isPlayer || event.drops.length == 0 || event.silkTouch) return;
+    val block as IBlock = event.block;
+    if (block.definition.id == "gb:glob2plant") {
+        event.addItem(<gb:glob2_seed> * 1 % 100);
+    }
+});
+events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
+    var player as IPlayer = event.player;
+    if(!event.isPlayer || event.drops.length == 0 || event.silkTouch) return;
+    val block as IBlock = event.block;
+    if (block.definition.id == "gb:glob3plant") {
+        event.addItem(<gb:glob3_seed> * 1 % 100);
     }
 });
 

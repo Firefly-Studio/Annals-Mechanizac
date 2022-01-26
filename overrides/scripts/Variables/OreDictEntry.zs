@@ -13,3 +13,6 @@
 <ore:blockSky>.add(<appliedenergistics2:sky_stone_block>);
 <ore:record>.add(<pigstep:pigstep>);
 <ore:vine>.add(<biomesoplenty:ivy>);
+<ore:gemglob1>.add(<gb:glob>);
+<ore:gemglob2>.add(<gb:glob2>);
+<ore:gemglob3>.add(<gb:glob3>);

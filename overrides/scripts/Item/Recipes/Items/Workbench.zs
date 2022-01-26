@@ -182,6 +182,9 @@ val shapedLessRecipes as IIngredient[][IItemStack] = {
     ,
     <minecraft:dye:3>*12:
         [<betternether:red_mold>,<betternether:lucis_spore>]
+    ,
+    <natura:edibles:11>:
+        [<ore:blockCactus>]
 };
 
 for item, ingredients in shapedMirroredRecipes{

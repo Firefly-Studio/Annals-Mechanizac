@@ -12,7 +12,6 @@
 	rewards: [{
 		uid: "22f5fe2e",
 		type: "item",
-		auto: "enabled",
 		item: "natura:nether_sapling 1 2"
 	},
 	{
@@ -36,7 +35,7 @@
 	{
 		uid: "568a6d69",
 		type: "item",
-		auto: "enabled",
+		auto: "disabled",
 		item: {
 			id: "patchouli:guide_book",
 			tag: {
@@ -47,7 +46,6 @@
 	{
 		uid: "6a6d1ff7",
 		type: "item",
-		auto: "enabled",
 		item: {
 			id: "minecraft:dirt",
 			tag: {
@@ -61,5 +59,10 @@
 		uid: "dc8e4dd4",
 		type: "ftbmoney:money",
 		ftb_money: 1200L
+	},
+	{
+		uid: "e40f2556",
+		type: "item",
+		item: "xnet:xnet_manual"
 	}]
 }

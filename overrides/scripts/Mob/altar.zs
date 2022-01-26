@@ -12,7 +12,7 @@ SummoningDirector.addSummonInfo(
         .setReagents([<mod_lavacow:emblem_of_king>*10,<naturesaura:aura_trove>.withTag({aura: 1200000}),<minecraft:dragon_egg>,<gb:globot3_block>,<minecraft:nether_star>*4])
         .addMob(MobInfo.create()
             .setMob("dungeonmobs:dmeldermob")
-            .setData({"Health": 2048, "Attributes":[{"Name":"generic.maxHealth","Base":2048}]})
+            .setData({Attributes:[{Name:"generic.maxHealth",Base:1200.0d},{Name:"generic.attackDamage",Base:20.0d},{Name:"generic.armor",Base:15.0d}],Health:1200.0f})
         )
         .setMutator(function (attempt as SummoningAttempt) {
             if (attempt.world.dimension != -1) {
@@ -27,7 +27,7 @@ SummoningDirector.addSummonInfo(
         .setReagents([<mod_lavacow:kings_crown:1>,<minecraft:diamond>*64,<minecraft:bone>*64,<minecraft:bone>*64,<minecraft:nether_star>])
         .addMob(MobInfo.create()
             .setMob("mod_lavacow:skeletonking")
-            .setData({"Health": 2048, "Attributes":[{"Name":"generic.maxHealth","Base":2048}]})
+            .setData({Attributes:[{Name:"generic.maxHealth",Base:2000.0d},{Name:"generic.attackDamage",Base:40.0d},{Name:"generic.armor",Base:40.0d}],Health:2000.0f})
         )
         .setMutator(function (attempt as SummoningAttempt) {
             if (attempt.world.dimension != -1) {
