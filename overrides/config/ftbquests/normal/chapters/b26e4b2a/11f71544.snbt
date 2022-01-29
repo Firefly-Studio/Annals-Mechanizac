@@ -1,0 +1,108 @@
+{
+	title: "生成",
+	icon: "quark:candle",
+	x: 8.0d,
+	y: 2.5d,
+	text: [
+		"玩家已经理解了生物生成的奥秘。"
+	],
+	dependencies: [
+		"d01fa67d",
+		"1ab9d86b"
+	],
+	tasks: [{
+		uid: "e93d56cf",
+		type: "item",
+		items: [{
+			item: "modularcontroller:mobaltar_controller"
+		}]
+	},
+	{
+		uid: "0d70094f",
+		type: "item",
+		items: [{
+			item: "quark:candle"
+		}],
+		count: 4L
+	},
+	{
+		uid: "ca961e28",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_slab"
+		}],
+		count: 33L
+	},
+	{
+		uid: "f8439bff",
+		type: "item",
+		items: [{
+			item: "minecraft:end_rod"
+		}],
+		count: 16L
+	},
+	{
+		uid: "22794d16",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "bec87d5c",
+		type: "item",
+		items: [{
+			item: "minecraft:stone 1 6"
+		}],
+		count: 12L
+	},
+	{
+		uid: "0022ea80",
+		type: "item",
+		items: [{
+			item: "modularmagic:blockauraproviderinput"
+		}]
+	},
+	{
+		uid: "63d83301",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "6c9eff37",
+		type: "item",
+		items: [{
+			item: "minecraft:grass"
+		}],
+		count: 4L
+	},
+	{
+		uid: "1b1efac0",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch"
+		}]
+	},
+	{
+		uid: "9190fded",
+		type: "item",
+		items: [{
+			item: "minecraft:red_flower"
+		}],
+		count: 4L
+	},
+	{
+		uid: "76d6627b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	}],
+	rewards: [{
+		uid: "92f923a8",
+		type: "ftbmoney:money",
+		ftb_money: 600L
+	}]
+}

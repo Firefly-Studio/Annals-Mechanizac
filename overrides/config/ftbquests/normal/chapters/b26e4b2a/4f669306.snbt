@@ -1,0 +1,47 @@
+{
+	title: "仪式",
+	icon: "naturesaura:token_fear",
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"玩家开始举行仪式。"
+	],
+	dependencies: [
+		"633b365b"
+	],
+	tasks: [{
+		uid: "21623a56",
+		type: "item",
+		items: [{
+			item: "naturesaura:wood_stand"
+		}],
+		count: 8L
+	},
+	{
+		uid: "1b8791c3",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_powder"
+		}],
+		count: 16L
+	},
+	{
+		uid: "3e53ff73",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling"
+		}]
+	},
+	{
+		uid: "abf8f7d8",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_fear"
+		}]
+	}],
+	rewards: [{
+		uid: "11b28084",
+		type: "ftbmoney:money",
+		ftb_money: 1400L
+	}]
+}

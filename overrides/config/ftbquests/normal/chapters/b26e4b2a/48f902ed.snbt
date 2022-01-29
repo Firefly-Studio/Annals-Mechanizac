@@ -1,0 +1,82 @@
+{
+	title: "分离#1",
+	icon: "appliedenergistics2:quartz_vibrant_glass",
+	x: 3.5d,
+	y: -3.0d,
+	dependencies: [
+		"ea178638"
+	],
+	tasks: [{
+		uid: "033a30e4",
+		type: "item",
+		items: [{
+			item: "modularcontroller:liquidsp_controller"
+		}]
+	},
+	{
+		uid: "aad288f6",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 4L
+	},
+	{
+		uid: "aa3a6c43",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidoutputhatch"
+		}]
+	},
+	{
+		uid: "72e7aa90",
+		type: "item",
+		items: [{
+			item: "minecraft:glass_pane"
+		}],
+		count: 20L
+	},
+	{
+		uid: "e6a8b639",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 5L
+	},
+	{
+		uid: "cb5c246d",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_bars"
+		}],
+		count: 4L
+	},
+	{
+		uid: "a8cbb5e7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	},
+	{
+		uid: "ee8c212e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:quartz_vibrant_glass"
+		}],
+		count: 3L
+	},
+	{
+		uid: "a8ed7f7a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "114a0e42",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

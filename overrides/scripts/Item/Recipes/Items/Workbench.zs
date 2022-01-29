@@ -118,7 +118,32 @@ val shapedMirroredRecipes as IIngredient[][][IItemStack] = {
         [null,<ore:ingotSteel>,<ore:ingotSteel>],
         [null,<ore:gearGold>,null],
         [null,<ore:ingotSteel>,null]
+    ],
+    <modularmachinery:blockcasing:4>*4:
+    [
+        [<ore:blockRefinedObsidian>,<ore:ingotRefinedObsidian>,<ore:blockRefinedObsidian>],
+        [<ore:gemEmerald>,<modularmachinery:blockcasing>,<ore:gemEmerald>],
+        [<ore:alloyElite>,<ore:ingotRefinedGlowstone>,<ore:alloyElite>]
+    ],
+    <minecraft:written_book>.withTag({pages: ["{\"text\":\"生 万物盛景\\n死 尽眼凋零\\n望 筑起文明\\n闻 颂词环萦\\n\\n无人知是何因\\n相继跪拜匍匐着前进\\n容装血红的心\\n却欲将所有事物洗净\\n\\n忏悔的钟声又鸣\\n是否能再见黎明\"}", "{\"text\":\"祈祷的人\\n蜂拥而行\\n静候着 天罚降临\\n\\n世人难言\\n何方归去\\n只注视 无光红日\\n\\n或是观测 或被观测\\n沙盘之中塑造的什么\\n亦是存活 亦被存活\\n无法掌控何处为自我\"}"],author: "Unknow", title: "颂词", resolved: 1 as byte}):
+    [
+        [null,<minecraft:red_flower>,null],
+        [<minecraft:red_flower>,<quark:black_ash>,<minecraft:red_flower>],
+        [null,<minecraft:red_flower>,null]
+    ],
+    <modularcontroller:mobaltar_controller>:
+    [
+        [null,<naturesaura:infused_iron_block>,null],
+        [<naturesaura:sky_ingot>,<ore:circuitUltimate>,<naturesaura:sky_ingot>],
+        [null,<naturesaura:infused_iron_block>,null]
+    ],
+    <modularcontroller:liquidsp_controller>:
+    [
+        [<naturesaura:sky_ingot>,null,<naturesaura:sky_ingot>],
+        [<buildcraftfactory:tank>,<ore:circuitUltimate>,<buildcraftfactory:tank>],
+        [null,<naturesaura:infused_iron_block>,null]
     ]
+
 };
 val shapedLessRecipes as IIngredient[][IItemStack] = {
     <contenttweaker:meatstew>:
@@ -185,6 +210,9 @@ val shapedLessRecipes as IIngredient[][IItemStack] = {
     ,
     <natura:edibles:11>:
         [<ore:blockCactus>]
+    ,
+    <xnet:netcable>*12:
+        [<ore:ingotOsmium>,<ore:itemSilicon>]
 };
 
 for item, ingredients in shapedMirroredRecipes{

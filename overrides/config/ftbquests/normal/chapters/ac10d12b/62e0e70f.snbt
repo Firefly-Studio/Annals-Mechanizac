@@ -1,0 +1,37 @@
+{
+	title: "剧变#0",
+	icon: "betternether:eye_seed",
+	x: -2.0d,
+	y: -0.5d,
+	text: [
+		"上层地狱岩伸出眼睛注视一切。"
+	],
+	dependencies: [
+		"e7cb5014"
+	],
+	optional: true,
+	tasks: [{
+		uid: "dfef9782",
+		type: "item",
+		items: [{
+			item: "betternether:eye_seed"
+		}]
+	},
+	{
+		uid: "6578ef2f",
+		type: "item",
+		items: [{
+			item: "minecraft:slime_ball"
+		}]
+	}],
+	rewards: [{
+		uid: "8615b39a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "43242401",
+		type: "item",
+		item: "minecraft:diamond_block"
+	}]
+}

@@ -1,0 +1,102 @@
+{
+	title: "熔炼",
+	icon: "minecraft:gunpowder",
+	x: 0.5d,
+	y: -1.5d,
+	text: [
+		"玩家开始提取材料。"
+	],
+	dependencies: [
+		"289d4ae9"
+	],
+	tasks: [{
+		uid: "a33d5cbb",
+		type: "item",
+		items: [{
+			item: "modularcontroller:blastfurnace_controller"
+		}]
+	},
+	{
+		uid: "ab535a50",
+		type: "item",
+		title: "实际应为144个",
+		items: [{
+			item: "betternether:cincinnasite_forged"
+		}],
+		count: 64L
+	},
+	{
+		uid: "e8f67a15",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 2"
+		}],
+		count: 6L
+	},
+	{
+		uid: "4d1ef4bf",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch"
+		}]
+	},
+	{
+		uid: "54eb0674",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any slabStone"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "slabStone"
+				}
+			}
+		}],
+		count: 24L
+	},
+	{
+		uid: "e6104be5",
+		type: "item",
+		items: [{
+			item: "trapcraft:fan"
+		}]
+	},
+	{
+		uid: "b13a0ddb",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "0b7a8c89",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "1b5c1b68",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	},
+	{
+		uid: "15fe6dd6",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "27a34750",
+		type: "ftbmoney:money",
+		ftb_money: 700L
+	}]
+}

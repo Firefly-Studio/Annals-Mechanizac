@@ -1,5 +1,6 @@
 {
 	title: "Fatal Error",
+	icon: "bno:ore_nethergold",
 	x: 2.0d,
 	y: -2.0d,
 	description: "点击查看全文",

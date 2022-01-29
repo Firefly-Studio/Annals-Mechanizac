@@ -1,0 +1,31 @@
+{
+	title: "闯入",
+	icon: "minecraft:skull 1 5",
+	x: 1.0d,
+	y: 0.0d,
+	text: [
+		"无资料。"
+	],
+	dependencies: [
+		"c87156a0"
+	],
+	tasks: [{
+		uid: "9ba1e783",
+		type: "item",
+		items: [{
+			item: "contenttweaker:pearl_orange"
+		}]
+	},
+	{
+		uid: "cf8f14b5",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "ae945c4e",
+		type: "ftbmoney:money",
+		ftb_money: 1200L
+	}]
+}

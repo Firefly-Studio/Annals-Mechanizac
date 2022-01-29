@@ -1,0 +1,21 @@
+{
+	title: "升级",
+	icon: "grapplemod:repeller",
+	x: 2.0d,
+	y: -3.0d,
+	dependencies: [
+		"a1234156"
+	],
+	tasks: [{
+		uid: "e85022f7",
+		type: "item",
+		items: [{
+			item: "modularcontroller:blastfurnaceplus_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "c20fd391",
+		type: "ftbmoney:money",
+		ftb_money: 700L
+	}]
+}

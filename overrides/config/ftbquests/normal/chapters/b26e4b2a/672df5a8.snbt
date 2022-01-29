@@ -1,0 +1,28 @@
+{
+	title: "防卫#2",
+	icon: "openmodularturrets:grenade_turret",
+	x: 4.0d,
+	y: -1.0d,
+	dependencies: [
+		"ea178638"
+	],
+	optional: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "d8c09d71",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:turret_base 1 2"
+		}]
+	},
+	{
+		uid: "1bbf06d7",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:grenade_turret"
+		},
+		{
+			item: "openmodularturrets:relativistic_turret"
+		}]
+	}]
+}

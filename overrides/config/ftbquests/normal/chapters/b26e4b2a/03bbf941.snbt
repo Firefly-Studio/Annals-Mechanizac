@@ -1,0 +1,25 @@
+{
+	title: "观测",
+	x: 2.5d,
+	y: 2.5d,
+	text: [
+		"玩家开始设法观测灵气的存在。"
+	],
+	dependencies: [
+		"4f669306"
+	],
+	tasks: [{
+		uid: "25c2c775",
+		type: "item",
+		items: [{
+			item: "naturesaura:eye"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0b2b6bbd",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

@@ -16,6 +16,11 @@
             "type":"spotlight",
             "item":"mod_lavacow:intestine",
             "text":"粘土和种子等可以通过右键肠子开出来。"
+        },
+        {
+            "type":"spotlight",
+            "item":"appliedenergistics2:sky_stone_block",
+            "text":"将黑曜石丢入丛乱转化机即可。"
         }
     ]
 }

@@ -1,0 +1,15 @@
+{
+	title: "异变",
+	x: 2.5d,
+	y: -0.5d,
+	dependencies: [
+		"e0b5437d"
+	],
+	tasks: [{
+		uid: "07686b2f",
+		type: "item",
+		items: [{
+			item: "gb:gobber_ore3"
+		}]
+	}]
+}

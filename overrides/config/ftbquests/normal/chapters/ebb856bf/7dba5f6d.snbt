@@ -1,0 +1,27 @@
+{
+	title: "乳蓄业",
+	icon: "mod_lavacow:moltenbeef",
+	x: 3.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "5069d99c",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:moltenbeef"
+		}]
+	},
+	{
+		uid: "85ff9c93",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:potion_of_mooten_lava"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "33f74df5",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

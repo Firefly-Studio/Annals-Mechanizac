@@ -1,0 +1,28 @@
+{
+	title: "仿物",
+	icon: "minecraft:water_bucket",
+	x: -1.0d,
+	y: 1.0d,
+	text: [
+		"玩家企图仿制水。"
+	],
+	dependencies: [
+		"f1bca9d6"
+	],
+	tasks: [{
+		uid: "a445ca18",
+		type: "fluid",
+		fluid: "coolliquid"
+	}],
+	rewards: [{
+		uid: "ed369d7c",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "e7dc8fbb",
+		type: "item",
+		item: "minecraft:bread",
+		count: 32
+	}]
+}

@@ -1,0 +1,106 @@
+{
+	title: "灌注",
+	icon: "naturesaura:infused_iron",
+	x: 1.0d,
+	y: 2.5d,
+	text: [
+		"玩家将灵气灌注到材料中。"
+	],
+	dependencies: [
+		"773d3094"
+	],
+	optional: true,
+	tasks: [{
+		uid: "fd067b33",
+		type: "item",
+		items: [{
+			item: "naturesaura:infused_iron_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "45488248",
+		type: "item",
+		items: [{
+			item: "naturesaura:infused_iron_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a09bcb03",
+		type: "item",
+		items: [{
+			item: "naturesaura:infused_iron_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "714e355e",
+		type: "item",
+		items: [{
+			item: "naturesaura:infused_iron_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "11743a0c",
+		type: "item",
+		items: [{
+			item: "naturesaura:infused_iron_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "566cf5f3",
+		type: "item",
+		items: [{
+			item: "naturesaura:infused_iron_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "026e3e38",
+		type: "item",
+		items: [{
+			item: "naturesaura:infused_iron_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "61433a0f",
+		type: "item",
+		items: [{
+			item: "naturesaura:infused_iron_pants"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "383db497",
+		type: "item",
+		items: [{
+			item: "naturesaura:infused_iron_shoes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ef42efed",
+		type: "item",
+		items: [{
+			item: "naturesaura:infused_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "ab0d7103",
+		type: "ftbmoney:money",
+		ftb_money: 1200L
+	}]
+}

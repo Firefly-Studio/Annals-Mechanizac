@@ -11,24 +11,9 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Annals",
-  "version": "D0A5R1F0",
+  "version": "D0A5R2F0",
   "author": "",
   "files": [
-    {
-      "projectID": 264353,
-      "fileID": 2508268,
-      "required": true
-    },
-    {
-      "projectID": 278494,
-      "fileID": 3327893,
-      "required": true
-    },
-    {
-      "projectID": 225928,
-      "fileID": 2445809,
-      "required": true
-    },
     {
       "projectID": 297438,
       "fileID": 3443097,
@@ -221,12 +206,7 @@
     },
     {
       "projectID": 401178,
-      "fileID": 3598337,
-      "required": true
-    },
-    {
-      "projectID": 357178,
-      "fileID": 3437402,
+      "fileID": 3627721,
       "required": true
     },
     {
@@ -560,6 +540,11 @@
       "required": true
     },
     {
+      "projectID": 264353,
+      "fileID": 2508268,
+      "required": true
+    },
+    {
       "projectID": 291090,
       "fileID": 2598727,
       "required": true
@@ -590,8 +575,8 @@
       "required": true
     },
     {
-      "projectID": 410295,
-      "fileID": 3593191,
+      "projectID": 225928,
+      "fileID": 2445809,
       "required": true
     },
     {
@@ -791,7 +776,7 @@
     },
     {
       "projectID": 257814,
-      "fileID": 3537907,
+      "fileID": 3626833,
       "required": true
     },
     {
@@ -802,11 +787,6 @@
     {
       "projectID": 232758,
       "fileID": 3159497,
-      "required": true
-    },
-    {
-      "projectID": 60089,
-      "fileID": 2671937,
       "required": true
     },
     {
@@ -907,6 +887,11 @@
     {
       "projectID": 326950,
       "fileID": 2739435,
+      "required": true
+    },
+    {
+      "projectID": 278494,
+      "fileID": 3327893,
       "required": true
     },
     {

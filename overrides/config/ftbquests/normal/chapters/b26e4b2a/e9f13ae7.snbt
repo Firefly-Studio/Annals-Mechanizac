@@ -1,0 +1,36 @@
+{
+	title: "灵气",
+	icon: {
+		id: "patchouli:guide_book",
+		tag: {
+			"patchouli:book": "naturesaura:book"
+		}
+	},
+	x: -2.5d,
+	y: 0.0d,
+	text: [
+		"玩家感知到了灵气。"
+	],
+	dependencies: [
+		"eae3bda3"
+	],
+	tasks: [{
+		uid: "fc598158",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_fiber"
+		}]
+	},
+	{
+		uid: "85ce9d98",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_leaf"
+		}]
+	}],
+	rewards: [{
+		uid: "89644991",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

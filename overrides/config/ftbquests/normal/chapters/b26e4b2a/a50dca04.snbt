@@ -1,0 +1,31 @@
+{
+	title: "折跃",
+	icon: "mekanism:teleportationcore",
+	x: -0.5d,
+	y: -4.0d,
+	text: [
+		"年鉴中没有这一条。"
+	],
+	dependencies: [
+		"312eb71d"
+	],
+	tasks: [{
+		uid: "ef3400c2",
+		type: "item",
+		items: [{
+			item: "portality:controller"
+		}]
+	},
+	{
+		uid: "c012eb96",
+		type: "item",
+		items: [{
+			item: "portality:frame"
+		}]
+	}],
+	rewards: [{
+		uid: "8bcb58dc",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

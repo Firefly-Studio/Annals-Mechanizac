@@ -1,0 +1,25 @@
+{
+	title: "祭坛",
+	x: 1.0d,
+	y: -1.0d,
+	text: [
+		"玩家搭建了祭坛。"
+	],
+	dependencies: [
+		"a9de79a1"
+	],
+	tasks: [{
+		uid: "1c8136d9",
+		type: "item",
+		title: "刷新于祭坛遗迹。",
+		items: [{
+			item: "minecraft:end_portal_frame"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "66307504",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

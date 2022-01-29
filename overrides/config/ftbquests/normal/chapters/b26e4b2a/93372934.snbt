@@ -1,0 +1,33 @@
+{
+	title: "献祭",
+	icon: "naturesaura:offering_table",
+	x: 3.0d,
+	y: 1.5d,
+	text: [
+		"玩家开始献祭。"
+	],
+	dependencies: [
+		"4f669306",
+		"773d3094"
+	],
+	tasks: [{
+		uid: "d3199c00",
+		type: "item",
+		items: [{
+			item: "naturesaura:offering_table"
+		}]
+	},
+	{
+		uid: "68cafb25",
+		type: "item",
+		items: [{
+			item: "betternether:egg_plant"
+		}],
+		count: 36L
+	}],
+	rewards: [{
+		uid: "3182955f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

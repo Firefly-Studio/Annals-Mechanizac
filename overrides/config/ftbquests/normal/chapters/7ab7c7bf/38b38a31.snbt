@@ -1,0 +1,23 @@
+{
+	title: "旧主",
+	icon: "minecraft:bone",
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"玩家因骷髅王的降临陷入了一场浩劫。"
+	],
+	dependencies: [
+		"c87156a0"
+	],
+	tasks: [{
+		uid: "5b5d6737",
+		type: "kill",
+		entity: "mod_lavacow:skeletonking",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "56cee9cf",
+		type: "ftbmoney:money",
+		ftb_money: 1200L
+	}]
+}

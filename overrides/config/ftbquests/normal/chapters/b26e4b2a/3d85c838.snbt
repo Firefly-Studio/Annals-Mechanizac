@@ -1,0 +1,48 @@
+{
+	title: "网络",
+	icon: "xnet:controller",
+	x: 1.5d,
+	y: 0.0d,
+	text: [
+		"玩家发明了网络，可以更高效地传输一切。"
+	],
+	dependencies: [
+		"a1234156"
+	],
+	tasks: [{
+		uid: "8310e672",
+		type: "item",
+		items: [{
+			id: "xnet:netcable",
+			tag: {
+				display: {
+					LocName: "tile.xnet.netcable_blue.name"
+				}
+			}
+		}]
+	},
+	{
+		uid: "2a3ee1fc",
+		type: "item",
+		items: [{
+			id: "xnet:connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.connector_blue.name"
+				}
+			}
+		}]
+	},
+	{
+		uid: "8c61f367",
+		type: "item",
+		items: [{
+			item: "xnet:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "629e376c",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

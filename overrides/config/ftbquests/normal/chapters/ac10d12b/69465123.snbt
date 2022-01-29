@@ -1,0 +1,63 @@
+{
+	title: "初醒",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"因未知力量干扰，玩家被迫在下界出生。"
+	],
+	tasks: [{
+		uid: "3781ee46",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "c45a0247",
+		type: "ftbmoney:money",
+		ftb_money: 1200L
+	},
+	{
+		uid: "be069c65",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "patchouli:help"
+			}
+		}
+	},
+	{
+		uid: "73043207",
+		type: "item",
+		item: "opencomputers:tool 1 4"
+	},
+	{
+		uid: "526cdddd",
+		type: "item",
+		item: "xnet:xnet_manual"
+	},
+	{
+		uid: "14f522de",
+		type: "item",
+		item: "openblocks:info_book"
+	},
+	{
+		uid: "9e16ce1d",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "naturesaura:book"
+			}
+		}
+	},
+	{
+		uid: "a3a829d6",
+		type: "item",
+		item: "improvableskills:skills_book"
+	},
+	{
+		uid: "b28a1aa5",
+		type: "item",
+		item: "ftbquests:book"
+	}]
+}

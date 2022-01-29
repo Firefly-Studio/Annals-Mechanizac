@@ -1,0 +1,29 @@
+{
+	title: "尘烬",
+	icon: "minecraft:deadbush",
+	x: 1.0d,
+	y: -2.5d,
+	text: [
+		"无资料。"
+	],
+	dependencies: [
+		"c87156a0"
+	],
+	tasks: [{
+		uid: "4cd1cd74",
+		type: "item",
+		items: [{
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "dungeonmobs:dmeldermob"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "279cd5a6",
+		type: "ftbmoney:money",
+		ftb_money: 1400L
+	}]
+}

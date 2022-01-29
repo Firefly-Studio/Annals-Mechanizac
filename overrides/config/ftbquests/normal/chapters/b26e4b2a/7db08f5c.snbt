@@ -1,0 +1,23 @@
+{
+	title: "创造",
+	x: 6.5d,
+	y: -2.5d,
+	text: [
+		"智者遗物。"
+	],
+	dependencies: [
+		"ea178638"
+	],
+	tasks: [{
+		uid: "53a28c5f",
+		type: "item",
+		items: [{
+			item: "openblocks:info_book"
+		}]
+	}],
+	rewards: [{
+		uid: "32bdbbe5",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "升级#4",
+	x: 5.0d,
+	y: 0.5d,
+	text: [
+		"玩家掌握的配方因指引升级。"
+	],
+	dependencies: [
+		"3845e376"
+	],
+	optional: true,
+	tasks: [{
+		uid: "7a50808b",
+		type: "item",
+		items: [{
+			item: "mekanismtools:glowstonepaxel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "87077156",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "升级#6",
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"玩家掌握的配方因指引升级。"
+	],
+	dependencies: [
+		"3845e376"
+	],
+	optional: true,
+	tasks: [{
+		uid: "6c164ea2",
+		type: "item",
+		items: [{
+			item: "mekanismtools:osmiumpaxel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "49a234ba",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

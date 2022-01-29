@@ -2,7 +2,7 @@
 {
     "registryname": "s_power_machine",
     "localizedname": "物质到能量转化机",
-    "color": "FFC125",
+    "color": "4B0082",
     "parts": [
         {
             "x": -1,

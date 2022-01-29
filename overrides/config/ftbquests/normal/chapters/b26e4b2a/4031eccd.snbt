@@ -1,0 +1,31 @@
+{
+	title: "充能",
+	icon: "appliedenergistics2:material 1 1",
+	x: 1.0d,
+	y: -4.0d,
+	text: [
+		"年鉴中没有这一条。"
+	],
+	dependencies: [
+		"ea178638"
+	],
+	tasks: [{
+		uid: "3c2c309c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 1"
+		}]
+	},
+	{
+		uid: "0b9edce4",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:charger"
+		}]
+	}],
+	rewards: [{
+		uid: "1832e9cd",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

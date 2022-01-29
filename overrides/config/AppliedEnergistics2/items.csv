@@ -3171,9 +3171,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - 远古海晶石
 appliedenergistics2:facade:0, 线缆伪装板 - 远古海晶灯
 appliedenergistics2:facade:0, 线缆伪装板 - 荧光菌丝
 appliedenergistics2:facade:0, 线缆伪装板 - 荧光菇
-appliedenergistics2:facade:0, 线缆伪装板 - 糖块
-appliedenergistics2:facade:0, 线缆伪装板 - 红色粘液块
-appliedenergistics2:facade:0, 线缆伪装板 - 末影沙
 appliedenergistics2:facade:0, 线缆伪装板 - 磨制砂岩
 appliedenergistics2:facade:0, 线缆伪装板 - 磨制石头
 appliedenergistics2:facade:0, 线缆伪装板 - 白色染色木板
@@ -3202,11 +3199,12 @@ appliedenergistics2:facade:0, 线缆伪装板 - 灵魂砂岩
 appliedenergistics2:facade:0, 线缆伪装板 - 草块
 appliedenergistics2:facade:0, 线缆伪装板 - 熔铸石
 appliedenergistics2:facade:0, 线缆伪装板 - 白色缝线羊毛
+appliedenergistics2:facade:0, 线缆伪装板 - 糖块
+appliedenergistics2:facade:0, 线缆伪装板 - 红色粘液块
+appliedenergistics2:facade:0, 线缆伪装板 - 末影沙
 appliedenergistics2:facade:0, 线缆伪装板 - 云杉木书架
 appliedenergistics2:facade:0, 线缆伪装板 - 点亮的红石灯
 appliedenergistics2:facade:0, 线缆伪装板 - 烈焰灯
-appliedenergistics2:facade:0, 线缆伪装板 - 铜块
-appliedenergistics2:facade:0, 线缆伪装板 - 锡块
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Emerald Ore
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Diamond Ore
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Redstone Ore
@@ -3216,6 +3214,8 @@ appliedenergistics2:facade:0, 线缆伪装板 - Nether Gold Ore
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Iron Ore
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Copper Ore
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Tin Ore
+appliedenergistics2:facade:0, 线缆伪装板 - 铜块
+appliedenergistics2:facade:0, 线缆伪装板 - 锡块
 appliedenergistics2:facade:0, 线缆伪装板 - tile.dungeonmobs.lavarock.name
 appliedenergistics2:facade:0, 线缆伪装板 - 萤光蕈柄
 appliedenergistics2:facade:0, 线缆伪装板 - 萤光蕈伞
@@ -3632,6 +3632,23 @@ appliedenergistics2:part:220, ME存储总线
 appliedenergistics2:part:400, ME存储监控器
 appliedenergistics2:part:380, ME终端
 appliedenergistics2:part:80, ME触发总线
+quark:glass_shards:0, 玻璃碎片
+quark:glass_shards:1, 白色玻璃碎片
+quark:glass_shards:2, 橙色玻璃碎片
+quark:glass_shards:3, 品红色玻璃碎片
+quark:glass_shards:4, 淡蓝色玻璃碎片
+quark:glass_shards:5, 黄色玻璃碎片
+quark:glass_shards:6, 黄绿色玻璃碎片
+quark:glass_shards:7, 粉红色玻璃碎片
+quark:glass_shards:8, 灰色玻璃碎片
+quark:glass_shards:9, 淡灰色玻璃碎片
+quark:glass_shards:10, 青色玻璃碎片
+quark:glass_shards:11, 紫色玻璃碎片
+quark:glass_shards:12, 蓝色玻璃碎片
+quark:glass_shards:13, 棕色玻璃碎片
+quark:glass_shards:14, 绿色玻璃碎片
+quark:glass_shards:15, 红色玻璃碎片
+quark:glass_shards:16, 黑色玻璃碎片
 quark:roots, tile.roots.name
 quark:root, item.root.name
 quark:roots_blue_flower, tile.roots_blue_flower.name
@@ -3756,23 +3773,7 @@ quark:glowshroom, tile.glowshroom.name
 quark:glowshroom_block, tile.glowshroom_block.name
 quark:soul_bead, item.soul_bead.name
 quark:smoker, 烟口
-quark:chute, 滑槽漏斗
-quark:sugar_block, tile.sugar_block.name
-quark:redstone_randomizer, tile.redstone_randomizer.name
-quark:iron_button, tile.iron_button.name
-quark:gold_button, tile.gold_button.name
-quark:ender_watcher, tile.ender_watcher.name
-quark:iron_rod, tile.iron_rod.name
-quark:color_slime:0, 红色粘液块
-quark:color_slime:1, 蓝色粘液块
-quark:color_slime:2, 青色粘液块
-quark:color_slime:3, 品红色粘液块
-quark:color_slime:4, 黄色粘液块
-quark:gravisand, tile.gravisand.name
-quark:redstone_inductor, tile.redstone_inductor.name
-quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
-quark:rain_detector, tile.rain_detector.name
-quark:chain, item.chain.name
+quark:witch_hat, item.witch_hat.name
 quark:pickarang, item.pickarang.name
 quark:arrow_ender, item.arrow_ender.name
 quark:arrow_explosive, item.arrow_explosive.name
@@ -4125,24 +4126,23 @@ quark:quilted_wool:12, 棕色缝线羊毛
 quark:quilted_wool:13, 绿色缝线羊毛
 quark:quilted_wool:14, 红色缝线羊毛
 quark:quilted_wool:15, 黑色缝线羊毛
-quark:witch_hat, item.witch_hat.name
-quark:glass_shards:0, 玻璃碎片
-quark:glass_shards:1, 白色玻璃碎片
-quark:glass_shards:2, 橙色玻璃碎片
-quark:glass_shards:3, 品红色玻璃碎片
-quark:glass_shards:4, 淡蓝色玻璃碎片
-quark:glass_shards:5, 黄色玻璃碎片
-quark:glass_shards:6, 黄绿色玻璃碎片
-quark:glass_shards:7, 粉红色玻璃碎片
-quark:glass_shards:8, 灰色玻璃碎片
-quark:glass_shards:9, 淡灰色玻璃碎片
-quark:glass_shards:10, 青色玻璃碎片
-quark:glass_shards:11, 紫色玻璃碎片
-quark:glass_shards:12, 蓝色玻璃碎片
-quark:glass_shards:13, 棕色玻璃碎片
-quark:glass_shards:14, 绿色玻璃碎片
-quark:glass_shards:15, 红色玻璃碎片
-quark:glass_shards:16, 黑色玻璃碎片
+quark:chute, 滑槽漏斗
+quark:sugar_block, tile.sugar_block.name
+quark:redstone_randomizer, tile.redstone_randomizer.name
+quark:iron_button, tile.iron_button.name
+quark:gold_button, tile.gold_button.name
+quark:ender_watcher, tile.ender_watcher.name
+quark:iron_rod, tile.iron_rod.name
+quark:color_slime:0, 红色粘液块
+quark:color_slime:1, 蓝色粘液块
+quark:color_slime:2, 青色粘液块
+quark:color_slime:3, 品红色粘液块
+quark:color_slime:4, 黄色粘液块
+quark:gravisand, tile.gravisand.name
+quark:redstone_inductor, tile.redstone_inductor.name
+quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
+quark:rain_detector, tile.rain_detector.name
+quark:chain, item.chain.name
 quark:spruce_trapdoor, tile.spruce_trapdoor.name
 quark:birch_trapdoor, tile.birch_trapdoor.name
 quark:jungle_trapdoor, tile.jungle_trapdoor.name
@@ -5107,6 +5107,7 @@ modularcontroller:e_mineral_crusher_controller, 流体中子
 modularcontroller:iomachine_controller, 流体中子
 modularcontroller:j_mineral_crusher_controller, 流体中子
 modularcontroller:j_power_machine_controller, 流体中子
+modularcontroller:liquidsp_controller, 流体中子
 modularcontroller:separator_controller, 流体中子
 modularcontroller:s_power_machine_controller, 流体中子
 modularcontroller:transport_controller, 流体中子
@@ -5509,13 +5510,13 @@ portality:creative_creator, 创造制造者
 tenshilib:ignore, Structure Ignore
 tenshilib:structure_piece, Structure Piece
 tenshilib:breakable_barrier, tile.tenshilib:breakable_barrier.name
-trapcraft:igniter_range, Igniter Range Upgrade
 trapcraft:magnetic_chest, Magnetic Chest
 trapcraft:grass_covering, Grass Covering
 trapcraft:fan, Fan
 trapcraft:bear_trap, Trap
 trapcraft:spikes, Spikes
 trapcraft:igniter, Igniter
+trapcraft:igniter_range, Igniter Range Upgrade
 travelersbackpack:travelers_backpack:0, 旅行者背包
 travelersbackpack:travelers_backpack:1, 旅行者背包
 travelersbackpack:travelers_backpack:2, 旅行者背包

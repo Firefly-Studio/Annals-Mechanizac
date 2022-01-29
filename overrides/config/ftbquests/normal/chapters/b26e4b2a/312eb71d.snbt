@@ -1,0 +1,66 @@
+{
+	title: "进阶",
+	icon: "mekanism:dust",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"玩家发挥自己的智慧设计并搭建出了矿物粉碎机。"
+	],
+	dependencies: [
+		"eae3bda3"
+	],
+	tasks: [{
+		uid: "1edffc61",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch"
+		}]
+	},
+	{
+		uid: "89fe337e",
+		type: "item",
+		items: [{
+			item: "modularcontroller:j_mineral_crusher_controller"
+		}]
+	},
+	{
+		uid: "b5ae63e1",
+		type: "item",
+		items: [{
+			item: "betternether:cincinnasite_forged"
+		}],
+		count: 22L
+	},
+	{
+		uid: "ba7befcf",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 3"
+		}]
+	},
+	{
+		uid: "690c3037",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "0093c51e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	}],
+	rewards: [{
+		uid: "81788ee6",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	},
+	{
+		uid: "d1a8bc7d",
+		type: "item",
+		item: "minecraft:diamond_ore",
+		count: 12
+	}]
+}

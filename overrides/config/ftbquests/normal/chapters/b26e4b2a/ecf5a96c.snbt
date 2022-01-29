@@ -1,0 +1,33 @@
+{
+	title: "防卫#4",
+	icon: "openmodularturrets:rocket_turret",
+	x: 5.5d,
+	y: -1.5d,
+	dependencies: [
+		"ea178638"
+	],
+	optional: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "34a3801c",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:turret_base 1 3"
+		}]
+	},
+	{
+		uid: "146b3758",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:rocket_turret"
+		},
+		{
+			item: "openmodularturrets:teleporter_turret"
+		}]
+	}],
+	rewards: [{
+		uid: "2e9a718c",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

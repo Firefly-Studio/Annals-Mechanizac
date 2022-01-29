@@ -7,12 +7,14 @@ import crafttweaker.oredict.IOreDictEntry;
 var thejunior as IOreDictEntry[string]={
     "coal":<ore:itemCoal>,
     "charCoal":<ore:itemCharcoal>,
-    "gemDiamond":<ore:gemDiamond>
+    "gemDiamond":<ore:gemDiamond>,
+    "meat":<ore:firedMeat>
 };
 var thejuniorEnOutnum as int[string]={
     "coal":159,
     "charCoal":159,
-    "gemDiamond":250
+    "gemDiamond":250,
+    "meat":300
 };
 function burnIt(name as string,input as IOreDictEntry,num as int){
     RecipeBuilder.newBuilder("j_powermachine_"~name, "j_power_machine", 800).addEnergyPerTickOutput(num).addItemInput(input).build();

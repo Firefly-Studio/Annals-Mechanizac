@@ -33,17 +33,6 @@
 		command: "/effect @p minecraft:resistance 400"
 	},
 	{
-		uid: "568a6d69",
-		type: "item",
-		auto: "disabled",
-		item: {
-			id: "patchouli:guide_book",
-			tag: {
-				"patchouli:book": "patchouli:help"
-			}
-		}
-	},
-	{
 		uid: "6a6d1ff7",
 		type: "item",
 		item: {
@@ -59,10 +48,5 @@
 		uid: "dc8e4dd4",
 		type: "ftbmoney:money",
 		ftb_money: 1200L
-	},
-	{
-		uid: "e40f2556",
-		type: "item",
-		item: "xnet:xnet_manual"
 	}]
 }

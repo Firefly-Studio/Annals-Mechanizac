@@ -1,0 +1,46 @@
+{
+	title: "迈步",
+	icon: "minecraft:wooden_axe",
+	x: 0.0d,
+	y: -1.0d,
+	text: [
+		"玩家此时依靠以往的经验游戏是不可能的。"
+	],
+	dependencies: [
+		"69465123"
+	],
+	tasks: [{
+		uid: "722228a5",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "plankWood"
+				}
+			}
+		}],
+		count: 4L
+	},
+	{
+		uid: "14c41cd4",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b3eb307c",
+		type: "item",
+		item: "gb:glob_bread",
+		count: 10
+	}]
+}

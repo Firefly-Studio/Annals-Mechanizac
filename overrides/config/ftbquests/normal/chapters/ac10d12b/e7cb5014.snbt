@@ -1,0 +1,37 @@
+{
+	title: "向阳",
+	icon: "minecraft:torch",
+	x: -1.0d,
+	y: 0.0d,
+	text: [
+		"玩家需要光，植物亦需要。"
+	],
+	dependencies: [
+		"df1f9d4a"
+	],
+	tasks: [{
+		uid: "3deaa400",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:intestine"
+		}]
+	},
+	{
+		uid: "ee196de8",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "65b311e2",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 64
+	},
+	{
+		uid: "b2689983",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

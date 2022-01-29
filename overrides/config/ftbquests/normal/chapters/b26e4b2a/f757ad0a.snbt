@@ -1,0 +1,21 @@
+{
+	title: "升级",
+	icon: "gb:foo2",
+	x: 0.5d,
+	y: -3.0d,
+	dependencies: [
+		"289d4ae9"
+	],
+	tasks: [{
+		uid: "69236a3d",
+		type: "item",
+		items: [{
+			item: "modularcontroller:s_power_machine_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "f70da6bb",
+		type: "ftbmoney:money",
+		ftb_money: 700L
+	}]
+}

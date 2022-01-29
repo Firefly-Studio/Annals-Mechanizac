@@ -1,0 +1,23 @@
+{
+	title: "力场",
+	x: 4.0d,
+	y: 2.5d,
+	text: [
+		"玩家开始运用灵气力量。"
+	],
+	dependencies: [
+		"93372934"
+	],
+	tasks: [{
+		uid: "85fa49bf",
+		type: "item",
+		items: [{
+			item: "naturesaura:field_creator"
+		}]
+	}],
+	rewards: [{
+		uid: "d15ab6a1",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

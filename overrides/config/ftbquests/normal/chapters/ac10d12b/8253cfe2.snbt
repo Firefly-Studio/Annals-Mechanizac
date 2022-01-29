@@ -1,0 +1,41 @@
+{
+	title: "原生",
+	icon: "minecraft:nether_wart",
+	x: -2.0d,
+	y: 0.5d,
+	text: [
+		"SGEEEDFASCGRFD"
+	],
+	dependencies: [
+		"2dd3ca89"
+	],
+	optional: true,
+	tasks: [{
+		uid: "318e1a02",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_wart"
+		}]
+	},
+	{
+		uid: "45066312",
+		type: "item",
+		items: [{
+			item: "minecraft:soul_sand"
+		}]
+	},
+	{
+		uid: "03a14058",
+		type: "item",
+		items: [{
+			item: "betternether:stalagnate_bowl_wart"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c6529e7d",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

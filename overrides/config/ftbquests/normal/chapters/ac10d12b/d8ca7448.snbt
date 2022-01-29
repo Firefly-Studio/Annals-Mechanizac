@@ -1,0 +1,26 @@
+{
+	title: "升级#3",
+	x: 5.0d,
+	y: -0.5d,
+	text: [
+		"玩家掌握的配方因指引升级。"
+	],
+	dependencies: [
+		"3845e376"
+	],
+	optional: true,
+	tasks: [{
+		uid: "dcd7cd91",
+		type: "item",
+		items: [{
+			item: "mekanismtools:diamondpaxel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6f116f40",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

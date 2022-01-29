@@ -1,0 +1,25 @@
+{
+	title: "冰凉",
+	x: -2.0d,
+	y: 1.5d,
+	text: [
+		"玩家在冷液里钓鱼。"
+	],
+	dependencies: [
+		"df1f9d4a"
+	],
+	tasks: [{
+		uid: "86b6a52a",
+		type: "item",
+		items: [{
+			item: "minecraft:fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a39ac485",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

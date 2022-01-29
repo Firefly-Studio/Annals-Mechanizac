@@ -1,0 +1,59 @@
+{
+	title: "合成",
+	icon: "appliedenergistics2:crafting_storage_1k",
+	x: 5.5d,
+	y: -4.0d,
+	text: [
+		"年鉴中没有这一条。"
+	],
+	dependencies: [
+		"5c5087fb"
+	],
+	tasks: [{
+		uid: "fe85623c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 360"
+		}]
+	},
+	{
+		uid: "0f9fcbb7",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_unit"
+		}]
+	},
+	{
+		uid: "8efec721",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_1k"
+		}]
+	},
+	{
+		uid: "fa72951a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_monitor"
+		}]
+	},
+	{
+		uid: "bd949d1d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_accelerator"
+		}]
+	},
+	{
+		uid: "fa7a5460",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}]
+	}],
+	rewards: [{
+		uid: "bc0b90a5",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

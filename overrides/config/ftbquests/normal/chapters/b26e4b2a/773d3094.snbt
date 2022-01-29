@@ -1,0 +1,54 @@
+{
+	title: "拟真",
+	icon: "naturesaura:nature_altar",
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		"玩家将技术与灵气结合。"
+	],
+	dependencies: [
+		"e9f13ae7",
+		"9cd20441"
+	],
+	tasks: [{
+		uid: "dcf3c1cd",
+		type: "item",
+		items: [{
+			item: "modularcontroller:altar_controller"
+		}]
+	},
+	{
+		uid: "a5417a42",
+		type: "item",
+		items: [{
+			item: "minecraft:bone_block"
+		}],
+		count: 40L
+	},
+	{
+		uid: "f3c98770",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "f5eff820",
+		type: "item",
+		items: [{
+			item: "modularmagic:blockauraproviderinput"
+		}]
+	},
+	{
+		uid: "0df22ab1",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	}],
+	rewards: [{
+		uid: "1a1b10bb",
+		type: "ftbmoney:money",
+		ftb_money: 800L
+	}]
+}

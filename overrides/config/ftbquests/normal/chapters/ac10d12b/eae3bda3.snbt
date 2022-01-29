@@ -1,0 +1,29 @@
+{
+	title: "地标",
+	x: -1.0d,
+	y: -1.0d,
+	text: [
+		"玩家根据指引做出了地狱的“床”。"
+	],
+	dependencies: [
+		"e7cb5014"
+	],
+	tasks: [{
+		uid: "71752140",
+		type: "item",
+		items: [{
+			item: "natura:respawn_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "b3655ae0",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "35ca7270",
+		type: "item",
+		item: "minecraft:golden_apple 1 1",
+		count: 2
+	}]
+}

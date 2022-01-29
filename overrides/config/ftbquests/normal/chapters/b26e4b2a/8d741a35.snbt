@@ -1,0 +1,18 @@
+{
+	title: "巨树",
+	x: 3.5d,
+	y: 3.5d,
+	text: [
+		"玩家根据指引获取了灵气聚合体的资料。"
+	],
+	dependencies: [
+		"633b365b"
+	],
+	tasks: [{
+		uid: "0fc8cea5",
+		type: "item",
+		items: [{
+			item: "naturesaura:ancient_sapling"
+		}]
+	}]
+}

@@ -1,0 +1,78 @@
+{
+	title: "合并",
+	icon: "mekanism:ingot 1 2",
+	x: 1.5d,
+	y: -2.0d,
+	text: [
+		"玩家开始将材料融合。"
+	],
+	dependencies: [
+		"a1234156"
+	],
+	tasks: [{
+		uid: "8ac91038",
+		type: "item",
+		items: [{
+			item: "modularcontroller:alloy_furnace_controller"
+		}]
+	},
+	{
+		uid: "163eebdf",
+		type: "item",
+		items: [{
+			item: "betternether:cincinnasite_forged"
+		}],
+		count: 8L
+	},
+	{
+		uid: "7b75c2bf",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "8db5370b",
+		type: "item",
+		items: [{
+			item: "betternether:cincinnasite_slab_half"
+		}],
+		count: 2L
+	},
+	{
+		uid: "b211706c",
+		type: "item",
+		items: [{
+			item: "minecraft:lava_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "216d8f4a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 1"
+		}]
+	},
+	{
+		uid: "2cba7f64",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 1"
+		}]
+	},
+	{
+		uid: "f29df9d6",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	}],
+	rewards: [{
+		uid: "7dffbe93",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

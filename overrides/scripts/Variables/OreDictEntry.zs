@@ -16,3 +16,4 @@
 <ore:gemglob1>.add(<gb:glob>);
 <ore:gemglob2>.add(<gb:glob2>);
 <ore:gemglob3>.add(<gb:glob3>);
+<ore:firedMeat>.add(<mod_lavacow:moltenbeef>);

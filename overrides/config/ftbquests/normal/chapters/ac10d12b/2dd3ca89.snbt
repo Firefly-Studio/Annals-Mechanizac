@@ -1,0 +1,46 @@
+{
+	title: "异变",
+	icon: "betternether:cincinnasite",
+	x: 0.0d,
+	y: 1.0d,
+	text: [
+		"玩家对异变的察觉。"
+	],
+	dependencies: [
+		"f1bca9d6"
+	],
+	tasks: [{
+		uid: "0e07dbad",
+		type: "item",
+		items: [{
+			item: "betternether:cincinnasite"
+		}]
+	},
+	{
+		uid: "cd73e202",
+		type: "item",
+		items: [{
+			item: "betternether:cincinnasite_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b2247171",
+		type: "item",
+		items: [{
+			item: "betternether:nether_reed"
+		}]
+	}],
+	rewards: [{
+		uid: "8e1882e0",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	},
+	{
+		uid: "8d4fc0f6",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 2
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "冶炼",
+	x: 1.0d,
+	y: 1.0d,
+	text: [
+		"玩家需要使用材料。"
+	],
+	dependencies: [
+		"f1bca9d6"
+	],
+	tasks: [{
+		uid: "d511def1",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "8f240dbb",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "4d223fc9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

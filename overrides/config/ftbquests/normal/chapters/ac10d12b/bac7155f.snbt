@@ -1,0 +1,31 @@
+{
+	title: "炽热",
+	x: -1.0d,
+	y: 2.0d,
+	text: [
+		"玩家也选择在熔岩里钓鱼。"
+	],
+	dependencies: [
+		"df1f9d4a"
+	],
+	tasks: [{
+		uid: "c117e2f2",
+		type: "item",
+		items: [{
+			item: "combustfish:golden_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6727106f",
+		type: "item",
+		item: "minecraft:fish",
+		count: 16
+	},
+	{
+		uid: "4473a8d5",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

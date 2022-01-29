@@ -1,0 +1,87 @@
+{
+	title: "半导体时代",
+	icon: "opencomputers:storage 1 1",
+	x: -1.5d,
+	y: -3.5d,
+	text: [
+		"年鉴中没有这一条。"
+	],
+	dependencies: [
+		"3d85c838"
+	],
+	tasks: [{
+		uid: "3ee7f4bd",
+		type: "item",
+		items: [{
+			item: "opencomputers:case1"
+		}]
+	},
+	{
+		uid: "e6160b26",
+		type: "item",
+		items: [{
+			item: "opencomputers:component"
+		}]
+	},
+	{
+		uid: "5e4b6139",
+		type: "item",
+		items: [{
+			item: "opencomputers:component 1 6"
+		}]
+	},
+	{
+		uid: "5d2a8dfc",
+		type: "item",
+		items: [{
+			item: "opencomputers:storage 1 1"
+		}]
+	},
+	{
+		uid: "44fb9105",
+		type: "item",
+		items: [{
+			item: "opencomputers:diskdrive"
+		}]
+	},
+	{
+		uid: "7acb7f36",
+		type: "item",
+		items: [{
+			item: "opencomputers:screen1"
+		}]
+	},
+	{
+		uid: "0dfbbb56",
+		type: "item",
+		items: [{
+			item: "opencomputers:card 1 1"
+		}]
+	},
+	{
+		uid: "8ca4926f",
+		type: "item",
+		items: [{
+			item: "opencomputers:card 1 8"
+		}]
+	},
+	{
+		uid: "ddcebe24",
+		type: "item",
+		items: [{
+			item: "opencomputers:storage"
+		}]
+	},
+	{
+		uid: "9a7214ef",
+		type: "item",
+		items: [{
+			item: "ocsensors:sensor"
+		}]
+	}],
+	rewards: [{
+		uid: "d82fd387",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

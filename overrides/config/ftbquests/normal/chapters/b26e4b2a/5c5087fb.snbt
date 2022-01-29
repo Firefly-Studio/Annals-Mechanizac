@@ -1,0 +1,76 @@
+{
+	title: "基础",
+	icon: "appliedenergistics2:controller",
+	x: 4.5d,
+	y: -3.5d,
+	text: [
+		"年鉴中没有这一条。"
+	],
+	dependencies: [
+		"041504ba"
+	],
+	tasks: [{
+		uid: "45ba8f6f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}]
+	},
+	{
+		uid: "a751604b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:drive"
+		}]
+	},
+	{
+		uid: "932db529",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	},
+	{
+		uid: "7ed7d08a",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "deaa9358",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 36"
+		}]
+	},
+	{
+		uid: "26d40829",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 380"
+		}]
+	},
+	{
+		uid: "8a2bd160",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 260"
+		}]
+	},
+	{
+		uid: "422762cf",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 240"
+		}]
+	}],
+	rewards: [{
+		uid: "45a0b795",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

@@ -8,13 +8,6 @@
 		items: [{
 			item: "buildcraftcore:engine"
 		}]
-	},
-	{
-		uid: "37e8925c",
-		type: "item",
-		items: [{
-			item: "buildcrafttransport:pipe_wood_item"
-		}]
 	}],
 	rewards: [{
 		uid: "42aec1e4",

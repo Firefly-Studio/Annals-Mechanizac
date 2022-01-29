@@ -1,0 +1,24 @@
+{
+	title: "剧变#1",
+	x: -2.0d,
+	y: -1.5d,
+	text: [
+		"地狱岩错杂填充的大地生长出了黑色的苹果。"
+	],
+	dependencies: [
+		"e7cb5014"
+	],
+	optional: true,
+	tasks: [{
+		uid: "dd43abd2",
+		type: "item",
+		items: [{
+			item: "betternether:black_apple_seed"
+		}]
+	}],
+	rewards: [{
+		uid: "f243e33a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

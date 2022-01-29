@@ -1,0 +1,33 @@
+{
+	title: "防卫#2",
+	icon: "openmodularturrets:machine_gun_turret",
+	x: 4.5d,
+	y: -2.5d,
+	dependencies: [
+		"ea178638"
+	],
+	optional: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "a3206a1f",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:turret_base 1 1"
+		}]
+	},
+	{
+		uid: "23808f9e",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:machine_gun_turret"
+		},
+		{
+			item: "openmodularturrets:incendiary_turret"
+		}]
+	}],
+	rewards: [{
+		uid: "927486c3",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

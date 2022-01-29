@@ -1,0 +1,95 @@
+{
+	title: "结合",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:altar"
+		}
+	},
+	x: 6.5d,
+	y: 2.0d,
+	text: [
+		"一些玩家进一步将灵气与技术结合。"
+	],
+	dependencies: [
+		"8d741a35",
+		"773d3094"
+	],
+	tasks: [{
+		uid: "224cf026",
+		type: "item",
+		items: [{
+			item: "modularcontroller:transport_controller"
+		}]
+	},
+	{
+		uid: "032c519a",
+		type: "item",
+		items: [{
+			item: "naturesaura:ancient_bark"
+		}],
+		count: 23L
+	},
+	{
+		uid: "aeb09558",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}],
+		count: 4L
+	},
+	{
+		uid: "be8988b9",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	},
+	{
+		uid: "f15cfc87",
+		type: "item",
+		items: [{
+			item: "modularmagic:blockauraproviderinput"
+		}]
+	},
+	{
+		uid: "8ab56008",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	},
+	{
+		uid: "20103b23",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyoutputhatch"
+		}]
+	},
+	{
+		uid: "91b1c9a0",
+		type: "item",
+		items: [{
+			item: "modularmagic:blockauraprovideroutput"
+		}]
+	},
+	{
+		uid: "c885a482",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "04168d99",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	}],
+	rewards: [{
+		uid: "f6404e01",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

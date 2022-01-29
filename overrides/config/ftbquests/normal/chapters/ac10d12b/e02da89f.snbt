@@ -1,0 +1,25 @@
+{
+	title: "运用#0",
+	x: 2.0d,
+	y: -0.5d,
+	text: [
+		"玩家在交互与指引中运用材料。"
+	],
+	dependencies: [
+		"6345798e"
+	],
+	tasks: [{
+		uid: "ee4df591",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "59e34798",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

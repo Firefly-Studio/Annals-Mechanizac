@@ -1,5 +1,6 @@
 {
 	title: "全新升级",
+	icon: "gb:globot2",
 	x: 1.0d,
 	y: -4.0d,
 	tasks: [{

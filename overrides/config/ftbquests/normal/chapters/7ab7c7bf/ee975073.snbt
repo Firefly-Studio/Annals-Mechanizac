@@ -1,0 +1,31 @@
+{
+	title: "维度",
+	icon: "contenttweaker:key",
+	x: 1.0d,
+	y: 1.0d,
+	text: [
+		"年鉴中没有这一条。"
+	],
+	dependencies: [
+		"1ab9d86b"
+	],
+	tasks: [{
+		uid: "ffa69215",
+		type: "dimension",
+		dim: -1
+	},
+	{
+		uid: "e730b8e3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bb98bead",
+		type: "ftbmoney:money",
+		ftb_money: 1200L
+	}]
+}

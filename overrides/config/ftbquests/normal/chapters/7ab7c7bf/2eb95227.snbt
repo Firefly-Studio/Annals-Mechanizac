@@ -1,0 +1,19 @@
+{
+	title: "探测",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"玩家开始探测异变带来的的影响。"
+	],
+	tasks: [{
+		uid: "c44b162a",
+		type: "advancement",
+		advancement: "nether/find_fortress",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "9546d518",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

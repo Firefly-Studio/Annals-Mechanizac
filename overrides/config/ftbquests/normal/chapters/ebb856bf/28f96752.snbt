@@ -1,0 +1,299 @@
+{
+	title: "五颜六色",
+	icon: "quark:rune 1 16",
+	x: -2.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "eb74da0b",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyeRed"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dyeRed"
+				}
+			}
+		}]
+	},
+	{
+		uid: "140e75f4",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyeGreen"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dyeGreen"
+				}
+			}
+		}]
+	},
+	{
+		uid: "78343fdc",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyePurple"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dyePurple"
+				}
+			}
+		}]
+	},
+	{
+		uid: "8d07c2b2",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyeCyan"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dyeCyan"
+				}
+			}
+		}]
+	},
+	{
+		uid: "f41c762f",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyeLightGray"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dyeLightGray"
+				}
+			}
+		}]
+	},
+	{
+		uid: "122c1fb0",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyeGray"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dyeGray"
+				}
+			}
+		}]
+	},
+	{
+		uid: "b1245a36",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyePink"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dyePink"
+				}
+			}
+		}]
+	},
+	{
+		uid: "dd2f9935",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyeLime"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dyeLime"
+				}
+			}
+		}]
+	},
+	{
+		uid: "02b5fdc6",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyeLightBlue"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dyeLightBlue"
+				}
+			}
+		}]
+	},
+	{
+		uid: "00477623",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyeMagenta"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dyeMagenta"
+				}
+			}
+		}]
+	},
+	{
+		uid: "692991a8",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyeOrange"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dyeOrange"
+				}
+			}
+		}]
+	},
+	{
+		uid: "058e93b9",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyeBlue"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dyeBlue"
+				}
+			}
+		}]
+	},
+	{
+		uid: "1929fdc3",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyeBrown"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dyeBrown"
+				}
+			}
+		}]
+	},
+	{
+		uid: "ed3b36af",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyeYellow"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dyeYellow"
+				}
+			}
+		}]
+	},
+	{
+		uid: "342d73ac",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyeBlack"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dyeBlack"
+				}
+			}
+		}]
+	},
+	{
+		uid: "78c1f7d7",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dyeWhite"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dyeWhite"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7c73321d",
+		type: "ftbmoney:money",
+		ftb_money: 4000L
+	}]
+}

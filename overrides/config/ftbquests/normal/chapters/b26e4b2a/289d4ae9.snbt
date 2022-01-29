@@ -1,0 +1,70 @@
+{
+	title: "提取",
+	icon: "mekanism:energyupgrade",
+	x: -0.5d,
+	y: -2.5d,
+	text: [
+		"玩家发现了名为RF的能源，并设计了提取RF的机械。"
+	],
+	dependencies: [
+		"312eb71d"
+	],
+	tasks: [{
+		uid: "6fa284f1",
+		type: "item",
+		items: [{
+			item: "modularcontroller:j_power_machine_controller"
+		}]
+	},
+	{
+		uid: "4449c9b7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch"
+		}]
+	},
+	{
+		uid: "d1dbf241",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 1"
+		}],
+		count: 5L
+	},
+	{
+		uid: "f1cfb765",
+		type: "item",
+		items: [{
+			item: "betternether:cincinnasite_forged"
+		}],
+		count: 51L
+	},
+	{
+		uid: "af5bda9f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyoutputhatch"
+		}]
+	},
+	{
+		uid: "930350ce",
+		type: "item",
+		items: [{
+			item: "minecraft:lava_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4114201e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch"
+		}]
+	}],
+	rewards: [{
+		uid: "ec995de0",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

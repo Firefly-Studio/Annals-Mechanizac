@@ -1,0 +1,7 @@
+{
+	title: "发展",
+	icon: "buildcraftbuilders:snapshot 1 2",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

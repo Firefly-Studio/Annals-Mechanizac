@@ -1,0 +1,43 @@
+{
+	title: "新物",
+	icon: "advancedmortars:mortar 1 1",
+	x: 1.0d,
+	y: 0.0d,
+	text: [
+		"玩家应该自主与世界交互。"
+	],
+	dependencies: [
+		"6345798e"
+	],
+	tasks: [{
+		uid: "7164c83b",
+		type: "item",
+		items: [{
+			item: "advancedmortars:mortar 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7cc4927b",
+		type: "item",
+		items: [{
+			item: "mekanism:dust"
+		}]
+	}],
+	rewards: [{
+		uid: "064f5fdd",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "503b0d2b",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 4
+	},
+	{
+		uid: "1a5f9354",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

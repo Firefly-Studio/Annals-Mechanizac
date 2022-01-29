@@ -1,0 +1,26 @@
+{
+	title: "收集",
+	x: -0.5d,
+	y: 1.5d,
+	text: [
+		"玩家开始捕获灵气。"
+	],
+	dependencies: [
+		"e9f13ae7"
+	],
+	tasks: [{
+		uid: "4ad6a745",
+		type: "item",
+		items: [{
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:nether"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "68e2f3fa",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "升级",
+	icon: "biomesoplenty:coral",
+	x: -1.5d,
+	y: -2.0d,
+	dependencies: [
+		"312eb71d"
+	],
+	tasks: [{
+		uid: "9b7ab9bc",
+		type: "item",
+		items: [{
+			item: "modularcontroller:e_mineral_crusher_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "4e55a242",
+		type: "ftbmoney:money",
+		ftb_money: 700L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "运用#1",
+	x: 3.0d,
+	y: -0.5d,
+	text: [
+		"智者为玩家点明了方向。"
+	],
+	dependencies: [
+		"e02da89f"
+	],
+	tasks: [{
+		uid: "875d551e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:nether_quartz_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "47630195",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}
