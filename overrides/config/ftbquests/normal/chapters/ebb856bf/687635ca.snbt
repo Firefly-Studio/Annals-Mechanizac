@@ -1,0 +1,24 @@
+{
+	title: "{ans.quest.other.entertainment}",
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "a75c3e6f",
+		type: "item",
+		items: [{
+			item: "openfm:radio"
+		}]
+	},
+	{
+		uid: "699f5ae6",
+		type: "item",
+		items: [{
+			item: "openfm:speaker"
+		}]
+	}],
+	rewards: [{
+		uid: "ae11e6df",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

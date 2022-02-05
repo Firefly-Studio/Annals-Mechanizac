@@ -1,10 +1,10 @@
 {
-	title: "维度",
+	title: "{ans.quest.explore.dimension}",
 	icon: "contenttweaker:key",
 	x: 1.0d,
 	y: 1.0d,
 	text: [
-		"年鉴中没有这一条。"
+		"{ans.quest.advance.null.dis}"
 	],
 	dependencies: [
 		"1ab9d86b"

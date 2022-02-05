@@ -1,0 +1,16 @@
+{
+    "name": "分离",
+    "icon": "modularcontroller:separator_controller",
+    "category": "project_category",
+    "pages": [
+        {
+            "type":"text",
+            "text":"材料分离。"
+        },
+        {
+            "type":"spotlight",
+            "item":"modularcontroller:separator_controller",
+            "text":"分离机，在JEI中右键控制器即可查看多方块结构图。如果身上有足够的搭建方块，使用木棍右键控制器即可快速搭建。"
+        }
+    ]
+}

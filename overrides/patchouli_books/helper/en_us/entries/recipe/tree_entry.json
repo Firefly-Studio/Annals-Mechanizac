@@ -1,0 +1,17 @@
+{
+    "name": "Oak tree sapling",
+    "icon": "minecraft:sapling",
+    "category": "recipe_category",
+    "pages": [
+        {
+            "type":"spotlight",
+            "item":"minecraft:sapling",
+            "text":"Natural aura must-have."
+        },
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:ct_shapeless-612515223",
+            "text":"Then you have the sapling."
+        }
+    ]
+}

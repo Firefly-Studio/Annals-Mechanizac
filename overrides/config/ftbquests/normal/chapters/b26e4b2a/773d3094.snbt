@@ -1,10 +1,10 @@
 {
-	title: "拟真",
+	title: "{ans.quest.advance.realism}",
 	icon: "naturesaura:nature_altar",
 	x: 4.5d,
 	y: 1.0d,
 	text: [
-		"玩家将技术与灵气结合。"
+		"{ans.quest.advance.realism.dis}"
 	],
 	dependencies: [
 		"e9f13ae7",

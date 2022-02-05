@@ -1,9 +1,9 @@
 {
-	title: "混合",
+	title: "{ans.quest.advance.hybrid}",
 	x: 2.0d,
 	y: -4.5d,
 	text: [
-		"年鉴中没有这一条。"
+		"{ans.quest.advance.null.dis}"
 	],
 	dependencies: [
 		"4031eccd"

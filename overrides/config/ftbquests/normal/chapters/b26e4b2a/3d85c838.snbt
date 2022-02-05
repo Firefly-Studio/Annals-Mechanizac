@@ -1,10 +1,10 @@
 {
-	title: "网络",
+	title: "Net",
 	icon: "xnet:controller",
 	x: 1.5d,
 	y: 0.0d,
 	text: [
-		"玩家发明了网络，可以更高效地传输一切。"
+		"{ans.quest.advance.net.dis}"
 	],
 	dependencies: [
 		"a1234156"

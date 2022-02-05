@@ -1,10 +1,10 @@
 {
-	title: "灌注",
+	title: "{ans.quest.advance.infusion}",
 	icon: "naturesaura:infused_iron",
 	x: 1.0d,
 	y: 2.5d,
 	text: [
-		"玩家将灵气灌注到材料中。"
+		"{ans.quest.advance.infusion}"
 	],
 	dependencies: [
 		"773d3094"

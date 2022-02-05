@@ -1,6 +1,7 @@
 {
     "registryname": "j_mineral_crusher",
-    "localizedname": "愚笨粉碎机",
+    "localizedname": "modularmachinery.j_mineral_crusher",
+    "activated_sound": "modularcontroller:machine_activated_industry",
     "color": "FFC125",
     "parts": [
         {

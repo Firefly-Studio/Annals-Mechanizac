@@ -1,8 +1,8 @@
 {
-	title: "可以回家...了？",
+	title: "{ans.quest.other.home}",
 	x: -1.0d,
 	y: -2.0d,
-	description: "春秋大梦",
+	description: "Only a dream.",
 	tasks: [{
 		uid: "04670b83",
 		type: "item",

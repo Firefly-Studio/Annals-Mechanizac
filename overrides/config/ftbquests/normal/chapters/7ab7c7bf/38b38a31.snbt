@@ -1,10 +1,10 @@
 {
-	title: "旧主",
+	title: "{ans.quest.explore.oldLord}",
 	icon: "minecraft:bone",
 	x: 2.0d,
 	y: -2.0d,
 	text: [
-		"玩家因骷髅王的降临陷入了一场浩劫。"
+		"{ans.quest.explore.oldLord.dis}"
 	],
 	dependencies: [
 		"c87156a0"

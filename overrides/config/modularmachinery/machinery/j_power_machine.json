@@ -1,6 +1,7 @@
 {
     "registryname": "j_power_machine",
-    "localizedname": "邪恶熔解炉",
+    "localizedname": "modularmachinery.j_power_machine",
+    "activated_sound": "modularcontroller:machine_activated_industry",
     "color": "FFC125",
     "parts": [
         {

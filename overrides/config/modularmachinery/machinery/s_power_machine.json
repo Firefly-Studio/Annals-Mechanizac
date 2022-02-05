@@ -1,7 +1,8 @@
 
 {
     "registryname": "s_power_machine",
-    "localizedname": "物质到能量转化机",
+    "localizedname": "modularmachinery.s_power_machine",
+    "activated_sound": "modularcontroller:machine_activated_industry",
     "color": "4B0082",
     "parts": [
         {

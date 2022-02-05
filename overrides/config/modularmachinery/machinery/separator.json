@@ -1,6 +1,7 @@
 {
     "registryname": "separator",
-    "localizedname": "对立分离机",
+    "localizedname": "modularmachinery.separator",
+    "activated_sound": "modularcontroller:machine_activated_industry",
     "color": "FFC125",
     "parts": [
         {

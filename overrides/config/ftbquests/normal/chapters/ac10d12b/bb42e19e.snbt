@@ -1,9 +1,9 @@
 {
-	title: "冶炼",
+	title: "{ans.quest.survival.smelting}",
 	x: 1.0d,
 	y: 1.0d,
 	text: [
-		"玩家需要使用材料。"
+		"{ans.quest.survival.smelting.dis}"
 	],
 	dependencies: [
 		"f1bca9d6"

@@ -1,5 +1,5 @@
 {
-	title: "灵气",
+	title: "{ans.quest.advance.aura}",
 	icon: {
 		id: "patchouli:guide_book",
 		tag: {
@@ -9,7 +9,7 @@
 	x: -2.5d,
 	y: 0.0d,
 	text: [
-		"玩家感知到了灵气。"
+		"{ans.quest.advance.aura.dis}"
 	],
 	dependencies: [
 		"eae3bda3"

@@ -1,0 +1,56 @@
+{
+    "name": "Flowers",
+    "icon": "minecraft:red_flower",
+    "category": "recipe_category",
+    "pages": [
+        {
+            "type":"text",
+            "text":"Play natural aura without flowers dead end. / actually on the weedy hell rock can also use bone powder to catalyze grass and flowers."
+        },
+        {
+            "type": "red",
+            "recipe": "nullhere",
+            "text": ""
+        },
+        {
+            "type": "red1",
+            "recipe": "nullhere",
+            "text": ""
+        },
+        {
+            "type": "red2",
+            "recipe": "nullhere",
+            "text": ""
+        },
+        {
+            "type": "red3",
+            "recipe": "nullhere",
+            "text": ""
+        },
+        {
+            "type": "red4",
+            "recipe": "nullhere",
+            "text": ""
+        },
+        {
+            "type": "red5",
+            "recipe": "nullhere",
+            "text": ""
+        },
+        {
+            "type": "red6",
+            "recipe": "nullhere",
+            "text": ""
+        },
+        {
+            "type": "red7",
+            "recipe": "nullhere",
+            "text": ""
+        },
+        {
+            "type": "red8",
+            "recipe": "nullhere",
+            "text": ""
+        }
+    ]
+}

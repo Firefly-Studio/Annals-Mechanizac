@@ -1,0 +1,35 @@
+{
+    "name": "Portal",
+    "icon": "portality:controller",
+    "category": "logistics_category",
+    "pages": [
+        {
+            "type":"crafting",
+            "recipe":"portality:controller",
+            "recipe2":"portality:frame"
+        },
+        {
+            "type":"multiblock",
+            "text":"Note that the width of the portal should be larger than shown, and the portal core must always be in the middle of the front end.",
+            "multiblock": {
+                "pattern": [
+                    ["LLL","LLL","LLL"],
+                    ["LLL","   ","LLL"],
+                    ["LLL"," 0 ","LLL"],
+                    ["LLL","   ","LLL"],
+                    ["LLL","NLL","LLL"]
+                ],
+                "mapping": {
+                    "N": "portality:controller",
+                    "L": "portality:frame"
+                },
+                "symmetrical": true
+            }
+        },
+        {
+            "type":"text",
+            "text":"The most basic part of building a portal is the controller and the framework. The corresponding modules can be added to transfer the corresponding items, energy, entities, etc. Energy is required to open the portal. The size of the portal can be expanded to increase the transmission distance."
+        }
+
+    ]
+}

@@ -1,6 +1,7 @@
 {
     "registryname": "mobaltar",
-    "localizedname": "苍灰物质机",
+    "localizedname": "modularmachinery.mobaltar",
+    "activated_sound": "modularcontroller:machine_activated_industry",
     "color": "708090",
     "parts": [
         {

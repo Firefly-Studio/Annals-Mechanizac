@@ -1,9 +1,9 @@
 {
-	title: "运用#1",
+	title: "{ans.quest.survival.used}",
 	x: 3.0d,
 	y: -0.5d,
 	text: [
-		"智者为玩家点明了方向。"
+		"{ans.quest.survival.used.dis}"
 	],
 	dependencies: [
 		"e02da89f"

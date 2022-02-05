@@ -1,0 +1,15 @@
+{
+    "name": "Dimensional Pass",
+    "icon": "contenttweaker:key",
+    "category": "adventure_category",
+    "pages": [
+        {
+            "type":"crafting",
+            "recipe":"ct_shapeless-1746258559"
+        },
+        {
+            "type":"text",
+            "text":"The blue and red Orphic Pearls can be obtained from the treasure chests in the Altar Ruins. Defeating the Skeleton King has an 80% chance of dropping yellow and green Orphic Pearls. There is a chance of orange Orphic pearls in the treasure chest of Mordor. There is an 80% chance that a purple Orphic pearl will be dropped when you defeat the Outlander."
+        }
+    ]
+}

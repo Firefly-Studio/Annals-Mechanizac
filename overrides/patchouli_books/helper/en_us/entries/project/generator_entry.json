@@ -1,0 +1,21 @@
+{
+    "name": "Electricity generation",
+    "icon": "modularcontroller:j_power_machine_controller",
+    "category": "project_category",
+    "pages": [
+        {
+            "type":"text",
+            "text":"Energy Access."
+        },
+        {
+            "type":"spotlight",
+            "item":"modularcontroller:j_power_machine_controller",
+            "text":"For primary generators, right-click the controller in JEI to view the multi-cube structure diagram. If you have enough building cubes on you, use the wooden stick to right-click the controller to build it quickly. Input magma to generate 100 FE per tick; input diamond to generate 250 FE per tick; input coal to generate 159 FE per tick; input molten flesh to generate 300 FE per tick."
+        },
+        {
+            "type":"spotlight",
+            "item":"modularcontroller:s_power_machine_controller",
+            "text":"Advanced generator, right click on the controller in JEI to view the multi-cube structure diagram. If you have enough building cubes on you, you can build them quickly by using the wooden stick and right-clicking the controller. Input magma to generate 200 FE per tick; input diamond to generate 1000 FE per tick; input coal to generate 400 FE per tick; input molten flesh to generate 1200 FE per tick."
+        }
+    ]
+}

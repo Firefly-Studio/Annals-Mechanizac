@@ -1,9 +1,9 @@
 {
-	title: "运用#0",
+	title: "{ans.quest.survival.use}",
 	x: 2.0d,
 	y: -0.5d,
 	text: [
-		"玩家在交互与指引中运用材料。"
+		"{ans.quest.survival.use.dis}"
 	],
 	dependencies: [
 		"6345798e"

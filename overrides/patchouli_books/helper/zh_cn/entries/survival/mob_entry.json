@@ -1,0 +1,15 @@
+{
+    "name":"怪物",
+    "icon":"minecraft:skull:2",
+    "category":"survival_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "世界的能量滋养着怪物。"
+        },
+        {
+            "type":"text",
+            "text":"随着时间的流逝，怪物的强度会正比上升。所以请不要在前期长时间挂机."
+        }
+    ]
+}

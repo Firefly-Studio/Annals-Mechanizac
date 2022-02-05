@@ -1,5 +1,5 @@
 {
-	title: "生存",
+	title: "{ans.quest.cate.survival}",
 	icon: "minecraft:netherrack",
 	always_invisible: false,
 	group: 0,

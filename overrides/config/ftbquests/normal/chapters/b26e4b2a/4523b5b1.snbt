@@ -1,10 +1,10 @@
 {
-	title: "防卫#1",
+	title: "{ans.quest.advance.defence}#1",
 	icon: "openmodularturrets:disposable_item_turret",
 	x: 3.0d,
 	y: -1.5d,
 	text: [
-		"玩家开始利用科技。"
+		"{ans.quest.advance.defence.dis}"
 	],
 	dependencies: [
 		"ea178638"

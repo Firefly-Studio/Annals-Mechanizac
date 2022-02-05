@@ -1,0 +1,33 @@
+{
+    "name": "Farming",
+    "icon": "minecraft:iron_hoe",
+    "category": "survival_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "It is good to plant the land because it needs a light source."
+        },
+        {
+            "type":"spotlight",
+            "item":"forge:bucketfilled{FluidName:coolliquid, Amount: 1000}",
+            "text":"In hell, cold liquid cannot evaporate, and it also has the property of water. So it is possible to take cold liquid and plant it."
+        },
+        {
+            "type":"multiblock",
+            "text":"Throw the reeds into the lava to get cold liquid! And reeds in the lower world are a material players need to use often!",
+            "multiblock": {
+                "pattern": [
+                    ["N0"], 
+                    ["RL"]
+                ],
+                "mapping": {
+                    "N": "betternether:nether_reed",
+                    "L": "minecraft:lava",
+                    "R": "minecraft:netherrack"
+                },
+                "symmetrical": true
+            }
+        }
+
+    ]
+}

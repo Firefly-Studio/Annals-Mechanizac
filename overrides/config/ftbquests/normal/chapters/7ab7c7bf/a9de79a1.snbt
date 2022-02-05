@@ -1,9 +1,9 @@
 {
-	title: "年鉴",
+	title: "{ans.quest.explore.annals}",
 	x: 0.0d,
 	y: -1.0d,
 	text: [
-		"玩家建立起了名为年鉴的文明。"
+		"{ans.quest.explore.annals.dis}"
 	],
 	dependencies: [
 		"2eb95227"

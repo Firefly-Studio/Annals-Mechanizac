@@ -1,5 +1,5 @@
 {
-	title: "真实伤害",
+	title: "{ans.quest.other.damage}",
 	x: -2.0d,
 	y: 2.0d,
 	tasks: [{

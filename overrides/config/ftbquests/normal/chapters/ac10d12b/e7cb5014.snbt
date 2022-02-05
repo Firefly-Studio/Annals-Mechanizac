@@ -1,10 +1,10 @@
 {
-	title: "向阳",
+	title: "{ans.quest.survival.tothesun}",
 	icon: "minecraft:torch",
 	x: -1.0d,
 	y: 0.0d,
 	text: [
-		"玩家需要光，植物亦需要。"
+		"{ans.quest.survival.tothesun.dis}"
 	],
 	dependencies: [
 		"df1f9d4a"

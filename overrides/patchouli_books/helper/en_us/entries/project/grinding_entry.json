@@ -1,0 +1,26 @@
+{
+    "name": "Grinding",
+    "icon": "advancedmortars:mortar:3",
+    "category": "project_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Material crushing."
+        },
+        {
+            "type":"crafting",
+            "recipe":"advancedmortars:mortar_diamond",
+            "text":"Only the diamond mortar is shown here. Most minerals can be powdered with a mortar."
+        },
+        {
+            "type":"spotlight",
+            "item":"modularcontroller:j_mineral_crusher_controller",
+            "text":"Primary beater, right click on the controller in JEI to view the multi-cube structure diagram. If you have enough building cubes on you, use the wooden stick to right click the controller to build quickly."
+        },
+        {
+            "type":"spotlight",
+            "item":"modularcontroller:e_mineral_crusher_controller",
+            "text":"Advanced beater, right click on the controller in JEI to view the multi-cube structure diagram. If you have enough building cubes on you, you can build them quickly by using the wooden stick and right-clicking the controller."
+        }
+    ]
+}

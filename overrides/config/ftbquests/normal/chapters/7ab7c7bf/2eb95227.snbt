@@ -1,9 +1,9 @@
 {
-	title: "探测",
+	title: "{ans.quest.explore.detect}",
 	x: 0.0d,
 	y: 0.0d,
 	text: [
-		"玩家开始探测异变带来的的影响。"
+		"{ans.quest.explore.detect.dis}"
 	],
 	tasks: [{
 		uid: "c44b162a",

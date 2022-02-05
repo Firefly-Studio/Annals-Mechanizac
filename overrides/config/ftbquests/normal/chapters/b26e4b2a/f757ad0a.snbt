@@ -1,5 +1,5 @@
 {
-	title: "升级",
+	title: "{ans.quest.advance.upgrade}",
 	icon: "gb:foo2",
 	x: 0.5d,
 	y: -3.0d,

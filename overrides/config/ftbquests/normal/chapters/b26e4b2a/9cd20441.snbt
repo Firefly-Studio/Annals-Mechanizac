@@ -1,10 +1,10 @@
 {
-	title: "合并",
+	title: "{ans.quest.advance.union}",
 	icon: "mekanism:ingot 1 2",
 	x: 1.5d,
 	y: -2.0d,
 	text: [
-		"玩家开始将材料融合。"
+		"{ans.quest.advance.union.dis}"
 	],
 	dependencies: [
 		"a1234156"

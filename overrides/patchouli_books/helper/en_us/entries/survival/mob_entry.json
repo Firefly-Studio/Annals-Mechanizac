@@ -1,0 +1,15 @@
+{
+    "name":"Monster",
+    "icon":"minecraft:skull:2",
+    "category":"survival_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The energy of the world nourishes the monster."
+        },
+        {
+            "type":"text",
+            "text":"As time passes, the strength of the monsters will rise proportionally. So please do not hang around for a long time in the early stage."
+        }
+    ]
+}

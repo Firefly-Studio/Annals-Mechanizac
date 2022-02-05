@@ -1,9 +1,9 @@
 {
-	title: "剧变#1",
+	title: "{ans.quest.survival.change2}",
 	x: -2.0d,
 	y: -1.5d,
 	text: [
-		"地狱岩错杂填充的大地生长出了黑色的苹果。"
+		"{ans.quest.survival.change2.dis}"
 	],
 	dependencies: [
 		"e7cb5014"

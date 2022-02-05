@@ -1,5 +1,5 @@
 {
-	title: "防卫#4",
+	title: "{ans.quest.advance.defence}#4",
 	icon: "openmodularturrets:rocket_turret",
 	x: 5.5d,
 	y: -1.5d,

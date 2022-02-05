@@ -8,8 +8,8 @@ import crafttweaker.item.IItemCondition;
 import crafttweaker.item.IIngredient;
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
-        .setCatalyst(<gb:glopper3>)
-        .setReagents([<mod_lavacow:emblem_of_king>*10,<naturesaura:aura_trove>.withTag({aura: 1200000}),<minecraft:dragon_egg>,<gb:globot3_block>,<minecraft:nether_star>*4])
+        .setCatalyst(<combustfish:tempered_swordfish>)
+        .setReagents([<mod_lavacow:emblem_of_king>*10,<customrecord:intro>,<minecraft:emerald>*64,<mod_lavacow:kings_crown:1>,<minecraft:nether_star>*4])
         .addMob(MobInfo.create()
             .setMob("dungeonmobs:dmeldermob")
             .setData({Attributes:[{Name:"generic.maxHealth",Base:1200.0d},{Name:"generic.attackDamage",Base:20.0d},{Name:"generic.armor",Base:15.0d}],Health:1200.0f})

@@ -1,10 +1,10 @@
 {
-	title: "迈步",
+	title: "{ans.quest.survival.step}",
 	icon: "minecraft:wooden_axe",
 	x: 0.0d,
 	y: -1.0d,
 	text: [
-		"玩家此时依靠以往的经验游戏是不可能的。"
+		"{ans.quest.survival.step.dis}"
 	],
 	dependencies: [
 		"69465123"

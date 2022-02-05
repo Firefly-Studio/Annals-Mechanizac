@@ -1,10 +1,10 @@
 {
-	title: "异变",
+	title: "{ans.quest.survival.variation}",
 	icon: "betternether:cincinnasite",
 	x: 0.0d,
 	y: 1.0d,
 	text: [
-		"玩家对异变的察觉。"
+		"{ans.quest.survival.variation.dis}"
 	],
 	dependencies: [
 		"f1bca9d6"

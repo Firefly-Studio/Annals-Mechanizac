@@ -1,0 +1,18 @@
+{
+  "parent": "builtin/image",
+  "image": "annals:images/Annals.png",
+  "position_type": "CENTER",
+  "offset_pos": "CENTER",
+  "position": {
+    "x": "0",
+    "y": "0",
+    "width": "950",
+    "height": "550"
+  },
+  "texture": {
+    "x": "0",
+    "y": "0",
+    "width": "2",
+    "height": "2"
+  }
+}

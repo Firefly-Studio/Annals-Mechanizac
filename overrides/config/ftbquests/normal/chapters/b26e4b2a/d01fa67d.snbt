@@ -1,5 +1,5 @@
 {
-	title: "结合",
+	title: "{ans.quest.advance.combine}",
 	icon: {
 		id: "modularmachinery:itemblueprint",
 		tag: {
@@ -9,7 +9,7 @@
 	x: 6.5d,
 	y: 2.0d,
 	text: [
-		"一些玩家进一步将灵气与技术结合。"
+		"{ans.quest.advance.combine.dis}"
 	],
 	dependencies: [
 		"8d741a35",

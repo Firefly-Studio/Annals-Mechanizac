@@ -1,10 +1,10 @@
 {
-	title: "进阶",
+	title: "{ans.quest.advance.advanced}",
 	icon: "mekanism:dust",
 	x: 0.0d,
 	y: 0.0d,
 	text: [
-		"玩家发挥自己的智慧设计并搭建出了矿物粉碎机。"
+		"{ans.quest.advance.advanced.dis}"
 	],
 	dependencies: [
 		"eae3bda3"

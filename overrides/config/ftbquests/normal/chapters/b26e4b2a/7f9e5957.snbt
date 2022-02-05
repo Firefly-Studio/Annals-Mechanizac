@@ -1,5 +1,5 @@
 {
-	title: "升级",
+	title: "{ans.quest.advance.upgrade}",
 	icon: "biomesoplenty:coral",
 	x: -1.5d,
 	y: -2.0d,

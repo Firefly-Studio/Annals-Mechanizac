@@ -1,5 +1,5 @@
 {
-	title: "防卫#2",
+	title: "{ans.quest.advance.defence}#2",
 	icon: "openmodularturrets:grenade_turret",
 	x: 4.0d,
 	y: -1.0d,

@@ -1,10 +1,10 @@
 {
-	title: "原生",
+	title: "{ans.quest.survival.native}",
 	icon: "minecraft:nether_wart",
 	x: -2.0d,
 	y: 0.5d,
 	text: [
-		"SGEEEDFASCGRFD"
+		"{ans.quest.survival.native.dis}"
 	],
 	dependencies: [
 		"2dd3ca89"

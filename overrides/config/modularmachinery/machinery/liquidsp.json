@@ -1,6 +1,7 @@
 {
     "registryname": "liquidsp",
-    "localizedname": "绝对流体分离机",
+    "localizedname": "modularmachinery.liquidsp",
+    "activated_sound": "modularcontroller:machine_activated_industry",
     "color": "4F4F4F",
     "parts": [
         {

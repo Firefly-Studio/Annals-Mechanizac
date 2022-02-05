@@ -1,5 +1,5 @@
 {
-	title: "生长",
+	title: "{ans.quest.advance.grow}",
 	icon: {
 		id: "appliedenergistics2:crystal_seed",
 		tag: {
@@ -8,6 +8,9 @@
 	},
 	x: 3.5d,
 	y: -4.5d,
+	text: [
+		"{ans.quest.advance.null.dis}"
+	],
 	dependencies: [
 		"35b90922"
 	],

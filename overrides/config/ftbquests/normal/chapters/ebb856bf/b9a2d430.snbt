@@ -1,8 +1,7 @@
 {
-	title: "传送路径",
+	title: "{ans.quest.other.transmission}",
 	x: -1.0d,
 	y: -1.0d,
-	description: "你感受到了来自远古的神秘力量",
 	tasks: [{
 		uid: "c53a7339",
 		type: "item",

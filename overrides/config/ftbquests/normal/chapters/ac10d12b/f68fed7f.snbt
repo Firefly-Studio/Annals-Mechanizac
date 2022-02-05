@@ -1,9 +1,9 @@
 {
-	title: "冰凉",
+	title: "{ans.quest.survival.cold}",
 	x: -2.0d,
 	y: 1.5d,
 	text: [
-		"玩家在冷液里钓鱼。"
+		"{ans.quest.survival.cold.dis}"
 	],
 	dependencies: [
 		"df1f9d4a"

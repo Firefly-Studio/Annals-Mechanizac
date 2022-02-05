@@ -1,9 +1,9 @@
 {
-	title: "炽热",
+	title: "{ans.quest.survival.hot}",
 	x: -1.0d,
 	y: 2.0d,
 	text: [
-		"玩家也选择在熔岩里钓鱼。"
+		"{ans.quest.survival.hot.dis}"
 	],
 	dependencies: [
 		"df1f9d4a"

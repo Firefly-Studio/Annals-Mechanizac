@@ -1,0 +1,15 @@
+{
+    "name": "树木",
+    "icon": "natura:nether_sapling:2",
+    "category": "survival_category",
+    "pages": [
+        {
+            "type":"text",
+            "text":"在地狱中的树木并不稀有。"
+        },
+        {
+            "type":"text",
+            "text":"一般在地狱自然生长的树木都能被玩家种在地狱岩上。"
+        }
+    ]
+}

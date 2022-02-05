@@ -1,9 +1,9 @@
 {
-	title: "祭坛",
+	title: "{ans.quest.explore.altar}",
 	x: 1.0d,
 	y: -1.0d,
 	text: [
-		"玩家搭建了祭坛。"
+		"{ans.quest.explore.altar.dis}"
 	],
 	dependencies: [
 		"a9de79a1"

@@ -1,9 +1,9 @@
 {
-	title: "升级#5",
+	title: "{ans.quest.survival.upgrade}#5",
 	x: 6.0d,
 	y: -1.0d,
 	text: [
-		"玩家掌握的配方因指引升级。"
+		"{ans.quest.survival.upgrade.dis}"
 	],
 	dependencies: [
 		"3845e376"

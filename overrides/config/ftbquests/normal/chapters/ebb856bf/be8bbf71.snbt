@@ -1,8 +1,7 @@
 {
-	title: "管道连不上?",
+	title: "{ans.quest.other.wrench}",
 	x: 1.0d,
 	y: -2.0d,
-	description: "可能是缺少它",
 	tasks: [{
 		uid: "0fb60db5",
 		type: "item",

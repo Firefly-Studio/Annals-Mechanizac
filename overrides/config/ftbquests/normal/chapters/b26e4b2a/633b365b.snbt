@@ -1,9 +1,9 @@
 {
-	title: "收集",
+	title: "{ans.quest.advance.collect}",
 	x: -0.5d,
 	y: 1.5d,
 	text: [
-		"玩家开始捕获灵气。"
+		"{ans.quest.advance.collect.dis}"
 	],
 	dependencies: [
 		"e9f13ae7"

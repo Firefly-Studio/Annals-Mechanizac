@@ -1,10 +1,10 @@
 {
-	title: "新物",
+	title: "{ans.quest.survival.new}",
 	icon: "advancedmortars:mortar 1 1",
 	x: 1.0d,
 	y: 0.0d,
 	text: [
-		"玩家应该自主与世界交互。"
+		"{ans.quest.survival.new.dis}"
 	],
 	dependencies: [
 		"6345798e"

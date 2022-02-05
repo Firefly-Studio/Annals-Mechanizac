@@ -1,0 +1,32 @@
+{
+    "name": "Nature's Aura",
+    "icon": "patchouli:guide_book{naturesaura:book}",
+    "category": "recipe_category",
+    "pages": [
+        {
+            "type":"crafting",
+            "recipe":"naturesaura:book",
+            "text":"Do not play the natural aura dead end."
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:gold_fiber",
+            "recipe2":"crafttweaker:ct_shaped1320994070",
+            "text": "Then read the Nature Aura guide book is all."
+        },
+        {
+            "type": "text",
+            "text": "Aura and energy conversion machine, used to convert aura and energy, right-click the controller in JEI to view the multi-cube structure diagram. If you have enough building cubes on your body, use the wooden stick to right-click the controller to quickly build."
+        },
+        {
+            "type":"spotlight",
+            "item":"modularcontroller:transport_controller",
+            "text":"Putting in an iron ingot will activate the inefficient energy to aura conversion mode, putting in a diamond will activate the aggressive energy to aura conversion mode, putting in a gold ingot will activate the inefficient aura to energy conversion mode, and putting in an emerald will activate the aggressive aura to energy conversion mode."
+        },
+        {
+            "type": "kk",
+            "recipe": "nullhere",
+            "text": ""
+        }
+    ]
+}

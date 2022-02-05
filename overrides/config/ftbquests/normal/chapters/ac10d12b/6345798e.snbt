@@ -1,9 +1,9 @@
 {
-	title: "交互",
+	title: "{ans.quest.survival.interact}",
 	x: 1.0d,
 	y: -1.0d,
 	text: [
-		"玩家察觉到世界是可以交互的。"
+		"{ans.quest.survival.interact.dis}"
 	],
 	dependencies: [
 		"a2b4f8fa"

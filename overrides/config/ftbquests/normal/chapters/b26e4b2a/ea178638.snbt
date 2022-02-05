@@ -1,10 +1,10 @@
 {
-	title: "分离",
+	title: "{ans.quest.advance.separation}",
 	icon: "mekanism:ingot",
 	x: 3.0d,
 	y: 0.0d,
 	text: [
-		"玩家开始分离材料。"
+		"{ans.quest.advance.separation.dis}"
 	],
 	dependencies: [
 		"9cd20441"

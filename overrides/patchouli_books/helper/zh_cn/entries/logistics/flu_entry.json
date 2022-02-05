@@ -1,0 +1,56 @@
+{
+    "name": "漏斗",
+    "icon": "minecraft:hopper",
+    "category": "logistics_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "传输漏斗。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"uppers:upper_alt",
+            "recipe2":"uppers:upper",
+            "text":"没错，它的功能就和它的名字一样。"
+        },
+        {
+            "type":"multiblock",
+            "text":"给料槽,在其上方放入一个输入器(以漏斗为例)下方的给料槽会自动投掷物品。",
+            "multiblock": {
+                "pattern": [
+                    ["N0"], 
+                    ["L "]
+                ],
+                "mapping": {
+                    "N": "minecraft:hopper",
+                    "L": "quark:chute"
+                },
+                "symmetrical": true
+            }
+        },
+        {
+            "type":"crafting",
+            "recipe":"quark:chute"
+        },
+        {
+            "type":"multiblock",
+            "text":"流体漏斗,在其上方放置流体(以基础储罐为例,也可直接放置流体)下方的流体漏斗会自动放置流体或向其面对的容器传输流体。",
+            "multiblock": {
+                "pattern": [
+                    ["N0"], 
+                    ["L "]
+                ],
+                "mapping": {
+                    "N": "buildcraftfactory:tank",
+                    "L": "flopper:flopper"
+                },
+                "symmetrical": true
+            }
+        },
+        {
+            "type":"crafting",
+            "recipe":"flopper:flopper"
+        }
+
+    ]
+}

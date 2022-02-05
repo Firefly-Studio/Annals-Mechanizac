@@ -1,7 +1,7 @@
 {
-	title: "乳蓄业",
+	title: "{ans.quest.other.DairyStorage}",
 	icon: "mod_lavacow:moltenbeef",
-	x: 3.0d,
+	x: 1.0d,
 	y: 0.0d,
 	tasks: [{
 		uid: "5069d99c",

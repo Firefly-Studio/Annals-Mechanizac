@@ -1,0 +1,16 @@
+{
+    "name": "Pipe connection",
+    "icon": "betterpipes:wrench",
+    "category": "project_category",
+    "pages": [
+        {
+            "type":"text",
+            "text":"The pipe plug is unemployed."
+        },
+        {
+            "type":"crafting",
+            "recipe":"betterpipes:recipes",
+            "text":"For connecting pipes."
+        }
+    ]
+}

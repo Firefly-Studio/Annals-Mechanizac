@@ -1,6 +1,7 @@
 {
     "registryname": "transport",
-    "localizedname": "丛乱转化机",
+    "localizedname": "modularmachinery.transport",
+    "activated_sound": "modularcontroller:machine_activated_industry",
     "color": "4F4F4F",
     "parts": [
         {

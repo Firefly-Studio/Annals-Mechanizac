@@ -1,8 +1,7 @@
 {
-	title: "廉价替代品",
+	title: "{ans.quest.other.replace}",
 	x: 0.0d,
 	y: -1.0d,
-	description: "便宜的替代物",
 	text: [
 		"用烈焰棒可以合成一些东西"
 	],

@@ -1,0 +1,18 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "a41981eb",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "5b74c3d1",
+		type: "ftbmoney:money",
+		ftb_money: 1200L
+	}]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "遗迹",
+    "icon": "minecraft:nether_brick",
+    "category": "adventure_category",
+    "pages": [
+        {
+            "type":"image",
+            "images":["annals:images/altar.png","annals:images/altar_1.png","annals:images/altar_2.png","annals:images/altar_3.png","annals:images/altar_4.png"]
+        },
+        {
+            "type":"text",
+            "text":"图一为祭坛遗迹外观，图二为祭坛遗迹一楼，图三为祭坛遗迹二楼，图四为祭坛核心，和祭坛核心交互是召唤Boss必须有的条件，图五为祭坛战利品，内有奥法珍珠·红、奥法珍珠·蓝和12块末影传送门框架。\\n祭坛遗迹多生成在Y轴8-14层，且其生成时会对所有玩家提示:Earthquaking."
+        },
+        {
+            "type":"image",
+            "images":["annals:images/annalsruin.png"]
+        },
+        {
+            "type":"text",
+            "text":"年鉴遗迹，生成体积巨大，战利品丰富。"
+        },
+        {
+            "type":"image",
+            "images":["annals:images/bedrock.png"]
+        },
+        {
+            "type":"text",
+            "text":"基岩层附近往往会生成穿透基岩的遗迹，原被提交为Bug，但后来经过开发组讨论，保留此特性，因获取天空之锭所需要的条件就包含有供桌上是广阔的天空。并允许玩家在上基岩层附近挖矿，在上基岩层游玩。"
+        }
+    ]
+}

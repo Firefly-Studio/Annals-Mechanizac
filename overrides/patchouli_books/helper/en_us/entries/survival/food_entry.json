@@ -1,0 +1,26 @@
+{
+    "name": "Food",
+    "icon": "contenttweaker:meatstew",
+    "category": "survival_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "In order to survive we first need to solve the problem of food."
+        },
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:ct_shaped226866610",
+            "text":"Meat cubes can be found in the Blood and Flesh ecosystem. Hunger and healing buffs can be obtained after consuming meat porridge."
+        },
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:ct_shaped-726026834",
+            "text":"You can get misfortune and healing buffs after consuming netherstew."
+        },
+        {
+            "type":"spotlight",
+            "item":"forge:bucketfilled{FluidName:coolliquid, Amount: 1000}",
+            "text":"The interesting thing is that you can replace water with cold liquid to grow wheat in hell. You can put lower world reeds, sugar cane, and eggplant flowers into the lava to get cold liquid."
+        }
+    ]
+}

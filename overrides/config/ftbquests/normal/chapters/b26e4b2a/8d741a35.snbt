@@ -1,9 +1,9 @@
 {
-	title: "巨树",
+	title: "{ans.quest.advance.tree}",
 	x: 3.5d,
 	y: 3.5d,
 	text: [
-		"玩家根据指引获取了灵气聚合体的资料。"
+		"{ans.quest.advance.tree.dis}"
 	],
 	dependencies: [
 		"633b365b"
@@ -14,5 +14,10 @@
 		items: [{
 			item: "naturesaura:ancient_sapling"
 		}]
+	}],
+	rewards: [{
+		uid: "c086c2f1",
+		type: "ftbmoney:money",
+		ftb_money: 300L
 	}]
 }

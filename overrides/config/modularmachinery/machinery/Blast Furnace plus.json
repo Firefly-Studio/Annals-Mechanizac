@@ -1,6 +1,7 @@
 {
     "registryname": "blastFurnacePlus",
-    "localizedname": "地核熔炼机",
+    "localizedname": "modularmachinery.blastFurnacePlus",
+    "activated_sound": "modularcontroller:machine_activated_industry",
     "color": "6A5ACD",
     "parts": [
         {

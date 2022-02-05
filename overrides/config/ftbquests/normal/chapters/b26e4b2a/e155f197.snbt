@@ -1,10 +1,10 @@
 {
-	title: "合成",
+	title: "{ans.quest.advance.synthesis}",
 	icon: "appliedenergistics2:crafting_storage_1k",
 	x: 5.5d,
 	y: -4.0d,
 	text: [
-		"年鉴中没有这一条。"
+		"{ans.quest.advance.null.dis}"
 	],
 	dependencies: [
 		"5c5087fb"

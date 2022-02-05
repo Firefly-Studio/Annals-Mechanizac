@@ -1,0 +1,21 @@
+{
+    "name": "Smelting",
+    "icon": "minecraft:coal",
+    "category": "project_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Mineral smelting."
+        },
+        {
+            "type":"spotlight",
+            "item":"modularcontroller:blastfurnace_controller",
+            "text":"Primary blast furnace, right click on the controller in JEI to view the multi-cube structure diagram. If you have enough building cubes on you, use the wooden stick to right click the controller to build quickly."
+        },
+        {
+            "type":"spotlight",
+            "item":"modularcontroller:blastfurnaceplus_controller",
+            "text":"Advanced blast furnace, right-click controller in JEI to view the multi-cube structure diagram. If you have enough building cubes on you, use the wooden stick to right click the controller to build quickly."
+        }
+    ]
+}

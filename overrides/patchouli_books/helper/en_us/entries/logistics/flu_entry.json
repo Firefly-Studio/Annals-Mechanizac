@@ -1,0 +1,56 @@
+{
+    "name": "Hopper",
+    "icon": "minecraft:hopper",
+    "category": "logistics_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Hoppers."
+        },
+        {
+            "type":"crafting",
+            "recipe":"uppers:upper_alt",
+            "recipe2":"uppers:upper",
+            "text":"Yes, it does exactly what its name implies."
+        },
+        {
+            "type":"multiblock",
+            "text":"The feeder chute, above which an input device (a hopper, for example) is placed, will automatically drop items below the feeder chute.",
+            "multiblock": {
+                "pattern": [
+                    ["N0"], 
+                    ["L "]
+                ],
+                "mapping": {
+                    "N": "minecraft:hopper",
+                    "L": "quark:chute"
+                },
+                "symmetrical": true
+            }
+        },
+        {
+            "type":"crafting",
+            "recipe":"quark:chute"
+        },
+        {
+            "type":"multiblock",
+            "text":"The fluid hopper, above which fluid is placed (in the case of a base tank, fluid can also be placed directly) and below which fluid is automatically placed or transferred to the vessel it faces.",
+            "multiblock": {
+                "pattern": [
+                    ["N0"], 
+                    ["L "]
+                ],
+                "mapping": {
+                    "N": "buildcraftfactory:tank",
+                    "L": "flopper:flopper"
+                },
+                "symmetrical": true
+            }
+        },
+        {
+            "type":"crafting",
+            "recipe":"flopper:flopper"
+        }
+
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "橡树树苗",
+    "icon": "minecraft:sapling",
+    "category": "recipe_category",
+    "pages": [
+        {
+            "type":"spotlight",
+            "item":"minecraft:sapling",
+            "text":"自然灵气必须品。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:ct_shapeless-612515223",
+            "text":"然后你就有树苗了。"
+        }
+    ]
+}

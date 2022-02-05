@@ -1,0 +1,16 @@
+{
+    "name": "Separation",
+    "icon": "modularcontroller:separator_controller",
+    "category": "project_category",
+    "pages": [
+        {
+            "type":"text",
+            "text":"Material separation."
+        },
+        {
+            "type":"spotlight",
+            "item":"modularcontroller:separator_controller",
+            "text":"Separator, right-click the controller in JEI to view the multi-cube structure diagram. If you have enough building cubes on you, you can build them quickly by using the wooden stick and right-clicking the controller."
+        }
+    ]
+}

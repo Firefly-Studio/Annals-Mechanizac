@@ -1,5 +1,5 @@
 {
-	title: "异变",
+	title: "{ans.quest.survival.variation}",
 	x: 2.0d,
 	y: 0.5d,
 	dependencies: [
@@ -11,5 +11,10 @@
 		items: [{
 			item: "gb:gobber_ore2"
 		}]
+	}],
+	rewards: [{
+		uid: "e8c44bc1",
+		type: "ftbmoney:money",
+		ftb_money: 300L
 	}]
 }

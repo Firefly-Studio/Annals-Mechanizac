@@ -1,8 +1,8 @@
 {
-	title: "全新升级",
+	title: "Upgrade",
 	icon: "gb:globot2",
-	x: 1.0d,
-	y: -4.0d,
+	x: -1.0d,
+	y: 2.0d,
 	tasks: [{
 		uid: "697d1eca",
 		type: "item",

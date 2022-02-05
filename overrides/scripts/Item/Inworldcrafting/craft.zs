@@ -33,3 +33,19 @@ for output,input in fireC{
 
 mods.inworldcrafting.FluidToFluid.transform(<liquid:coolliquid>, <liquid:lava>, [<ore:colder>]);
 mods.inworldcrafting.FireCrafting.addRecipe(<contenttweaker:youyihj>,<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:help"}),114514);
+
+//防止火烧
+val unfireC as IIngredient[IItemStack]={
+    <contenttweaker:youyihj>:<contenttweaker:pearl_yellow>,
+    <contenttweaker:youyihj>:<contenttweaker:pearl_green>,
+    <contenttweaker:youyihj>:<contenttweaker:pearl_red>,
+    <contenttweaker:youyihj>:<contenttweaker:pearl_blue>,
+    <contenttweaker:youyihj>:<contenttweaker:pearl_orange>,
+    <contenttweaker:youyihj>:<contenttweaker:pearl_purple>
+};
+function unfireCFunc(output as IItemStack,input as IIngredient){
+    mods.inworldcrafting.FireCrafting.addRecipe(output,input,114514);
+}
+for output,input in unfireC{
+    unfireCFunc(output,input);
+}

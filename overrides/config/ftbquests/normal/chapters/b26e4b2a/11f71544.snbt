@@ -1,10 +1,10 @@
 {
-	title: "生成",
+	title: "{ans.quest.advance.spawn}",
 	icon: "quark:candle",
 	x: 8.0d,
 	y: 2.5d,
 	text: [
-		"玩家已经理解了生物生成的奥秘。"
+		"{ans.quest.advance.spawn.dis}"
 	],
 	dependencies: [
 		"d01fa67d",

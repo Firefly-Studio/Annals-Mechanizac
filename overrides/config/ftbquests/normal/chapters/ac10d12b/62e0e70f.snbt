@@ -1,10 +1,10 @@
 {
-	title: "剧变#0",
+	title: "{ans.quest.survival.change1}",
 	icon: "betternether:eye_seed",
 	x: -2.0d,
 	y: -0.5d,
 	text: [
-		"上层地狱岩伸出眼睛注视一切。"
+		"{ans.quest.survival.change1.dis}"
 	],
 	dependencies: [
 		"e7cb5014"

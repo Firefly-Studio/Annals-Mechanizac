@@ -1,10 +1,10 @@
 {
-	title: "熔炼",
+	title: "{ans.quest.advance.melt}",
 	icon: "minecraft:gunpowder",
 	x: 0.5d,
 	y: -1.5d,
 	text: [
-		"玩家开始提取材料。"
+		"{ans.quest.advance.melt.dis}"
 	],
 	dependencies: [
 		"289d4ae9"

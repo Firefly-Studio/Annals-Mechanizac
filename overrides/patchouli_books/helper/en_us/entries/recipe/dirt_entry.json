@@ -1,0 +1,17 @@
+{
+    "name": "Dirt",
+    "icon": "minecraft:dirt",
+    "category": "recipe_category",
+    "pages": [
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:ct_shapeless-430179236",
+            "text":"Do not play the natural aura dead end."
+        },
+        {
+            "type": "tree_ritual",
+            "recipe": "naturesaura:dirtsama",
+            "text": ""
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "材料获取",
+    "icon": "minecraft:slime_ball",
+    "category": "recipe_category",
+    "pages": [
+        {
+            "type":"text",
+            "text":"此处仅记载着一些JEI中不存在的材料获取方式。"
+        },
+        {
+            "type":"spotlight",
+            "item":"betternether:block_eyeball",
+            "text":"破坏眼球块可以获取粘液球，种下眼蕨芽可以获得眼球块。"
+        },
+        {
+            "type":"spotlight",
+            "item":"mod_lavacow:intestine",
+            "text":"粘土和种子等可以通过右键肠子开出来。"
+        },
+        {
+            "type":"spotlight",
+            "item":"appliedenergistics2:sky_stone_block",
+            "text":"将黑曜石丢入丛乱转化机即可。"
+        }
+    ]
+}

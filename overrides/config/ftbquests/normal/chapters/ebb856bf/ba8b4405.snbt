@@ -1,7 +1,7 @@
 {
-	title: "升级自身",
+	title: "Update u.",
 	x: -2.0d,
-	y: -4.0d,
+	y: -1.0d,
 	tasks: [{
 		uid: "2a15accd",
 		type: "item",

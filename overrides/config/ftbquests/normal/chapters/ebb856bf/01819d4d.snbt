@@ -1,7 +1,7 @@
 {
-	title: "大人，时代变了！",
-	x: 0.0d,
-	y: -4.0d,
+	title: "{ans.quest.other.agechanged}",
+	x: 1.0d,
+	y: 2.0d,
 	tasks: [{
 		uid: "49de52a8",
 		type: "item",

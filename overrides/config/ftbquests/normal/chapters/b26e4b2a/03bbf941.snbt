@@ -1,9 +1,9 @@
 {
-	title: "观测",
+	title: "{ans.quest.advance.observation}",
 	x: 2.5d,
 	y: 2.5d,
 	text: [
-		"玩家开始设法观测灵气的存在。"
+		"{ans.quest.advance.observation.dis}"
 	],
 	dependencies: [
 		"4f669306"

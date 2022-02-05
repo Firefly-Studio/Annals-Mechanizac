@@ -1,9 +1,9 @@
 {
-	title: "力场",
+	title: "{ans.quest.advance.forcefield}",
 	x: 4.0d,
 	y: 2.5d,
 	text: [
-		"玩家开始运用灵气力量。"
+		"{ans.quest.advance.forcefield.dis}"
 	],
 	dependencies: [
 		"93372934"

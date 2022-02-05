@@ -1,0 +1,8 @@
+customloadingscreen.modstate.minecraft_init=Инициализация ресурсов Minecraft
+customloadingscreen.modstate.construction=Сборка
+customloadingscreen.modstate.pre_initialization=Пре-инициализация
+customloadingscreen.modstate.initialization=Инициализация
+customloadingscreen.modstate.post_initialization=Пост-инициализация
+customloadingscreen.modstate.completed=Завершено
+customloadingscreen.modstate.reloading_resource_packs=Перезагрузка пакетов ресурсов
+customloadingscreen.loading=Загрузка

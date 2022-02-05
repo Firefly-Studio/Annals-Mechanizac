@@ -1,0 +1,26 @@
+{
+    "name": "Material Acquisition",
+    "icon": "minecraft:slime_ball",
+    "category": "recipe_category",
+    "pages": [
+        {
+            "type":"text",
+            "text":"This is only a record of how to obtain some materials that do not exist in JEI."
+        },
+        {
+            "type":"spotlight",
+            "item":"betternether:block_eyeball",
+            "text":"You can get mucus balls by destroying the eye blocks, and you can get eye blocks by planting the eye fern buds."
+        },
+        {
+            "type":"spotlight",
+            "item":"mod_lavacow:intestine",
+            "text":"Clay, seeds, etc. can be opened by right-clicking on the gut."
+        },
+        {
+            "type":"spotlight",
+            "item":"appliedenergistics2:sky_stone_block",
+            "text":"Just throw the obsidian into the clump transformer."
+        }
+    ]
+}

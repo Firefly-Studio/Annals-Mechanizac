@@ -1,0 +1,31 @@
+{
+    "name": "Ruins",
+    "icon": "minecraft:nether_brick",
+    "category": "adventure_category",
+    "pages": [
+        {
+            "type":"image",
+            "images":["annals:images/altar.png","annals:images/altar_1.png","annals:images/altar_2.png","annals:images/altar_3.png","annals:images/altar_4.png"]
+        },
+        {
+            "type":"text",
+            "text":"Figure 1 is the appearance of the altar relics, Figure 2 is the second floor of the altar relics, Figure 3 is the second floor of the altar relics, Figure 4 is the altar core, and the altar core interaction is a must have condition for summoning bosses, Figure 5 is the altar loot, inside the Orphic Pearl - Red, Orphic Pearl - Blue and 12 pieces of the Mordecai portal frame. \\n altar relics more than generated in the Y axis 8-14 layer, and its generation will be prompted to all players: Earthquaking."
+        },
+        {
+            "type":"image",
+            "images":["annals:images/annalsruin.png"]
+        },
+        {
+            "type":"text",
+            "text":"Annals relics, generating huge volume and rich loot."
+        },
+        {
+            "type":"image",
+            "images":["annals:images/bedrock.png"]
+        },
+        {
+            "type":"text",
+            "text":"Bedrock layer near the often generated through the bedrock remains, the original was submitted as a bug, but later discussed by the development team to retain this feature, because the conditions required to obtain the sky ingot contains for the table is a vast sky. And allow players to dig near the upper bedrock layer to play in the upper bedrock layer."
+        }
+    ]
+}

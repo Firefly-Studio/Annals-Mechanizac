@@ -1,5 +1,5 @@
 {
-	title: "发展",
+	title: "{ans.quest.cate.develop}",
 	icon: "buildcraftbuilders:snapshot 1 2",
 	always_invisible: false,
 	group: 0,

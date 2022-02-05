@@ -1,7 +1,7 @@
 #priority 1
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
-var i as string ="1";
+var i as int =1;
 for key,dore in aingotOre{
     for keyy,iore in aingotOres{
         for keyyy,aore in alloyOres{
@@ -12,7 +12,7 @@ for key,dore in aingotOre{
                 .addItemInput(iore,2)
                 .addItemOutput(aore,4)
                 .build();
-                i+="1";
+                i+=1;
                 break;
             }
         }

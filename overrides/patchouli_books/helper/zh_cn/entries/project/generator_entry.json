@@ -1,0 +1,21 @@
+{
+    "name": "发电",
+    "icon": "modularcontroller:j_power_machine_controller",
+    "category": "project_category",
+    "pages": [
+        {
+            "type":"text",
+            "text":"能源获取。"
+        },
+        {
+            "type":"spotlight",
+            "item":"modularcontroller:j_power_machine_controller",
+            "text":"初级发电机，在JEI中右键控制器即可查看多方块结构图。如果身上有足够的搭建方块，使用木棍右键控制器即可快速搭建。输入岩浆每Tick发电100FE；输入钻石，每Tick发电250FE；输入煤炭，每Tick发电159FE;输入熔核肉，每Tick发电300FE。"
+        },
+        {
+            "type":"spotlight",
+            "item":"modularcontroller:s_power_machine_controller",
+            "text":"高级发电机，在JEI中右键控制器即可查看多方块结构图。如果身上有足够的搭建方块，使用木棍右键控制器即可快速搭建。输入岩浆每Tick发电200FE；输入钻石，每Tick发电1000FE；输入煤炭，每Tick发电400FE；输入熔核肉，每Tick发电1200FE。"
+        }
+    ]
+}

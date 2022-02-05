@@ -1,9 +1,9 @@
 {
-	title: "创造",
+	title: "{ans.quest.advance.creation}",
 	x: 6.5d,
 	y: -2.5d,
 	text: [
-		"智者遗物。"
+		"{ans.quest.advance.creation.dis}"
 	],
 	dependencies: [
 		"ea178638"

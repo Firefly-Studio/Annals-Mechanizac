@@ -1,0 +1,15 @@
+{
+    "name": "Trees",
+    "icon": "natura:nether_sapling:2",
+    "category": "survival_category",
+    "pages": [
+        {
+            "type":"text",
+            "text":"Trees in hell are not rare"
+        },
+        {
+            "type":"text",
+            "text":"Trees that normally grow naturally in Hell can be planted on Hell Rock by players."
+        }
+    ]
+}

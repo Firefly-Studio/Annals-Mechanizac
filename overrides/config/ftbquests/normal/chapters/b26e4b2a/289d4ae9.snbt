@@ -1,10 +1,10 @@
 {
-	title: "提取",
+	title: "{ans.quest.advance.extract}",
 	icon: "mekanism:energyupgrade",
 	x: -0.5d,
 	y: -2.5d,
 	text: [
-		"玩家发现了名为RF的能源，并设计了提取RF的机械。"
+		"{ans.quest.advance.extract.dis}"
 	],
 	dependencies: [
 		"312eb71d"

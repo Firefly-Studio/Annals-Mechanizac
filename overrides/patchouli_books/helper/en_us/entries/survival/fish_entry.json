@@ -1,0 +1,22 @@
+{
+    "name": "Fishing",
+    "icon": "minecraft:fish",
+    "category": "survival_category",
+    "pages": [
+        {
+            "type":"text",
+            "text":"Wherever we are, we carry the heart of a groping fish."
+        },
+        {
+            "type":"spotlight",
+            "item":"forge:bucketfilled{FluidName:coolliquid, Amount: 1000}",
+            "text":"In hell, cold liquid cannot evaporate and it also has the properties of water. So it is possible to take cold liquid fishing."
+        },
+        {
+            "type":"crafting",
+            "recipe":"combustfish:golden_rod",
+            "text":"If you still stubbornly want to fish in the lava, you can make a gold fishing rod."
+        }
+
+    ]
+}

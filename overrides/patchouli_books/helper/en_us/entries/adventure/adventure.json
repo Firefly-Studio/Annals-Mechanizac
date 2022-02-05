@@ -1,0 +1,23 @@
+{
+    "name": "Boss Main Line",
+    "icon": "minecraft:diamond_sword",
+    "category": "adventure_category",
+    "pages": [
+        {
+            "type":"entity",
+            "entity":"mod_lavacow:skeletonking"
+        },
+        {
+            "type":"text",
+            "text":"Place two sets of bones, a netherStar, a Crown of the Cursed King, and a set of diamonds on the altar and hold the Bloodwood Sword and right-click on the altar to create it. There is an 80% chance of dropping the Orphic Pearls - Yellow and Orphic Pearls - Green, etc."
+        },
+        {
+            "type":"entity",
+            "entity":"dungeonmobs:dmeldermob"
+        },
+        {
+            "type":"text",
+            "text":"In the altar relics will be 10 king's emblem discipline 4 netherStar ender gobber block dragon egg aura treasure into the altar and hold the shadow gobber sword and press Shift right altar to generate. There is an 80% chance of dropping the Orphic Pearl - Purple."
+        }
+    ]
+}

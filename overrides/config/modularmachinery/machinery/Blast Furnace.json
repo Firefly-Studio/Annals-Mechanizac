@@ -1,6 +1,7 @@
 {
     "registryname": "blastFurnace",
-    "localizedname": "傲慢火山炉",
+    "localizedname": "modularmachinery.blastFurnace",
+    "activated_sound": "modularcontroller:machine_activated_industry",
     "color": "FFC125",
     "parts": [
         {

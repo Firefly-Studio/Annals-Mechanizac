@@ -1,9 +1,9 @@
 {
-	title: "地标",
+	title: "{ans.quest.survival.landmark}",
 	x: -1.0d,
 	y: -1.0d,
 	text: [
-		"玩家根据指引做出了地狱的“床”。"
+		"{ans.quest.survival.landmark.dis}"
 	],
 	dependencies: [
 		"e7cb5014"

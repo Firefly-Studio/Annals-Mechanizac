@@ -1,8 +1,7 @@
 {
-	title: "战利品袋",
+	title: "Loot",
 	x: 0.0d,
 	y: 1.0d,
-	description: "快掏掏里面有什么",
 	tasks: [{
 		uid: "00d215f5",
 		type: "item",

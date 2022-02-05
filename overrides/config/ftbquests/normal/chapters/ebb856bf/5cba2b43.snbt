@@ -1,8 +1,8 @@
 {
-	title: "鱼钩打窝",
+	title: "{ans.quest.other.fishing}",
 	x: 2.0d,
 	y: 0.0d,
-	description: "姜太公钓鱼",
+	description: "{ans.quest.other.fishingb}",
 	tasks: [{
 		uid: "b6b00064",
 		type: "item",

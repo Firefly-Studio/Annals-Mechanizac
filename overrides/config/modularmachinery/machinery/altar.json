@@ -1,6 +1,7 @@
 {
     "registryname": "altar",
-    "localizedname": "拟真祭坛",
+    "localizedname": "modularmachinery.altar",
+    "activated_sound": "modularcontroller:machine_activated_industry",
     "color": "FFFFE0",
     "parts": [
         {

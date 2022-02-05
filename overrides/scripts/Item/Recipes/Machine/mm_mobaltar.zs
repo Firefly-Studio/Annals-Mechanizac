@@ -15,7 +15,7 @@ var items as IOreDictEntry[IItemStack]={
     <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:villager"}}):<ore:ingotRefinedObsidian>,
     <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:sheep"}}):<ore:ingotTin>
 };
-function addon(input as IOreDictEntry,output as IItemStack,i as string){
+function addon(input as IOreDictEntry,output as IItemStack,i as int){
     RecipeBuilder.newBuilder("mo"~i, "mobaltar", 600)
     .addItemInput(input,16)
     .addAuraInput("nether",1)
@@ -24,7 +24,7 @@ function addon(input as IOreDictEntry,output as IItemStack,i as string){
     .addItemOutput(output)
     .build();
 }
-var i as string = "1";
+var i as int = 1;
 for input,output in items{
     addon(output,input,i);
     i+=i;

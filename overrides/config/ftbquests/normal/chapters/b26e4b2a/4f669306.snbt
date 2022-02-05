@@ -1,10 +1,10 @@
 {
-	title: "仪式",
+	title: "{ans.quest.advance.ceremony}",
 	icon: "naturesaura:token_fear",
 	x: 1.5d,
 	y: 1.5d,
 	text: [
-		"玩家开始举行仪式。"
+		"{ans.quest.advance.ceremony.dis}"
 	],
 	dependencies: [
 		"633b365b"
