@@ -1,0 +1,33 @@
+# Present to you by Gary Bryson Luis Jr.
+# The workfile itself is under Mozilla Public License 2.0 independently.
+
+name: Pack
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+env:
+  BUILD: Annals-Mechanizac
+
+jobs:
+  AutoPack:
+    if: "!endsWith(github.event.head_commit.message, 'NOPACK')"
+    runs-on: ubuntu-latest
+    steps:
+    
+      - uses: actions/checkout@v2
+      
+      - name: pack cl
+        run: |
+          mkdir artifacts
+          mv ${GITHUB_WORKSPACE}/overrides artifacts/overrides
+          mv ${GITHUB_WORKSPACE}/manifest.json artifacts
+          mv ${GITHUB_WORKSPACE}/modlist.html artifacts
+          
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.BUILD }}
+          path: artifacts
