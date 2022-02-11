@@ -59,5 +59,15 @@
 		uid: "b28a1aa5",
 		type: "item",
 		item: "ftbquests:book"
+	},
+	{
+		uid: "1a5891aa",
+		type: "item",
+		item: "ebwizardry:wizard_handbook"
+	},
+	{
+		uid: "198347a5",
+		type: "item",
+		item: "enderskills:book"
 	}]
 }

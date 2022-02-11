@@ -1,0 +1,14 @@
+item.diamond_bow.name=水晶弓
+item.ender_bow.name=末影弓
+item.flame_bow.name=烈焰弓
+item.frost_bow.name=冰霜弓
+item.gold_bow.name=金弓
+item.iron_bow.name=铁弓
+item.multi_bow.name=复合弓
+item.stone_bow.name=石弓
+frostArrowsShouldBeCold.tooltip=如果启用这个功能，冰霜箭会对烈焰造成三倍的伤害，并熄灭着火的实体。启用该功能还可以防止冰霜箭着火。
+frostArrowsShouldBeCold=霜降大地
+oldFrostArrowMobSlowdown.tooltip=如果启用此功能，冰霜箭将伪造该实体状态于网中而持续一tick使其减速，。如果该功能被禁用，冰霜箭会在击中时应用减速药水的效果。
+oldFrostArrowMobSlowdown=冰霜箭生物的速度减慢
+oldFrostArrowRendering.tooltip=如果启用这个功能， 霜冻的箭头将会渲染为方块。
+oldFrostArrowRendering=冰霜箭渲染

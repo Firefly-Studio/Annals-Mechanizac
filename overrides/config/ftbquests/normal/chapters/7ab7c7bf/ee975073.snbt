@@ -2,17 +2,17 @@
 	title: "{ans.quest.explore.dimension}",
 	icon: "contenttweaker:key",
 	x: 1.0d,
-	y: 1.0d,
+	y: 2.0d,
 	text: [
 		"{ans.quest.advance.null.dis}"
 	],
 	dependencies: [
-		"1ab9d86b"
+		"4c1c801f"
 	],
 	tasks: [{
 		uid: "ffa69215",
 		type: "dimension",
-		dim: -1
+		dim: 0
 	},
 	{
 		uid: "e730b8e3",
@@ -27,5 +27,15 @@
 		uid: "bb98bead",
 		type: "ftbmoney:money",
 		ftb_money: 1200L
+	},
+	{
+		uid: "71f4de33",
+		type: "item",
+		item: {
+			id: "abyssalcraft:necronomicon",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}
 	}]
 }

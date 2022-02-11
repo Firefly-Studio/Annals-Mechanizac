@@ -213,6 +213,15 @@ val shapedLessRecipes as IIngredient[][IItemStack] = {
     ,
     <xnet:netcable>*12:
         [<ore:ingotOsmium>,<ore:itemSilicon>]
+    ,
+    <t3s4ebw:crystal_crop>:
+        [<ore:seed>,<ebwizardry:magic_crystal>]
+    ,
+    <minecraft:snowball>:
+        [<ore:slimeball>,<ebwizardry:crystal_shard>]
+    ,
+    <minecraft:dragon_egg>:
+        [<inventoryneko:neko>,<appliedenergistics2:material:48>,<minecraft:flint>]
 };
 
 for item, ingredients in shapedMirroredRecipes{

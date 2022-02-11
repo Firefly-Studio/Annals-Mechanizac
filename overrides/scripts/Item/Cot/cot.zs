@@ -1,5 +1,6 @@
+
 #loader contenttweaker
-#priority 1
+#priority 11111
 import crafttweaker.item.IItemStack;
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.ItemFood;
@@ -23,6 +24,7 @@ meatStew.onItemFoodEaten = function(stack, world, player) {
 meatStew.creativeTab = <creativetab:AnnalsItems>;
 meatStew.register();
 
+
 val coolliquid as Fluid = VanillaFactory.createFluid("coolliquid", 0x6A5ACD);
 coolliquid.density=1000;
 coolliquid.luminosity=1;
@@ -32,6 +34,7 @@ coolliquid.stillLocation="base:fluids/liquid";
 coolliquid.flowingLocation="base:fluids/liquid_flow";
 coolliquid.material=<blockmaterial:water>;
 coolliquid.register();
+
 
 val netherStew as ItemFood = VanillaFactory.createItemFood("netherstew",6);
 netherStew.onItemFoodEaten = function(stack, world, player) {

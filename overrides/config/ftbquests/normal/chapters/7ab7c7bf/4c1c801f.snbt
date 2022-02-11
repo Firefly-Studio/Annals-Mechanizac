@@ -1,0 +1,30 @@
+{
+	title: "{ans.quest.explore.erebus}",
+	icon: "erebus:gaean_keystone",
+	x: 1.0d,
+	y: 1.0d,
+	text: [
+		"{ans.quest.advance.null.dis}"
+	],
+	dependencies: [
+		"1ab9d86b"
+	],
+	tasks: [{
+		uid: "b4652beb",
+		type: "dimension",
+		dim: 66
+	},
+	{
+		uid: "34434394",
+		type: "item",
+		items: [{
+			item: "minecraft:purpur_block"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "2fdfb3bf",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

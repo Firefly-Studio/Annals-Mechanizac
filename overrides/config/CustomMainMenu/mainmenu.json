@@ -4,9 +4,9 @@
         "title":
         {
             "image" : "minecraft:textures/gui/Annals.png",
-            "posX" : -115,
+            "posX" : -85,
             "posY" : 13,
-            "width" : 320,
+            "width" : 291,
             "height" : 110,
             "alignment" : "top_center",
             "action" :{
@@ -21,7 +21,7 @@
         {
             "text" : " ",
             "posX" : -150,
-            "posY" : 145,
+            "posY" : 158,
             "width" : 50,
             "height" : 48,
             "texture" : "minecraft:textures/gui/single.png",
@@ -37,7 +37,7 @@
         {
             "text" : " ",
             "posX" : -20,
-            "posY" : 145,
+            "posY" : 158,
             "width" : 48,
             "height" : 48,
             "texture" : "minecraft:textures/gui/multi.png",
@@ -52,10 +52,10 @@
         "logo":
         {
             "text" : " ",
-            "posX" : -200,
-            "posY" : 22,
-            "width" : 85,
-            "height" : 85,
+            "posX" : -205,
+            "posY" : 12,
+            "width" : 115,
+            "height" : 115,
             "texture" : "minecraft:textures/gui/logo.png",
             "alignment" : "top_center",
             "action" : 
@@ -83,7 +83,7 @@
         {
             "text" : " ",
             "posX" : 100,
-            "posY" : 145,
+            "posY" : 158,
             "width" : 48,
             "height" : 48,
             "texture" : "minecraft:textures/gui/exit.png",
@@ -119,7 +119,7 @@
         },
         "nowver":
         {
-            "text" : "NowVer:D0A5R3F0 LastestVer:",
+            "text" : "NowVer:D0A6R0F0 LastestVer:",
             "posX" : -150,
             "posY" : -20,
             "color" : -1,

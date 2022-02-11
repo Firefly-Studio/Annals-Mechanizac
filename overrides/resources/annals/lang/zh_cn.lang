@@ -84,6 +84,7 @@ ans.tips.ingame.61=不，你不知道。
 ans.tips.ingame.62=不，你知道。
 ans.tips.ingame.63=我知道。
 ans.tips.ingame.64=A:来点骚话。 B:[表情] A:别发表情了！我是让你来点骚话！
+ans.tips.ingame.65=过度诚实，谦虚和高度责任感，是我们这个创作者社区最大的优势 -GBL (原版:HikariLan)
 
 ans.quest.survival.wake=初醒
 ans.quest.survival.wake.dis=因未知力量干扰，玩家被迫在下界出生。
@@ -172,10 +173,12 @@ ans.quest.explore.annals.dis=玩家建立起了名为年鉴的文明。
 ans.quest.explore.altar=祭坛
 ans.quest.explore.altar.dis=玩家搭建了祭坛。
 ans.quest.explore.DustandAshes=尘烬
-ans.quest.explore.oldLord=旧主
+ans.quest.explore.oldLord=伪旧主
 ans.quest.explore.oldLord.dis=玩家因骷髅王的降临陷入了一场浩劫。
 ans.quest.explore.trespass=闯入
 ans.quest.explore.dimension=维度
+ans.quest.explore.erebus=麻烦之地
+
 ans.quest.other.spa=来泡温泉？
 ans.quest.other.entertainment=娱乐一下
 ans.quest.other.DairyStorage=乳蓄业

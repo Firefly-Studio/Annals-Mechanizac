@@ -10,16 +10,10 @@
 		"c87156a0"
 	],
 	tasks: [{
-		uid: "4cd1cd74",
-		type: "item",
-		items: [{
-			id: "minecraft:spawn_egg",
-			tag: {
-				EntityTag: {
-					id: "dungeonmobs:dmeldermob"
-				}
-			}
-		}]
+		uid: "b7cd425b",
+		type: "kill",
+		entity: "dungeonmobs:dmeldermob",
+		value: 1L
 	}],
 	rewards: [{
 		uid: "279cd5a6",

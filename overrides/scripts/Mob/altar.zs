@@ -47,7 +47,9 @@ var ingredient as IIngredient[][string]={
     "minecraft:ocelot":[<biomesoplenty:fleshchunk>*4,<minecraft:bone>*5,<minecraft:fish>],
     "minecraft:parrot":[<biomesoplenty:fleshchunk>*4,<minecraft:bone>*2,<minecraft:dye:3>],
     "minecraft:squid":[<biomesoplenty:fleshchunk>*4,<minecraft:dye>],
-    "minecraft:rabbit":[<biomesoplenty:fleshchunk>*4,<minecraft:bone>*3,<minecraft:dye:4>]
+    "minecraft:rabbit":[<biomesoplenty:fleshchunk>*4,<minecraft:bone>*3,<minecraft:dye:4>],
+    "ebwizardry:wizard":[<ebwizardry:arcane_tome:1>,<enderskills:token>,<contenttweaker:pearl_orange>,<hammercore:emerald_bordered_cobblestone>]
+    
 };
 function summon(mob as string,input as IIngredient[]){
     SummoningDirector.addSummonInfo(
