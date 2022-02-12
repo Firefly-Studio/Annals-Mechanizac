@@ -1,0 +1,10 @@
+{
+  "block.underwaterrails.basic_underwater_rail": "水下铁轨(基本型)",
+  "block.underwaterrails.basic_powered_underwater_rail": "充能水下铁轨(基本型)",
+  "block.underwaterrails.basic_detector_underwater_rail": "探测水下铁轨(基本型)",
+  "block.underwaterrails.basic_activator_underwater_rail": "激活水下铁轨(基本型)",
+  "block.underwaterrails.advanced_underwater_rail": "水下铁轨(进阶型)",
+  "block.underwaterrails.advanced_powered_underwater_rail": "充能水下铁轨(进阶型)",
+  "block.underwaterrails.advanced_detector_underwater_rail": "探测水下铁轨(进阶型)",
+  "block.underwaterrails.advanced_activator_underwater_rail": "激活水下铁轨(进阶型)"
+}

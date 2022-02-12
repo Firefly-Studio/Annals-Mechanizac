@@ -1,0 +1,49 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	dependencies: [
+		"e0b5437d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "0920c799",
+		type: "item",
+		items: [{
+			item: "gb:globot2_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3f4ce617",
+		type: "item",
+		items: [{
+			item: "gb:globot2_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8338ffed",
+		type: "item",
+		items: [{
+			item: "gb:globot2_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3dd8740f",
+		type: "item",
+		items: [{
+			item: "gb:globot2_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bb52c16e",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

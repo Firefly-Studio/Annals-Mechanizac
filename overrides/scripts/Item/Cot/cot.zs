@@ -52,7 +52,7 @@ key.maxStackSize = 1;
 key.register();
 
 //普通物品
-val anythingsNormal as string[]=["hunl2","youyihj"];
+val anythingsNormal as string[]=["hunl2","youyihj","LLE"];
 function thingsReg(things as string){
     var sub as Item = VanillaFactory.createItem(things);
     sub.creativeTab = <creativetab:AnnalsItems>;

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "G G",
+    " R "  ],
+  "key": {
+    "R": [
+      {
+        "item": "underwaterrails:basic_underwater_rail",
+        "data": 0
+      }
+    ],
+    "G": [
+      {
+        "item": "minecraft:glass_pane",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "underwaterrails:advanced_underwater_rail",
+    "data": 0
+  }
+}

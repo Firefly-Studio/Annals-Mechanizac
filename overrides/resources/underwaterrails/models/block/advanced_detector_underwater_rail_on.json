@@ -1,0 +1,46 @@
+{
+	"parent": "minecraft:block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "minecraft:block/glass",
+		"particle": "minecraft:block/detector_rail_on"
+	},
+	"elements": [
+		{
+			"__comment": "Element",
+			"from": [ -0.00055076, 23.99998, 0.09906557 ],
+			"to": [ 15.99945, 24.00098, 15.99907 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 15.9 ], "texture": "#0" },
+				"up": { "uv": [ 0, 0.1000004, 16, 16 ], "texture": "#0" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 0, 0, 0 ],
+			"to": [ 0.001, 24, 16 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#0", "rotation": 90 },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#0", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 15.99936, -0.000237249, 0.000095041 ],
+			"to": [ 16.00035, 23.99976, 16.0001 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#0", "rotation": 90 },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#0", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ -0.000836911, 0.999486, -0.000418951 ],
+			"to": [ 15.99916, 1.000486, 15.99958 ],
+			"faces": {
+				"down": { "uv": [ 0, 16, 16, 0 ], "texture": "#particle" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#particle" }
+			}
+		}
+	]
+}

@@ -16,58 +16,111 @@
 		ftb_money: 1200L
 	},
 	{
-		uid: "be069c65",
+		uid: "b0fca51b",
 		type: "item",
 		item: {
-			id: "patchouli:guide_book",
+			id: "akashictome:tome",
 			tag: {
-				"patchouli:book": "patchouli:help"
+				"akashictome:data": {
+					golems: {
+						id: "golems:info_book",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "golems"
+						}
+					},
+					patchouli: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"patchouli:book": "patchouli:helper",
+							"akashictome:definedMod": "patchouli",
+							"akashictome:is_morphing": 1b,
+							"akashictome:displayName": "Annals Helper",
+							display: {
+								Name: "§r阿卡什宝典（§aAnnals Helper§r）"
+							}
+						}
+					},
+					enderskills: {
+						id: "enderskills:book",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "enderskills"
+						}
+					},
+					ebwizardry: {
+						id: "ebwizardry:wizard_handbook",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "ebwizardry"
+						}
+					},
+					xnet: {
+						id: "xnet:xnet_manual",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "xnet"
+						}
+					},
+					opencomputers: {
+						id: "opencomputers:tool",
+						Count: 1b,
+						Damage: 4s,
+						tag: {
+							"akashictome:definedMod": "opencomputers"
+						}
+					},
+					openblocks: {
+						id: "openblocks:info_book",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "openblocks"
+						}
+					},
+					improvableskills: {
+						id: "improvableskills:skills_book",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "improvableskills"
+						}
+					},
+					naturesaura: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"patchouli:book": "naturesaura:book",
+							"akashictome:definedMod": "naturesaura"
+						}
+					},
+					ancientspellcraft: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"patchouli:book": "ancientspellcraft:manual",
+							"akashictome:definedMod": "ancientspellcraft"
+						}
+					},
+					ftbquests: {
+						id: "ftbquests:book",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "ftbquests"
+						}
+					}
+				},
+				"akashictome:is_morphing": 1b
 			}
 		}
-	},
-	{
-		uid: "73043207",
-		type: "item",
-		item: "opencomputers:tool 1 4"
-	},
-	{
-		uid: "526cdddd",
-		type: "item",
-		item: "xnet:xnet_manual"
-	},
-	{
-		uid: "14f522de",
-		type: "item",
-		item: "openblocks:info_book"
-	},
-	{
-		uid: "9e16ce1d",
-		type: "item",
-		item: {
-			id: "patchouli:guide_book",
-			tag: {
-				"patchouli:book": "naturesaura:book"
-			}
-		}
-	},
-	{
-		uid: "a3a829d6",
-		type: "item",
-		item: "improvableskills:skills_book"
-	},
-	{
-		uid: "b28a1aa5",
-		type: "item",
-		item: "ftbquests:book"
-	},
-	{
-		uid: "1a5891aa",
-		type: "item",
-		item: "ebwizardry:wizard_handbook"
-	},
-	{
-		uid: "198347a5",
-		type: "item",
-		item: "enderskills:book"
 	}]
 }

@@ -10,6 +10,7 @@ import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.PlayerRightClickItemEvent;
 import crafttweaker.event.PlayerInteractEvent;
+import crafttweaker.event.PlayerInteractBlockEvent;
 import crafttweaker.event.BlockHarvestDropsEvent;
 import crafttweaker.event.EntityTravelToDimensionEvent;
 import crafttweaker.event.PlayerLoggedInEvent;
@@ -17,6 +18,9 @@ import crafttweaker.event.PlayerChangedDimensionEvent;
 import crafttweaker.event.PlayerRespawnEvent;
 import crafttweaker.event.PlayerPickupItemEvent;
 import crafttweaker.entity.IEntityItem;
+import crafttweaker.event.PlayerLeftClickBlockEvent;
+import crafttweaker.world.IFacing;
+import crafttweaker.world.IBlockPos;
 events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent){
     val player as IPlayer = event.player;
     val world as IWorld = event.toWorld;
@@ -81,23 +85,15 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
     if (block.definition.id == "gb:globplant") {
         event.addItem(<gb:glob_seed> * 1 % 100);
     }
-});
-events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
-    var player as IPlayer = event.player;
-    if(!event.isPlayer || event.drops.length == 0 || event.silkTouch) return;
-    val block as IBlock = event.block;
     if (block.definition.id == "gb:glob2plant") {
         event.addItem(<gb:glob2_seed> * 1 % 100);
     }
-});
-events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
-    var player as IPlayer = event.player;
-    if(!event.isPlayer || event.drops.length == 0 || event.silkTouch) return;
-    val block as IBlock = event.block;
     if (block.definition.id == "gb:glob3plant") {
         event.addItem(<gb:glob3_seed> * 1 % 100);
     }
+
 });
+
 
 //矿物副产
 events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
@@ -130,5 +126,55 @@ events.onPlayerInteract(function(event as PlayerInteractEvent){
     if(!world.remote && <natura:bloodwood_sword> in player.currentItem && "zensummoning:altar" in block.definition.id){
         player.removeXP(100);
         player.sendChat(game.localize("ans.message.altar.bloodwood_sword"));
+    }
+});
+//物品交换 From hds silverWoodTransform.zs
+events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
+    var world as IWorld = event.world;
+    var player as IPlayer = event.player;
+    var pos as IBlockPos = event.position;
+    var mainItem as IItemStack = player.currentItem;
+
+    if(!world.remote && <ebwizardry:astral_diamond>.matches(mainItem) && world.getBlockState(pos) == <blockstate:hammercore:emerald_bordered_cobblestone>) {
+        world.setBlockState(<blockstate:minecraft:dirt>, pos);
+        mainItem.mutable().shrink(1);
+        player.give(<ancientspellcraft:astral_diamond_charged>);
+        player.sendChat(game.localize("ZUREZAD LT EN."));
+    }
+});
+events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
+    var world as IWorld = event.world;
+    var player as IPlayer = event.player;
+    var pos as IBlockPos = event.position;
+    var mainItem as IItemStack = player.currentItem;
+
+    if(!world.remote && <ancientspellcraft:astral_diamond_charged>.matches(mainItem) && world.getBlockState(pos) == <blockstate:minecraft:bedrock>) {
+        world.setBlockState(<blockstate:minecraft:gravel>, pos);
+        mainItem.mutable().shrink(1);
+        player.sendChat(game.localize("VW AT."));
+    }
+});
+events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
+    var world as IWorld = event.world;
+    var player as IPlayer = event.player;
+    var pos as IBlockPos = event.position;
+    var mainItem as IItemStack = player.currentItem;
+
+    if(!world.remote && <quark:black_ash>.matches(mainItem) && world.getBlockState(pos) == <blockstate:minecraft:grass>) {
+        if(world.random.nextInt(0,100)>85){
+            world.setBlockState(<blockstate:minecraft:dirt>, pos);
+        }
+        mainItem.mutable().shrink(1);
+        player.sendChat(game.localize("TML."));
+        var dust as IItemStack[]=[
+            <ebwizardry:spectral_dust:1>,
+            <ebwizardry:spectral_dust:2>,
+            <ebwizardry:spectral_dust:3>,
+            <ebwizardry:spectral_dust:4>,
+            <ebwizardry:spectral_dust:5>,
+            <ebwizardry:spectral_dust:6>,
+            <ebwizardry:spectral_dust:7>
+        ];
+        player.give(dust[world.random.nextInt(0,6)]);
     }
 });

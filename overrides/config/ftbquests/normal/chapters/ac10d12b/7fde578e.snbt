@@ -1,0 +1,23 @@
+{
+	title: "{ans.quest.survival.use}",
+	x: 0.0d,
+	y: 2.0d,
+	dependencies: [
+		"df1f9d4a",
+		"e9f13ae7"
+	],
+	tasks: [{
+		uid: "5b06b093",
+		type: "item",
+		items: [{
+			item: "minecraft:bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d6d32d79",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

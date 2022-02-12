@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:slime_ball",
+      "data": 0
+    },
+    {
+      "item": "minecraft:rail",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "underwaterrails:basic_underwater_rail",
+    "data": 0
+  }
+}

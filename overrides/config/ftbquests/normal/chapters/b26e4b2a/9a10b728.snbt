@@ -1,0 +1,19 @@
+{
+	x: 6.5d,
+	y: 1.0d,
+	dependencies: [
+		"16b15fcd"
+	],
+	tasks: [{
+		uid: "c1575eb3",
+		type: "item",
+		items: [{
+			item: "t3s4ebw:magic_seed"
+		}]
+	}],
+	rewards: [{
+		uid: "10bceca3",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

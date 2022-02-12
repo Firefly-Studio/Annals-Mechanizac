@@ -58,11 +58,11 @@ var out as IItemStack[][]=[
 //put(RP名,能量*,物品*,灵气*,流体*,能量数值,物品[],物品数值,灵气Map,流体[],流体数值)
 //---------遍历添加-----------
 for i in 0 .. 17{
-    var r1 = MachineUtil.buildMachine("blaj"~i , "blastFurnace", 500) as RecipePrimer;
+    var r1 = MachineUtil.buildMachine("blaj"~i , "blastFurnace", 500,2) as RecipePrimer;
     MachineUtil.inputResister(r1, true, true, false, true, 30, inp[i],1, defaultAura, defaultLiquid,50) as RecipePrimer;
     MachineUtil.outputResister(r1, false, true, false, false,false, 0, out[i],1,0, defaultAura, defaultLiquid,0) as RecipePrimer;
     r1.build();
-    var r2 = MachineUtil.buildMachine("blap"~i , "blastFurnacePlus", 120) as RecipePrimer;
+    var r2 = MachineUtil.buildMachine("blap"~i , "blastFurnacePlus", 120,2) as RecipePrimer;
     MachineUtil.inputResister(r2, true, true, false, true, 30, inp[i],1, defaultAura, defaultLiquid,100) as RecipePrimer;
     MachineUtil.outputResister(r2, false, true, false, false,false, 0, out[i],1,0, defaultAura, defaultLiquid,0) as RecipePrimer;
     r2.build();
@@ -86,7 +86,7 @@ var i=1;
 for key,dore in cytOres{
     for keyy,iore in cyOres{
         if (key == keyy) {
-            mods.modularmachinery.RecipeBuilder.newBuilder("balst_furnace_plus_"~i, "blastFurnacePlus", 120, 2)
+            mods.modularmachinery.RecipeBuilder.newBuilder("balst_furnace_plus_"~i, "blastFurnacePlus", 120, 1)
             .addEnergyPerTickInput(90)
             .addFluidInput(<liquid:liquidoxygen>*25)
             .addItemInput(dore)

@@ -1,0 +1,61 @@
+{
+	x: 5.5d,
+	y: 2.0d,
+	dependencies: [
+		"9a10b728"
+	],
+	tasks: [{
+		uid: "4f13b575",
+		type: "item",
+		items: [{
+			item: "ebwizardry:spectral_dust 1 1"
+		}]
+	},
+	{
+		uid: "814ccd13",
+		type: "item",
+		items: [{
+			item: "ebwizardry:spectral_dust 1 4"
+		}]
+	},
+	{
+		uid: "373b06cc",
+		type: "item",
+		items: [{
+			item: "ebwizardry:spectral_dust 1 3"
+		}]
+	},
+	{
+		uid: "8b0d9d57",
+		type: "item",
+		items: [{
+			item: "ebwizardry:spectral_dust 1 6"
+		}]
+	},
+	{
+		uid: "555edd75",
+		type: "item",
+		items: [{
+			item: "ebwizardry:spectral_dust 1 7"
+		}]
+	},
+	{
+		uid: "6bdde7ab",
+		type: "item",
+		items: [{
+			item: "ebwizardry:spectral_dust 1 5"
+		}]
+	},
+	{
+		uid: "11275a02",
+		type: "item",
+		items: [{
+			item: "ebwizardry:spectral_dust 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "6475b064",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

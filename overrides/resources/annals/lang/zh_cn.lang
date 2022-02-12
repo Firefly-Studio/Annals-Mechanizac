@@ -4,6 +4,10 @@ ans.message.comeback.faild=请手持维度通行证。
 ans.message.welcome=欢迎来到 Annals！
 ans.message.altar.bloodwood_sword=似乎遗忘了什么。
 ans.message.meatstew.eat=是不是吃进去了些不好的东西。
+
+ans.jei.ancdiamond=手持星芒宝钻对绿宝石边框圆石左键或右键可得到充能星芒宝钻。
+ans.jei.dustsoul=手持凋零灰对草方块右键即可得到灵尘。*15%几率草方块会变成泥土。
+
 ans.tip.key=充斥着不祥的气息。
 ans.tip.stick=大魔法棒！
 ans.tip.wrench=管塞失业。
@@ -16,6 +20,7 @@ ans.tip.transport_controller=或是世界崩坏，或是万生繁盛。\\n将灵
 ans.tip.hopper_upgrade=在下界不可用,可使用虚空漏斗代替。
 ans.tip.offering_table=在下界的话建议去基岩层上进行仪式。什？怎么去基岩层上？我不是在Tip里告诉过你了吗。怎么回来？传送门啊，路径石啊！还有，呼唤之魂只能一次扔一个，不然仪式是不会进行的。
 ans.tip.animal_spawner=在下界不可用。
+ans.tip.Akashi=左击还原。
 ans.message.dmeldermob.success=你召唤了不属于这个世界的东西。
 
 ans.helper.main.landing_text=帮你快速掌握整合玩法！但也请多看看任务进度。
@@ -59,7 +64,7 @@ ans.tips.ingame.36=早期的Annals是有加OpenComputer模组的。
 ans.tips.ingame.37=你知道么？
 ans.tips.ingame.38=我们不叫Anals!也不叫Animal!
 ans.tips.ingame.39=你在瑟瑟发抖啊，是因为这boss的血量呢？还是因为这小怪的护甲呢？
-ans.tips.ingame.40=不要太过分了, 1710人! - HDS
+ans.tips.ingame.40=不要太过分了, 1.7.10人! - HDS
 ans.tips.ingame.41=绝对流体分离机会将岩浆的原子打碎,让它的硅原子裂变成碳、氢、氧原子。（精神错乱）
 ans.tips.ingame.42=到底是科技包还是冒险包呢？
 ans.tips.ingame.43=有没有一种可能，我是说可能，这个包的开发团队中只有一个人玩过这个包。
@@ -85,6 +90,8 @@ ans.tips.ingame.62=不，你知道。
 ans.tips.ingame.63=我知道。
 ans.tips.ingame.64=A:来点骚话。 B:[表情] A:别发表情了！我是让你来点骚话！
 ans.tips.ingame.65=过度诚实，谦虚和高度责任感，是我们这个创作者社区最大的优势 -GBL (原版:HikariLan)
+ans.tips.ingame.66=猜猜我为什么要在游戏前期送你这么多东西。
+
 
 ans.quest.survival.wake=初醒
 ans.quest.survival.wake.dis=因未知力量干扰，玩家被迫在下界出生。

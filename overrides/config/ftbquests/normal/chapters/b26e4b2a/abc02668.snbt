@@ -1,0 +1,22 @@
+{
+	x: 8.5d,
+	y: 1.0d,
+	dependencies: [
+		"2ad4b572",
+		"4c1c801f"
+	],
+	tasks: [{
+		uid: "0691206d",
+		type: "item",
+		items: [{
+			item: "ancientspellcraft:stone_tablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f7c083e3",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

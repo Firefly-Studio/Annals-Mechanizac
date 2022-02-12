@@ -33,5 +33,10 @@
 		uid: "43242401",
 		type: "item",
 		item: "minecraft:diamond_block"
+	},
+	{
+		uid: "c8037ea3",
+		type: "item",
+		item: "natura:overworld_seeds 1 1"
 	}]
 }

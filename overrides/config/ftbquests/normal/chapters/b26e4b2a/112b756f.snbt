@@ -1,0 +1,34 @@
+{
+	x: 6.5d,
+	y: -5.0d,
+	dependencies: [
+		"e155f197"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a2f46ffc",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager"
+		}]
+	},
+	{
+		uid: "c61d94b5",
+		type: "item",
+		items: [{
+			item: "packagedauto:encoder"
+		}]
+	},
+	{
+		uid: "27278d27",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager_extension"
+		}]
+	}],
+	rewards: [{
+		uid: "4521f170",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "{ans.quest.survival.upgrade}#5",
+	x: 2.5d,
+	y: 3.5d,
+	dependencies: [
+		"7fde578e"
+	],
+	optional: true,
+	tasks: [{
+		uid: "85ed6864",
+		type: "item",
+		items: [{
+			item: "morebows:flame_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

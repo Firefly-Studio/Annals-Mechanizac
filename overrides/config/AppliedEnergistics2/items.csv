@@ -1283,6 +1283,7 @@ mw:force_recon_vest, 军直侦察连背心
 mw:forest_force_recon_vest, 军直侦察连背心 | 丛林涂装
 mw:urban_force_recon_vest, 军直侦察连背心 | 城市涂装
 mw:black_force_recon_vest, 军直侦察连背心 | 黑色涂装
+mw:usmc_vest, item.mw_usmc_vest.name
 mw:umbrella_corp_vest, 保护伞公司战术背心
 mw:hammer_down_vest, 锤击战术背心
 mw:hecu_vest, 危险环境战斗部队战术背心
@@ -1294,6 +1295,7 @@ mw:viper_sf, Viper SF战术背心 | 黑色涂装
 mw:viper_sf_green, Viper SF战术背心 | 丛林涂装
 mw:viper_sf_desert, Viper SF战术背心 | 荒漠涂装
 mw:blackhawk_ballistic_vest, 黑鹰防弹背心
+mw:wfi_task_force_vest, item.mw_wfi_task_force_vest.name
 mw:scar_vest, item.mw_scar_vest.name
 mw:leadore, 铅矿石
 mw:leadingot, 铅锭
@@ -1354,6 +1356,7 @@ mw:swat_helmet, 特警队头盔
 mw:swat_chest, 特警队作战服
 mw:swat_boots, 特警队作战靴
 mw:tactical_helmet, 战术夜视镜
+mw:jpnvg18_helmet, item.JPNVG18_helmet.name
 mw:m40gasmask_helmet, M40防毒面具
 mw:umbrella_helmet, 保护伞公司头盔
 mw:umbrella_chest, 保护伞公司作战服
@@ -1366,6 +1369,11 @@ mw:scar_chest, 空间站军直侦查连EVA作战服
 mw:scar_boots, 空间站军直侦查连EVA作战靴
 mw:kcpd_chest, 堪萨斯城警察局作战服
 mw:kcpd_boots, 堪萨斯城警察局作战靴
+mw:dclass_chest, item.Dclass_chest.name
+mw:dclass_boots, item.Dclass_boots.name
+mw:scpguard_helmet, item.SCPGuard_helmet.name
+mw:scpguard_chest, item.SCPGuard_chest.name
+mw:scpguard_boots, item.SCPGuard_boots.name
 mw:mkvi_main_helmet, 斯巴达六型头盔 | 绿色涂装
 mw:mkvi_main_chest, 斯巴达六型胸甲 | 绿色涂装
 mw:mkvi_main_boots, 斯巴达六型装甲靴 | 绿色涂装
@@ -1410,7 +1418,35 @@ mw:scarhandguard, Scar Handguard
 mw:krissvectorhandguard, Kriss Vector .45 ACP 枪身
 mw:krissvectorswordfish, Kriss Vector “剑鱼”套件
 mw:krissvector556handguard, Kriss Vector 5.56x45mm 北约制式 枪身
+mw:origin12handguard, Origin-12 Handguard
+mw:hks20handguard, Origin-12 [HKS-20] Handguard
+mw:remington700chassis, Remington-700 Chassis
+mw:ssg08chassis, SSG-08 Chassis
+mw:arx160chassis, item.mw_ARX160Chassis.name
+mw:arx160chassisolive, item.mw_ARX160ChassisOlive.name
+mw:arx160chassistan, item.mw_ARX160ChassisTan.name
+mw:g2contenderbarrelshort, item.mw_G2ContenderBarrelShort.name
+mw:g2contenderbarrellong, item.mw_G2ContenderBarrelLong.name
+mw:g2contendergrip, item.mw_G2ContenderGrip.name
+mw:g2contenderstock, item.mw_G2ContenderStock.name
+mw:origin12grip, Origin-12 Grip
+mw:hks20grip, Origin-12 [HKS-20] Grip
+mw:origin12stock, Origin-12 Stock
+mw:hks20stock, Origin-12 [HKS-20] Stock
 mw:acrhandguard, ACR Handguard
+mw:acrhandguardblack, ACR Handguard (Black)
+mw:acrwemskhandguard, ACR WE MSK Handguard (Black)
+mw:acrwemskhandguardtan, ACR WE MSK Handguard 
+mw:acrprecisionhandguard, ACR Precision Handguard (Black)
+mw:acrprecisionhandguardtan, ACR Precision Handguard
+mw:acrsbrhandguard, ACR SBR Handguard (Black)
+mw:acrsbrhandguardtan, ACR SBR Handguard
+mw:acrpolymerhandguard, ACR Polymer Handguard (Black)
+mw:acrpolymerhandguardtan, ACR Polymer Handguard
+mw:acrsquaredrophandguard, ACR Square Drop Handguard (Black)
+mw:acrsquaredrophandguardtan, ACR Square Drop Handguard 
+mw:honeybadgerhandguard, AAC Honey Badger Handguard
+mw:honeybadgermatrixarmshandguard, AAC Honey Badger Matrix Arms Handguard
 mw:m60handguard, M60 Handguard
 mw:m60e4guard, M60E4 Handguard
 mw:m249handguard, M249 Handguard
@@ -1422,51 +1458,106 @@ mw:ef88handguard, EF-88 Handguard
 mw:augdefaultkit, AUG 默认套件
 mw:augparaconversion, AUG 帕拉贝鲁姆转换套件
 mw:auga3extguard, AUG A3 Extended Guard
+mw:m1carbinebody, M1 Carbine Body
+mw:m1a1carbinebody, M1 [M1A1] Carbine Body
+mw:m1carbinehandguard, M1 Carbine Handguard
+mw:m1carbineventilatedhandguard, M1 Carbine Ventilated Handguard
+mw:m1scoutcarbinehandguard, M1 Scout Carbine Handguard 
+mw:m14body, M14 DMR Chassis
+mw:mk14tanbody, Mk14 EBR Chassis (Tan)
+mw:mk14snowbody, Mk14 EBR Chassis (Arctic)
+mw:mk14blackbody, Mk14 EBR Chassis 
+mw:m14cover, M14 DMR Cover
+mw:m14trirailcover, M14 DMR Tri-Rail Cover
+mw:m14rail, M14 DMR / Mk14 EBR Scope Mount
 mw:scarstock, Scar Stock
 mw:scarhstock, Scar H Stock
 mw:vectorstock, Kriss Vector 枪托
+mw:ump45receiver, item.mw_UMP45Receiver.name
+mw:ump9receiver, item.mw_UMP9Receiver.name
+mw:ump45stock, item.mw_UMP45Stock.name
+mw:mac10stock, item.mw_MAC10Stock.name
 mw:acrstock, ACR Stock
+mw:acrstockblack, ACR Stock (Black)
+mw:acrfixedstock, ACR Fixed Stock (Black)
+mw:acrfixedstocktan, ACR Fixed Stock
+mw:acrprsstock, ACR PRS Stock (Black)
+mw:acrprsstocktan, ACR PRS Stock 
+mw:acrlongrangestock, ACR Precision Stock
+mw:acrpdwstock, ACR PDW Stock
 mw:m1014stock, M1014 Stock
 mw:m4benellistock, M4Benelli Stock
 mw:spas12stock, Spas12 Stock
 mw:m249stock, M249 Stock
 mw:utgtrirailhandguard, UTG Tri Rail Handguard
 mw:mimp5mhandguard, MI MP5 Handguard
+mw:scorpionevo3a1handguardshort, item.mw_ScorpionEVO3A1HandguardShort.name
+mw:scorpionevo3a1handguardlong, item.mw_ScorpionEVO3A1HandguardLong.name
+mw:osiprmount, OSIPR Scope / Laser Mount
 mw:mimp5trrail, MI MP5 TR Rail
 mw:mimp5mrail, MI MP5 M Rail
 mw:shotgunrail, Shotgun Rail
 mw:kar98krail, Kar98K Rail
 mw:m60rail, M60 Rail
-mw:railriser, item.mw_RailRiser.name
+mw:m16a1scopemount, item.mw_M16A1ScopeMount.name
+mw:m16a1picatinnyrail, item.mw_M16A1PicatinnyRail.name
+mw:railriser, Rail Riser
 mw:m1911slide, Colt M1911 套筒
 mw:m1911body, Colt M1911 套筒座
 mw:m191144magslide, Colt M1911 .44 Magnum 套筒
 mw:m191144magbody, Colt M1911 .44 Magnum 套筒座
-mw:m9a1slide, item.mw_M9A1Slide.name
-mw:m9a1body, item.mw_M9A1Body.name
-mw:samuraiedgeslide, item.mw_SamuraiEdgeSlide.name
-mw:samuraiedgebody, item.mw_SamuraiEdgeBody.name
-mw:samuraiedgeawbody, item.mw_SamuraiEdgeAWBody.name
-mw:samuraiedgealbertext, item.mw_SamuraiEdgeAlbertExt.name
+mw:m9a1slide, M9A1 Slide
+mw:m9a1body, M9A1 Body
+mw:samuraiedgeslide, M9A1 Samurai Edge Slide
+mw:samuraiedgebody, M9A1 Samurai Edge Body
+mw:samuraiedgeawbody, M9A1 Samurai Edge Body (Wesker Model)
+mw:samuraiedgealbertext, M9A1 Samurai Edge Muzzle Extension
 mw:deserteagleslide, item.mw_DesertEagleSlide.name
-mw:deserteaglebody, item.mw_DesertEagleBody.name
-mw:deserteaglelongbody, item.mw_DesertEagleLongBody.name
+mw:deserteaglebody, IMI Desert Eagle Body
+mw:deserteaglelongbody, IMI Desert Eagle Body (Extended Muzzle)
+mw:glock19body, item.mw_Glock19Body.name
+mw:glock18cbody, item.mw_Glock18CBody.name
+mw:glock19xbody, item.mw_Glock19XBody.name
+mw:glockrazorbackbody, item.mw_GlockRazorbackBody.name
+mw:glock19slide, item.mw_Glock19Slide.name
+mw:glock18cslide, item.mw_Glock18CSlide.name
+mw:glock18ccncslide, item.mw_Glock18CCNCslide.name
+mw:glock19xslide, item.mw_Glock19XSlide.name
+mw:glockrazorbackslide, item.mw_GlockRazorbackSlide.name
+mw:glock19rockslidegray, item.mw_Glock19Rockslidegray.name
+mw:glock19rockslideolive, item.mw_Glock19RockslideOlive.name
+mw:glock19ghostprecisionslide, item.mw_Glock19GhostPrecisionSlide.name
+mw:p226slide, item.mw_P226Slide.name
+mw:makarovbody, item.mw_MakarovBody.name
+mw:makarovpmslide, item.mw_MakarovPMSlide.name
+mw:makarovpbslide, item.mw_MakarovPBSlide.name
+mw:makarovpbbody, item.mw_MakarovPBBody.name
+mw:mac10body, item.mw_MAC10Body.name
+mw:mac10action, item.mw_MAC10Action.name
 mw:mp5a5handguard, MP5A5 Handguard
 mw:mp5sdhandguard, MP5SD Handguard
 mw:mp5hoguegrip, MP5 Hogue Grip
 mw:glockhoguegrip, Glock Hogue Grip
 mw:glockhoguegriptan, Glock Hogue Grip (Tan)
+mw:mac10grip, item.mw_MAC10Grip.name
 mw:mp5a3stock, MP5A3 Stock
 mw:mp5a4stock, MP5A4 Stock
 mw:lvoavhandguard, LVOAV Handguard
 mw:m38handguard, M38 Handguard
 mw:mk18handguard, Mk18 Handguard
+mw:block2socomhandguard, item.mw_Block2SOCOMHandguard.name
 mw:m4magpulhandguard, M4 Magpul Handguard
 mw:m4magpulhandguardtan, M4 Magpul Handguard (Tan)
 mw:m4receiver, M4 Receiver
+mw:c8sfwreceiver, C8-SFW Receiver
 mw:vltorreceiver, VLTOR Receiver
 mw:ar57receiver, AR-57 机匣
+mw:honeybadgerreceiver, AAC Honey Badger Receiver
+mw:honeybadgerreceiverblack, AAC Honey Badger Receiver (Black)
+mw:honeybadgerknightsreceiver, AAC Honey Badger Knights Receiver
+mw:honeybadgerknightsreceiverblack, AAC Honey Badger Knights Receiver (Black)
 mw:placeholder, item.mw_Placeholder.name
+mw:apc9placeholder, item.mw_APC9Placeholder.name
 mw:p90placeholder, item.mw_P90Placeholder.name
 mw:pistolplaceholder, item.mw_PistolPlaceholder.name
 mw:gripplaceholder, item.mw_GripPlaceholder.name
@@ -1475,14 +1566,23 @@ mw:m4handguard, M4 Handguard
 mw:ar57handguard, AR-57 护木
 mw:ntw20guard, NTW-20 Handguard
 mw:m16handguard, M16 Handguard
+mw:m16a1handguard, item.mw_M16A1Handguard.name
 mw:m4carbinehandguard, M4 Carbine Handguard
+mw:m16a4handguard, M16A4 Quad-Rail Handguard
+mw:ar10supersasshandguard, item.mw_AR10SuperSASSHandguard.name
+mw:c8sfwhandguard, C8-SFW Handguard
+mw:k2c1handguard, item.mw_K2C1Handguard.name
 mw:heraarmsgrip, Hera Arms Grip
 mw:m4grip, M4 Grip
 mw:m4griptan, M4 Grip (Tan)
+mw:socom_grip, item.mw_SOCOM_Grip.name
 mw:m4gripgray, M4 Grip (Gray)
+mw:k2c1grip, item.mw_K2C1Grip.name
 mw:ak47grip, AK-47 Grip
 mw:ak101grip, AK-101 Grip
 mw:akergogrip, AK Ergo Grip
+mw:honeybadgerstock, AAC Honey Badger Stock
+mw:honeybadgerstockblack, AAC Honey Badger Stock (Black)
 mw:ak47stock, AK-47 Stock
 mw:rpkstock, RPK Stock
 mw:ak101stock, AK-101 Stock
@@ -1490,12 +1590,16 @@ mw:collapsablemoestock, Collapsable MOE Stock
 mw:magpulctrstock, Magpul CTR Stock
 mw:magpulctrstocktan, Magpul CTR Stock (Tan)
 mw:milspecstock, Mil-Spec Stock
+mw:c8stock, item.mw_C8Stock.name
 mw:milspecstocktan, Mil-Spec Stock (Tan)
 mw:heraarmsstock, Hera Arms Stock
 mw:hk416stock, HK416 Stock
+mw:socom_stock, item.mw_SOCOM_Stock.name
+mw:m4asiimovstock, item.mw_M4AsiimovStock.name
 mw:m16stock, M16 Stock
 mw:hk416stocktan, HK416 Stock (Tan)
 mw:m16stocktan, M16 Stock (Tan)
+mw:arprsprecisionstock, item.mw_ARPRSPrecisionStock.name
 mw:ak47handleguard, AK-47 Handguard
 mw:ak101handguard, AK-101 Handguard
 mw:akmagpulhandleguard, AK Magpul Handguard
@@ -1509,29 +1613,45 @@ mw:ak101dustcover, AK-101 Dust Cover
 mw:rpkdustcover, RPK-16 Dust Cover
 mw:veprdustcover, Vepr Dust Cover
 mw:ak15dustcover, AK-15 Dust Cover
+mw:fnfaldustcover, FN FAL Dust Cover
+mw:sa58dustcover, SA-58 Dust Cover
+mw:fnfalgrip, FN FAL Grip
+mw:fnfalstock, FN FAL Stock
+mw:fnfalhandguard, FN FAL Handguard
+mw:fnfalparahandguard, FN FAL PARA Handguard
 mw:m4frontsight, 突击步枪机械准星
 mw:m60frontsight, M60E4 机械准星
 mw:m38frontsight, M38 Front Sight
+mw:hk416frontsight, HK-416 Front Iron Sight
+mw:mbusfrontsight, MBUS Front Iron Sight
+mw:g36kscope, item.mw_G36KScope.name
+mw:leupold, 刘坡尔德光学瞄准镜
 mw:pso1, PSO-1 瞄准镜
 mw:okp7, OKP-7 瞄准镜
 mw:reflex, 15 MOA 反射式红点瞄准镜
 mw:bijiareflex, 毕佳反射式瞄准镜
+mw:microreflex, 微型反射式瞄准镜
 mw:acog, 先进战斗光学瞄准镜
 mw:specter, Elcan Specter SFOV4-A1 瞄准镜
 mw:holographic2, EOTech EXPS3-0 全息瞄准镜 | 棕黄色涂装
 mw:holographicalt, EOTech 512 A65 全息瞄准镜 | 黑色涂装
 mw:eotechhybrid2, EOTech 混合式瞄准镜
-mw:vortex_sight, Vortex UH-1 全息瞄具
+mw:vortexsight, Vortex UH-1 Holographic
 mw:microt1, Micro-T1 瞄准镜
 mw:aimpointcompm5, Aimpoint Comp M5 红点瞄准镜
 mw:rmrsight, RMR 瞄准镜
 mw:kobra, 8-18 Kobra 瞄准镜
+mw:kobragen3, Kobra Gen-3 瞄准镜
 mw:hpscope, JPU HP 3-9x40 瞄准镜
+mw:leupoldrailscope, Leupold VX-6 CDS TMOA Rifle Scope (w/ Rail)
+mw:ax50scope, AX-50 瞄准镜
 mw:nightraiderscope, “夜袭者”瞄准镜
 mw:m2a1_sight, M2A1 瞄准镜
 mw:f2000scope, FNPM 1.6倍瞄准镜
 mw:m202scope, item.mw_M202scope.name
 mw:augscope, AUG Scope
+mw:osiprminiscope, OSIPR Miniature Scope
+mw:osiprsight, OSIPR Holographic Retrofitted Sight
 mw:ma5dcover, MA5D ICWS 防尘罩
 mw:br55scope, BR-DEMROS 瞄准镜
 mw:dmrscope, M392-DHO-4M 瞄准镜
@@ -1540,8 +1660,21 @@ mw:silencer556x45, 5.56x45mm 北约制式 消音器
 mw:silencer545x39, 5.45x39mm 消音器
 mw:silencer762x39, 7.62x39mm 消音器
 mw:m32barrel, M32 Extended Barrel
+mw:remington870pump, R870 Wood Pump 
+mw:remington870magpulpump, R870 Magpul Pump
+mw:remington870policemagnumpump, R870 Police Magnum Pump
+mw:remington870fabdefensepump, R870 FAB Defense Pump
+mw:remington870stock, R870 Wood Stock
+mw:remington870policemagnumstock, R870 Police Magnum Stock
+mw:remington870milspecstock, R870 Mil-Spec Stock
+mw:remington870hk416stockstock, R870 HK-416 Stock
+mw:remington870sawedgrip, R870 Sawed Grip (Sawed Stock)
+mw:remington870barrel, R870 Barrel
+mw:remington870policemagnumbarrel, R870 Police Magnum Barrel
+mw:remington870sawedbarrel, R870 Sawed Barrel
 mw:rpkbarrel, RPK Barrel
 mw:akiron, AK Front Sight
+mw:silencerpbs, item.mw_SilencerPBS.name
 mw:silencer9mm, 9(x18/19)mm 消音器
 mw:silencermp5, MP5 消音器
 mw:silencer9x39mm, 9x39mm 消音器
@@ -1552,34 +1685,59 @@ mw:silencer762x51, 7.62x51mm 北约制式 消音器
 mw:silencer50bmg, .50 BMG 消音器
 mw:silencer556x39, 5.56x39mm 消音器
 mw:akmiron, 标准金属瞄具
+mw:tritiumrearsights, Tritium Rear Iron Sight
+mw:mbusrearsights, MBUS Rear Iron Sight
+mw:hk416rearsights, HK-416 Rear Iron Sight
+mw:fnfalrearsights, FN FAL Rear Iron Sight
+mw:m16a1rearsight, item.mw_M16A1RearSight.name
+mw:k2c1rearsight, item.mw_K2C1RearSight.name
+mw:scorpionrearsight, item.mw_ScorpionRearSight.name
+mw:scorpionfrontsight, item.mw_ScorpionFrontSight.name
 mw:kar98ksight, Karabiner-98 Kurz 机械瞄具
 mw:ak15ironsight, AK-15 机械照门
+mw:ak12ironsight, AK-12 Rear Iron Sight
 mw:silencermp7, 4.6x30mm 消音器
 mw:silencer357, .357 消音器
 mw:silencer57x38, 5.7x28mm 消音器
 mw:silencer12gauge, 12 Gauge 消音器
 mw:silencer300aacblackout, .300 AAC Blackout 消音器
+mw:honeybadgersilencer, item.mw_HoneyBadgerSilencer.name
 mw:silencer65x39, 6.5x39mm 北约制式 消音器
 mw:laser, UTG 战术激光
 mw:laser2, LD19206-IR 战术激光
 mw:danwessonlaser, D&W 激光
+mw:osiprlaser, OSIPR Retrofitted Laser Sight
 mw:m1928grip, M1928 Grip
 mw:m1a1grip, M1A1 Grip
 mw:grip2, 直握把
 mw:junogrip, 折叠握把
 mw:glock18cstock, G18C DRS-HS
-mw:vp70stock, item.mw_VP70Stock.name
+mw:vp70stock, VP-70 Stock
 mw:angledgrip, 直角握把
 mw:stubbygrip, 短握把
 mw:vgrip, 前握把
 mw:bipod, 两脚架
 mw:auggrip, AUG Grip
+mw:uspmatchcompensator, item.mw_USPMatchCompensator.name
+mw:osiprautospanker, item.mw_OSIPRAutoSpanker.name
+mw:osiprcell1, item.mw_OSIPRCell1.name
+mw:osiprcell2, item.mw_OSIPRCell2.name
+mw:osiprcellclaws, item.mw_OSIPRCellClaws.name
+mw:osiprcellfinger, item.mw_OSIPRCellFinger.name
+mw:osiprheatescaper, item.mw_OSIPRHeatEscaper.name
 mw:fatmangrip, item.mw_FatmanGrip.name
 mw:fatmanrack, item.mw_FatmanRack.name
 mw:mininukeattachment, item.mw_MiniNukeAttachment.name
 mw:chainb, item.mw_ChainB.name
 mw:chaina, item.mw_ChainA.name
 mw:chain, item.mw_Chain.name
+mw:g95ironsights, item.mw_G95IronSights.name
+mw:g95uprightironsights, item.mw_G95UprightIronSights.name
+mw:mp7ironsights, item.mw_MP7IronSights.name
+mw:tokyo90ironsights, item.mw_Tokyo90IronSights.name
+mw:origin12action, item.mw_Origin12Action.name
+mw:p90action, item.mw_P90Action.name
+mw:m1carbineaction, item.mw_M1CarbineAction.name
 mw:g11action, item.mw_G11Action.name
 mw:augaction, item.mw_AUGAction.name
 mw:m32main1b, item.mw_M32Main1B.name
@@ -1589,12 +1747,13 @@ mw:m1garandaction, item.mw_M1GarandAction.name
 mw:m1garandmag, item.mw_M1GarandMag.name
 mw:m1897pump, item.mw_M1897pump.name
 mw:super90pump, item.mw_Super90Pump.name
-mw:p226slide, item.mw_P226Slide.name
 mw:pythonchamber, item.mw_PythonChamber.name
 mw:magnumchamber, item.mw_MagnumChamber.name
 mw:rhinochamber, item.mw_RhinoChamber.name
+mw:thedechardchamber, item.mw_TheDechardChamber.name
 mw:acraction, item.mw_ACRAction.name
 mw:m1014action, item.mw_M1014Action.name
+mw:shotguninsertion, item.mw_ShotgunInsertion.name
 mw:supernovaaction, item.mw_SupernovaAction.name
 mw:supernovapump, item.mw_SupernovaPump.name
 mw:acrrails, item.mw_ACRRails.name
@@ -1626,6 +1785,7 @@ mw:srs99action, item.mw_SRS99Action.name
 mw:ma5daction, item.mw_MA5DAction.name
 mw:br55action, item.mw_BR55Action.name
 mw:g36caction, item.mw_G36CAction.name
+mw:arx160action, item.mw_ARX160Action.name
 mw:sl8action, item.mw_SL8Action.name
 mw:m1a1thompsonaction, item.mw_M1A1ThompsonAction.name
 mw:kedraction, item.mw_KedrAction.name
@@ -1659,24 +1819,31 @@ mw:mg42action, item.mw_mg42action.name
 mw:scaraction, item.mw_ScarAction.name
 mw:mk14ebraction, item.mw_Mk14EBRaction.name
 mw:mk14ebrsight, item.mw_Mk14EBRsight.name
+mw:m14dmrrail, item.mw_M14DMRRail.name
 mw:stg44action, item.mw_STG44action.name
+mw:stg44actioncover, item.mw_STG44actioncover.name
 mw:g43gewehraction, item.mw_G43GewehrAction.name
 mw:springfieldrearsight, item.mw_SpringfieldRearSight.name
 mw:springfieldaction, item.mw_SpringfieldAction.name
 mw:kar98kaction, item.mw_Kar98Kaction.name
-mw:glock18cslide, item.mw_Glock18Cslide.name
 mw:esa23slide, item.mw_ESA23Slide.name
 mw:vp70slide, item.mw_VP70slide.name
 mw:frommerstopaction, item.mw_FrommerStopAction.name
 mw:frommersight, item.mw_FrommerSight.name
 mw:apsslide, item.mw_APSslide.name
-mw:glock19slide, item.mw_Glock19slide.name
+mw:l131a1slide, item.mw_L131A1slide.name
 mw:m712action, item.mw_M712action.name
 mw:m45a1slide, item.mw_M45A1slide.name
+mw:m17_slide, item.mw_m17_slide.name
+mw:makarov_slide, item.mw_Makarov_Slide.name
+mw:p2022_slide, item.mw_P2022_Slide.name
+mw:p12_slide, item.mw_P12_Slide.name
 mw:browninghipowerslide, item.mw_BrowningHiPowerSlide.name
 mw:mp443slide, item.mw_MP443Slide.name
 mw:vssvintorezaction, item.mw_VSSVintorezAction.name
 mw:akaction, item.mw_AKaction.name
+mw:fnfalactionlever, item.mw_FNFALActionLever.name
+mw:fnfalaction, item.mw_FNFALAction.name
 mw:ak12action, item.mw_AK12action.name
 mw:volkaction, item.mw_Volkaction.name
 mw:type2mag, item.mw_Type2Mag.name
@@ -1694,21 +1861,30 @@ mw:uziironsight, item.mw_UziIronSight.name
 mw:p10slide, item.mw_P10Slide.name
 mw:p10frontsight, item.mw_P10frontsight.name
 mw:m40a6boltaction, item.mw_M40A6BoltAction.name
+mw:ax50boltaction1, item.mw_AX50BoltAction1.name
+mw:ax50boltaction2, item.mw_AX50BoltAction2.name
+mw:ssg08boltaction1, item.mw_SSG08BoltAction1.name
+mw:ssg08, item.mw_SSG08.name
+mw:pgmhecateiiboltaction1, item.mw_PGMHecateIIBoltAction1.name
+mw:pgmhecateiiboltaction2, item.mw_PGMHecateIIBoltAction2.name
+mw:remington700boltaction, item.mw_Remington700BoltAction.name
 mw:sv98boltaction, item.mw_SV98BoltAction.name
 mw:l96action, item.mw_L96Action.name
 mw:lp115bolt2, item.mw_LP115Bolt2.name
+mw:interventionboltaction, item.mw_InterventionBoltAction.name
 mw:l115mag, item.mw_L115Mag.name
 mw:sv98barrelpiece, item.mw_SV98barrelpiece.name
 mw:m500a2pump, item.mw_M500A2pump.name
-mw:r870pump, item.mw_r870pump.name
 mw:hescspump, item.mw_HESCSpump.name
 mw:ks23pump, item.mw_KS23pump.name
 mw:kragaction1, item.mw_KragAction1.name
 mw:kragaction2, item.mw_KragAction2.name
 mw:kragchamber, item.mw_KragChamber.name
 mw:shotgunshell, 12 Gauge 霰弹
+mw:shotgunshelldouble, item.mw_ShotgunShellDouble.name
 mw:shotgun4gauge, item.mw_Shotgun4Gauge.name
 mw:bullet, item.mw_Bullet.name
+mw:bulletsmall, item.mw_BulletSmall.name
 mw:laserprojectile, item.mw_LaserProjectile.name
 mw:ma37mag, item.mw_MA37Mag.name
 mw:m20mag, item.mw_M20Mag.name
@@ -1724,6 +1900,10 @@ mw:m6csocommag, item.mw_M6CSOCOMMag.name
 mw:p10mag, item.mw_P10Mag.name
 mw:volkmag, item.mw_VolkMag.name
 mw:ar15action, item.mw_AR15Action.name
+mw:k2c1action, item.mw_K2C1Action.name
+mw:scorpionaction, item.mw_ScorpionAction.name
+mw:apc9action, item.mw_APC9Action.name
+mw:sa80action, item.mw_SA80Action.name
 mw:nv4action, item.mw_NV4Action.name
 mw:brenaction, item.mw_BrenAction.name
 mw:type2part, item.mw_Type2Part.name
@@ -1732,6 +1912,8 @@ mw:m110action, item.mw_M110Action.name
 mw:ar15iron, AR 提把
 mw:extra, item.mw_Extra.name
 mw:m4rail, item.mw_M4Rail.name
+mw:mp7rail, item.mw_MP7Rail.name
+mw:m4asiimovrail, item.mw_M4AsiimovRail.name
 mw:magnumrail, item.mw_MagnumRail.name
 mw:g36crail, item.mw_G36CRail.name
 mw:railalt, item.mw_RailAlt.name
@@ -1756,6 +1938,7 @@ mw:bullet8x58, 8x58mm 子弹
 mw:bullet792x33kurz, 7.92x33mm Kurz 子弹
 mw:bullet50bmg, .50 BMG 子弹
 mw:bullet20x82mm, 20x82mm 子弹
+mw:bullet408ct, .408 CheyTac 子弹
 mw:bullet308winchester, .308 Winchester 子弹
 mw:bullet792x57, 7.92x57mm 子弹
 mw:bullet762x54, 7.62x54mm 子弹
@@ -1767,6 +1950,7 @@ mw:bullet765x21, 7.65x21mm 子弹
 mw:bullet762x39, 7.62x39mm 子弹
 mw:bullet556x45, 5.56x45mm 北约制式子弹
 mw:bullet545x39, item.mw_Bullet545x39.name
+mw:bullet4570, .45-70 Government 子弹
 mw:bullet4440, 44-40 Winchester 子弹
 mw:bullet45acp, .45 ACP 子弹
 mw:bullet357, .357 子弹
@@ -1778,6 +1962,8 @@ mw:bullet380acp, .380 ACP 子弹
 mw:bullet763x25, 7.63x25mm 子弹
 mw:bullet9x39mm, 9x39mm 子弹
 mw:bullet9x19mm, 9x19mm 子弹
+mw:bullet9x18mm, 9x18mm 子弹
+mw:bullet57x28mm, 5.7x28mm 子弹
 mw:bullet46x30mm, item.mw_Bullet46x30mm.name
 mw:bullet10mm, 10mm 子弹
 mw:bullet473x33mm, item.mw_Bullet473x33mm.name
@@ -1786,6 +1972,8 @@ mw:brenmag, 7.62x51mm 30发Bren弹匣
 mw:johnsonmag, .30-06 20发春田弹匣
 mw:vectormag, .45 ACP 25发弹匣 | Kriss Vector用
 mw:m4a1mag_2, 5.56x45mm 30发北约制式STANAG弹匣
+mw:m4asiimovmag, 5.56x45mm 30发STANAG弹匣 | 二西莫夫
+mw:sa80mag, 5.56x45mm 60发STANAG弹匣
 mw:aug9mmmag, 9x19mm 30发帕拉贝鲁姆弹匣
 mw:m134mag, 7.62x51mm 1000发弹链箱
 mw:m60mag, 7.62x51mm 100发弹链箱
@@ -1793,11 +1981,15 @@ mw:m249mag, 5.56x45mm 100发北约制式弹链箱
 mw:stonermag, 5.56x45mm 100发弹匣 | Stoner A1用
 mw:honeybadgermag_2, .300 AAC Blackout 30发弹匣 | AAC “蜜獾”用
 mw:m38mag_2, 5.56x45mm 30发北约制式PMAG弹匣
+mw:socom_mag, 5.56x45mm 30发SOCOM STANAG弹匣
+mw:c8mag, 5.56x45mm 30发STANAG SFW弹匣
 mw:stanag50, 5.56x45mm 50发STANAG弹鼓
 mw:stanag60, 5.56x45mm 60发STANAG弹鼓
 mw:stanag100, 5.56x45mm 100发STANAG弹鼓
 mw:g36cmag_2, 5.56x45mm 30发北约制式HK弹匣
 mw:ak101mag_2, 5.56x45mm 30发弹匣
+mw:ak74mag, 5.45x39mm 30发弹匣 | AK-74用
+mw:akmvulcanmag, 7.62x39mm 30发弹匣 | 火神
 mw:ak60mag, 5.56x45mm 60发弹匣
 mw:ak15mag_2, 7.62x39mm 30发PMAG弹匣
 mw:ak12mag, 5.45x39mm 31发弹匣
@@ -1807,6 +1999,8 @@ mw:ak50mag, 7.62x39mm 50发弹鼓
 mw:ak75mag, 7.62x39mm 75发弹鼓
 mw:ak100mag, 7.62x39mm 100发弹鼓
 mw:saigamag_2, 12 Gauge 5发弹匣
+mw:origin12mag, item.mw_Origin12Mag.name
+mw:origin12drummag, item.mw_Origin12DrumMag.name
 mw:m9mag_2, 9x19mm 15发弹匣
 mw:samuraiedgemag, .40 15发弹匣 | S&W “武士之刃”用
 mw:sccy_cpx_2_mag, item.mw_sccy_cpx_2_mag.name
@@ -1817,10 +2011,15 @@ mw:mp443mag_2, 9x19mm 18发弹匣 | MP443用
 mw:m45a1mag_2, .45 ACP 7发弹匣
 mw:m1911_44mag, .44 7发弹匣 | Colt M1911用
 mw:m45a1mag14, .45 ACP 14发弹匣
+mw:m17mag, 9x19mm 17发弹匣 | M17用
+mw:makarovmag, 9x18 8发弹匣 | Makarov PM用
+mw:p2022mag, 9x19mm 15发弹匣 | SIG P2022用
+mw:usp45mag, .45 ACP 8发弹匣 | UMP-45用
 mw:hipowermag, 9x19mm 13发弹匣
 mw:frommerstopmag, .380 ACP 8发弹匣
 mw:apsmag_2, 9x19mm 20发弹匣 | APS用
 mw:glockmag13, 9x19mm 13发弹匣 | Glock用
+mw:l131a1mag, 9x19mm 17发弹匣 | L131A1用
 mw:glock18cmag_2, 9x19mm 20发弹匣
 mw:glockmag50, 9x19mm 50发弹鼓
 mw:as50mag_2, .50 BMG 10发弹匣 | AS50用
@@ -1829,21 +2028,34 @@ mw:ntw20mag, 20x82mm 3发弹匣
 mw:kbp9a91mag_2, 9x39mm 20发KBP弹匣
 mw:kedrmag_2, 9x19mm 20发弹匣 | PP-91 Kedr用
 mw:l96a1mag_2, 7.62x54mm 10发LAPUA弹匣
+mw:interventionmag, .408 7发弹匣 | M200 “干预”用
 mw:m40a6mag_2, .308 Winchester 7发弹匣
+mw:ax50mag, .50 BMG 5发弹匣 | AX-50用
+mw:r700mag, .300 Winchester 6发弹匣 | Remington-700用
+mw:ssg08mag, item.mw_SSG08Mag.name
+mw:hecateiimag, item.mw_HecateIIMag.name
 mw:m110mag_2, 7.62x51mm 10发北约制式弹匣
 mw:m1928mag, .45 ACP 50发弹匣 | M1928用
 mw:m1a1mag, .45 ACP 30发弹匣 | M1A1用
 mw:m712mag_2, 7.63x25mm 20发毛瑟弹匣
 mw:mg42mag_2, 7.92x57mm 50发机枪弹链盒
 mw:dp28mag, 7.62x54mm 47发弹盘
+mw:m1carbinemag, item.mw_M1CarbineMag.name
+mw:fnfalmag, 7.62x51mm 20发弹匣
 mw:mk14ebrmag_2, 7.62x51mm 20发北约制式弹匣 | Mk14 EBR用
 mw:m14drum50, 7.62x51mm 50发北约制式弹鼓 | Mk14 EBR用
 mw:mp40mag_2, 9x19mm 32发弹匣 | MP40用
 mw:mp5a5mag, 9x19mm 30发HK弹匣
 mw:hk50drum, 9x19mm 50发HK弹鼓
 mw:mp7mag, 4.6x30mm 40发弹匣
+mw:ump45mag, .45 ACP 25发弹匣 | UMP-45用
+mw:ump9mag, 9x19mm 30发弹匣 | UMP-9用
+mw:mpxmag, 9x19mm 30发弹匣 | SIG MPX用
+mw:apc9mag, 9x19mm 30发弹匣 | APC9用
+mw:scorpionmag, 9x19mm 30发弹匣 | “蝎”式 EVO3 A1用
 mw:p90mag, 5.7x28mm 50发弹匣
 mw:p90terminatormag, 5.7x28mm 65发“终结者”弹匣
+mw:mac10mag, .45 ACP 30发弹匣
 mw:g11mag, 4.73x33mm 50发弹匣
 mw:scarhmag_2, 7.62x51mm 20发北约制式CQC弹匣
 mw:scar40mag, 7.62x51mm 40发北约制式CQC弹匣
@@ -1857,14 +2069,13 @@ mw:vp70mag_2, 9x19mm 18发弹匣
 mw:m249, M249班用自动武器
 mw:m40a6, M40A6
 mw:m110_sass, M110 SASS
+mw:ar10_super_sass, AR-10 Super SASS
 mw:m1014, M1014 半自动霰弹枪
-mw:super90, Benelli Super-90
 mw:supernova, Benelli Supernova
-mw:m500a2, M500A2
 mw:m38_dmr, M27 IAR
+mw:m16a1, M16A1突击步枪
 mw:m16a4, M16A4突击步枪
 mw:m4a1, M4A1卡宾枪
-mw:colt_m45a1, Colt M45A1
 mw:p226, SIG P226
 mw:m9a1, M9A1 Beretta
 mw:mp_443, MP-443 “乌鸦”
@@ -1877,9 +2088,37 @@ mw:ks23, KS-23
 mw:sv98, Izhmash SV-98
 mw:mp5a5, HK MP5A5
 mw:mp7, MP7单兵自卫武器
+mw:ump_45, item.ump_45.name
+mw:sig_mpx, SIG MPX
 mw:p90, P90冲锋枪
+mw:mac10, MAC-10
+mw:scorpion_evo3_a1, “蝎”式 EVO3 A1
+mw:apc9, APC9
 mw:scar_l, Mk16 SCAR-L
 mw:scar_h_cqc, Mk17 CQC SCAR-H
+mw:socom_m4a1, SOCOM M4A1
+mw:m17, M17 
+mw:asiimov_m4a1, M4A4 | 二西莫夫
+mw:hk_g95, HK G95
+mw:hk_p12, HK P12
+mw:hk_416, HK 416
+mw:sa80, SA80
+mw:l131a1, L131A1
+mw:mp7a1, HK MP7A1
+mw:p2022, SIG P2022
+mw:mp7_black_ice, HK MP7 | 墨冰
+mw:c8_sfw, C8 SFW
+mw:tokyo_90, Tokyo 90
+mw:kalashnikov_ak12, Kalashnikov AK-12
+mw:mp443_grach, MP443 “乌鸦”
+mw:ax50, AX-50
+mw:g36k, HK G36K
+mw:ak74, AK74 突击步枪
+mw:makarov_pm, Makarov PM
+mw:akm_vulcan, AKM | 火神
+mw:cz805_bren_s1, CZ-805 Bren S1
+mw:cz805_bren_a1, item.cz805_bren_a1.name
+mw:remington_700, Remington-700
 mw:vp70, VP-70
 mw:glock_19, Glock-19
 mw:sccy_cpx_2, CPX-2
@@ -1888,6 +2127,7 @@ mw:m1911, .45口径M1911柯尔特手枪
 mw:python, Colt Python
 mw:taurus_raging_hunter, Taurus Raging Hunter .44 Magnum
 mw:chiappa_rhino, Chiappa “犀牛”
+mw:the_dechard, item.the_dechard.name
 mw:sw_500_magnum, S&W .500 Magnum
 mw:desert_eagle, IMI “沙漠之鹰”
 mw:mp40, MP40 冲锋枪
@@ -1899,20 +2139,24 @@ mw:ak47, AK47 突击步枪
 mw:izhmash_ak12, Izhmash AK-12
 mw:acr, ACR突击步枪
 mw:cz805_bren, CZ-805 Bren
+mw:arx160, ARX-160
 mw:f2000, FN F2000
 mw:g36c, HK G36C
 mw:steyr_aug_a1, Steyr AUG A1
+mw:k2c1, K2C1
 mw:sl8, HK SL8
 mw:g11, HK G11
 mw:stg44, StG-44
 mw:m1873, M1873
 mw:mares_leg, “玛丽的腿”
+mw:g2_contender, G2 “竞争者”
 mw:nv4, NV4
 mw:type2, Type-2
 mw:volk, Volk
 mw:m8a7, M8A7
 mw:remington870, Remington 870
 mw:browning_auto_5, Browning Auto-5
+mw:m1_carbine, item.m1_carbine.name
 mw:m1_garand, M1 加兰德
 mw:g43_gewehr, Gewehr 43
 mw:springfield, M1903 “春田”
@@ -1930,9 +2174,11 @@ mw:saiga12, SAIGA-12半自动霰弹枪
 mw:spas_12, 弗兰基 SPAS-12 霰弹枪
 mw:mp43e, MP-43E
 mw:hs12, HS-12
+mw:origin12, Origin-12
 mw:chiappa_triple_crown, Chiappa “三重冠”
 mw:quad_barrel_shotgun, 四管猎枪
 mw:m1897, M1897
+mw:fnfal, FN FAL
 mw:mk14_ebr, M14 DMR
 mw:bren_mkii, Bren MkII
 mw:m1941_johnson, M1941 约翰逊 | 轻机枪型
@@ -1942,7 +2188,10 @@ mw:mg34, MG-34
 mw:mg42, MG42 通用机枪
 mw:m60e4, M60E4
 mw:stonera1, Stoner A1
+mw:ssg_08, item.ssg_08.name
 mw:l96a1, L96A1
+mw:m200_intervention, M200 “干预”
+mw:pgm_hecate_ii, item.pgm_hecate_ii.name
 mw:as50, AS50
 mw:m82_barrett, M82 Barrett
 mw:ntw_20, NTW-20
@@ -1968,6 +2217,7 @@ mw:srs99, SRS-99 AMSR
 mw:type51, Type-51
 mw:m41a, M41A 
 mw:m56, M56 ESG
+mw:osipr, OSIPR
 mw:esa23, ESA-23
 mw:fatman, “胖子”
 mw:bfg_9000, BFG 9000
@@ -1980,11 +2230,11 @@ mw:m67frag, M67 破片手雷
 mw:impactgrenade, 冲击手雷
 mw:m18white, M18 白色烟雾弹
 mw:gasgrenade, 毒气弹
+mw:flash, 闪光弹
 mw:tactical_tomahawk, 战术斧
 mw:baseball_bat, 棒球棍
 mw:baseball_bat_nails, 狼牙棒
 mw:night_stick, 警棍
-mw:gas_can, Gas Can (PROP)
 mw:weapons_case, 武器箱
 mw:weapons_case_small, 小型武器箱
 mw:russian_weapons_case, 俄系武器箱
@@ -2029,7 +2279,6 @@ mw:barrier_rotated, 障碍物（旋转）
 mw:body_bag, 尸体袋
 mw:hanging_body, 缢死的尸体
 mw:impaled_body, 被刺穿的尸体
-mw:blank, 空白方块
 mw:dumpster, 垃圾箱
 mw:wooden_crate, 木箱
 mw:wooden_crate_opened, 打开的木箱
@@ -2074,6 +2323,21 @@ mw:floodlight, 泛光灯
 mw:radio_rotated, 电台（旋转）
 mw:radio, 电台
 mw:camera_rotated, 旋转的摄像头
+mw:propanetank, tile.mw_propanetank.name
+mw:towablefloodlight, tile.mw_towablefloodlight.name
+mw:hescobastion, tile.mw_hescobastion.name
+mw:sandbag, tile.mw_sandbag.name
+mw:sandbagwall, tile.mw_sandbagwall.name
+mw:crossgravestone, tile.mw_crossgravestone.name
+mw:crossgravestone2, tile.mw_crossgravestone2.name
+mw:crossgravestone3, tile.mw_crossgravestone3.name
+mw:gravestoneskull, tile.mw_gravestoneskull.name
+mw:gravestone, tile.mw_gravestone.name
+mw:scarecrow, tile.mw_scarecrow.name
+mw:spookyghost, tile.mw_spookyghost.name
+mw:spookyghost2, tile.mw_spookyghost2.name
+mw:spookyghost3, tile.mw_spookyghost3.name
+mw:swat_truck, tile.mw_swat_truck.name
 opencomputers:adapter:0, 适配器
 opencomputers:assembler:0, 装配器
 opencomputers:cable:11250603, 线缆
@@ -3185,9 +3449,9 @@ appliedenergistics2:facade:0, 线缆伪装板 - 陨石
 appliedenergistics2:facade:0, 线缆伪装板 - 陨石块
 appliedenergistics2:facade:0, 线缆伪装板 - 陨石石砖
 appliedenergistics2:facade:0, 线缆伪装板 - 陨石砖块
-appliedenergistics2:facade:0, 线缆伪装板 - 糖块
-appliedenergistics2:facade:0, 线缆伪装板 - 红色粘液块
-appliedenergistics2:facade:0, 线缆伪装板 - 末影沙
+appliedenergistics2:facade:0, 线缆伪装板 - 云杉木书架
+appliedenergistics2:facade:0, 线缆伪装板 - 点亮的红石灯
+appliedenergistics2:facade:0, 线缆伪装板 - 烈焰灯
 appliedenergistics2:facade:0, 线缆伪装板 - 磨制砂岩
 appliedenergistics2:facade:0, 线缆伪装板 - 磨制石头
 appliedenergistics2:facade:0, 线缆伪装板 - 白色染色木板
@@ -3216,6 +3480,9 @@ appliedenergistics2:facade:0, 线缆伪装板 - 灵魂砂岩
 appliedenergistics2:facade:0, 线缆伪装板 - 草块
 appliedenergistics2:facade:0, 线缆伪装板 - 熔铸石
 appliedenergistics2:facade:0, 线缆伪装板 - 白色缝线羊毛
+appliedenergistics2:facade:0, 线缆伪装板 - 糖块
+appliedenergistics2:facade:0, 线缆伪装板 - 红色粘液块
+appliedenergistics2:facade:0, 线缆伪装板 - 末影沙
 appliedenergistics2:facade:0, 线缆伪装板 - 沼泽橡树树叶
 appliedenergistics2:facade:0, 线缆伪装板 - 白色洞穴水晶
 appliedenergistics2:facade:0, 线缆伪装板 - 末影黑云母矿石
@@ -3233,9 +3500,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - 远古海晶石
 appliedenergistics2:facade:0, 线缆伪装板 - 远古海晶灯
 appliedenergistics2:facade:0, 线缆伪装板 - 荧光菌丝
 appliedenergistics2:facade:0, 线缆伪装板 - 荧光菇
-appliedenergistics2:facade:0, 线缆伪装板 - 云杉木书架
-appliedenergistics2:facade:0, 线缆伪装板 - 点亮的红石灯
-appliedenergistics2:facade:0, 线缆伪装板 - 烈焰灯
 appliedenergistics2:facade:0, 线缆伪装板 - 铜块
 appliedenergistics2:facade:0, 线缆伪装板 - 锡块
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Emerald Ore
@@ -3648,7 +3912,7 @@ appliedenergistics2:facade:0, 线缆伪装板 - 噬法块
 appliedenergistics2:facade:0, 线缆伪装板 - 噬法矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 水晶树
 appliedenergistics2:facade:0, 线缆伪装板 - 水晶树叶
-appliedenergistics2:facade:0, 线缆伪装板 - 黑暗石
+appliedenergistics2:facade:0, 线缆伪装板 - 暗石
 appliedenergistics2:facade:0, 线缆伪装板 - §9深渊石
 appliedenergistics2:facade:0, 线缆伪装板 - 恐惧石
 appliedenergistics2:facade:0, 线缆伪装板 - 渊素石
@@ -3657,7 +3921,7 @@ appliedenergistics2:facade:0, 线缆伪装板 - §b伊塞斯石
 appliedenergistics2:facade:0, 线缆伪装板 - 奥穆索之石
 appliedenergistics2:facade:0, 线缆伪装板 - 巨石块
 appliedenergistics2:facade:0, 线缆伪装板 - 黑暗圆石
-appliedenergistics2:facade:0, 线缆伪装板 - §9深渊圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 深渊圆石
 appliedenergistics2:facade:0, 线缆伪装板 - 恐惧圆石
 appliedenergistics2:facade:0, 线缆伪装板 - 渊素圆石
 appliedenergistics2:facade:0, 线缆伪装板 - 珊瑚圆石
@@ -3722,7 +3986,7 @@ appliedenergistics2:facade:0, 线缆伪装板 - §4暗色伊塞斯砖块
 appliedenergistics2:facade:0, 线缆伪装板 - §4錾制暗色伊塞斯砖块
 appliedenergistics2:facade:0, 线缆伪装板 - §4裂纹暗色伊塞斯砖块
 appliedenergistics2:facade:0, 线缆伪装板 - §4暗色伊塞斯柱
-appliedenergistics2:facade:0, 线缆伪装板 - §b暗色伊塞斯砖台阶
+appliedenergistics2:facade:0, 线缆伪装板 - §4暗色伊塞斯砖台阶
 appliedenergistics2:facade:0, 线缆伪装板 - 深渊沙子
 appliedenergistics2:facade:0, 线缆伪装板 - 深渊熔沙
 appliedenergistics2:facade:0, 线缆伪装板 - 恐惧之土
@@ -3960,24 +4224,123 @@ appliedenergistics2:part:220, ME存储总线
 appliedenergistics2:part:400, ME存储监控器
 appliedenergistics2:part:380, ME终端
 appliedenergistics2:part:80, ME触发总线
-quark:witch_hat, item.witch_hat.name
-quark:chute, 滑槽漏斗
-quark:sugar_block, tile.sugar_block.name
-quark:redstone_randomizer, tile.redstone_randomizer.name
-quark:iron_button, tile.iron_button.name
-quark:gold_button, tile.gold_button.name
-quark:ender_watcher, tile.ender_watcher.name
-quark:iron_rod, tile.iron_rod.name
-quark:color_slime:0, 红色粘液块
-quark:color_slime:1, 蓝色粘液块
-quark:color_slime:2, 青色粘液块
-quark:color_slime:3, 品红色粘液块
-quark:color_slime:4, 黄色粘液块
-quark:gravisand, tile.gravisand.name
-quark:redstone_inductor, tile.redstone_inductor.name
-quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
-quark:rain_detector, tile.rain_detector.name
-quark:chain, item.chain.name
+akashictome:tome, item.tome.name
+quark:spruce_trapdoor, tile.spruce_trapdoor.name
+quark:birch_trapdoor, tile.birch_trapdoor.name
+quark:jungle_trapdoor, tile.jungle_trapdoor.name
+quark:acacia_trapdoor, tile.acacia_trapdoor.name
+quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
+quark:paper_wall, 纸框墙
+quark:paper_wall_big, tile.paper_wall_big.name
+quark:paper_wall_sakura, tile.paper_wall_sakura.name
+quark:iron_ladder, tile.iron_ladder.name
+quark:paper_lantern:0, 纸灯笼
+quark:paper_lantern:1, 雕花纸灯笼
+quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
+quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
+quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
+quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
+quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
+quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
+quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
+quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
+quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
+quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
+quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
+quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
+quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
+quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
+quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
+quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
+quark:custom_bookshelf:0, 云杉木书架
+quark:custom_bookshelf:1, 白桦木书架
+quark:custom_bookshelf:2, 丛林木书架
+quark:custom_bookshelf:3, 金合欢木书架
+quark:custom_bookshelf:4, 深色橡木书架
+quark:colored_item_frame:0, 白色物品展示框
+quark:colored_item_frame:1, 橙色物品展示框
+quark:colored_item_frame:2, 品红色物品展示框
+quark:colored_item_frame:3, 淡蓝色物品展示框
+quark:colored_item_frame:4, 黄色物品展示框
+quark:colored_item_frame:5, 黄绿色物品展示框
+quark:colored_item_frame:6, 粉红色物品展示框
+quark:colored_item_frame:7, 灰色物品展示框
+quark:colored_item_frame:8, 淡灰色物品展示框
+quark:colored_item_frame:9, 青色物品展示框
+quark:colored_item_frame:10, 紫色物品展示框
+quark:colored_item_frame:11, 蓝色物品展示框
+quark:colored_item_frame:12, 棕色物品展示框
+quark:colored_item_frame:13, 绿色物品展示框
+quark:colored_item_frame:14, 红色物品展示框
+quark:colored_item_frame:15, 黑色物品展示框
+quark:lit_lamp, tile.lit_lamp.name
+quark:custom_chest:0, 云杉木箱子
+quark:custom_chest:1, 白桦木箱子
+quark:custom_chest:2, 丛林木箱子
+quark:custom_chest:3, 金合欢木箱子
+quark:custom_chest:4, 深色橡木箱子
+quark:custom_chest_trap:0, 云杉木陷阱箱
+quark:custom_chest_trap:1, 白桦木陷阱箱
+quark:custom_chest_trap:2, 丛林木陷阱箱
+quark:custom_chest_trap:3, 金合欢木陷阱箱
+quark:custom_chest_trap:4, 深色橡木陷阱箱
+quark:candle:0, 白色蜡烛
+quark:candle:1, 橙色蜡烛
+quark:candle:2, 品红色蜡烛
+quark:candle:3, 淡蓝色蜡烛
+quark:candle:4, 黄色蜡烛
+quark:candle:5, 黄绿色蜡烛
+quark:candle:6, 粉红色蜡烛
+quark:candle:7, 灰色蜡烛
+quark:candle:8, 淡灰色蜡烛
+quark:candle:9, 青色蜡烛
+quark:candle:10, 紫色蜡烛
+quark:candle:11, 蓝色蜡烛
+quark:candle:12, 棕色蜡烛
+quark:candle:13, 绿色蜡烛
+quark:candle:14, 红色蜡烛
+quark:candle:15, 黑色蜡烛
+quark:tallow, 魔力油脂
+quark:rope, tile.rope.name
+quark:blaze_lantern, tile.blaze_lantern.name
+quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
+quark:leaf_carpet:0, 橡树树叶地毯
+quark:leaf_carpet:1, 云杉树叶地毯
+quark:leaf_carpet:2, 白桦树叶地毯
+quark:leaf_carpet:3, 丛林树叶地毯
+quark:leaf_carpet:4, 金合欢树叶地毯
+quark:leaf_carpet:5, 深色橡树树叶地毯
+quark:leaf_carpet:6, 沼泽橡树树叶地毯
+quark:leaf_carpet:7, 樱花树叶地毯
+quark:spruce_pressure_plate, tile.spruce_pressure_plate.name
+quark:birch_pressure_plate, tile.birch_pressure_plate.name
+quark:jungle_pressure_plate, tile.jungle_pressure_plate.name
+quark:acacia_pressure_plate, tile.acacia_pressure_plate.name
+quark:dark_oak_pressure_plate, tile.dark_oak_pressure_plate.name
+quark:spruce_button, tile.spruce_button.name
+quark:birch_button, tile.birch_button.name
+quark:jungle_button, tile.jungle_button.name
+quark:acacia_button, tile.acacia_button.name
+quark:dark_oak_button, tile.dark_oak_button.name
+quark:grate, tile.grate.name
+quark:glass_item_frame, item.glass_item_frame.name
+quark:glass_shards:0, 玻璃碎片
+quark:glass_shards:1, 白色玻璃碎片
+quark:glass_shards:2, 橙色玻璃碎片
+quark:glass_shards:3, 品红色玻璃碎片
+quark:glass_shards:4, 淡蓝色玻璃碎片
+quark:glass_shards:5, 黄色玻璃碎片
+quark:glass_shards:6, 黄绿色玻璃碎片
+quark:glass_shards:7, 粉红色玻璃碎片
+quark:glass_shards:8, 灰色玻璃碎片
+quark:glass_shards:9, 淡灰色玻璃碎片
+quark:glass_shards:10, 青色玻璃碎片
+quark:glass_shards:11, 紫色玻璃碎片
+quark:glass_shards:12, 蓝色玻璃碎片
+quark:glass_shards:13, 棕色玻璃碎片
+quark:glass_shards:14, 绿色玻璃碎片
+quark:glass_shards:15, 红色玻璃碎片
+quark:glass_shards:16, 黑色玻璃碎片
 quark:pickarang, item.pickarang.name
 quark:arrow_ender, item.arrow_ender.name
 quark:arrow_explosive, item.arrow_explosive.name
@@ -4330,23 +4693,23 @@ quark:quilted_wool:12, 棕色缝线羊毛
 quark:quilted_wool:13, 绿色缝线羊毛
 quark:quilted_wool:14, 红色缝线羊毛
 quark:quilted_wool:15, 黑色缝线羊毛
-quark:glass_shards:0, 玻璃碎片
-quark:glass_shards:1, 白色玻璃碎片
-quark:glass_shards:2, 橙色玻璃碎片
-quark:glass_shards:3, 品红色玻璃碎片
-quark:glass_shards:4, 淡蓝色玻璃碎片
-quark:glass_shards:5, 黄色玻璃碎片
-quark:glass_shards:6, 黄绿色玻璃碎片
-quark:glass_shards:7, 粉红色玻璃碎片
-quark:glass_shards:8, 灰色玻璃碎片
-quark:glass_shards:9, 淡灰色玻璃碎片
-quark:glass_shards:10, 青色玻璃碎片
-quark:glass_shards:11, 紫色玻璃碎片
-quark:glass_shards:12, 蓝色玻璃碎片
-quark:glass_shards:13, 棕色玻璃碎片
-quark:glass_shards:14, 绿色玻璃碎片
-quark:glass_shards:15, 红色玻璃碎片
-quark:glass_shards:16, 黑色玻璃碎片
+quark:chute, 滑槽漏斗
+quark:sugar_block, tile.sugar_block.name
+quark:redstone_randomizer, tile.redstone_randomizer.name
+quark:iron_button, tile.iron_button.name
+quark:gold_button, tile.gold_button.name
+quark:ender_watcher, tile.ender_watcher.name
+quark:iron_rod, tile.iron_rod.name
+quark:color_slime:0, 红色粘液块
+quark:color_slime:1, 蓝色粘液块
+quark:color_slime:2, 青色粘液块
+quark:color_slime:3, 品红色粘液块
+quark:color_slime:4, 黄色粘液块
+quark:gravisand, tile.gravisand.name
+quark:redstone_inductor, tile.redstone_inductor.name
+quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
+quark:rain_detector, tile.rain_detector.name
+quark:chain, item.chain.name
 quark:roots, tile.roots.name
 quark:root, item.root.name
 quark:roots_blue_flower, tile.roots_blue_flower.name
@@ -4471,105 +4834,11 @@ quark:glowshroom, tile.glowshroom.name
 quark:glowshroom_block, tile.glowshroom_block.name
 quark:soul_bead, item.soul_bead.name
 quark:smoker, 烟口
-quark:spruce_trapdoor, tile.spruce_trapdoor.name
-quark:birch_trapdoor, tile.birch_trapdoor.name
-quark:jungle_trapdoor, tile.jungle_trapdoor.name
-quark:acacia_trapdoor, tile.acacia_trapdoor.name
-quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
-quark:paper_wall, 纸框墙
-quark:paper_wall_big, tile.paper_wall_big.name
-quark:paper_wall_sakura, tile.paper_wall_sakura.name
-quark:iron_ladder, tile.iron_ladder.name
-quark:paper_lantern:0, 纸灯笼
-quark:paper_lantern:1, 雕花纸灯笼
-quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
-quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
-quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
-quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
-quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
-quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
-quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
-quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
-quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
-quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
-quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
-quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
-quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
-quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
-quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
-quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
-quark:custom_bookshelf:0, 云杉木书架
-quark:custom_bookshelf:1, 白桦木书架
-quark:custom_bookshelf:2, 丛林木书架
-quark:custom_bookshelf:3, 金合欢木书架
-quark:custom_bookshelf:4, 深色橡木书架
-quark:colored_item_frame:0, 白色物品展示框
-quark:colored_item_frame:1, 橙色物品展示框
-quark:colored_item_frame:2, 品红色物品展示框
-quark:colored_item_frame:3, 淡蓝色物品展示框
-quark:colored_item_frame:4, 黄色物品展示框
-quark:colored_item_frame:5, 黄绿色物品展示框
-quark:colored_item_frame:6, 粉红色物品展示框
-quark:colored_item_frame:7, 灰色物品展示框
-quark:colored_item_frame:8, 淡灰色物品展示框
-quark:colored_item_frame:9, 青色物品展示框
-quark:colored_item_frame:10, 紫色物品展示框
-quark:colored_item_frame:11, 蓝色物品展示框
-quark:colored_item_frame:12, 棕色物品展示框
-quark:colored_item_frame:13, 绿色物品展示框
-quark:colored_item_frame:14, 红色物品展示框
-quark:colored_item_frame:15, 黑色物品展示框
-quark:lit_lamp, tile.lit_lamp.name
-quark:custom_chest:0, 云杉木箱子
-quark:custom_chest:1, 白桦木箱子
-quark:custom_chest:2, 丛林木箱子
-quark:custom_chest:3, 金合欢木箱子
-quark:custom_chest:4, 深色橡木箱子
-quark:custom_chest_trap:0, 云杉木陷阱箱
-quark:custom_chest_trap:1, 白桦木陷阱箱
-quark:custom_chest_trap:2, 丛林木陷阱箱
-quark:custom_chest_trap:3, 金合欢木陷阱箱
-quark:custom_chest_trap:4, 深色橡木陷阱箱
-quark:candle:0, 白色蜡烛
-quark:candle:1, 橙色蜡烛
-quark:candle:2, 品红色蜡烛
-quark:candle:3, 淡蓝色蜡烛
-quark:candle:4, 黄色蜡烛
-quark:candle:5, 黄绿色蜡烛
-quark:candle:6, 粉红色蜡烛
-quark:candle:7, 灰色蜡烛
-quark:candle:8, 淡灰色蜡烛
-quark:candle:9, 青色蜡烛
-quark:candle:10, 紫色蜡烛
-quark:candle:11, 蓝色蜡烛
-quark:candle:12, 棕色蜡烛
-quark:candle:13, 绿色蜡烛
-quark:candle:14, 红色蜡烛
-quark:candle:15, 黑色蜡烛
-quark:tallow, 魔力油脂
-quark:rope, tile.rope.name
-quark:blaze_lantern, tile.blaze_lantern.name
-quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
-quark:leaf_carpet:0, 橡树树叶地毯
-quark:leaf_carpet:1, 云杉树叶地毯
-quark:leaf_carpet:2, 白桦树叶地毯
-quark:leaf_carpet:3, 丛林树叶地毯
-quark:leaf_carpet:4, 金合欢树叶地毯
-quark:leaf_carpet:5, 深色橡树树叶地毯
-quark:leaf_carpet:6, 沼泽橡树树叶地毯
-quark:leaf_carpet:7, 樱花树叶地毯
-quark:spruce_pressure_plate, tile.spruce_pressure_plate.name
-quark:birch_pressure_plate, tile.birch_pressure_plate.name
-quark:jungle_pressure_plate, tile.jungle_pressure_plate.name
-quark:acacia_pressure_plate, tile.acacia_pressure_plate.name
-quark:dark_oak_pressure_plate, tile.dark_oak_pressure_plate.name
-quark:spruce_button, tile.spruce_button.name
-quark:birch_button, tile.birch_button.name
-quark:jungle_button, tile.jungle_button.name
-quark:acacia_button, tile.acacia_button.name
-quark:dark_oak_button, tile.dark_oak_button.name
-quark:grate, tile.grate.name
-quark:glass_item_frame, item.glass_item_frame.name
+quark:witch_hat, item.witch_hat.name
+bno:ingot_copper, Copper Ingot
+bno:ingot_tin, Tin Ingot
+bno:nugget_copper, Copper Nugget
+bno:nugget_tin, Tin Nugget
 bno:ore_netheremerald, Nether Emerald Ore
 bno:ore_netherdiamond, Nether Diamond Ore
 bno:ore_netherredstone, Nether Redstone Ore
@@ -4581,10 +4850,6 @@ bno:ore_nethercopper, Nether Copper Ore
 bno:ore_nethertin, Nether Tin Ore
 bno:block_copper, 铜块
 bno:block_tin, 锡块
-bno:ingot_copper, Copper Ingot
-bno:ingot_tin, Tin Ingot
-bno:nugget_copper, Copper Nugget
-bno:nugget_tin, Tin Nugget
 bathappymod:dummy, [null]
 baubles:ring:0, 矿工指环
 buildcraftlib:guide, BuildCraft 指南书
@@ -5710,6 +5975,8 @@ mekanism:plasticfence:13, §d品红色 塑料栅栏
 mekanism:plasticfence:14, §6橙色 塑料栅栏
 mekanism:plasticfence:15, §f白色 塑料栅栏
 mekanism:saltblock, 盐块
+compactvoidminers:void_miner, 紧凑型虚空采矿机
+compactvoidminers:void_pump, 紧凑型虚空产液仪
 compactvoidminers:blank_filter, 空白矿词过滤卡
 compactvoidminers:item_filter:0, 矿辞过滤卡：方块 - block
 compactvoidminers:item_filter:1, 矿辞过滤卡：（玻璃）板 - pane
@@ -5727,8 +5994,6 @@ compactvoidminers:item_filter:12, 矿辞过滤卡：作物 - crop
 compactvoidminers:item_filter:13, 矿辞过滤卡：粉 - dust
 compactvoidminers:item_filter:14, 矿辞过滤卡：石头 - stone
 compactvoidminers:item_filter:15, OreDictionary Filter: stone
-compactvoidminers:void_miner, 紧凑型虚空采矿机
-compactvoidminers:void_pump, 紧凑型虚空产液仪
 fartgen:generator, 发电机
 dragonmounts:forest_dragonscales, 龙鳞
 dragonmounts:fire_dragonscales, 龙鳞
@@ -6006,21 +6271,21 @@ dragonmounts:moonlight_dragonscale_cap, 龙鳞头盔
 dragonmounts:moonlight_dragonscale_tunic, 龙鳞外衣
 dragonmounts:moonlight_dragonscale_leggings, 龙鳞护腿
 dragonmounts:moonlight_dragonscale_boots, 龙鳞靴子
-dragonmounts:dragon_egg:13, 大地龙龙蛋
-dragonmounts:dragon_egg:1, 火龙龙蛋
-dragonmounts:dragon_egg:3, 水龙龙蛋
-dragonmounts:dragon_egg:2, 森林龙龙蛋
-dragonmounts:dragon_egg:14, 月曜龙龙蛋
-dragonmounts:dragon_egg:10, 日曜龙龙蛋
-dragonmounts:dragon_egg:8, 凋零龙龙蛋
-dragonmounts:dragon_egg:0, 以太龙龙蛋
-dragonmounts:dragon_egg:12, 僵尸龙龙蛋
-dragonmounts:dragon_egg:7, 骨龙龙蛋
-dragonmounts:dragon_egg:9, 魔法龙龙蛋
 dragonmounts:dragon_egg:4, 冰龙龙蛋
-dragonmounts:dragon_egg:5, 末影龙龙蛋
+dragonmounts:dragon_egg:12, 僵尸龙龙蛋
+dragonmounts:dragon_egg:9, 魔法龙龙蛋
+dragonmounts:dragon_egg:7, 骨龙龙蛋
+dragonmounts:dragon_egg:10, 日曜龙龙蛋
 dragonmounts:dragon_egg:6, 地狱龙龙蛋
+dragonmounts:dragon_egg:14, 月曜龙龙蛋
+dragonmounts:dragon_egg:8, 凋零龙龙蛋
+dragonmounts:dragon_egg:1, 火龙龙蛋
 dragonmounts:dragon_egg:11, 风暴龙龙蛋
+dragonmounts:dragon_egg:0, 以太龙龙蛋
+dragonmounts:dragon_egg:3, 水龙龙蛋
+dragonmounts:dragon_egg:13, 大地龙龙蛋
+dragonmounts:dragon_egg:2, 森林龙龙蛋
+dragonmounts:dragon_egg:5, 末影龙龙蛋
 dungpipe:dung_pipe, 粪管
 dungpipe:sewer_pipe, 下水道管
 dungeonmobs:lavarock, tile.dungeonmobs.lavarock.name
@@ -6554,8 +6819,8 @@ erebus:stairs_varnished, 漆包木楼梯
 erebus:slab_planks_varnished, 漆包木台阶
 erebus:fence_varnished, 漆包木栅栏
 erebus:fence_gate_varnished, 漆包木栅栏门
-exp_bottling:exp_bottling_machine, 经验装瓶机
 exp_bottling:bottled_exp, 瓶装的经验值
+exp_bottling:exp_bottling_machine, 经验装瓶机
 golems:golem_head, 傀儡头颅
 golems:spawn_bedrock_golem, 生成 基岩傀儡
 golems:golem_paper, §c傀儡符咒§r
@@ -7564,13 +7829,13 @@ spartanshields:shield_flux_ra, 红石充能盾牌
 tenshilib:ignore, Structure Ignore
 tenshilib:structure_piece, Structure Piece
 tenshilib:breakable_barrier, tile.tenshilib:breakable_barrier.name
-trapcraft:igniter_range, Igniter Range Upgrade
 trapcraft:magnetic_chest, Magnetic Chest
 trapcraft:grass_covering, Grass Covering
 trapcraft:fan, Fan
 trapcraft:bear_trap, Trap
 trapcraft:spikes, Spikes
 trapcraft:igniter, Igniter
+trapcraft:igniter_range, Igniter Range Upgrade
 travelersbackpack:travelers_backpack:0, 旅行者背包
 travelersbackpack:travelers_backpack:1, 旅行者背包
 travelersbackpack:travelers_backpack:2, 旅行者背包
@@ -7698,7 +7963,7 @@ wizardrygolems:ring_flame_golem, Sunstone Ring
 wizardrygolems:amulet_steaming_netherrack, Steaming Netherrack Amulet
 wizardrygolems:charm_fire_golemancy_potency, Fire Elemental Heart
 wizardrygolems:charm_ifrit_bottle, Sealed Ifrit
-zensummoning:altar, 祭坛
+zensummoning:altar, Summoning Altar
 zerocore:debugtool, 调试工具
 zettaigrimoires:empty_grimoire, 空魔法书
 zettaigrimoires:grimoire_earth, 自然之魔法书
@@ -8175,22 +8440,22 @@ ancientspellcraft:battlemage_sword_advanced, Spell Sword
 ancientspellcraft:battlemage_sword_master, Spell Blade
 ancientspellcraft:devoritium_chestplate, item.ancientspellcraft:devoritium_chestplate.name
 ocsensors:sensor, 传感器
-abyssalcraft:stone:0, 黑暗石
-abyssalcraft:stone:1, §9深渊石
-abyssalcraft:stone:2, 恐惧石
-abyssalcraft:stone:3, 渊素石
-abyssalcraft:stone:4, 珊瑚石
-abyssalcraft:stone:5, §b伊塞斯石
-abyssalcraft:stone:6, 奥穆索之石
-abyssalcraft:stone:7, 巨石块
-abyssalcraft:cobblestone:0, 黑暗圆石
-abyssalcraft:cobblestone:1, §9深渊圆石
-abyssalcraft:cobblestone:2, 恐惧圆石
-abyssalcraft:cobblestone:3, 渊素圆石
-abyssalcraft:cobblestone:4, 珊瑚圆石
-abyssalcraft:darkstone_brick:0, 黑暗石砖
-abyssalcraft:darkstone_brick:1, 錾制黑暗石砖
-abyssalcraft:darkstone_brick:2, 裂纹黑暗石砖
+abyssalcraft:darkstone, 暗石
+abyssalcraft:abystone, 深渊石
+abyssalcraft:dreadstone, 恐惧石
+abyssalcraft:abydreadstone, 渊素石
+abyssalcraft:cstone, 珊瑚石
+abyssalcraft:ethaxium, 伊塞斯石
+abyssalcraft:omotholstone, 奥穆索之石
+abyssalcraft:monolithstone, 巨石块
+abyssalcraft:darkstone_cobble, 黑暗圆石
+abyssalcraft:abyssalcobblestone, 深渊圆石
+abyssalcraft:dreadstonecobblestone, 恐惧圆石
+abyssalcraft:abyssalnitecobblestone, 渊素圆石
+abyssalcraft:coraliumcobblestone, 珊瑚圆石
+abyssalcraft:darkstone_brick, 黑暗石砖
+abyssalcraft:chiseled_darkstone_brick, 錾制黑暗石砖
+abyssalcraft:cracked_darkstone_brick, 裂纹黑暗石砖
 abyssalcraft:dsglow, 发光黑暗石砖
 abyssalcraft:darkbrickslab1:0, 黑暗石砖台阶
 abyssalcraft:darkbrickslab2:0, 黑暗石砖台阶
@@ -8202,9 +8467,9 @@ abyssalcraft:dltleaves, 黑暗之地橡树树叶
 abyssalcraft:dltlog, 黑暗之地橡木
 abyssalcraft:dltlog2, 黑暗之地橡木
 abyssalcraft:dltsapling, 黑暗之地橡树树苗
-abyssalcraft:abybrick:0, §9深渊石砖
-abyssalcraft:abybrick:1, §9錾制深渊石砖
-abyssalcraft:abybrick:2, §9裂纹深渊石砖
+abyssalcraft:abybrick, 深渊石砖
+abyssalcraft:chiseled_abyssal_stone_brick, 錾制深渊石砖
+abyssalcraft:cracked_abyssal_stone_brick, 裂纹深渊石砖
 abyssalcraft:abyslab1:0, §9深渊石砖台阶
 abyssalcraft:abyslab2:0, §9深渊石砖台阶
 abyssalcraft:abystairs, 深渊石砖楼梯
@@ -8213,17 +8478,15 @@ abyssalcraft:abyore, 渊素矿石
 abyssalcraft:abyfence, 深渊石砖栅栏
 abyssalcraft:dscwall, 黑暗圆石墙
 abyssalcraft:odb, 湮灭弹
-abyssalcraft:ingotblock:0, §3渊素块
-abyssalcraft:ingotblock:1, §b精炼珊瑚块
-abyssalcraft:ingotblock:2, §4惧质块
-abyssalcraft:ingotblock:3, §b伊塞斯块
+abyssalcraft:abyblock, 渊素块
+abyssalcraft:corblock, 精炼珊瑚块
+abyssalcraft:dreadiumblock, 惧质块
+abyssalcraft:ethaxiumblock, 伊塞斯块
 abyssalcraft:coraliumstone, 蕴含珊瑚的石头
 abyssalcraft:odbcore, 湮灭弹核心
 abyssalcraft:crate, 木制板条箱
-abyssalcraft:abyportal, 深渊传送门
 abyssalcraft:darkstoneslab1:0, 黑暗石台阶
 abyssalcraft:darkstoneslab2:0, 黑暗石台阶
-abyssalcraft:coraliumfire, 珊瑚火
 abyssalcraft:dsbutton, 黑暗石按钮
 abyssalcraft:dspplate, 黑暗石压力板
 abyssalcraft:dltplank, 黑暗之地橡木木板
@@ -8242,19 +8505,17 @@ abyssalcraft:dsbfence, 黑暗石砖栅栏
 abyssalcraft:dltfence, 黑暗之地橡木栅栏
 abyssalcraft:abydreadore, 恐惧之地渊素矿石
 abyssalcraft:dreadore, 恐惧渊素矿石
-abyssalcraft:dreadbrick:0, 恐惧石砖
-abyssalcraft:dreadbrick:1, 錾制恐惧石砖
-abyssalcraft:dreadbrick:2, 裂纹恐惧石砖
-abyssalcraft:abydreadbrick:0, 渊素石砖
-abyssalcraft:abydreadbrick:1, 錾制渊素石砖
-abyssalcraft:abydreadbrick:2, 裂纹渊素石砖
+abyssalcraft:dreadbrick, 恐惧石砖
+abyssalcraft:chiseled_dreadstone_brick, 錾制恐惧石砖
+abyssalcraft:cracked_dreadstone_brick, 裂纹恐惧石砖
+abyssalcraft:abydreadbrick, 渊素石砖
+abyssalcraft:chiseled_abyssalnite_stone_brick, 錾制渊素石砖
+abyssalcraft:cracked_abyssalnite_stone_brick, 裂纹渊素石砖
 abyssalcraft:dreadgrass, 恐惧之地草方块
 abyssalcraft:dreadlog, 恐惧之地树木
 abyssalcraft:dreadleaves, 恐惧之地树叶
 abyssalcraft:dreadsapling, 恐惧之地树苗
 abyssalcraft:dreadplanks, 恐惧之地木板
-abyssalcraft:dreadportal, 恐惧之地传送门
-abyssalcraft:dreadfire, 恐惧火
 abyssalcraft:dghead, 深渊食尸鬼头颅
 abyssalcraft:phead, 皮特的头颅
 abyssalcraft:whead, 威尔逊先生的头颅
@@ -8268,9 +8529,9 @@ abyssalcraft:abydreadbrickfence, 渊素石砖栅栏
 abyssalcraft:abydreadbrickslab1:0, 渊素石砖台阶
 abyssalcraft:abydreadbrickslab2:0, 渊素石砖台阶
 abyssalcraft:antiwater, 液态反物质
-abyssalcraft:cstonebrick:0, 珊瑚砖块
-abyssalcraft:cstonebrick:1, 錾制珊瑚砖块
-abyssalcraft:cstonebrick:2, 裂纹珊瑚砖块
+abyssalcraft:cstonebrick, 珊瑚砖块
+abyssalcraft:chiseled_coralium_stone_brick, 錾制珊瑚砖块
+abyssalcraft:cracked_coralium_stone_brick, 裂纹珊瑚砖块
 abyssalcraft:cstonebrickfence, 珊瑚砖栅栏
 abyssalcraft:cstonebrickslab1:0, 珊瑚砖台阶
 abyssalcraft:cstonebrickslab2:0, 珊瑚砖台阶
@@ -8296,116 +8557,114 @@ abyssalcraft:abycopore, 深渊铜矿石
 abyssalcraft:abypcorore, 珠光四射的珊瑚矿石
 abyssalcraft:abylcorore, 液化珊瑚矿石
 abyssalcraft:solidlava, 固态熔岩
-abyssalcraft:ethaxiumbrick:0, §b伊塞斯砖块
-abyssalcraft:ethaxiumbrick:1, §b錾制伊塞斯砖块
-abyssalcraft:ethaxiumbrick:2, §b裂纹伊塞斯砖块
+abyssalcraft:ethaxiumbrick, 伊塞斯砖块
+abyssalcraft:chiseled_ethaxium_brick, 錾制伊塞斯砖块
+abyssalcraft:cracked_ethaxium_brick, 裂纹伊塞斯砖块
 abyssalcraft:ethaxiumpillar, 伊塞斯柱
 abyssalcraft:ethaxiumbrickstairs, 伊塞斯砖楼梯
 abyssalcraft:ethaxiumbrickslab1:0, §b伊塞斯砖台阶
 abyssalcraft:ethaxiumbrickslab2:0, §b伊塞斯砖台阶
 abyssalcraft:ethaxiumfence, 伊塞斯砖栅栏
-abyssalcraft:omotholportal, 奥穆索之门
-abyssalcraft:omotholfire, 奥穆索之火
 abyssalcraft:engraver, 铸币器
 abyssalcraft:engraver_on, 一个房子
 abyssalcraft:materializer, 物质化器
-abyssalcraft:darkethaxiumbrick:0, §4暗色伊塞斯砖块
-abyssalcraft:darkethaxiumbrick:1, §4錾制暗色伊塞斯砖块
-abyssalcraft:darkethaxiumbrick:2, §4裂纹暗色伊塞斯砖块
+abyssalcraft:darkethaxiumbrick, 暗色伊塞斯砖块
+abyssalcraft:chiseled_dark_ethaxium_brick, 錾制暗色伊塞斯砖块
+abyssalcraft:cracked_dark_ethaxium_brick, 裂纹暗色伊塞斯砖块
 abyssalcraft:darkethaxiumpillar, 暗色伊塞斯柱
 abyssalcraft:darkethaxiumbrickstairs, 暗色伊塞斯砖楼梯
-abyssalcraft:darkethaxiumbrickslab1:0, §b暗色伊塞斯砖台阶
-abyssalcraft:darkethaxiumbrickslab2:0, §b暗色伊塞斯砖台阶
+abyssalcraft:darkethaxiumbrickslab1:0, §4暗色伊塞斯砖台阶
+abyssalcraft:darkethaxiumbrickslab2:0, §4暗色伊塞斯砖台阶
 abyssalcraft:darkethaxiumbrickfence, 暗色伊塞斯砖栅栏
-abyssalcraft:ritualaltar:0, 仪式祭坛
-abyssalcraft:ritualaltar:1, 仪式祭坛
-abyssalcraft:ritualaltar:2, 仪式祭坛
-abyssalcraft:ritualaltar:3, 仪式祭坛
-abyssalcraft:ritualaltar:4, 仪式祭坛
-abyssalcraft:ritualaltar:5, 仪式祭坛
-abyssalcraft:ritualaltar:6, 仪式祭坛
-abyssalcraft:ritualaltar:7, 仪式祭坛
-abyssalcraft:ritualpedestal:0, 仪式基座
-abyssalcraft:ritualpedestal:1, 仪式基座
-abyssalcraft:ritualpedestal:2, 仪式基座
-abyssalcraft:ritualpedestal:3, 仪式基座
-abyssalcraft:ritualpedestal:4, 仪式基座
-abyssalcraft:ritualpedestal:5, 仪式基座
-abyssalcraft:ritualpedestal:6, 仪式基座
-abyssalcraft:ritualpedestal:7, 仪式基座
+abyssalcraft:ritual_altar_stone, 仪式祭坛
+abyssalcraft:ritual_altar_darkstone, 仪式祭坛
+abyssalcraft:ritual_altar_abyssal_stone, 仪式祭坛
+abyssalcraft:ritual_altar_coralium_stone, 仪式祭坛
+abyssalcraft:ritual_altar_dreadstone, 仪式祭坛
+abyssalcraft:ritual_altar_abyssalnite_stone, 仪式祭坛
+abyssalcraft:ritual_altar_ethaxium, 仪式祭坛
+abyssalcraft:ritual_altar_dark_ethaxium, 仪式祭坛
+abyssalcraft:ritual_pedestal_stone, 仪式基座
+abyssalcraft:ritual_pedestal_darkstone, 仪式基座
+abyssalcraft:ritual_pedestal_abyssal_stone, 仪式基座
+abyssalcraft:ritual_pedestal_coralium_stone, 仪式基座
+abyssalcraft:ritual_pedestal_dreadstone, 仪式基座
+abyssalcraft:ritual_pedestal_abyssalnite_stone, 仪式基座
+abyssalcraft:ritual_pedestal_ethaxium, 仪式基座
+abyssalcraft:ritual_pedestal_dark_ethaxium, 仪式基座
 abyssalcraft:shoggothblock:0, 修格斯软泥
-abyssalcraft:statue:0, 克苏鲁雕像
-abyssalcraft:statue:1, 哈斯塔雕像
-abyssalcraft:statue:2, 扎哈尔雕像
-abyssalcraft:statue:3, 阿撒托斯雕像
-abyssalcraft:statue:4, 奈亚拉托提普雕像
-abyssalcraft:statue:5, 犹格•索托斯雕像
-abyssalcraft:statue:6, 莎布•尼古拉丝雕像
+abyssalcraft:cthulhustatue, 克苏鲁雕像
+abyssalcraft:hasturstatue, 哈斯塔雕像
+abyssalcraft:jzaharstatue, 扎哈尔雕像
+abyssalcraft:azathothstatue, 阿撒托斯雕像
+abyssalcraft:nyarlathotepstatue, 奈亚拉托提普雕像
+abyssalcraft:yogsothothstatue, 犹格•索托斯雕像
+abyssalcraft:shubniggurathstatue, 莎布•尼古拉丝雕像
 abyssalcraft:shoggothbiomass, 修格斯生物质
 abyssalcraft:energypedestal, 能量基座
 abyssalcraft:monolithpillar, 巨石柱
 abyssalcraft:sacrificialaltar, 献祭祭坛
-abyssalcraft:tieredenergypedestal:0, 主世界能量基座
-abyssalcraft:tieredenergypedestal:1, 深渊荒原能量基座
-abyssalcraft:tieredenergypedestal:2, 恐惧之地能量基座
-abyssalcraft:tieredenergypedestal:3, 奥穆索能量基座
-abyssalcraft:tieredsacrificialaltar:0, 主世界献祭祭坛
-abyssalcraft:tieredsacrificialaltar:1, 深渊荒原献祭祭坛
-abyssalcraft:tieredsacrificialaltar:2, 恐惧之地献祭祭坛
-abyssalcraft:tieredsacrificialaltar:3, 奥穆索献祭祭坛
+abyssalcraft:overworld_energy_pedestal, 主世界能量基座
+abyssalcraft:abyssal_wasteland_energy_pedestal, 深渊荒原能量基座
+abyssalcraft:dreadlands_energy_pedestal, 恐惧之地能量基座
+abyssalcraft:omothol_energy_pedestal, 奥穆索能量基座
+abyssalcraft:overworld_sacrificial_altar, 主世界献祭祭坛
+abyssalcraft:abyssal_wasteland_sacrificial_altar, 深渊荒原献祭祭坛
+abyssalcraft:dreadlands_sacrificial_altar, 恐惧之地献祭祭坛
+abyssalcraft:omothol_sacrificial_altar, 奥穆索献祭祭坛
 abyssalcraft:jzaharspawner, 扎哈尔生成方块
 abyssalcraft:gatekeeperminionspawner, 守门者仆从生成方块
 abyssalcraft:fire, 火
-abyssalcraft:decorativestatue:0, 装饰用克苏鲁雕像
-abyssalcraft:decorativestatue:1, 装饰用哈斯塔雕像
-abyssalcraft:decorativestatue:2, 装饰用扎哈尔雕像
-abyssalcraft:decorativestatue:3, 装饰用阿撒托斯雕像
-abyssalcraft:decorativestatue:4, 装饰用奈亚拉托提普雕像
-abyssalcraft:decorativestatue:5, 装饰用犹格•索托斯雕像
-abyssalcraft:decorativestatue:6, 装饰用莎布•尼古拉丝雕像
-abyssalcraft:crystalcluster:0, 结晶铁簇
-abyssalcraft:crystalcluster:1, 结晶金簇
-abyssalcraft:crystalcluster:2, 结晶硫簇
-abyssalcraft:crystalcluster:3, 结晶碳簇
-abyssalcraft:crystalcluster:4, 结晶氧簇
-abyssalcraft:crystalcluster:5, 结晶氢簇
-abyssalcraft:crystalcluster:6, 结晶氮簇
-abyssalcraft:crystalcluster:7, 结晶磷簇
-abyssalcraft:crystalcluster:8, 结晶钾簇
-abyssalcraft:crystalcluster:9, 结晶硝酸簇
-abyssalcraft:crystalcluster:10, 结晶甲烷簇
-abyssalcraft:crystalcluster:11, 结晶红石簇
-abyssalcraft:crystalcluster:12, 结晶渊素簇
-abyssalcraft:crystalcluster:13, 结晶珊瑚簇
-abyssalcraft:crystalcluster:14, 结晶惧质簇
-abyssalcraft:crystalcluster:15, 结晶烈焰簇
-abyssalcraft:crystalcluster2:0, 结晶锡簇
-abyssalcraft:crystalcluster2:1, 结晶铜簇
-abyssalcraft:crystalcluster2:2, 结晶硅簇
-abyssalcraft:crystalcluster2:3, 结晶镁簇
-abyssalcraft:crystalcluster2:4, 结晶铝簇
-abyssalcraft:crystalcluster2:5, 结晶二氧化硅簇
-abyssalcraft:crystalcluster2:6, 结晶氧化铝簇
-abyssalcraft:crystalcluster2:7, 结晶氧化镁簇
-abyssalcraft:crystalcluster2:8, 结晶锌簇
-abyssalcraft:crystalcluster2:9, 结晶钙簇
-abyssalcraft:crystalcluster2:10, 结晶铍簇
-abyssalcraft:crystalcluster2:11, 结晶绿柱石簇
+abyssalcraft:decorativecthulhustatue, 克苏鲁雕像
+abyssalcraft:decorativehasturstatue, 哈斯塔雕像
+abyssalcraft:decorativejzaharstatue, 扎哈尔雕像
+abyssalcraft:decorativeazathothstatue, 阿撒托斯雕像
+abyssalcraft:decorativenyarlathotepstatue, 奈亚拉托提普雕像
+abyssalcraft:decorativeyogsothothstatue, 犹格•索托斯雕像
+abyssalcraft:decorativeshubniggurathstatue, 莎布•尼古拉丝雕像
+abyssalcraft:iron_crystal_cluster, tile.iron_crystal_cluster.name
+abyssalcraft:gold_crystal_cluster, tile.gold_crystal_cluster.name
+abyssalcraft:sulfur_crystal_cluster, tile.sulfur_crystal_cluster.name
+abyssalcraft:carbon_crystal_cluster, tile.carbon_crystal_cluster.name
+abyssalcraft:oxygen_crystal_cluster, tile.oxygen_crystal_cluster.name
+abyssalcraft:hydrogen_crystal_cluster, tile.hydrogen_crystal_cluster.name
+abyssalcraft:nitrogen_crystal_cluster, tile.nitrogen_crystal_cluster.name
+abyssalcraft:phosphorus_crystal_cluster, tile.phosphorus_crystal_cluster.name
+abyssalcraft:potassium_crystal_cluster, tile.potassium_crystal_cluster.name
+abyssalcraft:nitrate_crystal_cluster, tile.nitrate_crystal_cluster.name
+abyssalcraft:methane_crystal_cluster, tile.methane_crystal_cluster.name
+abyssalcraft:redstone_crystal_cluster, tile.redstone_crystal_cluster.name
+abyssalcraft:abyssalnite_crystal_cluster, tile.abyssalnite_crystal_cluster.name
+abyssalcraft:coralium_crystal_cluster, tile.coralium_crystal_cluster.name
+abyssalcraft:dreadium_crystal_cluster, tile.dreadium_crystal_cluster.name
+abyssalcraft:blaze_crystal_cluster, tile.blaze_crystal_cluster.name
+abyssalcraft:tin_crystal_cluster, tile.tin_crystal_cluster.name
+abyssalcraft:copper_crystal_cluster, tile.copper_crystal_cluster.name
+abyssalcraft:silicon_crystal_cluster, tile.silicon_crystal_cluster.name
+abyssalcraft:magnesium_crystal_cluster, tile.magnesium_crystal_cluster.name
+abyssalcraft:aluminium_crystal_cluster, tile.aluminium_crystal_cluster.name
+abyssalcraft:silica_crystal_cluster, tile.silica_crystal_cluster.name
+abyssalcraft:alumina_crystal_cluster, tile.alumina_crystal_cluster.name
+abyssalcraft:magnesia_crystal_cluster, tile.magnesia_crystal_cluster.name
+abyssalcraft:zinc_crystal_cluster, tile.zinc_crystal_cluster.name
+abyssalcraft:calcium_crystal_cluster, tile.calcium_crystal_cluster.name
+abyssalcraft:beryllium_crystal_cluster, tile.beryllium_crystal_cluster.name
+abyssalcraft:beryl_crystal_cluster, tile.beryl_crystal_cluster.name
 abyssalcraft:energycollector, 能量收集器
 abyssalcraft:energyrelay, 能量中继器
 abyssalcraft:energycontainer, 能量容器
-abyssalcraft:tieredenergycollector:0, 主世界能量收集器
-abyssalcraft:tieredenergycollector:1, 深渊荒原能量收集器
-abyssalcraft:tieredenergycollector:2, 恐惧之地能量收集器
-abyssalcraft:tieredenergycollector:3, 奥穆索能量收集器
-abyssalcraft:tieredenergyrelay:0, 主世界能量中继器
-abyssalcraft:tieredenergyrelay:1, 深渊荒原能量中继器
-abyssalcraft:tieredenergyrelay:2, 恐惧之地能量中继器
-abyssalcraft:tieredenergyrelay:3, 奥穆索能量中继器
-abyssalcraft:tieredenergycontainer:0, 主世界能量容器
-abyssalcraft:tieredenergycontainer:1, 深渊荒原能量容器
-abyssalcraft:tieredenergycontainer:2, 恐惧之地能量容器
-abyssalcraft:tieredenergycontainer:3, 奥穆索能量容器
+abyssalcraft:overworld_energy_collector, 主世界能量收集器
+abyssalcraft:abyssal_wasteland_energy_collector, 深渊荒原能量收集器
+abyssalcraft:dreadlands_energy_collector, 恐惧之地能量收集器
+abyssalcraft:omothol_energy_collector, 奥穆索能量收集器
+abyssalcraft:overworld_energy_relay, 主世界能量中继器
+abyssalcraft:abyssal_wasteland_energy_relay, 深渊荒原能量中继器
+abyssalcraft:dreadlands_energy_relay, 恐惧之地能量中继器
+abyssalcraft:omothol_energy_relay, 奥穆索能量中继器
+abyssalcraft:overworld_energy_container, 主世界能量容器
+abyssalcraft:abyssal_wasteland_energy_container, 深渊荒原能量容器
+abyssalcraft:dreadlands_energy_container, 恐惧之地能量容器
+abyssalcraft:omothol_energy_container, 奥穆索能量容器
 abyssalcraft:abyssalsand, 深渊沙子
 abyssalcraft:fusedabyssalsand, 深渊熔沙
 abyssalcraft:abyssalsandglass, 深渊沙玻璃
@@ -8433,6 +8692,8 @@ abyssalcraft:statetransformer, 物态转换器
 abyssalcraft:energydepositioner, 能量沉积器
 abyssalcraft:calcifiedstone, 钙化石
 abyssalcraft:multiblock, 多方块
+abyssalcraft:sequential_brewing_stand, 递次酿造台
+abyssalcraft:portal_anchor, 传送门之锚
 abyssalcraft:devsword, 创渊者之刃
 abyssalcraft:shoggoth_projectile, item.shoggoth_projectile.name
 abyssalcraft:oc, 湮灭媒介
@@ -8496,24 +8757,6 @@ abyssalcraft:depthshelmet, 深海面罩
 abyssalcraft:depthsplate, 深海胸甲
 abyssalcraft:depthslegs, 深海护腿
 abyssalcraft:depthsboots, 深海之靴
-abyssalcraft:cobbleu, 圆石升级套件
-abyssalcraft:ironu, 铁锭升级套件
-abyssalcraft:goldu, 金锭升级套件
-abyssalcraft:diamondu, 钻石升级套件
-abyssalcraft:abyssalniteu, 渊素升级套件
-abyssalcraft:coraliumu, 珊瑚升级套件
-abyssalcraft:dreadiumu, 惧质升级套件
-abyssalcraft:ethaxiumu, 伊塞斯升级套件
-abyssalcraft:mre, 预制食品
-abyssalcraft:ironp, 铁盘子
-abyssalcraft:chickenp, 盘子上的熟鸡肉
-abyssalcraft:porkp, 盘子上的熟猪排
-abyssalcraft:beefp, 盘子上的熟牛排
-abyssalcraft:fishp, 盘子上的熟鱼
-abyssalcraft:dirtyplate, 脏盘子
-abyssalcraft:friedegg, 煎蛋
-abyssalcraft:eggp, 盘子上的煎鸡蛋
-abyssalcraft:cloth, 洗碟布
 abyssalcraft:shadowfragment, 阴影碎片
 abyssalcraft:shadowshard, 阴影宝石碎片
 abyssalcraft:shadowgem, 阴影宝石
@@ -8754,6 +8997,10 @@ abyssalcraft:configurator_shard:0, 灵魂石板碎片 #1
 abyssalcraft:configurator_shard:1, 灵魂石板碎片 #2
 abyssalcraft:configurator_shard:2, 灵魂石板碎片 #3
 abyssalcraft:configurator_shard:3, 灵魂石板碎片 #4
+abyssalcraft:silver_key, 银钥匙
+abyssalcraft:face_book, 千面之书
+abyssalcraft:generic_meat, 泛制肉
+abyssalcraft:cooked_generic_meat, 熟泛制肉
 acheads:head:0, 深渊僵尸头颅
 acheads:head:1, 邪恶的猪头颅
 acheads:head:2, 深渊的守门者扎哈尔头颅
