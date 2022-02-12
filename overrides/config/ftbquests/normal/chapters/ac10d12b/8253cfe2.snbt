@@ -37,5 +37,10 @@
 		uid: "c6529e7d",
 		type: "ftbmoney:money",
 		ftb_money: 200L
+	},
+	{
+		uid: "0ee7f10a",
+		type: "item",
+		item: "erebus:cabbage_seeds"
 	}]
 }

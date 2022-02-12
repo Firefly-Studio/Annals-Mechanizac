@@ -1,0 +1,19 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	dependencies: [
+		"abc02668"
+	],
+	tasks: [{
+		uid: "76bfa6f7",
+		type: "item",
+		items: [{
+			item: "ancientspellcraft:scribing_desk"
+		}]
+	}],
+	rewards: [{
+		uid: "16b3e991",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

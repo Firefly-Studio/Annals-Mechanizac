@@ -8,7 +8,8 @@ val f2i as IIngredient[][IItemStack]={
     <minecraft:dirt>:[<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}),<ore:itemClay>,<ore:dustSulfur>*8,<ore:sugarcane>*4],
     <minecraft:string>:[<ore:paper>,<ore:fiber>],
     <minecraft:reeds>:[<betternether:nether_reed>,<ore:fiber>],
-
+    <t3s4ebw:magic_seed>:[<minecraft:dye:15>,<minecraft:wheat_seeds>,<ebwizardry:magic_crystal>],
+    <contenttweaker:lle>:[<minecraft:bone>,<minecraft:rotten_flesh>,<ore:auraStone>]
 };
 function f2Item(output as IItemStack,input as IIngredient[]){
     mods.inworldcrafting.FluidToItem.transform(output,<liquid:coolliquid>,input, false);

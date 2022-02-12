@@ -1,0 +1,17 @@
+{
+	x: 7.0d,
+	y: 0.0d,
+	dependencies: [
+		"2ad4b572"
+	],
+	tasks: [{
+		uid: "e7a755c0",
+		type: "item",
+		items: [{
+			id: "ebwizardry:magic_wand",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer1": "underwaterrails:misc/bubble_overlay",
+    "layer0": "minecraft:block/activator_rail"
+  }
+}

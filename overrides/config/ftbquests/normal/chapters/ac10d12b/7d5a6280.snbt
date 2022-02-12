@@ -20,5 +20,10 @@
 		uid: "f243e33a",
 		type: "ftbmoney:money",
 		ftb_money: 100L
+	},
+	{
+		uid: "45c9efb4",
+		type: "item",
+		item: "natura:overworld_seeds"
 	}]
 }

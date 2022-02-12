@@ -1,9 +1,13 @@
 ans.message.skeletonkingspawn.success=The Old Lord has awakened!
 ans.message.comeback.success=The long day of the world remains.
-ans.message.comeback.faild=Please hold a Dimensional Key.
+ans.message.comeback.faild=Please hold a Dimensional Pass.
 ans.message.welcome=Welcome to Annals!
 ans.message.altar.bloodwood_sword=Seems to have forgotten something.
 ans.message.meatstew.eat=Did you eat something bad?
+
+ans.jei.ancdiamond=Handheld Astral Diamond Left click or right click on the emerald border round stone to get a charged Astral Diamond.
+ans.jei.dustsoul=hold withering ash right click on grass cube to get spirit dust. *15% chance the grass cube will turn into dirt.
+
 ans.tip.key=Filled with an ominous aura.
 ans.tip.stick=Big magic wand!
 ans.tip.wrench=The pipe plug is unemployed.
@@ -16,6 +20,7 @@ ans.tip.transport_controller=Either the world collapses, or all life flourishes.
 ans.tip.hopper_upgrade=It is not available in the nether and can be replaced by a void hopper.
 ans.tip.offering_table=If you are in the nether, it is recommended to go to the bedrock layer for the ceremony. What? How to go to the bedrock layer? Didn't I tell you in the Tip. How do I get back?Portal!  Also, the Calling Spirit can only be thrown one at a time, otherwise the ritual will not be performed.
 ans.tip.animal_spawner=It is not available in the nether.
+ans.tip.Akashi=Left click to restore
 ans.message.dmeldermob.success=You have summoned something that does not belong to this world.
 
 ans.helper.main.landing_text=Help you get up to speed on modpack play! But please also take a look at the quests progress more often.
@@ -85,6 +90,7 @@ ans.tips.ingame.62=No, you know.
 ans.tips.ingame.63=I know.
 ans.tips.ingame.64=A:Have some memes. B:[emoji] A:Stop sending emojis! I'm asking you to have some meme words!
 ans.tips.ingame.65=Excessive honesty, humility and a high level of responsibility are the greatest strengths of our community of creators - GBL(Orig:HikariLan)
+ans.tips.ingame.66=Guess why I'm sending you so many things in the pre-game.
 
 ans.quest.survival.wake=Wake
 ans.quest.survival.wake.dis=The player is forced to be born in the hell due to the interference of unknown forces.

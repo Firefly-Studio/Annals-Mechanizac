@@ -1,0 +1,15 @@
+{
+	icon: "opencomputers:component 1 18",
+	x: 2.0d,
+	y: -1.0d,
+	dependencies: [
+		"f757ad0a"
+	],
+	tasks: [{
+		uid: "b0e8b8c7",
+		type: "item",
+		items: [{
+			item: "modularcontroller:explore_controller"
+		}]
+	}]
+}

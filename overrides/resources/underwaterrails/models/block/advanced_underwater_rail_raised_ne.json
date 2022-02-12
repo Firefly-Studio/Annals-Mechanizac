@@ -1,0 +1,50 @@
+{
+	"parent": "minecraft:block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "minecraft:block/glass",
+		"particle": "minecraft:block/rail"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ 0, 22.9296, 5.5703 ],
+			"to": [ 16, 22.9306, 21.5703 ],
+			"rotation": { "origin": [ 8, 12.5, 9 ], "axis": "x", "angle": 45, "rescale": true },
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 15.9 ], "texture": "#0" },
+				"up": { "uv": [ 0, 0.1000004, 16, 16 ], "texture": "#0" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 0, 1.6213, -2.2635 ],
+			"to": [ 0.001, 15.6213, 13.7365 ],
+			"rotation": { "origin": [ 8, -0.5, 14 ], "axis": "x", "angle": 45, "rescale": true },
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#0", "rotation": 90 },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#0", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 16, 1.6213, -2.2635 ],
+			"to": [ 16.001, 15.6213, 13.7365 ],
+			"rotation": { "origin": [ 8, -0.5, 14 ], "axis": "x", "angle": 45, "rescale": true },
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#0", "rotation": 90 },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#0", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 0, 1, 0 ],
+			"to": [ 16, 1.001, 16 ],
+			"rotation": { "origin": [ 8, 1, 16 ], "axis": "x", "angle": 45, "rescale": true },
+			"faces": {
+				"down": { "uv": [ 0, 16, 16, 0 ], "texture": "#particle" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#particle" }
+			}
+		}
+	]
+}

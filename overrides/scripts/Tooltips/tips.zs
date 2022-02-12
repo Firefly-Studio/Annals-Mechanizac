@@ -11,3 +11,4 @@
 <naturesaura:hopper_upgrade>.addTooltip(game.localize("ans.tip.hopper_upgrade"));
 <naturesaura:offering_table>.addTooltip(game.localize("ans.tip.offering_table"));
 <naturesaura:animal_spawner>.addTooltip(game.localize("ans.tip.animal_spawner"));
+<akashictome:tome>.addTooltip(game.localize("ans.tip.Akashi"));

@@ -1,0 +1,14 @@
+{
+	x: 7.5d,
+	y: 1.0d,
+	dependencies: [
+		"9a10b728"
+	],
+	tasks: [{
+		uid: "0b5a290a",
+		type: "item",
+		items: [{
+			item: "ebwizardry:spell_book 1 1"
+		}]
+	}]
+}

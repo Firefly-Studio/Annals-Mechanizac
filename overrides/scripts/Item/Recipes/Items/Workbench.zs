@@ -222,6 +222,7 @@ val shapedLessRecipes as IIngredient[][IItemStack] = {
     ,
     <minecraft:dragon_egg>:
         [<inventoryneko:neko>,<appliedenergistics2:material:48>,<minecraft:flint>]
+        
 };
 
 for item, ingredients in shapedMirroredRecipes{
