@@ -1,0 +1,22 @@
+{
+	x: -3.5d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"{ans.quest.start.2.dis}"
+	],
+	dependencies: [
+		"a6f92cbe"
+	],
+	tasks: [{
+		uid: "c239f48d",
+		type: "checkmark",
+		title: "Command",
+		icon: "minecraft:command_block"
+	}],
+	rewards: [{
+		uid: "cb6696ee",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

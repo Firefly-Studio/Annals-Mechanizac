@@ -1,0 +1,21 @@
+{
+	title: "LLTMTE",
+	icon: "acheads:head 1 39",
+	x: 3.0d,
+	y: 2.0d,
+	dependencies: [
+		"7942fb05"
+	],
+	optional: true,
+	tasks: [{
+		uid: "09597a90",
+		type: "kill",
+		entity: "abyssalcraft:lessershoggoth",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "0f91f976",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: 2.5d,
+	dependencies: [
+		"e7d33cb2",
+		"92367571"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "782e8fa0",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:shadowgem"
+		}]
+	}]
+}

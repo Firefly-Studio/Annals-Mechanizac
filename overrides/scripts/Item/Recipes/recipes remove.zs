@@ -27,3 +27,5 @@ recipes.remove(<betternether:cincinnasite_block>);
 recipes.remove(<naturesaura:gold_powder>);
 recipes.remove(<modularmachinery:blockcasing:4>);
 recipes.remove(<xnet:netcable>);
+
+mods.abyssalcraft.Crystallizer.removeCrystallizationOutput(<mekanism:crystal:*>);

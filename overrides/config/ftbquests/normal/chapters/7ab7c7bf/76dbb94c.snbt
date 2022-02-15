@@ -1,0 +1,14 @@
+{
+	x: 5.0d,
+	y: 2.5d,
+	dependencies: [
+		"6e39b999"
+	],
+	tasks: [{
+		uid: "bfa6ec90",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:cpearl"
+		}]
+	}]
+}

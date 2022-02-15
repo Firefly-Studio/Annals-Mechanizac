@@ -1,0 +1,19 @@
+{
+	x: -4.5d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"{ans.quest.start.1.dis}"
+	],
+	tasks: [{
+		uid: "c8a44881",
+		type: "checkmark",
+		title: "{ans.quest.start.1}",
+		icon: "minecraft:sapling"
+	}],
+	rewards: [{
+		uid: "da300b29",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

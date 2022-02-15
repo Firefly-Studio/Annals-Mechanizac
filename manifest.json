@@ -10,9 +10,9 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Annals",
-  "version": "D0A6R1F0",
-  "author": "",
+  "name": "AnnalsMechanizac",
+  "version": "D0A6R2F0",
+  "author": "ESanddio",
   "files": [
     {
       "projectID": 297438,
@@ -107,16 +107,6 @@
     {
       "projectID": 390497,
       "fileID": 3168647,
-      "required": true
-    },
-    {
-      "projectID": 358194,
-      "fileID": 3177845,
-      "required": true
-    },
-    {
-      "projectID": 359316,
-      "fileID": 3055653,
       "required": true
     },
     {
@@ -261,7 +251,7 @@
     },
     {
       "projectID": 525389,
-      "fileID": 3613219,
+      "fileID": 3647980,
       "required": true
     },
     {
@@ -545,13 +535,13 @@
       "required": true
     },
     {
-      "projectID": 226406,
-      "fileID": 2857869,
+      "projectID": 283777,
+      "fileID": 2780626,
       "required": true
     },
     {
-      "projectID": 283777,
-      "fileID": 2780626,
+      "projectID": 226406,
+      "fileID": 2857869,
       "required": true
     },
     {
@@ -757,6 +747,11 @@
     {
       "projectID": 308380,
       "fileID": 3614585,
+      "required": true
+    },
+    {
+      "projectID": 292785,
+      "fileID": 2915154,
       "required": true
     },
     {
@@ -997,6 +992,11 @@
     {
       "projectID": 250577,
       "fileID": 2648656,
+      "required": true
+    },
+    {
+      "projectID": 493429,
+      "fileID": 3349223,
       "required": true
     },
     {

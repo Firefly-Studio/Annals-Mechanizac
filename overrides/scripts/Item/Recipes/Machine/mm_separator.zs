@@ -26,11 +26,12 @@ var out as IItemStack[][]= [
     [<minecraft:diamond>,<gb:gobber_ore>],
     [<gb:gobber_ore>,<gb:gobber_ore2>],
     [<gb:gobber_ore2>,<gb:gobber_ore3>],
-    [<mekanism:crystal:1>],
-    [<mekanism:crystal>],
-    [<mekanism:crystal:2>],
-    [<mekanism:crystal:3>],
-    [<mekanism:crystal:4>]
+    [<minecraft:gold_ingot>],
+    [<minecraft:iron_ingot>],
+    [<mekanism:ingot:1>],
+    [<mekanism:ingot:5>],
+    [<mekanism:ingot:6>],
+    [<abyssalcraft:shadowshard>]
 
 ];
 var inp as IOreDictEntry[][]= [
@@ -46,13 +47,14 @@ var inp as IOreDictEntry[][]= [
     [<ore:crystalIron>],
     [<ore:crystalOsmium>],
     [<ore:crystalCopper>],
-    [<ore:crystalTin>]
+    [<ore:crystalTin>],
+    [<ore:wcy>]
 ];
 
 //put(RP名,能量*,物品*,灵气*,流体*,能量数值,物品[],物品数值,灵气Map,流体[],流体数值)
 //---------遍历添加-----------
-for i in 0 .. 13{
-    if(i>=9) {
+for i in 0 .. 14{
+    if(i>=8) {
         var r1 = MachineUtil.buildMachine("sep"~i , "separator", 720) as RecipePrimer;
         MachineUtil.inputResister(r1, true, true, false, false, 25, inp[i],5, defaultAura, defaultLiquid,0) as RecipePrimer;
         MachineUtil.outputResister(r1, false, true, false, false,true, 0, out[i],8, 0.65,defaultAura, defaultLiquid,0) as RecipePrimer;

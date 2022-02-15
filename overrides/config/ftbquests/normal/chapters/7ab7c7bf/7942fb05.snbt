@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"ee975073"
+	],
+	tasks: [{
+		uid: "36522ff0",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:necronomicon",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "716b5e1d",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

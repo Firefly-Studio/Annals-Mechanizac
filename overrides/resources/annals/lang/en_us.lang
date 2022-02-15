@@ -92,6 +92,17 @@ ans.tips.ingame.64=A:Have some memes. B:[emoji] A:Stop sending emojis! I'm askin
 ans.tips.ingame.65=Excessive honesty, humility and a high level of responsibility are the greatest strengths of our community of creators - GBL(Orig:HikariLan)
 ans.tips.ingame.66=Guess why I'm sending you so many things in the pre-game.
 
+
+ans.quest.start.1=Welcome!
+ans.quest.start.1.dis=This modpack is only published in MCBBS, Curseforge.modpack from other sites are reproduced, please pay attention to computer security.
+ans.quest.start.2.dis=The modpack has mod such as FTBU, TogetherForever, etc. installed. You can use commands like /home /sethome /back /together /pay.
+ans.quest.start.3.dis=This modpack has Note mod installed, which you can open by pressing N (default). This modpack has Ore Excavation installed, you can chain mining by pressing ~.
+ans.quest.start.
+ans.quest.start.
+ans.quest.start.
+ans.quest.start.
+ans.quest.start.
+ans.quest.start.
 ans.quest.survival.wake=Wake
 ans.quest.survival.wake.dis=The player is forced to be born in the hell due to the interference of unknown forces.
 ans.quest.survival.step=Step

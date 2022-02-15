@@ -13,6 +13,13 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "8cff25a8",
+		type: "item",
+		items: [{
+			item: "ebwizardry:astral_diamond"
+		}]
 	}],
 	rewards: [{
 		uid: "f7c083e3",

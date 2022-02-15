@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: -1.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "6a39a12c",
+		type: "item",
+		items: [{
+			item: "currency:fifty_dollar_bill"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3f498a11",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

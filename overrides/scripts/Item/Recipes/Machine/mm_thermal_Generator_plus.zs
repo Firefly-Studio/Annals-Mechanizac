@@ -30,7 +30,7 @@ var RF as int[]= [450,400,1000,1400,100000,200];
 //---------遍历添加-----------
 for i in 0 .. 6{
     var r1 = MachineUtil.buildMachine("s2ep"~i , "s_power_machine", tick[i]) as RecipePrimer;
-    MachineUtil.inputResister(r1, false, true, true, false, 0, inp[i],1, defaultAura, defaultLiquid,0) as RecipePrimer;
+    MachineUtil.inputResister(r1, false, true, false, false, 0, inp[i],1, defaultAura, defaultLiquid,0) as RecipePrimer;
     MachineUtil.outputResister(r1, true, false, false, false, false,RF[i], defaultItem,1, 0,defaultAura, defaultLiquid,0) as RecipePrimer;
     r1.build();
 }

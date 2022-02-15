@@ -1,0 +1,30 @@
+{
+	title: "Start",
+	icon: "minecraft:nether_star",
+	disable_toast: true,
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -1.5d,
+		y: -2.0d,
+		width: 8.0d,
+		height: 3.5d,
+		rotation: 0.0d,
+		image: "minecraft:textures/gui/annals.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 3.5d,
+		y: -2.0d,
+		width: 3.5d,
+		height: 3.5d,
+		rotation: 0.0d,
+		image: "minecraft:textures/gui/logo.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

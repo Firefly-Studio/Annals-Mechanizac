@@ -89,10 +89,13 @@ ans.tips.ingame.61=不，你不知道。
 ans.tips.ingame.62=不，你知道。
 ans.tips.ingame.63=我知道。
 ans.tips.ingame.64=A:来点骚话。 B:[表情] A:别发表情了！我是让你来点骚话！
-ans.tips.ingame.65=过度诚实，谦虚和高度责任感，是我们这个创作者社区最大的优势 -GBL (原版:HikariLan)
+ans.tips.ingame.65=过度诚实,谦虚和高度责任感,是我们这个创作者社区最大的优势 -GBL (原版:HikariLan)
 ans.tips.ingame.66=猜猜我为什么要在游戏前期送你这么多东西。
 
-
+ans.quest.start.1=欢迎来到尘烬·消失世界!
+ans.quest.start.1.dis=本整合只发布在MCBBS、Curseforge。来自其他网站的整合均为转载，请注意计算机安全。
+ans.quest.start.2.dis=整合安装有FTBU、TogetherForever等模组。你可以使用/home /sethome /back /together /pay等命令。
+ans.quest.start.3.dis=整合包安装有Note模组，你可以按下N(默认情况)打开。本整合安装有Ore Excavation，按下~可连锁挖矿。
 ans.quest.survival.wake=初醒
 ans.quest.survival.wake.dis=因未知力量干扰，玩家被迫在下界出生。
 ans.quest.survival.step=迈步

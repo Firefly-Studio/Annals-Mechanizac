@@ -1,0 +1,22 @@
+{
+	title: "Next",
+	x: -2.5d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"{ans.quest.start.3.dis}"
+	],
+	dependencies: [
+		"f042a07e"
+	],
+	tasks: [{
+		uid: "2360def3",
+		type: "checkmark",
+		icon: "minecraft:beacon"
+	}],
+	rewards: [{
+		uid: "95a43369",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

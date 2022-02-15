@@ -5,6 +5,9 @@
 	text: [
 		"{ans.quest.survival.wake.dis}"
 	],
+	dependencies: [
+		"353be873"
+	],
 	tasks: [{
 		uid: "3781ee46",
 		type: "dimension",

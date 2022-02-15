@@ -39,7 +39,6 @@ var out as IItemStack[][]= [
     [<mekanism:otherdust:3>],
     [<appliedenergistics2:material:2>],
     [<appliedenergistics2:material:8>],
-    [<minecraft:sand>]
 ];
 var inp as IOreDictEntry[][]= [
     [<ore:oreGold>],
@@ -63,21 +62,13 @@ var inp as IOreDictEntry[][]= [
     [<ore:netherrack>],
     [<ore:crystalCertusQuartz>],
     [<ore:crystalFluix>],
-    [<ore:sand>]
 ];
 
 //put(RP名,能量*,物品*,灵气*,流体*,能量数值,物品[],物品数值,灵气Map,流体[],流体数值)
 //---------遍历添加-----------
-for i in 0 .. 22{
-    if(i==22){
-        var r1 = MachineUtil.buildMachine("crue"~i , "e_mineral_crusher", 100) as RecipePrimer;
-        MachineUtil.inputResister(r1, false, true, false, false, 15, inp[i],1, defaultAura, defaultLiquid,0) as RecipePrimer;
-        MachineUtil.outputResister(r1, false, true, false, false,false, 0, out[i],1,0,defaultAura, defaultLiquid,0) as RecipePrimer;
-        r1.build();
-    }else{
-        var r1 = MachineUtil.buildMachine("crue"~i , "e_mineral_crusher", 60) as RecipePrimer;
-        MachineUtil.inputResister(r1, true, true, false, false, 15, inp[i],1, defaultAura, defaultLiquid,0) as RecipePrimer;
-        MachineUtil.outputResister(r1, false, true, false, false,false, 0, out[i],2,0,defaultAura, defaultLiquid,0) as RecipePrimer;
-        r1.build();
-    }
+for i in 0 .. 21{
+    var r1 = MachineUtil.buildMachine("crue"~i , "e_mineral_crusher", 60) as RecipePrimer;
+    MachineUtil.inputResister(r1, true, true, false, false, 15, inp[i],1, defaultAura, defaultLiquid,0) as RecipePrimer;
+    MachineUtil.outputResister(r1, false, true, false, false,false, 0, out[i],2,0,defaultAura, defaultLiquid,0) as RecipePrimer;
+    r1.build();
 }

@@ -1,0 +1,20 @@
+{
+	title: "LLTMTUN",
+	icon: "abyssalcraft:darkstone_cobble",
+	x: 3.0d,
+	y: 3.0d,
+	dependencies: [
+		"7942fb05"
+	],
+	optional: true,
+	tasks: [{
+		uid: "4c7a54a8",
+		type: "biome",
+		biome: "abyssalcraft:darklands"
+	}],
+	rewards: [{
+		uid: "56e8520c",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

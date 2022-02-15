@@ -5,6 +5,9 @@
 	text: [
 		"{ans.quest.explore.detect.dis}"
 	],
+	dependencies: [
+		"353be873"
+	],
 	tasks: [{
 		uid: "c44b162a",
 		type: "advancement",

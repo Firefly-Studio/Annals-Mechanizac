@@ -27,7 +27,8 @@ val oreDictAddMap as IItemStack[][IOreDictEntry] = {
     <ore:aofePearls>:[<contenttweaker:pearl_red>,<contenttweaker:pearl_blue>,<contenttweaker:pearl_yellow>,<contenttweaker:pearl_green>,<contenttweaker:pearl_orange>,<contenttweaker:pearl_purple>],
     <ore:auraStone>:[<naturesaura:infused_stone>],
     <ore:dustSoul>:[<ebwizardry:spectral_dust:*>],
-    <ore:LLE>:[<contenttweaker:lle>]
+    <ore:LLE>:[<contenttweaker:lle>],
+    <ore:wcy>:[<abyssalcraft:shoggothflesh:4>]
 };
 for oda, item in oreDictAddMap{
     oda.add(item);
