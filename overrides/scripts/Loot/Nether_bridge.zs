@@ -1,23 +1,28 @@
 import loottweaker.LootTweaker;
 import crafttweaker.item.IItemStack;
-LootTweaker.getTable("minecraft:chests/nether_bridge")
-           .getPool("main")
-           .addItemEntry(<inventoryneko:neko>, 14, "kawaiineko");
-LootTweaker.getTable("minecraft:chests/nether_bridge")
-           .getPool("main")
-           .addItemEntry(<mod_lavacow:hatred_shard>, 13, "shard");
-LootTweaker.getTable("minecraft:chests/nether_bridge")
-           .getPool("main")
-           .addItemEntry(<mod_lavacow:kings_crown>, 7, "crown");
-LootTweaker.getTable("minecraft:chests/nether_bridge")
-           .getPool("main")
-           .addItemEntry(<minecraft:record_cat>, 7, "recordCat");
-LootTweaker.getTable("minecraft:chests/nether_bridge")
-           .getPool("main")
-           .addItemEntry(<improvableskills:scroll_normal>.withTag({Skill: "improvableskills:growth"}), 5, "scroll_1");
-LootTweaker.getTable("minecraft:chests/nether_bridge")
-           .getPool("main")
-           .addItemEntry(<improvableskills:scroll_normal>.withTag({Skill: "improvableskills:generic_protection"}), 4, "scroll_2");
-           LootTweaker.getTable("minecraft:chests/nether_bridge")
-           .getPool("main")
-           .addItemEntry(<ebwizardry:astral_diamond>, 14, "aof");
+import loottweaker.vanilla.loot.LootPool;
+
+function mainPoolGetter(tableName as string) as LootPool {
+    return LootTweaker.getTable(tableName).getPool("main");
+}
+
+mainPoolGetter("minecraft:chests/nether_bridge")
+    .addItemEntry(<inventoryneko:neko>, 14, "kawaiineko");
+
+mainPoolGetter("minecraft:chests/nether_bridge")
+    .addItemEntry(<mod_lavacow:hatred_shard>, 13, "shard");
+
+mainPoolGetter("minecraft:chests/nether_bridge")
+    .addItemEntry(<mod_lavacow:kings_crown>, 7, "crown");
+
+mainPoolGetter("minecraft:chests/nether_bridge")
+    .addItemEntry(<minecraft:record_cat>, 7, "recordCat");
+
+mainPoolGetter("minecraft:chests/nether_bridge")
+    .addItemEntry(<improvableskills:scroll_normal>.withTag({Skill: "improvableskills:growth"}), 5, "scroll_1");
+
+mainPoolGetter("minecraft:chests/nether_bridge")
+    .addItemEntry(<improvableskills:scroll_normal>.withTag({Skill: "improvableskills:generic_protection"}), 4, "scroll_2");
+
+mainPoolGetter("minecraft:chests/nether_bridge")
+    .addItemEntry(<ebwizardry:astral_diamond>, 14, "aof");
