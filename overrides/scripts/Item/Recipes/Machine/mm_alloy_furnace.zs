@@ -21,17 +21,19 @@ var inp as IOreDictEntry[][]= [
     [<ore:alloyAdvanced>,<ore:gemDiamond>],
     [<ore:alloyElite>,<ore:obsidian>],
     [<ore:itemCoal>,<ore:ingotIron>],
+    [<ore:blockRefinedGlowstone>,<ore:dustObsidian>]
 ];
 var out as IItemStack[][]=[
     [<mekanism:ingot:2>],
     [<mekanism:enrichedalloy>],
     [<mekanism:reinforcedalloy>],
     [<mekanism:atomicalloy>],
-    [<mekanism:ingot:4>]
+    [<mekanism:ingot:4>],
+    [<mekanism:ingot>]
 ];
 //put(RP名,能量*,物品*,灵气*,流体*,能量数值,物品[],物品数值,灵气Map,流体[],流体数值)
 //---------遍历添加-----------
-for i in 0 .. 5{
+for i in 0 .. 6{
     var r1 = MachineUtil.buildMachine("aloy"~i , "alloy_furnace", 500) as RecipePrimer;
     MachineUtil.inputResister(r1, true, true, false, false, 30, inp[i],1, defaultAura, defaultLiquid,0) as RecipePrimer;
     MachineUtil.outputResister(r1, false, true, false, false,false, 0, out[i],1,0, defaultAura, defaultLiquid,0) as RecipePrimer;
