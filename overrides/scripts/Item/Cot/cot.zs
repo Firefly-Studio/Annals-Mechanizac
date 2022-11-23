@@ -24,6 +24,16 @@ meatStew.onItemFoodEaten = function(stack, world, player) {
 meatStew.creativeTab = <creativetab:AnnalsItems>;
 meatStew.register();
 
+val gary as ItemFood = VanillaFactory.createItemFood("gary",3);
+gary.onItemFoodEaten = function(stack, world, player) {
+        if (!world.remote) {
+            player.sendChat(game.localize("ans.message.gary.eat"));
+            player.addPotionEffect(<potion:minecraft:instant_damage>.makePotionEffect(30, 1));
+            Commands.call("give @p minecraft:diamond 10", player, world);
+        }
+    };
+meatStew.creativeTab = <creativetab:AnnalsItems>;
+meatStew.register();
 
 val coolliquid as Fluid = VanillaFactory.createFluid("coolliquid", 0x6A5ACD);
 coolliquid.density=1000;
