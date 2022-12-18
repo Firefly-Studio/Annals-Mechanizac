@@ -32,8 +32,8 @@ gary.onItemFoodEaten = function(stack, world, player) {
             Commands.call("give @p minecraft:diamond 10", player, world);
         }
     };
-meatStew.creativeTab = <creativetab:AnnalsItems>;
-meatStew.register();
+gary.creativeTab = <creativetab:AnnalsItems>;
+gary.register();
 
 val coolliquid as Fluid = VanillaFactory.createFluid("coolliquid", 0x6A5ACD);
 coolliquid.density=1000;
